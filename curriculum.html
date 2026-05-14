@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Curriculum — Agentic Engineering — AISOFT</title>
+<meta name="description" content="Eight modules from vibe coding to agentic engineering — briefs, evals, the no-slop standard, design discipline, the second brain, orchestration, and review gates. With exercises.">
+<meta property="og:title" content="The Agentic Engineering Curriculum — 8 Modules">
+<meta property="og:description" content="From vibe coding to agentic engineering — 8 modules with exercises and the scaffolding to install.">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+<link href="assets/style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html"><span>AISOFT</span> · Agentic Engineering</a>
+    <div class="nav-links">
+      <a href="curriculum.html" class="active">Curriculum</a>
+      <a href="index.html#artifacts">Artifacts</a>
+      <a href="https://github.com/aisoftllc/agentic-engineering-curriculum" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://aisoft.us" target="_blank" rel="noopener">aisoft.us</a>
+      <a class="nav-cta" href="https://aisoft.us/contact.html" target="_blank" rel="noopener">Free mentoring</a>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <a class="backlink" href="index.html">&larr; Overview</a>
+
+  <div class="hero">
+    <div class="eyebrow">The curriculum</div>
+    <h1>From vibe coding to agentic engineering.</h1>
+    <p class="hero-sub">
+      Eight modules. The order matters &mdash; each one assumes the scaffolding from the last. Budget roughly a week per module alongside real work; faster if you&rsquo;re full-time on it. The test of each module is not &ldquo;did you read it&rdquo; &mdash; it&rsquo;s &ldquo;did you install the artifact and use it on real work.&rdquo;
+    </p>
+  </div>
+
+  <div class="toc">
+    <h4>The eight modules</h4>
+    <ol>
+      <li><a href="#module-0">Mindset: the multiplier</a></li>
+      <li><a href="#module-1">The brief</a></li>
+      <li><a href="#module-2">Evals: defining done</a></li>
+      <li><a href="#module-3">The no-slop standard</a></li>
+      <li><a href="#module-4">Design discipline</a></li>
+      <li><a href="#module-5">The second brain</a></li>
+      <li><a href="#module-6">Orchestration</a></li>
+      <li><a href="#module-7">Review gates &amp; shipping</a></li>
+    </ol>
+  </div>
+
+  <article class="prose">
+
+    <h2 id="module-0">Module 0 &mdash; Mindset: the multiplier</h2>
+    <p><strong>The idea you have to internalize first:</strong> agentic engineering accelerates <em>execution</em>. It does not give you vision, taste, or judgment. Those still come from you. Point an agent at a vague goal with no opinion about the outcome, and it will efficiently build you the average of everything it has seen. Average, shipped fast, is still average.</p>
+    <p><strong>Vibe coding is not agentic engineering.</strong> Vibe coding is: prompt, glance, accept, move on &mdash; no spec, no eval, no definition of done beyond &ldquo;it ran.&rdquo; It&rsquo;s great for throwaway prototypes and learning. It collapses the moment the work needs to survive real users. Agentic engineering is a discipline: briefs, evals, orchestration, review gates.</p>
+    <div class="callout">
+      <span class="label">Exercise</span>
+      <p>Take something you &ldquo;vibe coded&rdquo; recently. Write down, after the fact, what the brief <em>should</em> have been and what the eval <em>should</em> have checked. Notice the gap. That gap is the whole curriculum.</p>
+    </div>
+
+    <h2 id="module-1">Module 1 &mdash; The brief</h2>
+    <p>A brief is a <strong>contract, not a description</strong>. It states the goal, the constraints, the input format, the output format, and the eval that defines done. A good brief takes about thirty seconds to write and produces 15&ndash;40 minutes of agent work you don&rsquo;t have to babysit.</p>
+    <p>The shift: you stop reviewing implementation choices (&ldquo;class or function?&rdquo;) and start reviewing whether the <em>brief</em> was right and whether the <em>eval</em> caught what you needed.</p>
+    <p><strong>Install:</strong> a brief template. Goal / Constraints / Inputs / Outputs / Eval / Out-of-scope. Use it for every non-trivial task for one week.</p>
+    <div class="callout">
+      <span class="label">Exercise</span>
+      <p>Write five briefs for real tasks. Hand them off. For each one that came back wrong, the bug is almost always in the brief &mdash; find it there, not in the code.</p>
+    </div>
+
+    <h2 id="module-2">Module 2 &mdash; Evals: defining done</h2>
+    <p>If you can&rsquo;t describe what &ldquo;working&rdquo; means precisely enough to test, you&rsquo;re not ready to hand the work off. The slop you&rsquo;re about to get is yours, authored in advance.</p>
+    <p>The agent is not done when it returns. It&rsquo;s done when the eval is green <em>and</em> the taste check passes. Eval-first is not optional discipline &mdash; it&rsquo;s the thing that makes the other modules work.</p>
+    <p><strong>Install:</strong> for each project, get evals first-class &mdash; CI integration, fast feedback, real test data (not fixtures that lie). Spend a week on this early; the compounding starts here.</p>
+    <div class="callout">
+      <span class="label">Exercise</span>
+      <p>Take a brief from Module 1. Before any code, write the eval. Then hand off brief + eval together. Compare the result to a hand-off with no eval.</p>
+    </div>
+
+    <h2 id="module-3">Module 3 &mdash; The no-slop standard</h2>
+    <p>&ldquo;Pay more attention&rdquo; is useless advice. Attention has to be <strong>encoded into an artifact the agent reads</strong>. Slop is not a feeling &mdash; it&rsquo;s a list: dead code, unhandled errors, copy-paste duplication, vague names, untested edges, comments that restate the code.</p>
+    <p><strong>Install:</strong> the <a href="https://github.com/aisoftllc/agentic-engineering-curriculum/tree/main/no-slop-skill" target="_blank" rel="noopener">no-slop skill</a> in this repo. It&rsquo;s a review pass the agent runs against its own output before handing it back. Customize the checklist to your stack and your taste.</p>
+    <div class="callout">
+      <span class="label">Exercise</span>
+      <p>Run the no-slop skill on your last three PRs. Count what it catches. That count is your baseline.</p>
+    </div>
+
+    <h2 id="module-4">Module 4 &mdash; Design discipline</h2>
+    <p>For anything with a surface &mdash; UI, API, CLI, docs &mdash; design quality cannot live in your head. It lives in a spec the agent reads on every task: tokens, voice, layout rules, the things that make output look intentional instead of generated. Without it, every screen is a fresh roll of the dice.</p>
+    <p><strong>Install:</strong> fork the <a href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/templates/DESIGN.md" target="_blank" rel="noopener"><code>DESIGN.md</code> template</a>. Fill it in for one real project. Reference it in your <code>CLAUDE.md</code> so the agent picks it up automatically.</p>
+    <div class="callout">
+      <span class="label">Exercise</span>
+      <p>Generate the same component twice &mdash; once with <code>DESIGN.md</code> in context, once without. The difference is the module.</p>
+    </div>
+
+    <h2 id="module-5">Module 5 &mdash; The second brain</h2>
+    <p>The single highest-leverage move: stop keeping context in your head, start building a second brain the agent can read. An agent is only as good as the context you can hand it. Every time you re-explain your architecture, conventions, past decisions, product voice &mdash; that&rsquo;s leverage leaking.</p>
+    <p><strong>Install:</strong> the <a href="https://github.com/aisoftllc/agentic-engineering-curriculum/tree/main/second-brain-starter" target="_blank" rel="noopener">second-brain starter</a> &mdash; a <code>CLAUDE.md</code> skeleton, playbook stubs, and a memory structure. Write your context down once, in a form the agent picks up automatically.</p>
+    <div class="callout">
+      <span class="label">Exercise</span>
+      <p>For one week, every time you explain something to an agent that you&rsquo;ve explained before, stop and write it into the second brain instead. Watch month-three you start every task with the agent already knowing your stack, standards, and scars.</p>
+    </div>
+
+    <h2 id="module-6">Module 6 &mdash; Orchestration</h2>
+    <p>Once briefs, evals, and scaffolding are solid, the bottleneck stops being lines-per-hour and becomes <strong>orchestration discipline</strong>: how many parallel work streams can you keep coherent? When a task has N independent pieces, you spawn N agents &mdash; not one serial chain.</p>
+    <p>A 2-person team running parallel agents on three streams beats a 5-person team running serial agents on one stream. The 5-person team <em>feels</em> productive. The 2-person team ships.</p>
+    <p><strong>Install:</strong> a habit. Any task where you catch yourself writing &ldquo;then do the next one&rdquo; &mdash; stop, and ask whether those pieces are independent. Learn your tools&rsquo; sub-agent and background-task primitives.</p>
+    <div class="callout">
+      <span class="label">Exercise</span>
+      <p>Take a multi-part task. Do it serially, time it. Do an equivalent one with parallel agents, time it. Then notice the <em>real</em> lesson: the hard part wasn&rsquo;t speed, it was keeping the parallel streams coherent.</p>
+    </div>
+
+    <h2 id="module-7">Module 7 &mdash; Review gates &amp; shipping</h2>
+    <p>The gate is where mediocre gets caught: tests green, design check, a human taste call on which of three implementations you keep. And shipping has its own discipline &mdash; <strong>never claim done without proof.</strong> &ldquo;Deployed&rdquo; is not a feeling; it&rsquo;s a verification you ran in the same breath.</p>
+    <p><strong>Install:</strong> a definition-of-done gate for your projects. And a deploy-verification habit &mdash; see the <a href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/second-brain-starter/playbooks/deploy-verification.md" target="_blank" rel="noopener">deploy-verification playbook</a>.</p>
+    <div class="callout">
+      <span class="label">Exercise</span>
+      <p>For your next ship, write down the proof <em>before</em> you say the word &ldquo;done&rdquo; &mdash; the curl, the screenshot, the log line. If you can&rsquo;t name the proof, you&rsquo;re not done.</p>
+    </div>
+
+    <hr>
+
+    <h2>Where this leaves you</h2>
+    <p>When all eight are installed, your day looks different. It&rsquo;s not full of tickets &mdash; it&rsquo;s full of briefs. You&rsquo;re not reviewing implementation; you&rsquo;re reviewing eval design, orchestration design, and taste calls. That&rsquo;s higher-leverage work. It&rsquo;s also harder. You can&rsquo;t fake your way through eval design.</p>
+    <p>The first weeks feel slower &mdash; you&rsquo;re rebuilding habits and the muscle memory isn&rsquo;t there. By week four it&rsquo;s clearly faster. By week eight it&rsquo;s a different way of working. It&rsquo;s a transition, not a tool installation. Plan accordingly.</p>
+
+    <h2>Graduated practice projects</h2>
+    <p>Don&rsquo;t practice on toys &mdash; practice on things with real stakes, scaled down:</p>
+    <ol>
+      <li><strong>Internal tool, well-bounded</strong> &mdash; clean evals, no users to break. The agentic sweet spot. Build it brief-first, eval-first.</li>
+      <li><strong>Greenfield product, small surface</strong> &mdash; now <code>DESIGN.md</code> matters. Ship it to five real users.</li>
+      <li><strong>A feature in an existing codebase</strong> &mdash; now the second brain matters; the agent needs your conventions.</li>
+      <li><strong>A multi-stream build under time pressure</strong> &mdash; a hackathon, or a self-imposed weekend. Now orchestration matters.</li>
+    </ol>
+    <p>Log every one in the <a href="https://github.com/aisoftllc/agentic-engineering-curriculum/tree/main/lessons" target="_blank" rel="noopener">lessons folder</a>.</p>
+
+  </article>
+
+  <div class="cta">
+    <h3>Working through this and want a guide?</h3>
+    <p>I mentor engineers and teams through exactly this transition &mdash; one module at a time, on your real work.</p>
+    <a class="btn" href="https://aisoft.us/contact.html" target="_blank" rel="noopener">Book a free 30-min session &rarr;</a>
+  </div>
+
+</main>
+
+<footer>
+  <p>
+    Maintained by <a href="https://www.linkedin.com/in/jravinder/" target="_blank" rel="noopener">Ravinder Jilkapally</a>
+    &middot; <a href="https://aisoft.us" target="_blank" rel="noopener">AISOFT</a>
+    &middot; <a href="https://github.com/aisoftllc/agentic-engineering-curriculum" target="_blank" rel="noopener">Source on GitHub</a>
+  </p>
+</footer>
+
+</body>
+</html>
