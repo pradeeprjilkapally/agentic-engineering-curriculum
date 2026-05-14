@@ -104,14 +104,16 @@ h2.sec {
   display: grid; grid-template-columns: 56px 1fr; gap: 20px;
   padding: 24px; background: var(--surface-lowest);
   border: 1px solid var(--outline-variant); border-radius: 14px;
+  text-decoration: none; color: inherit;
   transition: border-color .15s, transform .15s;
 }
 .module:hover { border-color: var(--primary); transform: translateY(-1px); }
+.module:hover h3 { color: var(--primary); }
 .module .num {
   font-family: 'Manrope', sans-serif; font-weight: 800; font-size: 22px;
   color: var(--primary);
 }
-.module h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+.module h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; color: var(--on-surface); transition: color .15s; }
 .module p { font-size: 14.5px; color: var(--on-surface-variant); margin: 0; }
 
 /* artifact cards */
