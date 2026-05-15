@@ -98,6 +98,36 @@ h2.sec {
   padding-bottom: 12px; border-bottom: 1px solid var(--outline-variant);
 }
 
+/* the fork — vibe coding vs agentic engineering */
+.fork { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+@media (max-width: 640px) { .fork { grid-template-columns: 1fr; } }
+.fork-col {
+  padding: 28px; border-radius: 16px;
+  border: 1px solid var(--outline-variant); background: var(--surface-lowest);
+}
+.fork-col.lesser { background: var(--surface-low); }
+.fork-col.path { border-color: var(--primary); box-shadow: 0 1px 0 var(--primary), 0 12px 32px rgba(158,61,0,0.07); }
+.fork-label {
+  font-family: 'Manrope', sans-serif; font-size: 10.5px; font-weight: 700;
+  letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 4px;
+}
+.fork-col.lesser .fork-label { color: var(--on-secondary-container); }
+.fork-col.path .fork-label { color: var(--primary); }
+.fork-col h3 { font-size: 18px; font-weight: 700; margin-bottom: 16px; }
+.fork-col ul { list-style: none; margin: 0; padding: 0; }
+.fork-col li {
+  padding: 10px 0; border-top: 1px solid var(--outline-variant);
+  font-size: 14.5px; line-height: 1.5;
+}
+.fork-col li:first-child { border-top: 0; }
+.fork-col.lesser li { color: var(--on-surface-variant); }
+.fork-col li b { font-weight: 700; }
+.fork-col.lesser li b { color: var(--on-surface-variant); }
+.fork-col.path li b { color: var(--primary); }
+.fork-foot { margin-top: 16px; font-size: 13.5px; font-weight: 700; }
+.fork-col.lesser .fork-foot { color: var(--on-secondary-container); }
+.fork-col.path .fork-foot { color: var(--primary); }
+
 /* module list */
 .modules { display: grid; gap: 16px; }
 .module {
