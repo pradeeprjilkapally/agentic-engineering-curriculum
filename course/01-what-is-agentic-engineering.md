@@ -2,34 +2,35 @@
 
 > **Part 1 · Get set up** — Lesson 1 of 16
 
-**By the end of this lesson** you can explain what a coding agent is, how it differs from the AI autocomplete you've already used, and what "agentic engineering" actually means.
+**Where this gets you:** you'll be able to say plainly what a coding agent is, how it's different from the AI you've already used, and why "agentic engineering" is a real skill and not a buzzword.
 
 ## The idea
 
-You have probably used AI in your editor — autocomplete that finishes a line, a chat panel that answers a question. That is AI as a *tool you operate*. You stay in the driver's seat for every keystroke.
+If you've used AI to write code, it was probably autocomplete — it finishes your line, you keep typing. Or a chat window you paste errors into. Useful, but you're still doing the work, keystroke by keystroke.
 
-A **coding agent** is different. You give it a goal — "add a logout button," "fix this failing test" — and it works in a loop on its own: it reads your files, makes a plan, edits code, runs commands, checks the result, and tries again if something is wrong. It can take one instruction and produce fifteen minutes of finished work. You review the *result*, not every keystroke.
+An agent is a different thing. You hand it a goal — "add a logout button," "figure out why this test keeps failing" — and it goes and works. It reads your files, makes a plan, edits code, runs it, sees what broke, tries again. One sentence from you can turn into fifteen minutes of finished work. Your job moves: you're judging the result now, not watching every line.
 
-That shift — from operating a tool to **directing** an agent — is the whole game. But it splits into two very different ways of working:
+That's the shift this whole course is about — you stop operating a tool and start directing one. And there are two ways people do that.
 
-- **Vibe coding** — type a prompt, glance at what came back, accept it, move on. No plan, no definition of "done" beyond "it ran." It's fast, and it's fine for throwaway experiments and learning. It falls apart the moment the work has to survive real users.
-- **Agentic engineering** — the discipline that makes agent work hold up: you write a clear brief, you decide up front how you'll know it worked, you review against a standard, and you ship with proof.
+One is the way most people drift into. Type a prompt, glance at what comes back, looks fine, move on. No plan, nothing that says what "done" means except that it ran once. Call it vibe coding. It's quick, it's genuinely fine for experiments and learning — and it falls apart the moment real users touch the thing.
 
-Same agent, same model — completely different output. This course teaches the second one. Not tool tricks — working habits.
+The other is agentic engineering. You write the agent a real brief. You decide up front how you'll know it worked. You hold the output to a standard, and you ship it with proof. Same agent, same model as the person vibe coding next to you — the work that comes out is not close.
 
-## The exercise
+This course teaches that second way. Not prompt tricks. The habits.
 
-You'll pick a real project to build during this course. Start scouting now.
+## Your first exercise
 
-Write down **three small things** you could build or fix. Each one real — something you actually want. Each one small — a few files, a weekend at most. For each, write one sentence: what it does, and how you'd know it works.
+You're going to build something real over these 16 lessons, so start looking for it now.
 
-Examples: a CLI that does one useful thing; a small webpage or internal tool; a bug you've been avoiding in a real repo; a script you keep meaning to write.
+Write down three things you could build or fix. Real ones — something you actually want to exist. Small ones — a few files, a weekend at most. Next to each, one line: what it does, and how you'd know it works.
 
-**Done when:** you have three candidates written down. You'll choose one in Lesson 5.
+A CLI that does one useful thing. A small page or internal tool. A bug you've been quietly avoiding. That script you keep meaning to write.
 
-## Why it matters
+**You're done when** you have three candidates written down. You'll pick one in Lesson 5.
 
-Every later lesson applies a new skill to a real project. Do the exercises on a toy and the lessons feel like trivia. Do them on something real and they become habits. Pick real candidates now, and the rest of the course compounds.
+## Why this matters
+
+Every lesson after this hands you a new skill and asks you to use it on a real project. Do that on a throwaway toy and it stays trivia you'll forget by Friday. Do it on something you actually care about and it turns into how you work. So pick real candidates — the whole course compounds on that one choice.
 
 ---
 
