@@ -1,39 +1,42 @@
-# Agentic Engineering Curriculum
+# Agentic Engineering — the course
 
-The path I take people through when I mentor them into **agentic engineering** — and the artifacts that make it stick.
+A hands-on course for engineers who can already write code and want coding agents to become **how they work** — not a tool they reach for now and then.
 
-This is teaching material, not a personal playbook. It's meant to be forked, run, and argued with. If you're an engineer who can already build and you want to go from "I use AI in my editor sometimes" to "I orchestrate agents as my default mode of working" — this is the route.
+You don't learn this by reading. You pick one small, real project early on and build it all the way to shipped, installing one new skill each lesson. Finish the course and you've got a real project — and the working habits of an agentic engineer.
 
-**📖 Read it as a site:** [aisoftllc.github.io/agentic-engineering-curriculum](https://aisoftllc.github.io/agentic-engineering-curriculum/)
+**Read it as a site:** [aisoftllc.github.io/agentic-engineering-curriculum](https://aisoftllc.github.io/agentic-engineering-curriculum/)
 
-## The one-line thesis
+## Start here
 
-> Agentic engineering is a **10x multiplier** on the vision, thinking, and discipline you already bring. A multiplier still multiplies zero. The tool is the same for everyone; the output is not.
+→ **[The course index](curriculum.md)** — the full path. Or jump straight into **[Lesson 1](course/01-what-is-agentic-engineering.md)**.
 
-Most people who struggle with agentic engineering aren't lacking talent. They're missing **scaffolding** — the concrete artifacts that encode their judgment into something an agent can actually read. This repo is that scaffolding, plus the curriculum for installing it.
+16 lessons, 4 parts:
 
-## What's here
+- **Part 1 · Get set up** — from nothing installed to your first agent session.
+- **Part 2 · Build something real** — pick a project, take it all the way to shipped.
+- **Part 3 · The core concepts** — the discipline that makes agent work hold up.
+- **Part 4 · Scale up** — from one agent to a way of working.
 
-| Path | What it is |
-|------|-----------|
-| [`curriculum.md`](curriculum.md) | The full path — 8 modules, vibe coding → agentic engineering, with exercises |
-| [`no-slop-skill/`](no-slop-skill/) | The "no-slop" standard as an installable skill — what you will not accept, codified |
-| [`templates/DESIGN.md`](templates/DESIGN.md) | Design-quality spec template — fork it for anything with a surface |
-| [`second-brain-starter/`](second-brain-starter/) | `CLAUDE.md` skeleton, playbook stubs, memory structure — the context layer that compounds |
-| [`lessons/`](lessons/) | Notes from real mentoring sessions — patterns, failure modes, breakthroughs |
+Every lesson is short to read, longer to do, and ends with an exercise on your own project.
 
-## How to use it
+## The artifacts
 
-**If you're learning:** start with [`curriculum.md`](curriculum.md), do the exercises in order, install the scaffolding as you hit each module.
+Three forkable starters the course installs, one per lesson. They also stand alone:
 
-**If you're mentoring someone else:** the curriculum is your syllabus. The `lessons/` folder is where you log what actually happened — what clicked, what didn't, what you'd change.
+| Artifact | What it is | Lesson |
+|----------|-----------|--------|
+| [`second-brain-starter/`](second-brain-starter/) | A `CLAUDE.md` skeleton, playbooks, and a memory structure — the context layer that compounds | 11 |
+| [`no-slop-skill/`](no-slop-skill/) | A review pass the agent runs against its own output before handing it back | 12 |
+| [`templates/DESIGN.md`](templates/DESIGN.md) | A design-quality spec for anything with a surface | 13 |
 
-**If you just want the artifacts:** grab `no-slop-skill/`, `templates/DESIGN.md`, and `second-brain-starter/`. They stand alone.
+## Who it's for
+
+Engineers who can already build, and have used AI in the editor once or twice. We teach Claude Code; Codex CLI and Gemini CLI work the same way where it counts, and the course flags the differences.
 
 ## Status
 
-v1 scaffold. The structure is here; the `lessons/` folder fills in as real sessions happen. Curriculum content is drawn from running agentic-first product work and mentoring engineers through the transition — corrections and PRs welcome.
+Rebuilt as a beginner-first, hands-on course — 16 lessons that start from install and end at a shipped project. Corrections and PRs welcome.
 
 ---
 
-Maintained by [Ravinder Jilkapally](https://www.linkedin.com/in/jravinder/) · [AISOFT](https://aisoft.us) · Mentoring: [book a free 30-min session](https://aisoft.us/contact.html)
+Maintained by [Ravinder Jilkapally](https://www.linkedin.com/in/jravinder/) · [AISOFT](https://aisoft.us) · Mentoring: [book a free 30-min session](https://aisoft.us/contact)

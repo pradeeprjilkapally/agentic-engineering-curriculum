@@ -65,4 +65,4 @@ You're going to live in this tool for the rest of the course. Getting it working
 
 ---
 
-Previous: [Lesson 1 · What is agentic engineering?](01-what-is-agentic-engineering.md) · Next: Lesson 3 · Your first session
+Previous: [Lesson 1 · What is agentic engineering?](01-what-is-agentic-engineering.md) · Next: [Lesson 3 · Your first session](03-your-first-session.md)

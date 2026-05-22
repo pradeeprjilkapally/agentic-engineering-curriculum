@@ -128,6 +128,16 @@ h2.sec {
 .fork-col.lesser .fork-foot { color: var(--on-secondary-container); }
 .fork-col.path .fork-foot { color: var(--primary); }
 
+/* course parts */
+.part { margin-bottom: 44px; }
+.part:last-child { margin-bottom: 0; }
+.part-head { margin-bottom: 16px; }
+.part-head h3 {
+  font-size: 20px; font-weight: 800; letter-spacing: -0.01em;
+  color: var(--on-surface);
+}
+.part-head p { font-size: 14.5px; color: var(--on-surface-variant); margin-top: 3px; }
+
 /* module list */
 .modules { display: grid; gap: 16px; }
 .module {
