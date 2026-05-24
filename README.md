@@ -6,6 +6,8 @@ You don't learn this by reading. You pick one small, real project early on and b
 
 **Read it as a site:** [aisoftllc.github.io/agentic-engineering-curriculum](https://aisoftllc.github.io/agentic-engineering-curriculum/)
 
+**Prefer a room:** [Agentic Engineering Day](https://aisoft.us/workshop) is the in-person workshop version: one shared lab, live review, and a first-week rollout plan.
+
 ## Start here
 
 → **[The course index](curriculum.md)** — the full path. Or jump straight into **[Lesson 1](course/01-what-is-agentic-engineering.md)**.

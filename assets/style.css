@@ -98,6 +98,40 @@ h2.sec {
   padding-bottom: 12px; border-bottom: 1px solid var(--outline-variant);
 }
 
+.live-panel {
+  display: grid; grid-template-columns: minmax(0,1.2fr) minmax(240px,.8fr);
+  gap: 28px; padding: 32px;
+  background: var(--surface-lowest);
+  border: 1px solid var(--primary);
+  border-radius: 18px;
+  box-shadow: 0 16px 44px rgba(158,61,0,0.08);
+}
+.live-panel .tag {
+  display: inline-block; margin-bottom: 12px;
+  font-family: 'Manrope', sans-serif; font-size: 10.5px; font-weight: 800;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary);
+}
+.live-panel h3 {
+  font-size: 26px; font-weight: 800; letter-spacing: -0.015em;
+  margin-bottom: 12px;
+}
+.live-panel p {
+  font-size: 16px; color: var(--on-surface-variant);
+  margin-bottom: 22px;
+}
+.live-list {
+  display: grid; gap: 1px; align-self: stretch;
+  border: 1px solid var(--outline-variant); border-radius: 14px;
+  overflow: hidden; background: var(--outline-variant);
+}
+.live-list div { background: var(--surface-low); padding: 18px; }
+.live-list b {
+  display: block; font-family: 'Manrope', sans-serif;
+  font-size: 14px; color: var(--on-surface); margin-bottom: 3px;
+}
+.live-list span { display: block; font-size: 13.5px; color: var(--on-surface-variant); line-height: 1.45; }
+@media (max-width: 760px) { .live-panel { grid-template-columns: 1fr; padding: 24px; } }
+
 /* the fork — vibe coding vs agentic engineering */
 .fork { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 @media (max-width: 640px) { .fork { grid-template-columns: 1fr; } }

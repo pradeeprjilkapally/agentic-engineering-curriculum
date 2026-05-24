@@ -4,6 +4,8 @@ A hands-on course for engineers who can already write code, and want coding agen
 
 The catch: you won't learn this by reading it. You learn it by building. Early on you'll pick one small, real project, and carry it through every lesson — bolting on one new skill each time. Finish the course and you've got a real, shipped thing, plus the habits that made it good.
 
+If you want the live version, AISOFT runs **Agentic Engineering Day** as an in-person workshop: one shared lab, live review, and a first-week rollout plan. Start here for the self-paced path; use the workshop when your team needs the room.
+
 ## How the course works
 
 - **16 lessons, 4 parts.** Short to read, longer to do. Take them in order — each one stands on the last.
