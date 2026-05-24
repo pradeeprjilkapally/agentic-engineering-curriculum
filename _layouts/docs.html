@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if page.title %}{{ page.title }} · {% endif %}Agentic Engineering · AISOFT</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+<link href="{{ '/assets/style.css' | relative_url }}" rel="stylesheet">
+</head>
+<body class="docs-body">
+<header class="docs-topbar">
+  <a class="docs-brand" href="{{ '/' | relative_url }}"><span>AISOFT</span> Agentic Engineering</a>
+  <nav>
+    <a href="{{ '/curriculum.html' | relative_url }}">Course</a>
+    <a href="{{ '/course/DATA_AI_LABS.html' | relative_url }}">Labs</a>
+    <a href="{{ '/course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html' | relative_url }}">Pathways</a>
+    <a href="https://aisoft.us/workshop">Workshop</a>
+  </nav>
+</header>
+
+<div class="docs-shell">
+  <aside class="docs-sidebar">
+    <div class="docs-sidebar-section">
+      <h2>Start</h2>
+      <a href="{{ '/curriculum.html' | relative_url }}">Course index</a>
+      <a href="{{ '/course/PRACTICE_RUN.html' | relative_url }}">Practice run</a>
+      <a href="{{ '/course/CLI_VARIANTS.html' | relative_url }}">CLI variants</a>
+      <a href="{{ '/course/DATA_AI_LABS.html' | relative_url }}">30 practice labs</a>
+      <a href="{{ '/course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html' | relative_url }}">Job pathways</a>
+    </div>
+    <div class="docs-sidebar-section">
+      <h2>Lessons</h2>
+      <a href="{{ '/course/01-what-is-agentic-engineering.html' | relative_url }}">1 · What is agentic engineering?</a>
+      <a href="{{ '/course/02-install-your-tool.html' | relative_url }}">2 · Install your tool</a>
+      <a href="{{ '/course/03-your-first-session.html' | relative_url }}">3 · Your first session</a>
+      <a href="{{ '/course/04-staying-in-control.html' | relative_url }}">4 · Staying in control</a>
+      <a href="{{ '/course/05-pick-your-first-project.html' | relative_url }}">5 · Pick your project</a>
+      <a href="{{ '/course/06-plan-before-you-build.html' | relative_url }}">6 · Plan before build</a>
+      <a href="{{ '/course/07-build-it-step-by-step.html' | relative_url }}">7 · Build step by step</a>
+      <a href="{{ '/course/08-ship-it.html' | relative_url }}">8 · Ship it</a>
+      <a href="{{ '/course/09-the-brief.html' | relative_url }}">9 · The brief</a>
+      <a href="{{ '/course/10-evals-defining-done.html' | relative_url }}">10 · Evals</a>
+      <a href="{{ '/course/11-context-and-the-second-brain.html' | relative_url }}">11 · Context</a>
+      <a href="{{ '/course/12-the-no-slop-standard.html' | relative_url }}">12 · No-slop</a>
+      <a href="{{ '/course/13-design-discipline.html' | relative_url }}">13 · Design</a>
+      <a href="{{ '/course/14-orchestration-parallel-agents.html' | relative_url }}">14 · Orchestration</a>
+      <a href="{{ '/course/15-review-gates-and-shipping.html' | relative_url }}">15 · Review gates</a>
+      <a href="{{ '/course/16-where-to-go-next.html' | relative_url }}">16 · Next</a>
+    </div>
+    <div class="docs-sidebar-section">
+      <h2>Artifacts</h2>
+      <a href="{{ '/templates/DESIGN.html' | relative_url }}">DESIGN.md</a>
+      <a href="{{ '/no-slop-skill/no-slop-checklist.html' | relative_url }}">No-slop checklist</a>
+      <a href="{{ '/second-brain-starter/README.html' | relative_url }}">Second-brain starter</a>
+    </div>
+  </aside>
+
+  <main class="docs-content">
+    <article class="docs-article">
+      {{ content }}
+    </article>
+  </main>
+
+  <aside class="docs-toc" aria-label="On this page">
+    <h2>On this page</h2>
+    <nav id="docs-toc-links"></nav>
+  </aside>
+</div>
+
+<script>
+(() => {
+  const current = new URL(location.href);
+  document.querySelectorAll('.docs-sidebar a, .docs-topbar a').forEach((link) => {
+    const href = new URL(link.href, location.href);
+    if (href.pathname === current.pathname) link.classList.add('active');
+  });
+
+  document.querySelectorAll('.docs-article a[href]').forEach((link) => {
+    const href = link.getAttribute('href');
+    if (!href || href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('#')) return;
+    link.setAttribute('href', href.replace(/\\.md(?=($|#))/g, '.html'));
+  });
+
+  const headings = [...document.querySelectorAll('.docs-article h2, .docs-article h3')].slice(0, 18);
+  const toc = document.querySelector('#docs-toc-links');
+  headings.forEach((heading) => {
+    if (!heading.id) {
+      heading.id = heading.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    }
+    const item = document.createElement('a');
+    item.href = `#${heading.id}`;
+    item.textContent = heading.textContent;
+    item.className = heading.tagName === 'H3' ? 'depth-3' : 'depth-2';
+    toc.appendChild(item);
+  });
+})();
+</script>
+</body>
+</html>

@@ -12,7 +12,7 @@ You can't fix that by reviewing harder. You fix it the same way you fixed slop: 
 
 `DESIGN.md` is the design source of truth. It pins down the things the agent would otherwise invent — color tokens (named, not loose hex), the type scale, the spacing scale, layout rules, component rules, and **voice**: how the product talks in copy, errors, and empty states. The rule it enforces: if a color or a size is needed and no token fits, that's a flag to discuss — not a license to invent.
 
-This repo ships a template — [`templates/DESIGN.md`](../templates/DESIGN.md). It has sections for what the product is and the one feeling it should produce, voice, color tokens, type, layout and spacing, components, motion, an accessibility floor, and an anti-patterns list — the slop list, design edition: generic AI gradients, off-scale spacing, invented colors, emoji standing in for real copy.
+This repo ships a template — [`templates/DESIGN.md`](../templates/DESIGN.html). It has sections for what the product is and the one feeling it should produce, voice, color tokens, type, layout and spacing, components, motion, an accessibility floor, and an anti-patterns list — the slop list, design edition: generic AI gradients, off-scale spacing, invented colors, emoji standing in for real copy.
 
 ## Do it
 
@@ -36,4 +36,4 @@ The difference between "looks generated" and "looks intentional" is almost never
 
 ---
 
-Previous: [Lesson 12 · The no-slop standard](12-the-no-slop-standard.md) · Next: [Lesson 14 · Orchestration — parallel agents](14-orchestration-parallel-agents.md)
+Previous: [Lesson 12 · The no-slop standard](12-the-no-slop-standard.html) · Next: [Lesson 14 · Orchestration — parallel agents](14-orchestration-parallel-agents.html)

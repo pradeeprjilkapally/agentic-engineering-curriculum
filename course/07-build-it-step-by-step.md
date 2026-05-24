@@ -51,4 +51,4 @@ Small slices are how you stay the engineer instead of the spectator. You review 
 
 ---
 
-Previous: [Lesson 6 · Plan before you build](06-plan-before-you-build.md) · Next: [Lesson 8 · Ship it](08-ship-it.md)
+Previous: [Lesson 6 · Plan before you build](06-plan-before-you-build.html) · Next: [Lesson 8 · Ship it](08-ship-it.html)

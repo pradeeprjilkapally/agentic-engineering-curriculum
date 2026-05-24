@@ -46,4 +46,4 @@ The gate is what keeps quality from sliding as your throughput climbs. And "proo
 
 ---
 
-Previous: [Lesson 14 · Orchestration — parallel agents](14-orchestration-parallel-agents.md) · Next: [Lesson 16 · Where to go next](16-where-to-go-next.md)
+Previous: [Lesson 14 · Orchestration — parallel agents](14-orchestration-parallel-agents.html) · Next: [Lesson 16 · Where to go next](16-where-to-go-next.html)

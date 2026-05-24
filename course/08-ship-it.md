@@ -50,4 +50,4 @@ Shipping is the moment a project stops being yours alone and starts being real. 
 
 ---
 
-Previous: [Lesson 7 · Build it, step by step](07-build-it-step-by-step.md) · Next: [Lesson 9 · The brief](09-the-brief.md)
+Previous: [Lesson 7 · Build it, step by step](07-build-it-step-by-step.html) · Next: [Lesson 9 · The brief](09-the-brief.html)

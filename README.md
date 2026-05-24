@@ -10,7 +10,7 @@ You don't learn this by reading. You pick one small, real project early on and b
 
 ## Start here
 
-→ **[The course index](curriculum.md)** — the full path. Or jump straight into **[Lesson 1](course/01-what-is-agentic-engineering.md)**.
+→ **[The course index](curriculum.html)** — the full path. Or jump straight into **[Lesson 1](course/01-what-is-agentic-engineering.html)**.
 
 16 lessons, 4 parts:
 
@@ -29,7 +29,7 @@ Three forkable starters the course installs, one per lesson. They also stand alo
 |----------|-----------|--------|
 | [`second-brain-starter/`](second-brain-starter/) | A `CLAUDE.md` skeleton, playbooks, and a memory structure — the context layer that compounds | 11 |
 | [`no-slop-skill/`](no-slop-skill/) | A review pass the agent runs against its own output before handing it back | 12 |
-| [`templates/DESIGN.md`](templates/DESIGN.md) | A design-quality spec for anything with a surface | 13 |
+| [`templates/DESIGN.md`](templates/DESIGN.html) | A design-quality spec for anything with a surface | 13 |
 
 ## Who it's for
 
@@ -37,10 +37,10 @@ Engineers who can already build, and have used AI in the editor once or twice. F
 
 ## Practice guides
 
-- [`course/PRACTICE_RUN.md`](course/PRACTICE_RUN.md) — how to run the course for fresh graduates, experienced engineers, team leads, and live cohorts.
-- [`course/CLI_VARIANTS.md`](course/CLI_VARIANTS.md) — how Claude Code, Codex CLI, Gemini CLI, and Snowflake Coco map to the same habits.
-- [`course/DATA_AI_LABS.md`](course/DATA_AI_LABS.md) — 30 pathway-based labs across SDLC, data engineering, big data, analytics, governance, data science, ML/MLOps, AI apps, backend, fresh-grad portfolio work, team leads, and agentic workflows.
-- [`course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md`](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md) — how every lab maps to job targets, portfolio proof, interview stories, and AISOFT offerings.
+- [`course/PRACTICE_RUN.md`](course/PRACTICE_RUN.html) — how to run the course for fresh graduates, experienced engineers, team leads, and live cohorts.
+- [`course/CLI_VARIANTS.md`](course/CLI_VARIANTS.html) — how Claude Code, Codex CLI, Gemini CLI, and Snowflake Coco map to the same habits.
+- [`course/DATA_AI_LABS.md`](course/DATA_AI_LABS.html) — 30 pathway-based labs across SDLC, data engineering, big data, analytics, governance, data science, ML/MLOps, AI apps, backend, fresh-grad portfolio work, team leads, and agentic workflows.
+- [`course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md`](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html) — how every lab maps to job targets, portfolio proof, interview stories, and AISOFT offerings.
 
 ## Status
 

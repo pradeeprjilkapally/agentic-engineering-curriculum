@@ -28,7 +28,7 @@ Link related memories with [[their-slug]].
 
 ## The index
 
-Keep a `MEMORY.md` index — one line per memory (`- [Title](file.md) — hook`). That's what an agent scans to decide what to pull. The individual files are the content; the index is the table of contents.
+Keep a `MEMORY.md` index — one line per memory (`- [Title](file.html) — hook`). That's what an agent scans to decide what to pull. The individual files are the content; the index is the table of contents.
 
 ## Hygiene
 

@@ -45,12 +45,12 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 **Start here:**
 
-- [Lab 2 · Snowflake AI integration](DATA_AI_LABS.md#lab-2-snowflake-ai-integration)
-- [Lab 4 · Pipeline run explainer](DATA_AI_LABS.md#lab-4-pipeline-run-explainer)
-- [Lab 5 · dbt test generator](DATA_AI_LABS.md#lab-5-dbt-test-generator)
-- [Lab 9 · Data contract checker](DATA_AI_LABS.md#lab-9-data-contract-checker)
-- [Lab 16 · Spark job tuning assistant](DATA_AI_LABS.md#lab-16-spark-job-tuning-assistant)
-- [Lab 17 · Streaming data monitor](DATA_AI_LABS.md#lab-17-streaming-data-monitor)
+- [Lab 2 · Snowflake AI integration](DATA_AI_LABS.html#lab-2-snowflake-ai-integration)
+- [Lab 4 · Pipeline run explainer](DATA_AI_LABS.html#lab-4-pipeline-run-explainer)
+- [Lab 5 · dbt test generator](DATA_AI_LABS.html#lab-5-dbt-test-generator)
+- [Lab 9 · Data contract checker](DATA_AI_LABS.html#lab-9-data-contract-checker)
+- [Lab 16 · Spark job tuning assistant](DATA_AI_LABS.html#lab-16-spark-job-tuning-assistant)
+- [Lab 17 · Streaming data monitor](DATA_AI_LABS.html#lab-17-streaming-data-monitor)
 
 **Portfolio proof:**
 
@@ -74,9 +74,9 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 **Start here:**
 
-- [Lab 16 · Spark job tuning assistant](DATA_AI_LABS.md#lab-16-spark-job-tuning-assistant)
-- [Lab 17 · Streaming data monitor](DATA_AI_LABS.md#lab-17-streaming-data-monitor)
-- [Lab 4 · Pipeline run explainer](DATA_AI_LABS.md#lab-4-pipeline-run-explainer)
+- [Lab 16 · Spark job tuning assistant](DATA_AI_LABS.html#lab-16-spark-job-tuning-assistant)
+- [Lab 17 · Streaming data monitor](DATA_AI_LABS.html#lab-17-streaming-data-monitor)
+- [Lab 4 · Pipeline run explainer](DATA_AI_LABS.html#lab-4-pipeline-run-explainer)
 
 **Portfolio proof:**
 
@@ -99,10 +99,10 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 **Start here:**
 
-- [Lab 1 · LLM data profiling tool](DATA_AI_LABS.md#lab-1-llm-data-profiling-tool)
-- [Lab 6 · KPI narrative analyst](DATA_AI_LABS.md#lab-6-kpi-narrative-analyst)
-- [Lab 7 · Dashboard QA assistant](DATA_AI_LABS.md#lab-7-dashboard-qa-assistant)
-- [Lab 12 · CSV cleaning assistant](DATA_AI_LABS.md#lab-12-csv-cleaning-assistant)
+- [Lab 1 · LLM data profiling tool](DATA_AI_LABS.html#lab-1-llm-data-profiling-tool)
+- [Lab 6 · KPI narrative analyst](DATA_AI_LABS.html#lab-6-kpi-narrative-analyst)
+- [Lab 7 · Dashboard QA assistant](DATA_AI_LABS.html#lab-7-dashboard-qa-assistant)
+- [Lab 12 · CSV cleaning assistant](DATA_AI_LABS.html#lab-12-csv-cleaning-assistant)
 
 **Portfolio proof:**
 
@@ -125,10 +125,10 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 **Start here:**
 
-- [Lab 3 · AI data quality agent](DATA_AI_LABS.md#lab-3-ai-data-quality-agent)
-- [Lab 8 · PII policy scanner](DATA_AI_LABS.md#lab-8-pii-policy-scanner)
-- [Lab 9 · Data contract checker](DATA_AI_LABS.md#lab-9-data-contract-checker)
-- [Lesson 10 · Evals](10-evals-defining-done.md)
+- [Lab 3 · AI data quality agent](DATA_AI_LABS.html#lab-3-ai-data-quality-agent)
+- [Lab 8 · PII policy scanner](DATA_AI_LABS.html#lab-8-pii-policy-scanner)
+- [Lab 9 · Data contract checker](DATA_AI_LABS.html#lab-9-data-contract-checker)
+- [Lesson 10 · Evals](10-evals-defining-done.html)
 
 **Portfolio proof:**
 
@@ -151,9 +151,9 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 **Start here:**
 
-- [Lab 18 · Notebook insight reviewer](DATA_AI_LABS.md#lab-18-notebook-insight-reviewer)
-- [Lab 19 · Experiment report generator](DATA_AI_LABS.md#lab-19-experiment-report-generator)
-- [Lab 6 · KPI narrative analyst](DATA_AI_LABS.md#lab-6-kpi-narrative-analyst)
+- [Lab 18 · Notebook insight reviewer](DATA_AI_LABS.html#lab-18-notebook-insight-reviewer)
+- [Lab 19 · Experiment report generator](DATA_AI_LABS.html#lab-19-experiment-report-generator)
+- [Lab 6 · KPI narrative analyst](DATA_AI_LABS.html#lab-6-kpi-narrative-analyst)
 
 **Portfolio proof:**
 
@@ -176,9 +176,9 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 **Start here:**
 
-- [Lab 20 · Model eval harness](DATA_AI_LABS.md#lab-20-model-eval-harness)
-- [Lab 21 · Feature drift monitor](DATA_AI_LABS.md#lab-21-feature-drift-monitor)
-- [Lab 22 · ML inference API](DATA_AI_LABS.md#lab-22-ml-inference-api)
+- [Lab 20 · Model eval harness](DATA_AI_LABS.html#lab-20-model-eval-harness)
+- [Lab 21 · Feature drift monitor](DATA_AI_LABS.html#lab-21-feature-drift-monitor)
+- [Lab 22 · ML inference API](DATA_AI_LABS.html#lab-22-ml-inference-api)
 
 **Portfolio proof:**
 
@@ -201,9 +201,9 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 **Start here:**
 
-- [Lab 23 · RAG answer evaluator](DATA_AI_LABS.md#lab-23-rag-answer-evaluator)
-- [Lab 24 · Tool-calling assistant](DATA_AI_LABS.md#lab-24-tool-calling-assistant)
-- [Lab 11 · Support ticket routing service](DATA_AI_LABS.md#lab-11-support-ticket-routing-service)
+- [Lab 23 · RAG answer evaluator](DATA_AI_LABS.html#lab-23-rag-answer-evaluator)
+- [Lab 24 · Tool-calling assistant](DATA_AI_LABS.html#lab-24-tool-calling-assistant)
+- [Lab 11 · Support ticket routing service](DATA_AI_LABS.html#lab-11-support-ticket-routing-service)
 
 **Portfolio proof:**
 
@@ -226,10 +226,10 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 **Start here:**
 
-- [Lab 25 · Story-to-test planner](DATA_AI_LABS.md#lab-25-story-to-test-planner)
-- [Lab 26 · CI failure explainer](DATA_AI_LABS.md#lab-26-ci-failure-explainer)
-- [Lab 27 · Release note generator](DATA_AI_LABS.md#lab-27-release-note-generator)
-- [Lab 14 · Agentic PR reviewer](DATA_AI_LABS.md#lab-14-agentic-pr-reviewer)
+- [Lab 25 · Story-to-test planner](DATA_AI_LABS.html#lab-25-story-to-test-planner)
+- [Lab 26 · CI failure explainer](DATA_AI_LABS.html#lab-26-ci-failure-explainer)
+- [Lab 27 · Release note generator](DATA_AI_LABS.html#lab-27-release-note-generator)
+- [Lab 14 · Agentic PR reviewer](DATA_AI_LABS.html#lab-14-agentic-pr-reviewer)
 
 **Portfolio proof:**
 
@@ -252,10 +252,10 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 **Start here:**
 
-- [Lab 10 · API log triage agent](DATA_AI_LABS.md#lab-10-api-log-triage-agent)
-- [Lab 11 · Support ticket routing service](DATA_AI_LABS.md#lab-11-support-ticket-routing-service)
-- [Lab 14 · Agentic PR reviewer](DATA_AI_LABS.md#lab-14-agentic-pr-reviewer)
-- [Lesson 15 · Review gates and shipping](15-review-gates-and-shipping.md)
+- [Lab 10 · API log triage agent](DATA_AI_LABS.html#lab-10-api-log-triage-agent)
+- [Lab 11 · Support ticket routing service](DATA_AI_LABS.html#lab-11-support-ticket-routing-service)
+- [Lab 14 · Agentic PR reviewer](DATA_AI_LABS.html#lab-14-agentic-pr-reviewer)
+- [Lesson 15 · Review gates and shipping](15-review-gates-and-shipping.html)
 
 **Portfolio proof:**
 
@@ -278,10 +278,10 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 **Start here:**
 
-- [Lab 28 · Multi-agent task board](DATA_AI_LABS.md#lab-28-multi-agent-task-board)
-- [Lab 29 · Agent memory curator](DATA_AI_LABS.md#lab-29-agent-memory-curator)
-- [Lab 30 · Handoff packet generator](DATA_AI_LABS.md#lab-30-handoff-packet-generator)
-- [Lesson 14 · Orchestration](14-orchestration-parallel-agents.md)
+- [Lab 28 · Multi-agent task board](DATA_AI_LABS.html#lab-28-multi-agent-task-board)
+- [Lab 29 · Agent memory curator](DATA_AI_LABS.html#lab-29-agent-memory-curator)
+- [Lab 30 · Handoff packet generator](DATA_AI_LABS.html#lab-30-handoff-packet-generator)
+- [Lesson 14 · Orchestration](14-orchestration-parallel-agents.html)
 
 **Portfolio proof:**
 
@@ -304,10 +304,10 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 **Start here:**
 
-- [Lab 12 · CSV cleaning assistant](DATA_AI_LABS.md#lab-12-csv-cleaning-assistant)
-- [Lab 13 · Resume/project README improver](DATA_AI_LABS.md#lab-13-resumeproject-readme-improver)
-- [Lab 1 · LLM data profiling tool](DATA_AI_LABS.md#lab-1-llm-data-profiling-tool)
-- [Practice run guide](PRACTICE_RUN.md)
+- [Lab 12 · CSV cleaning assistant](DATA_AI_LABS.html#lab-12-csv-cleaning-assistant)
+- [Lab 13 · Resume/project README improver](DATA_AI_LABS.html#lab-13-resumeproject-readme-improver)
+- [Lab 1 · LLM data profiling tool](DATA_AI_LABS.html#lab-1-llm-data-profiling-tool)
+- [Practice run guide](PRACTICE_RUN.html)
 
 **Portfolio proof:**
 
@@ -330,12 +330,12 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 **Start here:**
 
-- [Lab 14 · Agentic PR reviewer](DATA_AI_LABS.md#lab-14-agentic-pr-reviewer)
-- [Lab 15 · Team runbook generator](DATA_AI_LABS.md#lab-15-team-runbook-generator)
-- [Lab 28 · Multi-agent task board](DATA_AI_LABS.md#lab-28-multi-agent-task-board)
-- [Lab 30 · Handoff packet generator](DATA_AI_LABS.md#lab-30-handoff-packet-generator)
-- [Lesson 14 · Orchestration](14-orchestration-parallel-agents.md)
-- [Lesson 16 · Where to go next](16-where-to-go-next.md)
+- [Lab 14 · Agentic PR reviewer](DATA_AI_LABS.html#lab-14-agentic-pr-reviewer)
+- [Lab 15 · Team runbook generator](DATA_AI_LABS.html#lab-15-team-runbook-generator)
+- [Lab 28 · Multi-agent task board](DATA_AI_LABS.html#lab-28-multi-agent-task-board)
+- [Lab 30 · Handoff packet generator](DATA_AI_LABS.html#lab-30-handoff-packet-generator)
+- [Lesson 14 · Orchestration](14-orchestration-parallel-agents.html)
+- [Lesson 16 · Where to go next](16-where-to-go-next.html)
 
 **Portfolio proof:**
 
@@ -358,12 +358,12 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 **Start here:**
 
-- [Lab 2 · Snowflake AI integration](DATA_AI_LABS.md#lab-2-snowflake-ai-integration), using local fixtures first.
-- [Lab 3 · AI data quality agent](DATA_AI_LABS.md#lab-3-ai-data-quality-agent), with offline mode.
-- [Lab 10 · API log triage agent](DATA_AI_LABS.md#lab-10-api-log-triage-agent), with a local model adapter.
-- [Lab 22 · ML inference API](DATA_AI_LABS.md#lab-22-ml-inference-api), with local model serving.
-- [Lab 24 · Tool-calling assistant](DATA_AI_LABS.md#lab-24-tool-calling-assistant), with local tools first.
-- [CLI variants](CLI_VARIANTS.md), especially tool choice and environment differences.
+- [Lab 2 · Snowflake AI integration](DATA_AI_LABS.html#lab-2-snowflake-ai-integration), using local fixtures first.
+- [Lab 3 · AI data quality agent](DATA_AI_LABS.html#lab-3-ai-data-quality-agent), with offline mode.
+- [Lab 10 · API log triage agent](DATA_AI_LABS.html#lab-10-api-log-triage-agent), with a local model adapter.
+- [Lab 22 · ML inference API](DATA_AI_LABS.html#lab-22-ml-inference-api), with local model serving.
+- [Lab 24 · Tool-calling assistant](DATA_AI_LABS.html#lab-24-tool-calling-assistant), with local tools first.
+- [CLI variants](CLI_VARIANTS.html), especially tool choice and environment differences.
 
 **Portfolio proof:**
 

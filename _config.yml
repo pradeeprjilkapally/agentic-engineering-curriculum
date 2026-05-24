@@ -1,0 +1,14 @@
+title: Agentic Engineering
+description: A hands-on AISOFT curriculum for agentic engineering.
+baseurl: /agentic-engineering-curriculum
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "docs"
+
+exclude:
+  - AGENTS.md
+  - CLAUDE.md

@@ -45,4 +45,4 @@ Speed was never the real skill. Any agent is fast. The skill is being the person
 
 ---
 
-Previous: [Lesson 13 · Design discipline](13-design-discipline.md) · Next: [Lesson 15 · Review gates and shipping](15-review-gates-and-shipping.md)
+Previous: [Lesson 13 · Design discipline](13-design-discipline.html) · Next: [Lesson 15 · Review gates and shipping](15-review-gates-and-shipping.html)

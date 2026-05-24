@@ -12,7 +12,7 @@ Each lab is intentionally small. A fresh graduate should be able to build the sm
 
 Use one lab as your course project, or run several after Lesson 8 as extra practice.
 
-For career positioning, pair this page with [Job pathways + AISOFT offerings](JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md). That guide maps the labs to job targets, interview stories, portfolio proof, and AISOFT's service lines.
+For career positioning, pair this page with [Job pathways + AISOFT offerings](JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html). That guide maps the labs to job targets, interview stories, portfolio proof, and AISOFT's service lines.
 
 ## Coverage by work area
 

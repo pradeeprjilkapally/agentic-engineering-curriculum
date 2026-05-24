@@ -19,7 +19,7 @@ Step-by-step procedures for things you do repeatedly. The point: derive the proc
 
 Each playbook: **Trigger** (when it applies) · **Steps** (numbered, concrete) · **Definition of done** · **Anti-patterns** (the ways it goes wrong).
 
-See [`deploy-verification.md`](deploy-verification.md) for the shape.
+See [`deploy-verification.md`](deploy-verification.html) for the shape.
 
 ## Make them discoverable
 

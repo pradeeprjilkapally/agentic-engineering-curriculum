@@ -11,7 +11,7 @@ If you want the live version, AISOFT runs **Agentic Engineering Day** as an in-p
 - **16 lessons, 4 parts.** Short to read, longer to do. Take them in order — each one stands on the last.
 - **One project, the whole way through.** You pick it in Lesson 5. Every lesson after that puts the new skill to work on *your* project.
 - **Every lesson ends with an exercise** and a plain "you're done when." The exercise is the actual lesson — reading without doing won't move you.
-- **We teach Claude Code first, then translate.** Codex CLI, Gemini CLI, and Snowflake Coco get variant notes where the workflow changes. See [CLI variants](course/CLI_VARIANTS.md).
+- **We teach Claude Code first, then translate.** Codex CLI, Gemini CLI, and Snowflake Coco get variant notes where the workflow changes. See [CLI variants](course/CLI_VARIANTS.html).
 
 ## Who can follow it
 
@@ -24,19 +24,19 @@ This is beginner-first, not beginner-only.
 | Team lead | Run the course on one real team workflow, then turn the artifacts into team standards. |
 | Live cohort | Use the shared lab first, then apply the same habit to each learner's project. |
 
-For facilitation, use the [practice run guide](course/PRACTICE_RUN.md).
+For facilitation, use the [practice run guide](course/PRACTICE_RUN.html).
 
-If the learner wants a concrete project, use the [Data + AI practice labs](course/DATA_AI_LABS.md). They include 30 exercises grouped by pathway: SDLC, data engineering, big data, analytics, data quality/governance, data science, ML/MLOps, AI apps, backend/app engineering, fresh-grad portfolio, team lead adoption, and agentic workflows.
+If the learner wants a concrete project, use the [Data + AI practice labs](course/DATA_AI_LABS.html). They include 30 exercises grouped by pathway: SDLC, data engineering, big data, analytics, data quality/governance, data science, ML/MLOps, AI apps, backend/app engineering, fresh-grad portfolio, team lead adoption, and agentic workflows.
 
-If the learner is job-focused, use [Job pathways + AISOFT offerings](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md). It maps each pathway to likely roles, portfolio proof, interview stories, and the AISOFT service line the work resembles.
+If the learner is job-focused, use [Job pathways + AISOFT offerings](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html). It maps each pathway to likely roles, portfolio proof, interview stories, and the AISOFT service line the work resembles.
 
 ## The path
 
 ### Part 1 · Get set up
 *From nothing installed to your first agent session.*
 
-1. [What is agentic engineering?](course/01-what-is-agentic-engineering.md)
-2. [Install your tool](course/02-install-your-tool.md)
+1. [What is agentic engineering?](course/01-what-is-agentic-engineering.html)
+2. [Install your tool](course/02-install-your-tool.html)
 3. Your first session — the core loop
 4. Staying in control — review and permissions
 
@@ -76,7 +76,7 @@ If the learner is job-focused, use [Job pathways + AISOFT offerings](course/JOB_
 Three forkable starters back the course. You install each one during its lesson:
 
 - [`no-slop-skill/`](no-slop-skill/) — a review pass the agent runs against its own output (Lesson 12).
-- [`templates/DESIGN.md`](templates/DESIGN.md) — a design-quality spec for anything with a surface (Lesson 13).
+- [`templates/DESIGN.md`](templates/DESIGN.html) — a design-quality spec for anything with a surface (Lesson 13).
 - [`second-brain-starter/`](second-brain-starter/) — a `CLAUDE.md` skeleton and memory structure (Lesson 11).
 
 ---

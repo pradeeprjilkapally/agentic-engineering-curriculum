@@ -51,4 +51,4 @@ Planning first is the single habit that separates directing an agent from gambli
 
 ---
 
-Previous: [Lesson 5 · Pick your first project](05-pick-your-first-project.md) · Next: [Lesson 7 · Build it, step by step](07-build-it-step-by-step.md)
+Previous: [Lesson 5 · Pick your first project](05-pick-your-first-project.html) · Next: [Lesson 7 · Build it, step by step](07-build-it-step-by-step.html)

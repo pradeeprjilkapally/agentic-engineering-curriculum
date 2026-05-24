@@ -40,4 +40,4 @@ Be honest about the timeline. This is a transition, not a tool install. The firs
 
 ---
 
-Previous: [Lesson 15 · Review gates and shipping](15-review-gates-and-shipping.md) · Next: you've finished the course — go build.
+Previous: [Lesson 15 · Review gates and shipping](15-review-gates-and-shipping.html) · Next: you've finished the course — go build.
