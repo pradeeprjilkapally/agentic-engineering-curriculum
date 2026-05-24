@@ -1,22 +1,22 @@
-/* Agentic Engineering Curriculum — AISOFT-styled docs site */
+/* Agentic Engineering Curriculum — clean Stitch-style docs site */
 :root {
-  --primary: #9e3d00;
-  --primary-container: #c64f00;
-  --primary-fixed: #ffdbcd;
-  --surface: #fcf9f8;
-  --surface-low: #f6f3f2;
-  --surface-container: #f0edec;
+  --primary: #2563eb;
+  --primary-container: #1d4ed8;
+  --primary-fixed: #dbeafe;
+  --surface: #f8fafc;
+  --surface-low: #f1f5f9;
+  --surface-container: #e2e8f0;
   --surface-lowest: #ffffff;
-  --on-surface: #1c1b1b;
-  --on-surface-variant: #594238;
-  --on-secondary-container: #656464;
-  --outline-variant: #e0c0b2;
+  --on-surface: #0f172a;
+  --on-surface-variant: #475569;
+  --on-secondary-container: #64748b;
+  --outline-variant: #d8e0ea;
   --code-bg: #f8fafc;
-  --code-fg: #1c1b1b;
-  --shadow-xs: 0 1px 2px rgba(42, 26, 18, .06), 0 1px 0 rgba(255, 255, 255, .72) inset;
-  --shadow-sm: 0 8px 22px rgba(42, 26, 18, .08), 0 1px 0 rgba(255, 255, 255, .72) inset;
-  --shadow-md: 0 16px 42px rgba(42, 26, 18, .12), 0 3px 10px rgba(42, 26, 18, .05);
-  --shadow-lg: 0 24px 70px rgba(42, 26, 18, .14), 0 10px 24px rgba(42, 26, 18, .07);
+  --code-fg: #111827;
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, .06), 0 1px 0 rgba(255, 255, 255, .78) inset;
+  --shadow-sm: 0 8px 22px rgba(15, 23, 42, .08), 0 1px 0 rgba(255, 255, 255, .78) inset;
+  --shadow-md: 0 16px 42px rgba(15, 23, 42, .11), 0 3px 10px rgba(15, 23, 42, .05);
+  --shadow-lg: 0 24px 70px rgba(15, 23, 42, .13), 0 10px 24px rgba(15, 23, 42, .06);
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
@@ -119,7 +119,7 @@ h2.sec {
   background: var(--surface-lowest);
   border: 1px solid var(--primary);
   border-radius: 18px;
-  box-shadow: 0 16px 44px rgba(158,61,0,0.08);
+  box-shadow: 0 16px 44px rgba(37, 99, 235, .10);
 }
 .live-panel .tag {
   display: inline-block; margin-bottom: 12px;
@@ -183,7 +183,7 @@ h2.sec {
   border: 1px solid var(--outline-variant); background: var(--surface-lowest);
 }
 .fork-col.lesser { background: var(--surface-low); }
-.fork-col.path { border-color: var(--primary); box-shadow: 0 1px 0 var(--primary), 0 12px 32px rgba(158,61,0,0.07); }
+.fork-col.path { border-color: var(--primary); box-shadow: 0 1px 0 var(--primary), 0 12px 32px rgba(37, 99, 235, .10); }
 .fork-label {
   font-family: 'Manrope', sans-serif; font-size: 10.5px; font-weight: 700;
   letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 4px;
@@ -336,8 +336,9 @@ footer a { color: var(--on-surface-variant); }
 /* Stripe/Mintlify-style generated documentation pages */
 .docs-body {
   background:
-    radial-gradient(circle at 24% 0%, color-mix(in srgb, var(--primary-fixed) 34%, transparent), transparent 28rem),
-    linear-gradient(180deg, rgba(255,255,255,.96), rgba(252,249,248,.78) 36rem, #fff 100%),
+    radial-gradient(circle at 18% 0%, rgba(219, 234, 254, .55), transparent 26rem),
+    radial-gradient(circle at 82% 2%, rgba(204, 251, 241, .34), transparent 24rem),
+    linear-gradient(180deg, rgba(255,255,255,.98), rgba(248,250,252,.88) 34rem, #fff 100%),
     var(--surface-lowest);
 }
 .docs-topbar {
@@ -347,7 +348,7 @@ footer a { color: var(--on-surface-variant); }
   background: color-mix(in srgb, var(--surface-lowest) 86%, transparent);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--outline-variant);
-  box-shadow: 0 10px 28px rgba(42, 26, 18, .07);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, .07);
 }
 .docs-brand {
   display: inline-flex; align-items: center;
@@ -359,7 +360,7 @@ footer a { color: var(--on-surface-variant); }
   width: 38px; height: 38px; margin-right: 10px;
   border-radius: 10px; object-fit: cover; background: #fff;
   border: 1px solid color-mix(in srgb, var(--outline-variant) 64%, transparent);
-  box-shadow: 0 9px 20px rgba(37, 99, 235, .16), 0 4px 12px rgba(42, 26, 18, .08);
+  box-shadow: 0 9px 20px rgba(37, 99, 235, .18), 0 4px 12px rgba(15, 23, 42, .08);
 }
 .docs-brand span {
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
@@ -396,7 +397,7 @@ footer a { color: var(--on-surface-variant); }
   padding: 30px 22px 48px 28px;
   border-right: 1px solid var(--outline-variant);
   background: color-mix(in srgb, var(--surface-lowest) 76%, transparent);
-  box-shadow: 14px 0 38px rgba(42, 26, 18, .045);
+  box-shadow: 14px 0 38px rgba(15, 23, 42, .045);
 }
 .docs-sidebar-section { margin-bottom: 28px; }
 .docs-sidebar h2,
