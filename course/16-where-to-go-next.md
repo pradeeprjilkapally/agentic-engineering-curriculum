@@ -1,7 +1,5 @@
 # Lesson 16 · Where to go next
 
-> **Part 4 · Scale up** — Lesson 16 of 16
-
 **Where this gets you:** you'll pick your next project — one step harder than the one you just finished — and know which skill it'll push on.
 
 ## The idea

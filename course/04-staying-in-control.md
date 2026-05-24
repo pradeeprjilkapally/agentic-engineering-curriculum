@@ -1,7 +1,5 @@
 # Lesson 4 · Staying in control
 
-> **Part 1 · Get set up** — Lesson 4 of 16
-
 **Where this gets you:** you'll know the permission modes, how to read a diff before you accept it, and how to redirect the agent when it's wrong.
 
 ## The idea

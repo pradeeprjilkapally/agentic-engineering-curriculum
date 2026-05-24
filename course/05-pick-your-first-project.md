@@ -1,7 +1,5 @@
 # Lesson 5 · Pick your first project
 
-> **Part 2 · Build something real** — Lesson 5 of 16
-
 **Where this gets you:** one real project chosen — the thing you'll carry through every remaining lesson — and a clear, written definition of done for it.
 
 ## The idea

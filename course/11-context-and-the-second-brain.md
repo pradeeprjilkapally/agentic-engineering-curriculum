@@ -1,7 +1,5 @@
 # Lesson 11 · Context and the second brain
 
-> **Part 3 · The core concepts** — Lesson 11 of 16
-
 **Where this gets you:** your project will have a `CLAUDE.md` the agent reads automatically every session — so you stop re-explaining the same things and the agent starts each task already knowing your stack.
 
 ## The idea

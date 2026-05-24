@@ -1,7 +1,5 @@
 # Lesson 9 · The brief
 
-> **Part 3 · The core concepts** — Lesson 9 of 16
-
 **Where this gets you:** you'll write a brief instead of a vague ask — and start reviewing whether the brief was right instead of babysitting every choice the agent makes.
 
 ## The idea

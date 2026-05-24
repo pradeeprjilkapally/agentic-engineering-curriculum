@@ -1,7 +1,5 @@
 # Lesson 7 · Build it, step by step
 
-> **Part 2 · Build something real** — Lesson 7 of 16
-
 **Where this gets you:** the first real slice of your project actually built and running — one meaningful piece, done and working.
 
 ## The idea
