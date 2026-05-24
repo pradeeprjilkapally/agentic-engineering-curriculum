@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Agentic Engineering Curriculum — AISOFT</title>
-<meta name="description" content="The path from vibe coding to agentic engineering — 8 modules, plus the forkable artifacts that make it stick: the no-slop standard, a DESIGN.md template, and a second-brain starter.">
-<meta property="og:title" content="Agentic Engineering Curriculum">
-<meta property="og:description" content="From vibe coding to agentic engineering — 8 modules and the forkable scaffolding that makes it stick.">
+<title>Agentic Engineering — course and in-person training · AISOFT</title>
+<meta name="description" content="A hands-on course and live workshop path for engineers: go from using AI like autocomplete to directing coding agents as your default way of working.">
+<meta property="og:title" content="Agentic Engineering — a hands-on course">
+<meta property="og:description" content="16 lessons, 4 parts. Install the tool, build one real project, install the discipline that makes agent work hold up.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,8 +19,12 @@
   <div class="nav-inner">
     <a class="nav-logo" href="index.html"><span>AISOFT</span> · Agentic Engineering</a>
     <div class="nav-links">
-      <a href="curriculum.html">Curriculum</a>
+      <a href="#course">Course</a>
       <a href="#artifacts">Artifacts</a>
+      <a href="#live">Live workshop</a>
+      <a href="#tracks">Tracks</a>
+      <a href="#labs">Labs</a>
+      <a href="#jobs">Jobs</a>
       <a href="https://github.com/aisoftllc/agentic-engineering-curriculum" target="_blank" rel="noopener">GitHub</a>
       <a href="https://aisoft.us" target="_blank" rel="noopener">aisoft.us</a>
       <a class="nav-cta" href="https://aisoft.us/contact" target="_blank" rel="noopener">Free mentoring</a>
@@ -31,15 +35,114 @@
 <main class="wrap">
 
   <div class="hero">
-    <div class="eyebrow">A curriculum + the scaffolding</div>
-    <h1>From vibe coding to agentic engineering.</h1>
+    <div class="eyebrow">Course + in-person training</div>
+    <h1>Learn agentic engineering by building.</h1>
     <p class="thesis">
-      Agentic engineering is a <strong>10x multiplier</strong> on the vision, thinking, and discipline you already bring. A multiplier still multiplies zero. The tool is the same for everyone &mdash; <strong>the output is not.</strong>
+      Most engineers use coding agents like a fancier autocomplete. This course is the path to using them as your <strong>default way of working</strong> &mdash; learned the only way it sticks: by building <strong>one real project</strong>, start to finish, installing one new skill each lesson.
     </p>
     <p class="hero-sub">
-      Most people who struggle with agentic engineering aren&rsquo;t lacking talent. They&rsquo;re missing scaffolding &mdash; the concrete artifacts that encode their judgment into something an agent can actually read. This is that scaffolding, plus the curriculum for installing it.
+      It&rsquo;s for engineers who can already write code and have used AI in the editor once or twice. You start from nothing installed. You finish with a shipped project and the working habits to keep going. The open course is self-paced; the live workshop is for teams who want the room, the review, and the push.
     </p>
   </div>
+
+  <section id="live">
+    <h2 class="sec">Live workshop &mdash; Agentic Engineering Day</h2>
+    <div class="live-panel">
+      <div>
+        <span class="tag">Austin first · 8-12 seats</span>
+        <h3>One day in the editor, with a guide in the room.</h3>
+        <p>Claude Code, Codex, Gemini CLI, Snowflake Coco. One shared lab. Real diffs. Live review. You leave with the brief, eval, review-pass, design, and context artifacts installed as a workflow you can repeat.</p>
+        <a class="btn" href="https://aisoft.us/workshop" target="_blank" rel="noopener">See the in-person workshop &rarr;</a>
+      </div>
+      <div class="live-list">
+        <div><b>Morning</b><span>Briefing agents and keeping control</span></div>
+        <div><b>Afternoon</b><span>Evals, review gates, memory, and handoff</span></div>
+        <div><b>After</b><span>Your first-week rollout plan</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tracks">
+    <h2 class="sec">Run it by practice level and CLI</h2>
+    <div class="track-grid">
+      <div class="track-card">
+        <span class="tag">Learner paths</span>
+        <h3>Fresh grad to experienced engineer.</h3>
+        <p>Fresh graduates keep the project tiny and review every diff. Experienced engineers move faster but still do every gate. Team leads turn the artifacts into standards.</p>
+        <a href="course/PRACTICE_RUN.md">Open the practice run guide &rarr;</a>
+      </div>
+      <div class="track-card">
+        <span class="tag">CLI variants</span>
+        <h3>Claude Code, Codex, Gemini, Coco.</h3>
+        <p>The course teaches Claude Code first, then translates the same habits to Codex CLI, Gemini CLI, and Snowflake Coco where the workflow differs.</p>
+        <a href="course/CLI_VARIANTS.md">Open the CLI guide &rarr;</a>
+      </div>
+    </div>
+    <div class="track-table">
+      <div><b>Beginner</b><span>Small project, every exercise, human review on early diffs.</span></div>
+      <div><b>Experienced</b><span>Real backlog item, stricter planning, proof before done.</span></div>
+      <div><b>Team</b><span>Shared standards, review gates, rollout plan.</span></div>
+      <div><b>Live cohort</b><span>Shared lab, room review, personal follow-through.</span></div>
+    </div>
+  </section>
+
+  <section id="labs">
+    <h2 class="sec">Practice labs</h2>
+    <div class="prose" style="margin-bottom:18px">
+      <p>Pick the pathway closest to where the learner is coming from. Every lab has a local small version first, then a fuller version with warehouse, big data, API, model, deployment, or team workflow pieces.</p>
+    </div>
+    <div class="cards">
+      <a class="card" href="course/DATA_AI_LABS.md">
+        <span class="tag">Data engineering</span>
+        <h3>Pipelines, dbt, big data</h3>
+        <p>Snowflake integration, pipeline explainers, dbt tests, Spark tuning, and streaming monitors.</p>
+      </a>
+      <a class="card" href="course/DATA_AI_LABS.md">
+        <span class="tag">Analytics</span>
+        <h3>KPIs and dashboard QA</h3>
+        <p>LLM data profiling, KPI narrative analyst, and dashboard QA assistant.</p>
+      </a>
+      <a class="card" href="course/DATA_AI_LABS.md">
+        <span class="tag">Governance</span>
+        <h3>Quality, PII, contracts</h3>
+        <p>AI data quality agent, PII policy scanner, and data contract checker.</p>
+      </a>
+      <a class="card" href="course/DATA_AI_LABS.md">
+        <span class="tag">More paths</span>
+        <h3>SDLC, ML, AI apps, agentic</h3>
+        <p>CI explainers, release notes, model evals, RAG evaluation, tool calling, task boards, memory, and handoffs.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="jobs">
+    <h2 class="sec">Career paths tied to real AISOFT work</h2>
+    <div class="prose" style="margin-bottom:18px">
+      <p>The training is portfolio-first. Every path maps a learner background to job targets, proof artifacts, interview stories, and the AISOFT offering the work resembles: AI product development, platform design, enablement, full-stack delivery, local LLMs, and edge AI.</p>
+    </div>
+    <div class="cards">
+      <a class="card" href="course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md">
+        <span class="tag">Data roles</span>
+        <h3>Engineer, analyst, governance</h3>
+        <p>Snowflake, dbt, KPI narratives, data quality, PII checks, contracts, and portfolio proof.</p>
+      </a>
+      <a class="card" href="course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md">
+        <span class="tag">Builder roles</span>
+        <h3>Backend, full-stack, AI apps</h3>
+        <p>APIs, CLIs, support routing, log triage, review gates, and usable internal tools.</p>
+      </a>
+      <a class="card" href="course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md">
+        <span class="tag">Team roles</span>
+        <h3>Lead, manager, CTO</h3>
+        <p>Rollout plans, team standards, agentic PR review, runbooks, and measurable adoption.</p>
+      </a>
+      <a class="card" href="course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md">
+        <span class="tag">Local AI</span>
+        <h3>Edge and private models</h3>
+        <p>Local model adapters, offline modes, latency notes, and provider-independent design.</p>
+      </a>
+    </div>
+  </section>
 
   <section>
     <h2 class="sec">Same tools &mdash; different discipline</h2>
@@ -48,103 +151,168 @@
         <div class="fork-label">Vibe coding</div>
         <h3>Prompt. Glance. Accept. Move on.</h3>
         <ul>
-          <li>No spec &mdash; the goal lives only in your head</li>
-          <li>No eval &mdash; <b>&ldquo;done&rdquo;</b> means it ran once</li>
-          <li>Review is a vibe check, if it happens</li>
-          <li>Great for prototypes &mdash; collapses on real users</li>
+          <li>No plan &mdash; the goal lives only in your head</li>
+          <li>No check &mdash; <b>&ldquo;done&rdquo;</b> means it ran once</li>
+          <li>Review is a vibe check, if it happens at all</li>
+          <li>Fine for experiments &mdash; falls apart on real users</li>
         </ul>
-        <p class="fork-foot">Result: slop, shipped fast.</p>
+        <p class="fork-foot">Quick, and quick to collapse.</p>
       </div>
       <div class="fork-col path">
         <div class="fork-label">Agentic engineering</div>
-        <h3>Brief. Eval. Orchestrate. Gate.</h3>
+        <h3>Brief. Plan. Build. Gate.</h3>
         <ul>
           <li>Briefs are <b>contracts</b> &mdash; goal, constraints, done</li>
-          <li>Evals define done &mdash; the agent can&rsquo;t fake it</li>
-          <li>Output is checked against a <b>no-slop standard</b></li>
+          <li>You decide how you&rsquo;ll know it worked, up front</li>
+          <li>Output is held to a <b>standard the agent reads</b></li>
           <li>Survives real users &mdash; because it was built to</li>
         </ul>
-        <p class="fork-foot">Result: compounding leverage.</p>
+        <p class="fork-foot">Same agent. Not the same output.</p>
       </div>
     </div>
   </section>
 
+  <section id="course">
+    <h2 class="sec">The course &mdash; 16 lessons, 4 parts</h2>
+
+    <div class="part">
+      <div class="part-head">
+        <h3>Part 1 · Get set up</h3>
+        <p>From nothing installed to your first agent session.</p>
+      </div>
+      <div class="modules">
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/01-what-is-agentic-engineering.md">
+          <div class="num">1</div>
+          <div><h3>What is agentic engineering?</h3><p>Agents versus autocomplete &mdash; and why discipline is the difference.</p></div>
+        </a>
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/02-install-your-tool.md">
+          <div class="num">2</div>
+          <div><h3>Install your tool</h3><p>Get Claude Code running and have your first exchange with it.</p></div>
+        </a>
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/03-your-first-session.md">
+          <div class="num">3</div>
+          <div><h3>Your first session</h3><p>The core loop: a goal goes in, the agent works, you review.</p></div>
+        </a>
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/04-staying-in-control.md">
+          <div class="num">4</div>
+          <div><h3>Staying in control</h3><p>Permission modes, and reading every change before it lands.</p></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="part">
+      <div class="part-head">
+        <h3>Part 2 · Build something real</h3>
+        <p>Pick a project and take it all the way to shipped.</p>
+      </div>
+      <div class="modules">
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/05-pick-your-first-project.md">
+          <div class="num">5</div>
+          <div><h3>Pick your first project</h3><p>Choose the one real thing you&rsquo;ll carry through the whole course.</p></div>
+        </a>
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/06-plan-before-you-build.md">
+          <div class="num">6</div>
+          <div><h3>Plan before you build</h3><p>Plan Mode: get a plan you actually believe in before any code.</p></div>
+        </a>
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/07-build-it-step-by-step.md">
+          <div class="num">7</div>
+          <div><h3>Build it, step by step</h3><p>Execute in small slices, reviewing and correcting as you go.</p></div>
+        </a>
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/08-ship-it.md">
+          <div class="num">8</div>
+          <div><h3>Ship it</h3><p>Get a first version in front of real use &mdash; rough is fine.</p></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="part">
+      <div class="part-head">
+        <h3>Part 3 · The core concepts</h3>
+        <p>The discipline that makes agent work hold up under real users.</p>
+      </div>
+      <div class="modules">
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/09-the-brief.md">
+          <div class="num">9</div>
+          <div><h3>The brief</h3><p>Write the agent a contract, not a vague description.</p></div>
+        </a>
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/10-evals-defining-done.md">
+          <div class="num">10</div>
+          <div><h3>Evals &mdash; defining &ldquo;done&rdquo;</h3><p>Decide how you&rsquo;ll know it worked, before you hand off.</p></div>
+        </a>
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/11-context-and-the-second-brain.md">
+          <div class="num">11</div>
+          <div><h3>Context and the second brain</h3><p>Stop re-explaining yourself &mdash; write the context down once.</p></div>
+        </a>
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/12-the-no-slop-standard.md">
+          <div class="num">12</div>
+          <div><h3>The no-slop standard</h3><p>Encode your bar into a check the agent runs on its own output.</p></div>
+        </a>
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/13-design-discipline.md">
+          <div class="num">13</div>
+          <div><h3>Design discipline</h3><p>A spec for anything with a surface, so output looks intentional.</p></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="part">
+      <div class="part-head">
+        <h3>Part 4 · Scale up</h3>
+        <p>From one agent to a way of working.</p>
+      </div>
+      <div class="modules">
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/14-orchestration-parallel-agents.md">
+          <div class="num">14</div>
+          <div><h3>Orchestration &mdash; parallel agents</h3><p>Run independent work streams at once, kept coherent.</p></div>
+        </a>
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/15-review-gates-and-shipping.md">
+          <div class="num">15</div>
+          <div><h3>Review gates and shipping</h3><p>The gate that catches mediocre &mdash; and proof before &ldquo;done.&rdquo;</p></div>
+        </a>
+        <a class="module" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/16-where-to-go-next.md">
+          <div class="num">16</div>
+          <div><h3>Where to go next</h3><p>Skills, MCP, hooks &mdash; and the projects that stretch you next.</p></div>
+        </a>
+      </div>
+    </div>
+
+    <p style="margin-top:32px;font-size:15px;color:var(--on-surface-variant)">
+      Start at <a href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/curriculum.md">the course index</a>, or jump straight into <a href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/course/01-what-is-agentic-engineering.md">Lesson 1</a>.
+    </p>
+  </section>
+
   <section>
-    <h2 class="sec">The curriculum &mdash; 8 modules</h2>
-    <div class="modules">
-      <a class="module" href="curriculum.html#module-0">
-        <div class="num">0</div>
-        <div><h3>Mindset: the multiplier</h3><p>What agentic engineering accelerates &mdash; and what it doesn&rsquo;t. Why vibe coding is not agentic engineering.</p></div>
-      </a>
-      <a class="module" href="curriculum.html#module-1">
-        <div class="num">1</div>
-        <div><h3>The brief</h3><p>A brief is a contract, not a description. Goal, constraints, inputs, outputs, eval.</p></div>
-      </a>
-      <a class="module" href="curriculum.html#module-2">
-        <div class="num">2</div>
-        <div><h3>Evals: defining done</h3><p>If you can&rsquo;t test what &ldquo;working&rdquo; means, the slop you&rsquo;re about to get is yours &mdash; authored in advance.</p></div>
-      </a>
-      <a class="module" href="curriculum.html#module-3">
-        <div class="num">3</div>
-        <div><h3>The no-slop standard</h3><p>Slop is not a feeling. It&rsquo;s a list. Encode attention into an artifact the agent reads.</p></div>
-      </a>
-      <a class="module" href="curriculum.html#module-4">
-        <div class="num">4</div>
-        <div><h3>Design discipline</h3><p>For anything with a surface, design quality lives in a spec &mdash; not in your head.</p></div>
-      </a>
-      <a class="module" href="curriculum.html#module-5">
-        <div class="num">5</div>
-        <div><h3>The second brain</h3><p>An agent is only as good as the context you can hand it. Write it down once.</p></div>
-      </a>
-      <a class="module" href="curriculum.html#module-6">
-        <div class="num">6</div>
-        <div><h3>Orchestration</h3><p>The bottleneck stops being lines-per-hour and becomes how many streams you keep coherent.</p></div>
-      </a>
-      <a class="module" href="curriculum.html#module-7">
-        <div class="num">7</div>
-        <div><h3>Review gates &amp; shipping</h3><p>The gate is where mediocre gets caught. Never claim done without proof.</p></div>
-      </a>
+    <h2 class="sec">How it works</h2>
+    <div class="prose">
+      <p><strong>One project, the whole way through.</strong> You pick it in Lesson 5 and carry it to shipped. Every lesson after that puts the new skill to work on <em>your</em> project &mdash; the exercise isn&rsquo;t a quiz, it&rsquo;s the next commit.</p>
+      <p><strong>Every lesson ends with an exercise</strong> and a plain &ldquo;you&rsquo;re done when.&rdquo; Reading without doing won&rsquo;t move you &mdash; the doing is the lesson.</p>
+      <p><strong>Claude Code is the main path.</strong> Codex CLI, Gemini CLI, and Snowflake Coco follow the same habits; the course flags the differences when they matter.</p>
     </div>
   </section>
 
   <section id="artifacts">
     <h2 class="sec">The artifacts &mdash; fork these</h2>
     <div class="cards">
+      <a class="card" href="https://github.com/aisoftllc/agentic-engineering-curriculum/tree/main/second-brain-starter" target="_blank" rel="noopener">
+        <span class="tag">Starter · Lesson 11</span>
+        <h3>Second-brain starter</h3>
+        <p>A <code>CLAUDE.md</code> skeleton, playbook stubs, and a one-fact-per-file memory structure. The context layer that compounds.</p>
+      </a>
       <a class="card" href="https://github.com/aisoftllc/agentic-engineering-curriculum/tree/main/no-slop-skill" target="_blank" rel="noopener">
-        <span class="tag">Installable skill</span>
+        <span class="tag">Installable skill · Lesson 12</span>
         <h3>The no-slop standard</h3>
-        <p>A review pass the agent runs against its own output before handing it back &mdash; dead code, unhandled errors, duplication, untested edges, fake done. 10 sections, fix-or-justify.</p>
+        <p>A review pass the agent runs against its own output before handing it back &mdash; dead code, unhandled errors, duplication, untested edges.</p>
       </a>
       <a class="card" href="https://github.com/aisoftllc/agentic-engineering-curriculum/blob/main/templates/DESIGN.md" target="_blank" rel="noopener">
-        <span class="tag">Template</span>
+        <span class="tag">Template · Lesson 13</span>
         <h3>DESIGN.md</h3>
-        <p>The design-quality spec, fork-ready. Tokens, voice, layout scale, and an anti-pattern list. The difference between &ldquo;looks generated&rdquo; and &ldquo;looks intentional.&rdquo;</p>
+        <p>The design-quality spec, fork-ready. Tokens, voice, layout scale, and an anti-pattern list &mdash; so output looks intentional, not generated.</p>
       </a>
-      <a class="card" href="https://github.com/aisoftllc/agentic-engineering-curriculum/tree/main/second-brain-starter" target="_blank" rel="noopener">
-        <span class="tag">Starter</span>
-        <h3>Second-brain starter</h3>
-        <p>A <code>CLAUDE.md</code> skeleton, playbook stubs, and a one-fact-per-file memory structure. The context layer that compounds &mdash; and the honest moat.</p>
-      </a>
-      <a class="card" href="https://github.com/aisoftllc/agentic-engineering-curriculum/tree/main/lessons" target="_blank" rel="noopener">
-        <span class="tag">Living notes</span>
-        <h3>Lessons</h3>
-        <p>Notes from real sessions &mdash; patterns, failure modes, breakthroughs. The part that makes the curriculum sharper every time someone runs it.</p>
-      </a>
-    </div>
-  </section>
-
-  <section>
-    <h2 class="sec">How to use it</h2>
-    <div class="prose">
-      <p><strong>If you&rsquo;re learning</strong> &mdash; start with the <a href="curriculum.html">curriculum</a>, do the exercises in order, and install the scaffolding as you hit each module. Reading changes nothing; building the scaffolding changes everything.</p>
-      <p><strong>If you&rsquo;re mentoring someone</strong> &mdash; the curriculum is your syllabus. The lessons folder is where you log what actually happened, and that feedback loop is what keeps it sharp.</p>
-      <p><strong>If you just want the artifacts</strong> &mdash; grab the no-slop skill, the <code>DESIGN.md</code> template, and the second-brain starter. They stand alone.</p>
     </div>
   </section>
 
   <div class="cta">
-    <h3>Want to go from vibe coding to actual agentic engineering?</h3>
-    <p>I mentor and coach engineers and teams making this jump &mdash; orchestration, evals, the scaffolding that kills slop.</p>
+    <h3>Want a guide while you work through it?</h3>
+    <p>I mentor engineers and teams making this jump &mdash; on your real code, one session at a time.</p>
     <a class="btn" href="https://aisoft.us/contact" target="_blank" rel="noopener">Book a free 30-min session &rarr;</a>
   </div>
 
