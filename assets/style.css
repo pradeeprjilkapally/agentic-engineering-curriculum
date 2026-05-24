@@ -477,6 +477,31 @@ footer a { color: var(--on-surface-variant); }
   display: block; background: transparent; color: inherit; padding: 0; border-radius: 0;
   font-size: 13px; line-height: 1.65; white-space: pre;
 }
+.docs-copy-button {
+  position: absolute; top: 9px; right: 10px;
+  display: inline-flex; align-items: center; gap: 6px;
+  min-height: 30px; padding: 6px 9px;
+  border: 1px solid var(--outline-variant); border-radius: 8px;
+  background: color-mix(in srgb, var(--surface-lowest) 90%, var(--surface-low));
+  color: var(--on-surface-variant);
+  font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 750;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(0,0,0,.03);
+}
+.docs-copy-button:hover {
+  color: var(--primary);
+  border-color: color-mix(in srgb, var(--primary) 42%, var(--outline-variant));
+  background: var(--surface-lowest);
+}
+.docs-copy-button.copied {
+  color: #0f7a45;
+  border-color: color-mix(in srgb, #0f7a45 40%, var(--outline-variant));
+}
+.docs-copy-button svg {
+  width: 15px; height: 15px;
+  fill: none; stroke: currentColor; stroke-width: 2;
+  stroke-linecap: round; stroke-linejoin: round;
+}
 .docs-article hr { border: 0; border-top: 1px solid var(--outline-variant); margin: 44px 0; }
 .docs-toc {
   position: sticky; top: 64px; align-self: start;
