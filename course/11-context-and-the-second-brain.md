@@ -55,4 +55,4 @@ The model is the same for everyone. Your second brain is not. Month one you're d
 
 ---
 
-Previous: [Lesson 10 · Evals — defining done](10-evals-defining-done.md) · Next: [Lesson 12 · The no-slop standard](12-the-no-slop-standard.md)
+Previous: [Lesson 10 · Evals — defining done](10-evals-defining-done.html) · Next: [Lesson 12 · The no-slop standard](12-the-no-slop-standard.html)

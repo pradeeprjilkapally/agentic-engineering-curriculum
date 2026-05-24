@@ -37,4 +37,4 @@ As the tasks get bigger, the temptation is to stop reading and just accept. The 
 
 ---
 
-Previous: [Lesson 3 · Your first session](03-your-first-session.md) · Next: [Lesson 5 · Pick your first project](05-pick-your-first-project.md)
+Previous: [Lesson 3 · Your first session](03-your-first-session.html) · Next: [Lesson 5 · Pick your first project](05-pick-your-first-project.html)

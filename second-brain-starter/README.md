@@ -8,7 +8,7 @@ The fix: write it down once, in a form the agent picks up **automatically**. Tha
 
 | File | What it holds |
 |------|--------------|
-| [`CLAUDE.md`](CLAUDE.md) | The always-loaded context — stack, conventions, standards, how to work with you. The agent reads this every session. |
+| [`CLAUDE.md`](CLAUDE.html) | The always-loaded context — stack, conventions, standards, how to work with you. The agent reads this every session. |
 | [`playbooks/`](playbooks/) | Step-by-step procedures for things you do repeatedly — deploys, releases, incident response. Reusable, not re-derived. |
 | [`memory/`](memory/) | Durable facts that accumulate over time — decisions, scars, what worked and what didn't. |
 

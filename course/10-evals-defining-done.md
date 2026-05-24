@@ -51,4 +51,4 @@ From here on you'll hand work to agents you're not watching — sometimes severa
 
 ---
 
-Previous: [Lesson 9 · The brief](09-the-brief.md) · Next: [Lesson 11 · Context and the second brain](11-context-and-the-second-brain.md)
+Previous: [Lesson 9 · The brief](09-the-brief.html) · Next: [Lesson 11 · Context and the second brain](11-context-and-the-second-brain.html)

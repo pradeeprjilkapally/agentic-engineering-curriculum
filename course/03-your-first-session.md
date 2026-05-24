@@ -48,4 +48,4 @@ Everything later in this course is this loop, scaled up — bigger tasks, more o
 
 ---
 
-Previous: [Lesson 2 · Install your tool](02-install-your-tool.md) · Next: [Lesson 4 · Staying in control](04-staying-in-control.md)
+Previous: [Lesson 2 · Install your tool](02-install-your-tool.html) · Next: [Lesson 4 · Staying in control](04-staying-in-control.html)

@@ -49,4 +49,4 @@ Every lesson left in this course ends with "do it on your project." If the proje
 
 ---
 
-Previous: [Lesson 4 · Staying in control](04-staying-in-control.md) · Next: [Lesson 6 · Plan before you build](06-plan-before-you-build.md)
+Previous: [Lesson 4 · Staying in control](04-staying-in-control.html) · Next: [Lesson 6 · Plan before you build](06-plan-before-you-build.html)

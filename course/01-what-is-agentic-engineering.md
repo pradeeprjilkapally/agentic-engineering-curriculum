@@ -38,4 +38,4 @@ Every lesson after this hands you a new skill and asks you to use it on a real p
 
 ---
 
-Next: [Lesson 2 · Install your tool](02-install-your-tool.md)
+Next: [Lesson 2 · Install your tool](02-install-your-tool.html)

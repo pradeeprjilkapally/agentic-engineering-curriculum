@@ -43,4 +43,4 @@ Every lesson left in this course assumes you can hand an agent a clean spec. The
 
 ---
 
-Previous: [Lesson 8 · Ship it](08-ship-it.md) · Next: [Lesson 10 · Evals — defining done](10-evals-defining-done.md)
+Previous: [Lesson 8 · Ship it](08-ship-it.html) · Next: [Lesson 10 · Evals — defining done](10-evals-defining-done.html)

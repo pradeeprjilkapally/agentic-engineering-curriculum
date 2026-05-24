@@ -57,7 +57,7 @@ It reads the project and tells you. That's a real agent session — you're alrea
 
 > **Using something else?** Codex CLI: install from OpenAI's developer site, run `codex`. Gemini CLI: install it, run `gemini`. Coco: use your organization's approved setup path. The habit is the same: start in the repo, sign in, ask it to orient on code you know.
 
-For the full translation table, keep [CLI variants](CLI_VARIANTS.md) open while you work.
+For the full translation table, keep [CLI variants](CLI_VARIANTS.html) open while you work.
 
 ## Your exercise
 
@@ -80,4 +80,4 @@ You're going to live in this tool for the rest of the course. Getting it working
 
 ---
 
-Previous: [Lesson 1 · What is agentic engineering?](01-what-is-agentic-engineering.md) · Next: [Lesson 3 · Your first session](03-your-first-session.md)
+Previous: [Lesson 1 · What is agentic engineering?](01-what-is-agentic-engineering.html) · Next: [Lesson 3 · Your first session](03-your-first-session.html)

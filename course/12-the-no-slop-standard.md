@@ -12,7 +12,7 @@ Start by naming the enemy. Slop is not a feeling — it's a list. It's dead code
 
 That's what the no-slop skill is. This repo ships it — [`no-slop-skill/`](../no-slop-skill/). It's a review pass: after the agent generates or edits non-trivial code, it walks a checklist against its own output **before** handing the work back to you. Every hit gets fixed, or gets one line explaining why it's a deliberate exception. The work isn't eligible for your review gate until the checklist is clean.
 
-The checklist itself ([`no-slop-checklist.md`](../no-slop-skill/no-slop-checklist.md)) has ten sections: dead code, unhandled errors, duplication, naming, untested edges, comments, consistency with the codebase, scope, fake done (TODOs and stubbed returns), and verified-not-claimed. Each item is concrete enough to be unarguable.
+The checklist itself ([`no-slop-checklist.md`](../no-slop-skill/no-slop-checklist.html)) has ten sections: dead code, unhandled errors, duplication, naming, untested edges, comments, consistency with the codebase, scope, fake done (TODOs and stubbed returns), and verified-not-claimed. Each item is concrete enough to be unarguable.
 
 This is the artifact version of attention. The agent can't skip it, and neither can a tired you.
 
@@ -40,4 +40,4 @@ Agentic engineering is a multiplier. Without a no-slop pass it multiplies inatte
 
 ---
 
-Previous: [Lesson 11 · Context and the second brain](11-context-and-the-second-brain.md) · Next: [Lesson 13 · Design discipline](13-design-discipline.md)
+Previous: [Lesson 11 · Context and the second brain](11-context-and-the-second-brain.html) · Next: [Lesson 13 · Design discipline](13-design-discipline.html)
