@@ -114,6 +114,49 @@
   };
   syncToc();
   document.addEventListener('scroll', syncToc, { passive: true });
+
+  const copyIcon = `
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <rect x="9" y="9" width="10" height="10" rx="2"></rect>
+      <path d="M5 15V7a2 2 0 0 1 2-2h8"></path>
+    </svg>
+  `;
+  const checkIcon = `
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="m5 12 4 4L19 6"></path>
+    </svg>
+  `;
+
+  document.querySelectorAll('.docs-article pre').forEach((block) => {
+    const code = block.querySelector('code');
+    if (!code || block.querySelector('.docs-copy-button')) return;
+
+    const button = document.createElement('button');
+    button.className = 'docs-copy-button';
+    button.type = 'button';
+    button.setAttribute('aria-label', 'Copy code');
+    button.innerHTML = `${copyIcon}<span>Copy</span>`;
+
+    button.addEventListener('click', async () => {
+      const text = code.innerText;
+      try {
+        await navigator.clipboard.writeText(text);
+        button.classList.add('copied');
+        button.setAttribute('aria-label', 'Copied');
+        button.innerHTML = `${checkIcon}<span>Copied</span>`;
+        setTimeout(() => {
+          button.classList.remove('copied');
+          button.setAttribute('aria-label', 'Copy code');
+          button.innerHTML = `${copyIcon}<span>Copy</span>`;
+        }, 1600);
+      } catch {
+        button.setAttribute('aria-label', 'Copy failed');
+        button.innerHTML = `${copyIcon}<span>Copy failed</span>`;
+      }
+    });
+
+    block.appendChild(button);
+  });
 })();
 </script>
 </body>
