@@ -26,6 +26,8 @@ This is beginner-first, not beginner-only.
 
 For facilitation, use the [practice run guide](course/PRACTICE_RUN.md).
 
+If the learner wants a concrete data/AI project, use the [Data + AI practice labs](course/DATA_AI_LABS.md). They include local-CSV and Snowflake versions of profiling, insight generation, and data-quality agents.
+
 ## The path
 
 ### Part 1 · Get set up
