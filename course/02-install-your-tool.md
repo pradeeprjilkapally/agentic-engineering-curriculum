@@ -45,6 +45,19 @@ On a Mac, `brew install --cask claude-code` works too.
 claude
 ```
 
+Keep this quick-start block handy during the workshop:
+
+```bash
+# move into a project you already understand
+cd path/to/your-project
+
+# start the primary course tool
+claude
+
+# first orientation prompt to paste into the agent
+what does this project do?
+```
+
 **Log in.** The first run walks you through signing in — your Claude subscription, or an API key from [console.anthropic.com](https://console.anthropic.com). Either is fine.
 
 **Say something.** When it's ready, just ask it a plain question:
@@ -67,6 +80,15 @@ Ask it two things:
 
 1. What does this project do?
 2. Where would I add a new [something small — a route, a command, a config option]?
+
+Use this exact starter if you want the low-friction path:
+
+```text
+What does this project do?
+
+Then answer this: where would I add a small route, command, or config option?
+Read the repo first. If you are unsure, say what you checked and what you still need.
+```
 
 Read the answers like a reviewer. You know this code. Did it get it right?
 

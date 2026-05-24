@@ -30,6 +30,29 @@ Run them in that order. Nothing ships that skips a line.
 
 Then, for the deploy itself, decide your proof *before* you run anything. Not after.
 
+Use this gate as a command block and replace the test/deploy lines for your stack:
+
+```bash
+# 1. confirm the change is reviewable
+git status --short
+git diff --stat
+git diff
+
+# 2. run the project check
+npm test
+# or
+pytest
+# or
+make test
+
+# 3. deploy with your normal command
+npm run deploy
+
+# 4. prove the live surface changed
+curl -sI https://your-live-url.example
+curl -sL https://your-live-url.example | grep "text you expect to be live"
+```
+
 ## Your exercise
 
 Pick the next change you'll ship to your project. Before you touch the deploy command, write down — actually write it — the exact proof you'll use to confirm it landed. Name the specific `curl` you'll run, or the screenshot you'll take, or the log line you'll grep for.

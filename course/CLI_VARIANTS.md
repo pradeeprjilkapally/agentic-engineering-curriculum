@@ -11,6 +11,26 @@ Use one tool for the whole course if you can. Switching tools every lesson makes
 | Gemini CLI | `gemini` | Google users, large-context exploration, multimodal-adjacent work | Workspace context and command permissions |
 | Snowflake Coco | your org's Coco entry point | Enterprise data and Snowflake-centered teams | Data boundaries, workspace access, governance |
 
+## Start commands
+
+Use one of these in the root of the project you are working on:
+
+```bash
+# Claude Code track
+cd path/to/your-project
+claude
+
+# Codex CLI track
+cd path/to/your-project
+codex
+
+# Gemini CLI track
+cd path/to/your-project
+gemini
+```
+
+Coco learners should open the approved workspace for the repo, Snowflake object, or data product. The command is whatever your organization has standardized.
+
 ## Translation table
 
 | Course habit | Claude Code | Codex CLI | Gemini CLI | Coco |
@@ -27,3 +47,11 @@ Use one tool for the whole course if you can. Switching tools every lesson makes
 
 Do not accept output because it sounds confident. Accept it because you can point to proof: a diff you read, a test you ran, a page you opened, a command output you understand, or a reviewer note you wrote yourself.
 
+```bash
+# proof commands you will use constantly
+git status --short
+git diff
+npm test
+pytest
+curl -sI https://your-live-url.example
+```

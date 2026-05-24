@@ -35,6 +35,26 @@ Use the eval shape that fits your project:
 | Data workflow | This query/run returns expected counts or validation checks |
 | Agent workflow | Given this task, the agent must produce this artifact and pass this check |
 
+Example eval commands:
+
+```bash
+# CLI project
+python -m your_cli sample-input.csv --out /tmp/output.csv
+diff tests/expected-output.csv /tmp/output.csv
+
+# JavaScript app or package
+npm test
+
+# Python app or data workflow
+pytest
+
+# API check
+curl -sS http://localhost:3000/health
+curl -sS -X POST http://localhost:3000/api/example \
+  -H "content-type: application/json" \
+  -d '{"input":"sample"}'
+```
+
 ## Your exercise
 
 Run two handoffs of the same change. First: brief plus eval, as above. Second (or just recall a past one): brief with no eval, "looks right" as the bar.

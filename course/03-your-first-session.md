@@ -30,6 +30,14 @@ Pick something genuinely small — a typo in a string, a renamed variable, one n
 
 Give it the goal in one sentence. Then watch. Don't touch anything. Read each step as it scrolls by — what file it opened, what it changed, what it ran.
 
+Here is a safe first-session prompt:
+
+```text
+Find one tiny improvement in this repo that can be completed in under ten minutes.
+Before editing, tell me the exact file you plan to touch and why.
+After editing, show me the diff and the command or manual check you used.
+```
+
 If it heads somewhere wrong, hit **Esc** and type what you meant. Let it finish.
 
 ## Your exercise
@@ -37,6 +45,23 @@ If it heads somewhere wrong, hit **Esc** and type what you meant. Let it finish.
 In a repo you know well, give the agent one small, real task — something you could have done yourself in a few minutes.
 
 Watch the whole loop run without jumping in unless it goes wrong. When it's done, read **every change it made** — open the diff, read each line, make sure you'd have signed off on it yourself.
+
+Use these commands after the agent finishes:
+
+```bash
+# see every changed file
+git status --short
+
+# read the actual patch before accepting it
+git diff
+
+# run the smallest relevant check for your project
+npm test
+# or
+pytest
+# or
+make test
+```
 
 **You're done when** you've taken one small task end-to-end and can describe the gather → act → check loop in your own words.
 
