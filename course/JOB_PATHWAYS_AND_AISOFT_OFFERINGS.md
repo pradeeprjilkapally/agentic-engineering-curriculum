@@ -49,6 +49,8 @@ For in-person events, keep the first lab shared. The room should see one complet
 - [Lab 4 · Pipeline run explainer](DATA_AI_LABS.md#lab-4-pipeline-run-explainer)
 - [Lab 5 · dbt test generator](DATA_AI_LABS.md#lab-5-dbt-test-generator)
 - [Lab 9 · Data contract checker](DATA_AI_LABS.md#lab-9-data-contract-checker)
+- [Lab 16 · Spark job tuning assistant](DATA_AI_LABS.md#lab-16-spark-job-tuning-assistant)
+- [Lab 17 · Streaming data monitor](DATA_AI_LABS.md#lab-17-streaming-data-monitor)
 
 **Portfolio proof:**
 
@@ -62,7 +64,32 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 "I used an agent like a teammate, not autocomplete. I wrote the brief, made the data contract explicit, built the local version first, added tests, then connected it to Snowflake behind a safe configuration."
 
-### 2. Data analytics + BI
+### 2. Big data + streaming
+
+**Best fit:** learners working with Spark, Kafka, Databricks, lakehouse jobs, streaming pipelines, or high-volume batch processing.
+
+**Job targets:** big data engineer, streaming data engineer, data platform engineer, lakehouse engineer.
+
+**AISOFT offering match:** AI Platform Design, Edge AI, Local & Open Models, AI Setup & Enablement.
+
+**Start here:**
+
+- [Lab 16 · Spark job tuning assistant](DATA_AI_LABS.md#lab-16-spark-job-tuning-assistant)
+- [Lab 17 · Streaming data monitor](DATA_AI_LABS.md#lab-17-streaming-data-monitor)
+- [Lab 4 · Pipeline run explainer](DATA_AI_LABS.md#lab-4-pipeline-run-explainer)
+
+**Portfolio proof:**
+
+- Sample job metrics or event files.
+- A report that cites bottlenecks or lag with evidence.
+- Threshold config and replay/reproduce command.
+- Tests for skew, schema drift, or lag behavior.
+
+**Interview story:**
+
+"I made large-scale data work reviewable. The tool reads job or stream evidence, explains what changed, and proposes safe next experiments instead of guessing."
+
+### 3. Data analytics + BI
 
 **Best fit:** learners from reporting, SQL analysis, business analysis, dashboards, KPI tracking, operations, or finance analytics.
 
@@ -88,7 +115,7 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 "I did not just ask an LLM to summarize data. I made the source checks visible, kept the numbers traceable, and generated a narrative a stakeholder could review."
 
-### 3. Data quality, governance, and responsible AI
+### 4. Data quality, governance, and responsible AI
 
 **Best fit:** learners from QA, data governance, Collibra-style stewardship, metadata, compliance, lineage, PII, audit, or operations controls.
 
@@ -114,7 +141,108 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 "I treated the model as an assistant inside a governed workflow. The policy was explicit, deterministic checks came first, and model output was reviewed before anything was called done."
 
-### 4. Backend, API, and internal tool engineering
+### 5. Data science + experimentation
+
+**Best fit:** learners from notebooks, exploratory analysis, experimentation, product analytics, applied statistics, or research workflows.
+
+**Job targets:** data scientist, product data scientist, experimentation analyst, decision scientist.
+
+**AISOFT offering match:** AI Product Development, AI Setup & Enablement, Startup Advisory.
+
+**Start here:**
+
+- [Lab 18 · Notebook insight reviewer](DATA_AI_LABS.md#lab-18-notebook-insight-reviewer)
+- [Lab 19 · Experiment report generator](DATA_AI_LABS.md#lab-19-experiment-report-generator)
+- [Lab 6 · KPI narrative analyst](DATA_AI_LABS.md#lab-6-kpi-narrative-analyst)
+
+**Portfolio proof:**
+
+- A notebook or experiment input with generated review.
+- Numeric evidence tied to each conclusion.
+- A report with caveats and a no-decision path when evidence is weak.
+- Tests for winner/no-winner or unsupported conclusion logic.
+
+**Interview story:**
+
+"I used agents to improve the analysis process, not to invent conclusions. The tool checks evidence, caveats, and decision quality before a stakeholder sees the result."
+
+### 6. ML + MLOps
+
+**Best fit:** learners training models, evaluating prompts/models, deploying inference APIs, or monitoring production features.
+
+**Job targets:** machine learning engineer, MLOps engineer, AI engineer, model platform engineer.
+
+**AISOFT offering match:** AI Product Development, Local & Open Models, Edge AI, AI Platform Design.
+
+**Start here:**
+
+- [Lab 20 · Model eval harness](DATA_AI_LABS.md#lab-20-model-eval-harness)
+- [Lab 21 · Feature drift monitor](DATA_AI_LABS.md#lab-21-feature-drift-monitor)
+- [Lab 22 · ML inference API](DATA_AI_LABS.md#lab-22-ml-inference-api)
+
+**Portfolio proof:**
+
+- Versioned eval results.
+- Feature drift report with thresholds.
+- API contract with validation and tests.
+- README that explains model/version tradeoffs.
+
+**Interview story:**
+
+"I treated model behavior as something to test and monitor. The work has evals, versioned results, drift checks, and an API contract instead of a model notebook alone."
+
+### 7. AI app engineering
+
+**Best fit:** learners building RAG, chat products, copilots, tool-calling workflows, or AI-backed internal tools.
+
+**Job targets:** AI application engineer, RAG engineer, full-stack AI engineer, product engineer.
+
+**AISOFT offering match:** AI Product Development, Full-Stack Engineering, Agentic Engineering, Local & Open Models.
+
+**Start here:**
+
+- [Lab 23 · RAG answer evaluator](DATA_AI_LABS.md#lab-23-rag-answer-evaluator)
+- [Lab 24 · Tool-calling assistant](DATA_AI_LABS.md#lab-24-tool-calling-assistant)
+- [Lab 11 · Support ticket routing service](DATA_AI_LABS.md#lab-11-support-ticket-routing-service)
+
+**Portfolio proof:**
+
+- Retrieval and answer quality evaluation.
+- Tool schemas and audit trail.
+- Refusal/unsupported request behavior.
+- Tests for routing, citations, or groundedness.
+
+**Interview story:**
+
+"I built the AI feature with product controls: retrieval checks, tool-call logs, argument validation, and a clear path when the assistant should not act."
+
+### 8. SDLC + DevOps
+
+**Best fit:** learners working across requirements, tickets, tests, CI, release notes, incident summaries, or engineering operations.
+
+**Job targets:** software engineer, DevOps engineer, QA automation engineer, release engineer, platform engineer.
+
+**AISOFT offering match:** Agentic Engineering, AI Setup & Enablement, Full-Stack Engineering.
+
+**Start here:**
+
+- [Lab 25 · Story-to-test planner](DATA_AI_LABS.md#lab-25-story-to-test-planner)
+- [Lab 26 · CI failure explainer](DATA_AI_LABS.md#lab-26-ci-failure-explainer)
+- [Lab 27 · Release note generator](DATA_AI_LABS.md#lab-27-release-note-generator)
+- [Lab 14 · Agentic PR reviewer](DATA_AI_LABS.md#lab-14-agentic-pr-reviewer)
+
+**Portfolio proof:**
+
+- Acceptance criteria and test plans generated from stories.
+- CI summaries that include reproduce commands.
+- Release notes with risk and verification sections.
+- Tests for parser and grouping behavior.
+
+**Interview story:**
+
+"I applied agents across the software delivery lifecycle: clarifying stories, planning tests, explaining CI failures, reviewing PRs, and producing release notes with verification."
+
+### 9. Backend, API, and internal tool engineering
 
 **Best fit:** learners who build APIs, CLIs, automations, web apps, service integrations, or internal tools.
 
@@ -140,7 +268,33 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 "I used agents to accelerate implementation, but I controlled the contract. The service has tests, confidence thresholds, logs, and a clear handoff path when the model is unsure."
 
-### 5. Fresh graduate portfolio path
+### 10. Agentic workflow engineering
+
+**Best fit:** learners coordinating multi-agent work, creating memory/context files, and handing work between people and agents.
+
+**Job targets:** agentic engineer, staff engineer, platform engineer, AI workflow engineer, technical lead.
+
+**AISOFT offering match:** Agentic Engineering Day, AI Setup & Enablement, Startup Advisory, AI Platform Design.
+
+**Start here:**
+
+- [Lab 28 · Multi-agent task board](DATA_AI_LABS.md#lab-28-multi-agent-task-board)
+- [Lab 29 · Agent memory curator](DATA_AI_LABS.md#lab-29-agent-memory-curator)
+- [Lab 30 · Handoff packet generator](DATA_AI_LABS.md#lab-30-handoff-packet-generator)
+- [Lesson 14 · Orchestration](14-orchestration-parallel-agents.md)
+
+**Portfolio proof:**
+
+- Agent-sized task board with dependencies and proof gates.
+- Project memory files.
+- Handoff packet with status, verification, risks, and next actions.
+- A README explaining how the workflow prevents drift.
+
+**Interview story:**
+
+"I can coordinate agent work without losing control. The system splits tasks, preserves context, records proof, and makes handoff clear."
+
+### 11. Fresh graduate portfolio path
 
 **Best fit:** new graduates, career switchers, interns, and learners with light coding experience.
 
@@ -166,7 +320,7 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 "I kept the scope small and finished it. I wrote a brief, let the agent help, reviewed the diff, tested it, and can explain every file."
 
-### 6. Team lead, manager, and CTO path
+### 12. Team lead, manager, and CTO path
 
 **Best fit:** leads who need adoption plans, standards, review gates, training plans, and real team rollout.
 
@@ -178,6 +332,8 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 - [Lab 14 · Agentic PR reviewer](DATA_AI_LABS.md#lab-14-agentic-pr-reviewer)
 - [Lab 15 · Team runbook generator](DATA_AI_LABS.md#lab-15-team-runbook-generator)
+- [Lab 28 · Multi-agent task board](DATA_AI_LABS.md#lab-28-multi-agent-task-board)
+- [Lab 30 · Handoff packet generator](DATA_AI_LABS.md#lab-30-handoff-packet-generator)
 - [Lesson 14 · Orchestration](14-orchestration-parallel-agents.md)
 - [Lesson 16 · Where to go next](16-where-to-go-next.md)
 
@@ -192,7 +348,7 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 "I did not just tell people to use AI. I defined where agents fit, what they are allowed to change, how we review, and how we know the workflow is producing better work."
 
-### 7. Edge AI and local LLM path
+### 13. Edge AI and local LLM path
 
 **Best fit:** learners interested in private AI, low-latency inference, small models, Jetson/GB10/Mac deployments, or cost-controlled AI systems.
 
@@ -205,6 +361,8 @@ For in-person events, keep the first lab shared. The room should see one complet
 - [Lab 2 · Snowflake AI integration](DATA_AI_LABS.md#lab-2-snowflake-ai-integration), using local fixtures first.
 - [Lab 3 · AI data quality agent](DATA_AI_LABS.md#lab-3-ai-data-quality-agent), with offline mode.
 - [Lab 10 · API log triage agent](DATA_AI_LABS.md#lab-10-api-log-triage-agent), with a local model adapter.
+- [Lab 22 · ML inference API](DATA_AI_LABS.md#lab-22-ml-inference-api), with local model serving.
+- [Lab 24 · Tool-calling assistant](DATA_AI_LABS.md#lab-24-tool-calling-assistant), with local tools first.
 - [CLI variants](CLI_VARIANTS.md), especially tool choice and environment differences.
 
 **Portfolio proof:**
@@ -222,12 +380,12 @@ For in-person events, keep the first lab shared. The room should see one complet
 
 | AISOFT offering | Training focus | Best labs |
 |---|---|---|
-| AI Product Development | Build usable AI features with specs, evals, review gates, and shipped proof | Labs 6, 10, 11, 14 |
-| Edge AI / Local & Open Models | Separate model adapters, measure latency, keep data private where needed | Labs 2, 3, 10 |
-| AI Platform Design | Data contracts, orchestration, deployment boundaries, governance | Labs 2, 5, 8, 9, 15 |
-| AI Setup & Enablement | Train teams to brief, review, test, and ship with agents | Labs 1, 12, 14, 15 |
-| Full-Stack Engineering | Turn AI workflows into tools users can run | Labs 10, 11, 13 |
-| Startup Advisory | Decide what to build first, what to defer, and how to prove traction | Labs 6, 11, 15 |
+| AI Product Development | Build usable AI features with specs, evals, review gates, and shipped proof | Labs 6, 10, 11, 20, 23, 24 |
+| Edge AI / Local & Open Models | Separate model adapters, measure latency, keep data private where needed | Labs 2, 3, 10, 22, 24 |
+| AI Platform Design | Data contracts, orchestration, deployment boundaries, governance | Labs 2, 5, 8, 9, 16, 17, 21, 28 |
+| AI Setup & Enablement | Train teams to brief, review, test, and ship with agents | Labs 1, 12, 14, 15, 25, 26, 30 |
+| Full-Stack Engineering | Turn AI workflows into tools users can run | Labs 10, 11, 13, 22, 23, 24 |
+| Startup Advisory | Decide what to build first, what to defer, and how to prove traction | Labs 6, 11, 15, 19, 27, 28 |
 
 ## What every learner should leave with
 
