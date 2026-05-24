@@ -13,6 +13,10 @@
 <body class="docs-body">
 <header class="docs-topbar">
   <a class="docs-brand" href="{{ '/' | relative_url }}"><span>AISOFT</span> Agentic Engineering</a>
+  <div class="docs-search" aria-hidden="true">
+    <span>Search docs</span>
+    <kbd>/</kbd>
+  </div>
   <nav>
     <a href="{{ '/curriculum.html' | relative_url }}">Course</a>
     <a href="{{ '/course/DATA_AI_LABS.html' | relative_url }}">Labs</a>
@@ -59,6 +63,7 @@
   </aside>
 
   <main class="docs-content">
+    <div class="docs-page-kicker">AISOFT curriculum</div>
     <article class="docs-article">
       {{ content }}
     </article>
@@ -96,6 +101,19 @@
     item.className = heading.tagName === 'H3' ? 'depth-3' : 'depth-2';
     toc.appendChild(item);
   });
+
+  const tocItems = [...document.querySelectorAll('.docs-toc a')];
+  const sections = headings.map((heading, index) => ({ heading, link: tocItems[index] })).filter((item) => item.link);
+  const syncToc = () => {
+    let current = sections[0];
+    for (const item of sections) {
+      if (item.heading.getBoundingClientRect().top < 120) current = item;
+    }
+    tocItems.forEach((link) => link.classList.remove('active'));
+    current?.link.classList.add('active');
+  };
+  syncToc();
+  document.addEventListener('scroll', syncToc, { passive: true });
 })();
 </script>
 </body>
