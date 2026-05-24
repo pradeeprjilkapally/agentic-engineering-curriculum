@@ -56,3 +56,29 @@ For live cohorts, run every exercise with the same loop:
 
 The teaching moment is usually not the first prompt. It is the review after the agent does something plausible but incomplete.
 
+## Shared workshop command block
+
+Use this block when the room needs one common rhythm:
+
+```bash
+# start in the learner's repo
+cd path/to/project
+
+# start the selected tool
+claude
+# or: codex
+# or: gemini
+
+# after the agent finishes a slice
+git status --short
+git diff
+
+# run the project check
+npm test
+# or: pytest
+# or: make test
+
+# only after review and proof
+git add .
+git commit -m "feat: complete workshop slice"
+```

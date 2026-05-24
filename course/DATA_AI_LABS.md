@@ -49,6 +49,41 @@ For career positioning, pair this page with [Job pathways + AISOFT offerings](JO
 
 Each lab has a **small version** that avoids paid services and credentials. Do that first. The full version can add Snowflake, LLM APIs, deployment, or alerts after the core behavior works locally.
 
+## Standard lab command block
+
+Use this rhythm for every lab, regardless of pathway:
+
+```bash
+# create or open the lab repo
+mkdir agentic-lab
+cd agentic-lab
+git init
+
+# start your selected agent
+claude
+# or: codex
+# or: gemini
+
+# after each slice, inspect and verify
+git status --short
+git diff
+python -m pytest
+# or: npm test
+# or: make test
+
+# capture proof only after the check passes
+git add .
+git commit -m "feat: complete lab slice"
+```
+
+For data labs, also keep one command that proves the artifact works on a fixture:
+
+```bash
+python main.py --input data/sample.csv --out outputs/result.md
+ls -lh outputs/
+cat outputs/result.md
+```
+
 ## Quick chooser
 
 If someone says:

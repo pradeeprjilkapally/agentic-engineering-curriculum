@@ -35,6 +35,25 @@ Claude Code, Codex CLI, Gemini CLI, and Coco can all run this loop. The importan
 
 When it's done, read the diff, run the code, and confirm the piece does what the plan said.
 
+Use this review-and-commit block for every slice:
+
+```bash
+# inspect what changed
+git status --short
+git diff
+
+# run the smallest meaningful verification
+npm test
+# or
+pytest
+# or
+make test
+
+# commit only after you have read the diff and seen the check pass
+git add .
+git commit -m "feat: complete first project slice"
+```
+
 If it's right, commit it with a short message. If it's wrong, correct the agent and let it revise — or, if it's badly off, reset to your last commit and re-plan the slice. Either way, end with one piece that genuinely works.
 
 ## Your exercise
