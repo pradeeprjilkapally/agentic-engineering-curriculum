@@ -26,7 +26,7 @@ This is beginner-first, not beginner-only.
 
 For facilitation, use the [practice run guide](course/PRACTICE_RUN.md).
 
-If the learner wants a concrete data/AI project, use the [Data + AI practice labs](course/DATA_AI_LABS.md). They include local-CSV and Snowflake versions of profiling, insight generation, and data-quality agents.
+If the learner wants a concrete project, use the [Data + AI practice labs](course/DATA_AI_LABS.md). They include 15 exercises grouped by pathway: data engineering, data analytics, data quality/governance, backend/app engineering, fresh-grad portfolio, and team lead adoption.
 
 ## The path
 

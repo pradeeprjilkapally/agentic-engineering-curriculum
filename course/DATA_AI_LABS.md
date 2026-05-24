@@ -6,9 +6,33 @@ These labs are modeled after small portfolio exercises like:
 - `snowflake-ai-integration`
 - `ai-data-quality-agent`
 
-They are intentionally small. Each one can be built by a fresh graduate with patience, and each one is still realistic enough for an experienced data engineer to practice agentic habits.
+They are intentionally small. Each one can be built by a fresh graduate with patience, and each one is still realistic enough for an experienced engineer to practice agentic habits.
 
-Use one lab as your course project, or run all three after Lesson 8 as extra practice.
+Use one lab as your course project, or run several after Lesson 8 as extra practice.
+
+## Pathways by background
+
+| Pathway | Best for | Start with | Then try |
+|---|---|---|---|
+| Data engineering | ETL, Snowflake, dbt, pipelines, platform work | Lab 2 · Snowflake AI integration | Lab 4 · Pipeline run explainer, Lab 5 · dbt test generator |
+| Data analytics | BI, reporting, SQL, dashboards, business analysis | Lab 1 · LLM data profiling tool | Lab 6 · KPI narrative analyst, Lab 7 · Dashboard QA assistant |
+| Data quality + governance | QA, data governance, Collibra-style stewardship, lineage | Lab 3 · AI data quality agent | Lab 8 · PII policy scanner, Lab 9 · Data contract checker |
+| Backend/app engineering | APIs, CLIs, internal tools, services | Lab 10 · API log triage agent | Lab 11 · Support ticket routing service |
+| Fresh-grad portfolio | New engineers who need concrete GitHub projects | Lab 12 · CSV cleaning assistant | Lab 13 · Resume/project README improver |
+| Team lead / manager | Standards, review gates, team adoption | Lab 14 · Agentic PR reviewer | Lab 15 · Team runbook generator |
+
+Each lab has a **small version** that avoids paid services and credentials. Do that first. The full version can add Snowflake, LLM APIs, deployment, or alerts after the core behavior works locally.
+
+## Quick chooser
+
+If someone says:
+
+- "I know SQL but not much Python" — start with Lab 6.
+- "I work in Snowflake" — start with Lab 2.
+- "I do data quality or governance" — start with Lab 3 or Lab 8.
+- "I am a fresh graduate" — start with Lab 12.
+- "I build APIs" — start with Lab 10.
+- "I manage a team adopting AI" — start with Lab 14 or Lab 15.
 
 ## Lab 1 · LLM data profiling tool
 
@@ -182,6 +206,345 @@ Done means:
 - at least one high-impact issue is classified correctly,
 - the test suite catches a broken check.
 
+## Lab 4 · Pipeline run explainer
+
+**Pathway:** Data engineering
+
+**Goal:** Turn raw pipeline logs into a readable incident summary with failed step, likely cause, and next action.
+
+**Small version:** Use sample log files in `data/logs/`.
+
+**Full version:** Pull logs from Airflow, Dagster, dbt Cloud, GitHub Actions, or Snowflake task history.
+
+### Suggested structure
+
+```text
+pipeline-run-explainer/
+├── main.py
+├── data/logs/
+├── parser/
+│   └── log_parser.py
+├── analyzer/
+│   ├── failure_classifier.py
+│   └── summary_writer.py
+└── tests/
+    └── test_log_parser.py
+```
+
+### Step-by-step
+
+1. Collect three fake logs: success, SQL failure, timeout.
+2. Parse timestamps, step names, status, and error blocks.
+3. Classify failures into `sql_error`, `dependency_down`, `timeout`, or `unknown`.
+4. Generate a Markdown incident summary.
+5. Add a `--since` or `--run-id` option.
+6. Add one test for log parsing.
+
+### Practice proof
+
+```bash
+python main.py --log data/logs/failed_sql.log --out output/incident.md
+```
+
+Done means the incident summary names the failed step, evidence, likely cause, and next action.
+
+## Lab 5 · dbt test generator
+
+**Pathway:** Data engineering
+
+**Goal:** Read a dbt model SQL file and propose useful `schema.yml` tests.
+
+**Small version:** Parse local `.sql` files.
+
+**Full version:** Inspect a dbt project and write candidate tests into a review file.
+
+### Step-by-step
+
+1. Add two sample dbt model SQL files.
+2. Extract selected columns and simple transformations.
+3. Infer candidate tests: `not_null`, `unique`, `accepted_values`, relationships.
+4. Write proposed YAML to `output/proposed_schema.yml`.
+5. Add a review note explaining why each test was proposed.
+6. Add one test for YAML generation.
+
+### Practice proof
+
+```bash
+python main.py --model models/fct_orders.sql --out output/proposed_schema.yml
+```
+
+Done means the generated YAML is valid and every proposed test has a reason.
+
+## Lab 6 · KPI narrative analyst
+
+**Pathway:** Data analytics
+
+**Goal:** Turn a weekly KPI CSV into a plain-English business summary.
+
+**Small version:** Use local CSVs.
+
+**Full version:** Connect to a BI export or Snowflake query.
+
+### Step-by-step
+
+1. Create a KPI CSV with date, metric, segment, value.
+2. Compute week-over-week change.
+3. Flag biggest movers.
+4. Generate a short executive summary.
+5. Generate a second analyst note with caveats.
+6. Add a test for percent-change calculation.
+
+### Practice proof
+
+```bash
+python main.py --csv data/weekly_kpis.csv --metric revenue --out output/kpi_summary.md
+```
+
+Done means the summary includes top movement, segment, numeric evidence, and caveat.
+
+## Lab 7 · Dashboard QA assistant
+
+**Pathway:** Data analytics
+
+**Goal:** Compare dashboard numbers against source extracts and flag mismatches.
+
+**Small version:** Compare two CSVs: `source.csv` and `dashboard.csv`.
+
+**Full version:** Connect to BI export, semantic layer, or warehouse query.
+
+### Step-by-step
+
+1. Create source and dashboard CSVs with matching metric names.
+2. Join by metric/date/segment.
+3. Compute absolute and percentage difference.
+4. Flag mismatches above tolerance.
+5. Generate a QA report.
+6. Add a test for tolerance behavior.
+
+### Practice proof
+
+```bash
+python main.py --source data/source.csv --dashboard data/dashboard.csv --tolerance 0.01 --out output/dashboard_qa.md
+```
+
+Done means the report separates pass, warning, and fail metrics.
+
+## Lab 8 · PII policy scanner
+
+**Pathway:** Data quality + governance
+
+**Goal:** Scan column names and sample values for possible PII, then generate a stewardship review file.
+
+**Small version:** Use CSV headers and sample rows.
+
+**Full version:** Connect to Snowflake information schema or a catalog export.
+
+### Step-by-step
+
+1. Create a CSV with fields like email, phone, customer_name, notes.
+2. Add pattern checks for email, phone, SSN-like values.
+3. Add name-based checks for sensitive columns.
+4. Classify risk as Low, Medium, High.
+5. Generate a stewardship review Markdown file.
+6. Add allowlist/false-positive config.
+
+### Practice proof
+
+```bash
+python main.py --csv data/customers.csv --out output/pii_review.md
+```
+
+Done means every flagged field has evidence and a suggested handling policy.
+
+## Lab 9 · Data contract checker
+
+**Pathway:** Data quality + governance
+
+**Goal:** Compare an incoming file/table against a declared contract.
+
+**Small version:** YAML contract plus CSV file.
+
+**Full version:** Validate warehouse tables before pipeline runs.
+
+### Step-by-step
+
+1. Write a YAML contract: columns, types, required fields, allowed values.
+2. Load an incoming CSV.
+3. Check missing columns, extra columns, nulls, and invalid values.
+4. Produce a pass/fail report.
+5. Add an exit code: `0` for pass, non-zero for fail.
+6. Add tests for one passing and one failing file.
+
+### Practice proof
+
+```bash
+python main.py --contract contracts/orders.yaml --csv data/orders_incoming.csv
+```
+
+Done means the checker can block a bad file before it reaches a pipeline.
+
+## Lab 10 · API log triage agent
+
+**Pathway:** Backend/app engineering
+
+**Goal:** Summarize API logs and group failures by endpoint, status code, and likely cause.
+
+**Small version:** Use local JSONL logs.
+
+**Full version:** Pull logs from CloudWatch, Datadog, GCP Logging, or app files.
+
+### Step-by-step
+
+1. Create sample JSONL logs with status, route, latency, message.
+2. Group errors by route and status.
+3. Detect latency spikes.
+4. Generate a triage report.
+5. Add a suggested owner field based on route prefix.
+6. Add one test for grouping.
+
+### Practice proof
+
+```bash
+python main.py --logs data/api_logs.jsonl --out output/triage.md
+```
+
+Done means the report names top failing routes and gives evidence.
+
+## Lab 11 · Support ticket routing service
+
+**Pathway:** Backend/app engineering
+
+**Goal:** Classify support tickets and route them to the right queue.
+
+**Small version:** CLI reads CSV and writes routed CSV.
+
+**Full version:** Add a small FastAPI endpoint.
+
+### Step-by-step
+
+1. Create a ticket CSV with subject, description, customer tier.
+2. Define route labels: billing, technical, account, bug, feature.
+3. Build deterministic keyword routing first.
+4. Add optional LLM routing behind a flag.
+5. Write output CSV with label and confidence.
+6. Add a test for at least three ticket examples.
+
+### Practice proof
+
+```bash
+python main.py --tickets data/tickets.csv --out output/routed_tickets.csv
+```
+
+Done means every ticket has a route, reason, and confidence.
+
+## Lab 12 · CSV cleaning assistant
+
+**Pathway:** Fresh-grad portfolio
+
+**Goal:** Build a friendly CLI that cleans a messy CSV and writes a cleaned file plus report.
+
+**Small version:** Local CSV only.
+
+**Full version:** Add a simple web UI.
+
+### Step-by-step
+
+1. Create a messy CSV: extra spaces, mixed casing, bad dates, duplicate rows.
+2. Trim strings and normalize column names.
+3. Parse dates and report failed rows.
+4. Remove duplicates.
+5. Write `clean.csv` and `cleaning_report.md`.
+6. Add one test for duplicate removal.
+
+### Practice proof
+
+```bash
+python main.py --csv data/messy_customers.csv --out output/clean_customers.csv --report output/cleaning_report.md
+```
+
+Done means the cleaned file and report are both created.
+
+## Lab 13 · Resume/project README improver
+
+**Pathway:** Fresh-grad portfolio
+
+**Goal:** Turn a rough project README into a stronger portfolio README with setup, demo, screenshots, and proof.
+
+**Small version:** Markdown in, Markdown out.
+
+**Full version:** Add GitHub repo inspection.
+
+### Step-by-step
+
+1. Create a rough README.
+2. Parse existing headings.
+3. Detect missing sections: setup, usage, proof, limitations.
+4. Generate an improved README draft.
+5. Add a checklist of what still needs human input.
+6. Add one test for missing-section detection.
+
+### Practice proof
+
+```bash
+python main.py --readme README_rough.md --out README_improved.md
+```
+
+Done means the improved README is clearer but does not invent fake claims.
+
+## Lab 14 · Agentic PR reviewer
+
+**Pathway:** Team lead / manager
+
+**Goal:** Review a diff against team standards and produce actionable findings.
+
+**Small version:** Read a saved `.diff` file.
+
+**Full version:** Pull PR diff from GitHub.
+
+### Step-by-step
+
+1. Create or save a small diff file.
+2. Define review categories: bug risk, missing tests, scope creep, unclear naming.
+3. Parse changed files.
+4. Produce review findings with file, line, severity, and suggestion.
+5. Add a no-findings path.
+6. Add one test for detecting TODO/fake done.
+
+### Practice proof
+
+```bash
+python main.py --diff data/sample.diff --out output/review.md
+```
+
+Done means findings are specific, grounded, and not generic advice.
+
+## Lab 15 · Team runbook generator
+
+**Pathway:** Team lead / manager
+
+**Goal:** Convert scattered notes into a repeatable runbook for a recurring engineering task.
+
+**Small version:** Local notes folder.
+
+**Full version:** Pull from wiki/docs and create a PR.
+
+### Step-by-step
+
+1. Create three messy notes about deploy, rollback, and verification.
+2. Extract steps, commands, owners, and warnings.
+3. Generate a clean runbook.
+4. Add a verification checklist.
+5. Add a "when to stop and ask" section.
+6. Add one test that required sections exist.
+
+### Practice proof
+
+```bash
+python main.py --notes data/deploy_notes/ --out output/deploy_runbook.md
+```
+
+Done means the runbook is usable by someone who did not write the notes.
+
 ## How to use these with the 16 lessons
 
 | Course point | What to do with a lab |
@@ -209,5 +572,4 @@ For experienced engineers, keep the same lab but raise the bar:
 - credential safety,
 - README with reproducible commands.
 
-For live workshops, use Lab 1 as the shared room exercise. It has the shortest path from zero to visible output.
-
+For live workshops, use Lab 1 or Lab 12 as the shared room exercise. They have the shortest path from zero to visible output.
