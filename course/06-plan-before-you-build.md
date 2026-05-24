@@ -1,7 +1,5 @@
 # Lesson 6 · Plan before you build
 
-> **Part 2 · Build something real** — Lesson 6 of 16
-
 **Where this gets you:** a written, approved plan for the first slice of your project — one you've read hard and pushed back on, before a single file gets edited.
 
 ## The idea

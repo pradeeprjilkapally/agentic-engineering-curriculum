@@ -1,7 +1,5 @@
 # Lesson 10 · Evals — defining done
 
-> **Part 3 · The core concepts** — Lesson 10 of 16
-
 **Where this gets you:** you'll write the test before the code — so "done" is something the agent can check itself, not something you eyeball after the fact.
 
 ## The idea

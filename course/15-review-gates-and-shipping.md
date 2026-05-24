@@ -1,7 +1,5 @@
 # Lesson 15 · Review gates and shipping
 
-> **Part 4 · Scale up** — Lesson 15 of 16
-
 **Where this gets you:** you'll put a real gate in front of your work — and ship the next change with proof, not a feeling.
 
 ## The idea

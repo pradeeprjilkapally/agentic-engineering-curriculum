@@ -1,7 +1,5 @@
 # Lesson 14 · Orchestration — parallel agents
 
-> **Part 4 · Scale up** — Lesson 14 of 16
-
 **Where this gets you:** you'll take a multi-part task and run its independent pieces as parallel agents instead of one serial chain — and see where the real difficulty moves.
 
 ## The idea

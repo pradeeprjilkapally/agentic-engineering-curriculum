@@ -1,7 +1,5 @@
 # Lesson 2 · Install your tool
 
-> **Part 1 · Get set up** — Lesson 2 of 16
-
 **Where this gets you:** the tool installed, you logged in, and a first real exchange with it — about ten minutes of work.
 
 ## The idea

@@ -1,7 +1,5 @@
 # Lesson 3 · Your first session
 
-> **Part 1 · Get set up** — Lesson 3 of 16
-
 **Where this gets you:** you'll take one small task end-to-end with an agent and understand the loop it runs — the thing every later lesson builds on.
 
 ## The idea

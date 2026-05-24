@@ -1,7 +1,5 @@
 # Lesson 12 · The no-slop standard
 
-> **Part 3 · The core concepts** — Lesson 12 of 16
-
 **Where this gets you:** you'll install a review pass the agent runs against its own output — so quality is enforced by an artifact, not by you remembering to look hard.
 
 ## The idea

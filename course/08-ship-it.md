@@ -1,7 +1,5 @@
 # Lesson 8 · Ship it
 
-> **Part 2 · Build something real** — Lesson 8 of 16
-
 **Where this gets you:** the first version of your project out of your editor and in front of reality — running, deployed, or usable by someone who isn't you.
 
 ## The idea

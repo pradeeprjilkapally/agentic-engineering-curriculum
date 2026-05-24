@@ -1,7 +1,5 @@
 # Lesson 13 · Design discipline
 
-> **Part 3 · The core concepts** — Lesson 13 of 16
-
 **Where this gets you:** your project will have a `DESIGN.md` the agent reads on every task with a surface — so screens, APIs, and docs come out consistent instead of being a fresh roll of the dice each time.
 
 ## The idea
