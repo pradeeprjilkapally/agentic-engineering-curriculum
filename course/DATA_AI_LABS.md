@@ -1,12 +1,14 @@
 # Data + AI practice labs
 
-These labs are modeled after small portfolio exercises like:
+These labs use small portfolio exercises as a guide for size and shape:
 
 - `llm-data-profiling-tool`
 - `snowflake-ai-integration`
 - `ai-data-quality-agent`
 
-They are intentionally small. Each one can be built by a fresh graduate with patience, and each one is still realistic enough for an experienced engineer to practice agentic habits.
+Those examples are starting points, not boundaries. They show the level: small enough to finish, concrete enough to explain, and real enough to become portfolio proof. The training library expands across roles, domains, and AISOFT offerings.
+
+Each lab is intentionally small. A fresh graduate should be able to build the small version with patience, and an experienced engineer should still find enough realism to practice agentic habits.
 
 Use one lab as your course project, or run several after Lesson 8 as extra practice.
 
