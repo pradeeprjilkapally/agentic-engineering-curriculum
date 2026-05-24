@@ -40,6 +40,7 @@ Engineers who can already build, and have used AI in the editor once or twice. F
 - [`course/PRACTICE_RUN.md`](course/PRACTICE_RUN.md) — how to run the course for fresh graduates, experienced engineers, team leads, and live cohorts.
 - [`course/CLI_VARIANTS.md`](course/CLI_VARIANTS.md) — how Claude Code, Codex CLI, Gemini CLI, and Snowflake Coco map to the same habits.
 - [`course/DATA_AI_LABS.md`](course/DATA_AI_LABS.md) — 15 pathway-based labs for data engineering, analytics, data quality/governance, backend/app engineering, fresh-grad portfolio work, and team leads.
+- [`course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md`](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md) — how every lab maps to job targets, portfolio proof, interview stories, and AISOFT offerings.
 
 ## Status
 

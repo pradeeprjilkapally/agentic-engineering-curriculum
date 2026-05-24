@@ -28,6 +28,8 @@ For facilitation, use the [practice run guide](course/PRACTICE_RUN.md).
 
 If the learner wants a concrete project, use the [Data + AI practice labs](course/DATA_AI_LABS.md). They include 15 exercises grouped by pathway: data engineering, data analytics, data quality/governance, backend/app engineering, fresh-grad portfolio, and team lead adoption.
 
+If the learner is job-focused, use [Job pathways + AISOFT offerings](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md). It maps each pathway to likely roles, portfolio proof, interview stories, and the AISOFT service line the work resembles.
+
 ## The path
 
 ### Part 1 · Get set up
