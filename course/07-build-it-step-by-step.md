@@ -23,7 +23,17 @@ When it goes sideways — and sometimes it will — don't try to patch your way 
 
 ## Do it
 
-Take the first slice from your approved plan. Ask the agent to build just that piece. When it's done, read the diff, run the code, and confirm the piece does what the plan said.
+Take the first slice from your approved plan. Ask the agent to build just that piece.
+
+Use this wording if you are unsure:
+
+```text
+Build only step 1 from the approved plan. Before editing, restate what files you expect to touch. After editing, show me the diff and how you verified it.
+```
+
+Claude Code, Codex CLI, Gemini CLI, and Coco can all run this loop. The important part is not the command; it is the slice size.
+
+When it's done, read the diff, run the code, and confirm the piece does what the plan said.
 
 If it's right, commit it with a short message. If it's wrong, correct the agent and let it revise — or, if it's badly off, reset to your last commit and re-plan the slice. Either way, end with one piece that genuinely works.
 
@@ -32,6 +42,8 @@ If it's right, commit it with a short message. If it's wrong, correct the agent 
 Build the first real slice of your project. Get one meaningful piece working — reviewed, run, and committed.
 
 **You're done when** one real piece of your project runs — and you've seen it run, not just been told it does.
+
+**Practice proof:** write down the slice name, files changed, verification command, and what you will ask for next.
 
 ## Why this matters
 

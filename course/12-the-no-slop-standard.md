@@ -22,13 +22,17 @@ This is the artifact version of attention. The agent can't skip it, and neither 
 2. From `CLAUDE.md`, make it non-negotiable — the starter already has the line: *run the no-slop review pass before reporting any non-trivial change done.*
 3. Run it on a recent change to your project — code you already shipped or just wrote. Have the agent walk the full checklist against it.
 
+If your tool does not support skills, still use the checklist. Paste it into your review prompt or project instructions and require the agent to run through it before handing work back.
+
 ## Your exercise
 
 Run the no-slop pass on your project's most recent real changes. Count what it catches — every hit. Be honest; some of those are yours.
 
 Then customize the checklist. The shipped version is a baseline. Add the slop patterns specific to your stack, and the ones *you* personally keep shipping. A checklist you didn't tune is one you won't trust enough to run.
 
-**You're done when** the no-slop skill is installed, referenced from `CLAUDE.md`, has run against real changes with the catch count written down, and the checklist has at least two items you added.
+**You're done when** the no-slop skill or checklist is installed, referenced from your project instructions, has run against real changes with the catch count written down, and the checklist has at least two items you added.
+
+**Practice proof:** run the review pass on one recent change and record one fix-or-justify note.
 
 ## Why this matters
 

@@ -33,7 +33,12 @@ Three forkable starters the course installs, one per lesson. They also stand alo
 
 ## Who it's for
 
-Engineers who can already build, and have used AI in the editor once or twice. We teach Claude Code; Codex CLI and Gemini CLI work the same way where it counts, and the course flags the differences.
+Engineers who can already build, and have used AI in the editor once or twice. Fresh graduates can follow it if they keep the project tiny and review every diff. Experienced engineers can move faster, but should still do every exercise. We teach Claude Code as the main path; Codex CLI, Gemini CLI, and Snowflake Coco are covered as variants where the workflow changes.
+
+## Practice guides
+
+- [`course/PRACTICE_RUN.md`](course/PRACTICE_RUN.md) — how to run the course for fresh graduates, experienced engineers, team leads, and live cohorts.
+- [`course/CLI_VARIANTS.md`](course/CLI_VARIANTS.md) — how Claude Code, Codex CLI, Gemini CLI, and Snowflake Coco map to the same habits.
 
 ## Status
 

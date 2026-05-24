@@ -12,6 +12,17 @@ You install it once and log in once. After that, you start it by typing one word
 
 ## Do it
 
+**Choose your track.** Use one of these for the whole course unless you have a reason to switch.
+
+| Track | Use when | Start command |
+|---|---|---|
+| Claude Code | You want the main course path | `claude` |
+| Codex CLI | You want the OpenAI CLI path | `codex` |
+| Gemini CLI | You want the Google CLI path | `gemini` |
+| Snowflake Coco | Your team works inside Snowflake or a governed enterprise workspace | your approved Coco entry point |
+
+The rest of this lesson uses Claude Code as the example.
+
 **Install it.**
 
 macOS, Linux, or WSL:
@@ -44,11 +55,13 @@ what does this project do?
 
 It reads the project and tells you. That's a real agent session — you're already doing it.
 
-> **Using something else?** Codex CLI: install from OpenAI's developer site, run `codex`. Gemini CLI: install it, run `gemini`. Both sign you in on first run the same way.
+> **Using something else?** Codex CLI: install from OpenAI's developer site, run `codex`. Gemini CLI: install it, run `gemini`. Coco: use your organization's approved setup path. The habit is the same: start in the repo, sign in, ask it to orient on code you know.
+
+For the full translation table, keep [CLI variants](CLI_VARIANTS.md) open while you work.
 
 ## Your exercise
 
-Point the tool at a repo you know well — not an empty folder. Somewhere you'd catch a wrong answer.
+Point the tool at a repo you know well — not an empty folder. Somewhere you'd catch a wrong answer. If you are a fresh graduate without a repo yet, use a tiny app from class, a small portfolio project, or a sample CLI with fewer than ten files.
 
 Ask it two things:
 
@@ -58,6 +71,8 @@ Ask it two things:
 Read the answers like a reviewer. You know this code. Did it get it right?
 
 **You're done when** the tool is installed, you're logged in, and you've had that two-question back-and-forth on a real repo.
+
+**Practice proof:** paste the tool name, repo name, and the two answers into a `NOTES.md` file. Mark anything the agent got wrong.
 
 ## Why this matters
 

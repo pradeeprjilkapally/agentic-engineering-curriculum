@@ -10,7 +10,16 @@ The fastest way to waste an hour with an agent is to let it start building befor
 
 Plan Mode fixes that. It's a mode where the agent reads your files and runs read-only commands, then hands you a written plan — and changes nothing until you approve it. No edits, no surprises. You get to argue with the approach while it's still just words.
 
-In Claude Code, cycle to it with **Shift+Tab** — tap it until the prompt shows you're in plan mode. (Codex and Gemini have their own planning step; the idea is identical.)
+In Claude Code, cycle to it with **Shift+Tab** — tap it until the prompt shows you're in plan mode.
+
+For other tools:
+
+| Tool | Planning move |
+|---|---|
+| Claude Code | Use Plan Mode before edits. |
+| Codex CLI | Ask for a plan first and do not approve edits until you agree with it. |
+| Gemini CLI | Ask it to inspect and propose a plan before changing files. |
+| Coco | Require a written plan that names data, permissions, and governed actions before execution. |
 
 The workflow is short:
 
@@ -33,6 +42,8 @@ Read the plan it gives back the way you'd read a coworker's design doc. Look for
 Get a plan, in plan mode, for the first slice of your project. Read it hard. Send at least one correction — even if the plan looks decent, find the thing that could be tighter.
 
 **You're done when** you have an approved plan you actually believe in — not one you rubber-stamped to move on.
+
+**Practice proof:** commit or save the approved plan in `NOTES.md`. Include the correction you made to the agent's first plan.
 
 ## Why this matters
 

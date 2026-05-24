@@ -18,7 +18,15 @@ One more thing that matters more than it sounds: **small asks beat one giant pro
 
 ## Do it
 
-Open a repo you know and start `claude`. Pick something genuinely small — a typo in a string, a renamed variable, one new log line.
+Open a repo you know and start your tool:
+
+```bash
+claude
+```
+
+Codex CLI users run `codex`. Gemini CLI users run `gemini`. Coco users open the approved workspace for the repo or data product.
+
+Pick something genuinely small — a typo in a string, a renamed variable, one new log line.
 
 Give it the goal in one sentence. Then watch. Don't touch anything. Read each step as it scrolls by — what file it opened, what it changed, what it ran.
 
@@ -31,6 +39,8 @@ In a repo you know well, give the agent one small, real task — something you c
 Watch the whole loop run without jumping in unless it goes wrong. When it's done, read **every change it made** — open the diff, read each line, make sure you'd have signed off on it yourself.
 
 **You're done when** you've taken one small task end-to-end and can describe the gather → act → check loop in your own words.
+
+**Practice proof:** save the prompt you gave, the diff it produced, and the command or manual check you used to verify it. Fresh graduates should ask a human or teammate to review this first diff if possible.
 
 ## Why this matters
 

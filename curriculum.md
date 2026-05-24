@@ -11,7 +11,20 @@ If you want the live version, AISOFT runs **Agentic Engineering Day** as an in-p
 - **16 lessons, 4 parts.** Short to read, longer to do. Take them in order — each one stands on the last.
 - **One project, the whole way through.** You pick it in Lesson 5. Every lesson after that puts the new skill to work on *your* project.
 - **Every lesson ends with an exercise** and a plain "you're done when." The exercise is the actual lesson — reading without doing won't move you.
-- **We teach Claude Code.** Codex CLI and Gemini CLI work the same way where it counts; we point out the differences when they matter.
+- **We teach Claude Code first, then translate.** Codex CLI, Gemini CLI, and Snowflake Coco get variant notes where the workflow changes. See [CLI variants](course/CLI_VARIANTS.md).
+
+## Who can follow it
+
+This is beginner-first, not beginner-only.
+
+| Learner | How to run it |
+|---|---|
+| Fresh graduate | Keep the project tiny, do every exercise, and read every diff out loud before accepting it. |
+| Experienced engineer | Move faster through setup, but do not skip planning, evals, review gates, or shipping proof. |
+| Team lead | Run the course on one real team workflow, then turn the artifacts into team standards. |
+| Live cohort | Use the shared lab first, then apply the same habit to each learner's project. |
+
+For facilitation, use the [practice run guide](course/PRACTICE_RUN.md).
 
 ## The path
 
@@ -52,6 +65,7 @@ If you want the live version, AISOFT runs **Agentic Engineering Day** as an in-p
 - A real project — built, shipped, and yours. Not a tutorial toy.
 - The scaffolding installed on it and actually used: a `CLAUDE.md`, a `DESIGN.md`, an eval suite, a no-slop review pass.
 - The habits: a brief before code, evals before you call it done, parallel work when the pieces are independent, and proof before you say "shipped."
+- A tool-agnostic workflow you can run in Claude Code, Codex CLI, Gemini CLI, or Snowflake Coco.
 
 ## The artifacts
 

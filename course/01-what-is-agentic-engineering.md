@@ -18,6 +18,8 @@ The other is agentic engineering. You write the agent a real brief. You decide u
 
 This course teaches that second way. Not prompt tricks. The habits.
 
+You do not need to be senior to learn this. Fresh graduates can follow the course by keeping the project small and reading every diff carefully. Experienced engineers can move faster, but the standard is the same: you are responsible for the brief, the review, and the proof.
+
 ## Your first exercise
 
 You're going to build something real over these 16 lessons, so start looking for it now.
@@ -27,6 +29,8 @@ Write down three things you could build or fix. Real ones — something you actu
 A CLI that does one useful thing. A small page or internal tool. A bug you've been quietly avoiding. That script you keep meaning to write.
 
 **You're done when** you have three candidates written down. You'll pick one in Lesson 5.
+
+**Practice proof:** save the three candidates somewhere durable, like `NOTES.md`. For each one, include the check that would prove it works.
 
 ## Why this matters
 

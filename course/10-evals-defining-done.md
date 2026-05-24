@@ -25,6 +25,16 @@ Take the brief you wrote in Lesson 9. Before writing a line of implementation:
 3. Run it. Watch it fail — it should, there's no code yet. A test that passes before the feature exists is testing nothing.
 4. Hand off the **brief and the eval together.** The eval is now the agent's definition of done.
 
+Use the eval shape that fits your project:
+
+| Project | First eval |
+|---|---|
+| CLI | Given this input, command prints this output and exits successfully |
+| Web app | This page/action renders the expected state |
+| API | This request returns the expected status and body |
+| Data workflow | This query/run returns expected counts or validation checks |
+| Agent workflow | Given this task, the agent must produce this artifact and pass this check |
+
 ## Your exercise
 
 Run two handoffs of the same change. First: brief plus eval, as above. Second (or just recall a past one): brief with no eval, "looks right" as the bar.
@@ -32,6 +42,8 @@ Run two handoffs of the same change. First: brief plus eval, as above. Second (o
 Compare. How many rounds did each take? Which result did you actually trust?
 
 **You're done when** you've shipped a change where the eval was written before the code, it failed first and passed last, and you can state the difference the eval made versus the no-eval handoff.
+
+**Practice proof:** save the eval name, command, expected pass/fail behavior, and output.
 
 ## Why this matters
 

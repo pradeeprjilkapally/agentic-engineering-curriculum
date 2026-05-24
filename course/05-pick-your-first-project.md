@@ -18,6 +18,15 @@ A good first build has three traits.
 
 The bug you've been avoiding is a great pick. So is the small CLI, or the one-page tool. The sprawling idea is not — save it for after the course.
 
+Here is the sizing rule by learner:
+
+| Learner | Pick this size |
+|---|---|
+| Fresh graduate | One page, one command, one bug, or one form. |
+| Experienced engineer | One backlog item that can ship without touching more than a few areas. |
+| Team lead | One team workflow that can become a standard after the course. |
+| Live cohort | Use the shared lab during class, then pick a personal/team project after. |
+
 ## Do it
 
 Look at your three candidates. Cross off anything that fails the three traits — too big, not real, no clear finish line. Pick from what's left. If two survive, pick the smaller one.
@@ -31,6 +40,8 @@ Choose your project and write its definition of done.
 Then say it back in two sentences: one for what it does, one for how you'll know it's finished. If you can't do that cleanly, the project is still too fuzzy — keep cutting until you can.
 
 **You're done when** you've picked one project and can state, in two sentences, what it does and how you'll know it's finished.
+
+**Practice proof:** create `PROJECT.md` or `NOTES.md` with three headings: `What I am building`, `How I will know it works`, and `What I will not build yet`.
 
 ## Why this matters
 

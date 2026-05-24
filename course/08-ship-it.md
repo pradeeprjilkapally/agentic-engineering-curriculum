@@ -26,11 +26,23 @@ Decide your shipping form — deployed, installable, or handed to a friend. Ask 
 
 Then ship it. And then verify it — open the live URL, run the installed command fresh, or watch your friend use it. Confirm with your own eyes that the thing works where it now lives.
 
+Pick the proof that fits:
+
+| Project type | Shipping proof |
+|---|---|
+| CLI | Command output showing the feature works |
+| Web page | Local or deployed URL plus screenshot |
+| Library | Test output and usage example |
+| Data workflow | Approved run output and row/count/check summary |
+| Team repo | PR link and CI/check result |
+
 ## Your exercise
 
 Ship the first version of your project.
 
 **You're done when** someone other than you could use it, or you have a link or command — verified working — that proves it runs.
+
+**Practice proof:** paste the URL, command output, screenshot note, or PR link into `NOTES.md`. Do not write "shipped" without proof beside it.
 
 ## Why this matters
 

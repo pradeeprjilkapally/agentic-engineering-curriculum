@@ -18,6 +18,15 @@ A two-person team running parallel agents on three streams will out-ship a five-
 
 Take a task on your project with several parts. Ask first: which pieces are *genuinely* independent? Two streams are independent only if neither needs the other's output. If piece B reads a file piece A creates, they're not parallel — they're a chain.
 
+Parallel does not have to mean two different products. It can be:
+
+| Stream A | Stream B |
+|---|---|
+| Implementation | Tests |
+| Frontend copy/layout | Backend/API change |
+| Bug investigation | Documentation update |
+| Data validation | UI polish |
+
 Then launch them together. In Claude Code, describe the parts and ask it to run them as parallel agents, or hand discrete chunks to subagents. The key is launching them in one go, not babysitting one before starting the next.
 
 ## Your exercise
@@ -27,6 +36,8 @@ Find a multi-part task on your project. A few unrelated bug fixes. Three small f
 Split it honestly into independent pieces. Run those as parallel agents or subagents. Then watch what's actually hard — it won't be the speed. It'll be keeping the streams coherent: making sure two agents don't edit the same file, that their briefs don't contradict, that the merged result still hangs together.
 
 **You're done when** you've run at least two genuinely independent pieces of one task in parallel, and can name the part that was hard to keep coherent.
+
+**Practice proof:** write the two stream names, their owners/sessions, their files, and the merge order.
 
 ## Why this matters
 

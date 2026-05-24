@@ -18,7 +18,15 @@ This sounds strict. It's the single habit that stops you from telling someone "i
 
 ## Do it
 
-Before your next change to your project goes out, write the gate down. Three lines: the test command, the design check, the taste call. Run them in that order. Nothing ships that skips a line.
+Before your next change to your project goes out, write the gate down. A practical gate has five checks:
+
+1. The diff is small enough to review.
+2. The stated goal matches the actual change.
+3. The eval or test passed.
+4. The no-slop review found no unresolved issues.
+5. The shipping proof is attached.
+
+Run them in that order. Nothing ships that skips a line.
 
 Then, for the deploy itself, decide your proof *before* you run anything. Not after.
 
@@ -29,6 +37,8 @@ Pick the next change you'll ship to your project. Before you touch the deploy co
 Then ship it. Run that exact check. Only after the check passes do you get to say the word "done."
 
 **You're done when** you've shipped one change and pointed at concrete proof — a curl, a screenshot, a log line — that it's actually live.
+
+**Practice proof:** run the gate on your project and write the result as `pass`, `fix needed`, or `blocked`, with the evidence.
 
 ## Why this matters
 

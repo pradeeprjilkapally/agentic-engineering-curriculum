@@ -20,6 +20,17 @@ This is your second brain: the stable layer of context underneath every brief. T
 
 ## Do it
 
+Start with the instruction file for your tool:
+
+| Tool | File or place to start |
+|---|---|
+| Claude Code | `CLAUDE.md` |
+| Codex CLI | `AGENTS.md` |
+| Gemini CLI | repo instructions or `GEMINI.md` if your team uses one |
+| Coco | approved project/team guidance in the governed workspace |
+
+If your team uses several tools, keep `AGENTS.md` as the tool-neutral source and symlink or copy from it when needed.
+
 This repo ships a starter — [`second-brain-starter/`](../second-brain-starter/). It has three tiers:
 
 - **`CLAUDE.md`** — the always-loaded skeleton: what the project is, stack, code layout, conventions, non-negotiable standards, how to work with you.
@@ -34,7 +45,9 @@ Get a real `CLAUDE.md` onto your project. Run `/init` or fork the starter, then 
 
 Then, for one full work session, run this rule: every time you explain something to the agent that you've explained before, stop. Don't explain it. Put it in the second brain instead — `CLAUDE.md`, a playbook, or a memory file — and move on.
 
-**You're done when** your project has a filled-in `CLAUDE.md` with no brackets left, and your one session produced at least three things written into the second brain instead of re-explained.
+**You're done when** your project has a filled-in instruction file with no brackets left, and your one session produced at least three things written into the second brain instead of re-explained.
+
+**Practice proof:** start a fresh session and ask the agent to summarize the repo rules. Fix the instruction file if it misses anything important.
 
 ## Why this matters
 
