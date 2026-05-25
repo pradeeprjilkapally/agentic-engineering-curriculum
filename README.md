@@ -41,6 +41,7 @@ Engineers who can already build, and have used AI in the editor once or twice. F
 - [`course/CLI_VARIANTS.md`](course/CLI_VARIANTS.html) — how Claude Code, Codex CLI, Gemini CLI, and Snowflake Coco map to the same habits.
 - [`course/DATA_AI_LABS.md`](course/DATA_AI_LABS.html) — 30 pathway-based labs across SDLC, data engineering, big data, analytics, governance, data science, ML/MLOps, AI apps, backend, fresh-grad portfolio work, team leads, and agentic workflows.
 - [`course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md`](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html) — how every lab maps to job targets, portfolio proof, interview stories, and AISOFT offerings.
+- [`course/BRAND_SYSTEM.md`](course/BRAND_SYSTEM.html) — the Stitch-style brand system for the curriculum and workshop.
 
 ## Status
 
