@@ -4,20 +4,20 @@
 
 ## The idea
 
-You have an approved plan. Now you execute it — and the way you execute is the lesson.
+You have an approved plan. Now execute it in slices.
 
-The temptation is the mega-prompt: hand the agent the whole plan, walk away, come back to a finished project. It almost never works. The agent drifts, you can't tell where it went wrong, and reviewing a thousand lines at once is its own job. You end up trusting code you never really read.
+Avoid the mega-prompt. If you hand over the whole plan at once, the agent drifts and you end up reviewing a pile you cannot reason about.
 
-Build in slices instead. Take one piece of the plan — small enough that you can review it in a few minutes. Let the agent build just that. Then:
+Build one piece small enough to review in a few minutes. Then:
 
 - **Review it.** Read the diff. Does it do what you asked, and only that?
 - **Run it.** Don't take "it works" on faith. Run the code, see the output.
 - **Course-correct.** If it's off, say so now, before the next slice stacks on top.
 - **Commit.** When a slice is good, commit it. Small commits are your undo button — when something later goes sideways, you have a clean point to fall back to.
 
-Keep your asks scoped. "Add the parser" is reviewable. "Add the parser, the validation, the error handling, and the tests" is four slices pretending to be one.
+Keep asks scoped. "Add the parser" is reviewable. "Add the parser, validation, error handling, and tests" is four slices pretending to be one.
 
-When it goes sideways — and sometimes it will — don't try to patch your way out. Stop. Back up to your last good commit. Re-plan that slice. A clean restart on one slice beats debugging a tangle the agent half-built.
+When a slice goes sideways, stop. Return to the last good commit. Re-plan that slice.
 
 ## Do it
 

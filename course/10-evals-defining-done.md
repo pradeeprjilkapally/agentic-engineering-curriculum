@@ -6,7 +6,7 @@
 
 In Lesson 9 the brief had a done-check line. An eval is that line, made executable. It's the test — automated where possible — that goes green or red and tells you, without your judgment in the loop, whether the work is finished.
 
-Here's the uncomfortable part. If you can't describe "working" precisely enough to test it, you're not ready to hand off. Whatever the agent gives you back, you'll have no firm ground to reject it on — so you'll accept slop, and the slop is yours. You authored it in advance, the moment you handed off a fuzzy goal.
+If you cannot describe "working" precisely enough to test it, you are not ready to hand off. A fuzzy goal leaves you no firm ground to reject bad output.
 
 So write the eval first. Before any code. This isn't bureaucracy — it's the same discipline as test-driven development, and it works for the same reason: writing the test forces you to decide what "correct" actually means while you still have the freedom to think clearly about it. Do it after, and the code quietly defines "done" for you.
 

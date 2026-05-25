@@ -4,9 +4,9 @@
 
 ## The idea
 
-If your project has a surface — a UI, an API, a CLI, docs — it has a design, whether you decided one or not. And here's the trap: design quality lives in your head. You know the spacing should be tight, the copy should be plain, the buttons should look a certain way. The agent doesn't. So every screen it generates is a guess, and every guess drifts a little. Ten screens later you have ten dialects of the same product.
+If your project has a surface — UI, API, CLI, docs — it has a design. If the standard lives only in your head, the agent guesses. Ten guesses later, you have ten dialects of the same product.
 
-You can't fix that by reviewing harder. You fix it the same way you fixed slop: move the standard out of your head and into an artifact the agent reads. For design, that artifact is `DESIGN.md`.
+Fix it the same way you fixed slop: move the standard into an artifact the agent reads. For design, that artifact is `DESIGN.md`.
 
 `DESIGN.md` is the design source of truth. It pins down the things the agent would otherwise invent — color tokens (named, not loose hex), the type scale, the spacing scale, layout rules, component rules, and **voice**: how the product talks in copy, errors, and empty states. The rule it enforces: if a color or a size is needed and no token fits, that's a flag to discuss — not a license to invent.
 
@@ -18,7 +18,7 @@ This repo ships a template — [`templates/DESIGN.md`](../templates/DESIGN.html)
 2. Fill every section with real specifics — real hex values in the token table, your actual spacing scale, your actual voice. Delete every bracket and the top blockquote.
 3. Reference it from `CLAUDE.md` so the agent reads it on every task that touches a surface. The starter `CLAUDE.md` already has the line and a `DESIGN.md` pointer.
 
-Be concrete. "Calm, fast, trustworthy" beats "modern and clean." The agent can't act on a vibe.
+Be concrete. "Calm, fast, trustworthy" beats "modern and clean."
 
 ## Your exercise
 

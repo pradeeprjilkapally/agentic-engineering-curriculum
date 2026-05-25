@@ -8,13 +8,13 @@ In Part 2 you built and shipped something. Along the way you probably noticed a 
 
 A brief fixes that. A brief is a contract, not a description. A description says what you want in a sentence. A contract states the goal, the constraints, the inputs, the outputs, and — this is the part people skip — the check that defines "done." When all five are written down, there's nothing left to guess.
 
-Here's the trade. A brief costs you about thirty seconds. In exchange you get fifteen to forty minutes of work you don't have to hover over, because the agent has what it needs and you have something concrete to check the result against.
+A brief costs about thirty seconds. In exchange, the agent gets the context it needs and you get something concrete to review against.
 
 And it moves your job. Without a brief, you review implementation choices — "should it be a dropdown or a list?" — decisions you never made and now have to second-guess. With a brief, you review one thing: was the brief right? That's a better question, and it's the only one worth your attention.
 
 ## Do it
 
-Use this template. Six lines, every time:
+Use this six-line template:
 
 ```
 Goal:         the one outcome, in a sentence.

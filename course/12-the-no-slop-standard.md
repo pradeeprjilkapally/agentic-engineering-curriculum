@@ -4,15 +4,15 @@
 
 ## The idea
 
-"Pay more attention" is useless advice. You can't tell an agent to care, and you can't reliably remember to care yourself at 6pm on the fourth task of the day. Attention only works when it's encoded into something the agent reads and runs every time.
+"Pay more attention" is not a system. Encode quality into something the agent reads and runs every time.
 
-Start by naming the enemy. Slop is not a feeling — it's a list. It's dead code left behind. Errors caught and silently swallowed. Copy-pasted blocks no one extracted. Vague names — `data`, `temp`, `handle`. Edges never tested: empty, null, the dependency down. Comments that just restate the line above. Each one is checkable. A thing you can check is a thing you can make the agent check.
+Slop is a list: dead code, swallowed errors, copy-paste, vague names, untested edges, comments that restate the line above. If you can check it, the agent can check it.
 
 That's what the no-slop skill is. This repo ships it — [`no-slop-skill/`](../no-slop-skill/). It's a review pass: after the agent generates or edits non-trivial code, it walks a checklist against its own output **before** handing the work back to you. Every hit gets fixed, or gets one line explaining why it's a deliberate exception. The work isn't eligible for your review gate until the checklist is clean.
 
 The checklist itself ([`no-slop-checklist.md`](../no-slop-skill/no-slop-checklist.html)) has ten sections: dead code, unhandled errors, duplication, naming, untested edges, comments, consistency with the codebase, scope, fake done (TODOs and stubbed returns), and verified-not-claimed. Each item is concrete enough to be unarguable.
 
-This is the artifact version of attention. The agent can't skip it, and neither can a tired you.
+This is attention as an artifact.
 
 ## Do it
 

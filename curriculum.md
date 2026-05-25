@@ -1,10 +1,10 @@
 # Agentic Engineering — the course
 
-A hands-on course for engineers who can already write code, and want coding agents to become how they work — not a thing they reach for now and then.
+A hands-on course for engineers who can write code and want coding agents to become how they work.
 
-The catch: you won't learn this by reading it. You learn it by building. Early on you'll pick one small, real project, and carry it through every lesson — bolting on one new skill each time. Finish the course and you've got a real, shipped thing, plus the habits that made it good.
+Pick one small, real project. Carry it through the lessons. Finish with a shipped slice, proof commands, and the habits behind the work.
 
-If you want the live version, AISOFT runs **Agentic Engineering Day** as an in-person workshop: one shared lab, live review, and a first-week rollout plan. Start here for the self-paced path; use the workshop when your team needs the room.
+For teams, AISOFT runs **Agentic Engineering Day** as the in-person version: shared lab, live review, and a first-week rollout plan.
 
 ## How the course works
 
@@ -26,9 +26,9 @@ This is beginner-first, not beginner-only.
 
 For facilitation, use the [practice run guide](course/PRACTICE_RUN.html).
 
-If the learner wants a concrete project, use the [Data + AI practice labs](course/DATA_AI_LABS.html). They include 30 exercises grouped by pathway: SDLC, data engineering, big data, analytics, data quality/governance, data science, ML/MLOps, AI apps, backend/app engineering, fresh-grad portfolio, team lead adoption, and agentic workflows.
+For concrete projects, use the [Data + AI practice labs](course/DATA_AI_LABS.html): 30 exercises across SDLC, data engineering, big data, analytics, governance, data science, ML/MLOps, AI apps, backend, fresh-grad portfolio, team lead adoption, and agentic workflows.
 
-If the learner is job-focused, use [Job pathways + AISOFT offerings](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html). It maps each pathway to likely roles, portfolio proof, interview stories, and the AISOFT service line the work resembles.
+For job-focused learners, use [Job pathways + AISOFT offerings](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html). It maps pathways to roles, portfolio proof, interview stories, and AISOFT service lines.
 
 For page, slide, handout, or workshop copy, use the [AISOFT Agentic Engineering brand system](course/BRAND_SYSTEM.html).
 

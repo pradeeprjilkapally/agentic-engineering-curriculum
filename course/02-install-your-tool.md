@@ -4,13 +4,13 @@
 
 ## The idea
 
-Everything in this course happens inside an agent that lives in your terminal and can touch your actual files. We use **Claude Code** as the main tool here. If you'd rather use Codex CLI (OpenAI) or Gemini CLI (Google), go ahead — at the level this course works at, they're the same thing, and we'll point out the few spots where they differ.
+Everything in this course happens inside a terminal agent that can touch your actual files. We use **Claude Code** as the main path. Codex CLI, Gemini CLI, and Coco follow the same habits with different commands and permission models.
 
 You install it once and log in once. After that, you start it by typing one word inside any project.
 
 ## Do it
 
-**Choose your track.** Use one of these for the whole course unless you have a reason to switch.
+**Choose your track.** Stay on one for the course unless you have a reason to switch.
 
 | Track | Use when | Start command |
 |---|---|---|
@@ -56,7 +56,7 @@ claude
 what does this project do?
 ```
 
-**Log in.** The first run walks you through signing in — your Claude subscription, or an API key from [console.anthropic.com](https://console.anthropic.com). Either is fine.
+**Log in.** The first run walks you through signing in.
 
 **Say something.** When it's ready, just ask it a plain question:
 
@@ -64,7 +64,7 @@ what does this project do?
 what does this project do?
 ```
 
-It reads the project and tells you. That's a real agent session — you're already doing it.
+It reads the project and answers from the code. That's a real agent session.
 
 > **Using something else?** Codex CLI: install from OpenAI's developer site, run `codex`. Gemini CLI: install it, run `gemini`. Coco: use your organization's approved setup path. The habit is the same: start in the repo, sign in, ask it to orient on code you know.
 
@@ -72,7 +72,7 @@ For the full translation table, keep [CLI variants](CLI_VARIANTS.html) open whil
 
 ## Your exercise
 
-Point the tool at a repo you know well — not an empty folder. Somewhere you'd catch a wrong answer. If you are a fresh graduate without a repo yet, use a tiny app from class, a small portfolio project, or a sample CLI with fewer than ten files.
+Point the tool at a repo you know, not an empty folder. If you are a fresh graduate without a repo yet, use a tiny class app, portfolio project, or sample CLI with fewer than ten files.
 
 Ask it two things:
 

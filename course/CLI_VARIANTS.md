@@ -1,6 +1,6 @@
 # CLI variants
 
-Use one tool for the whole course if you can. Switching tools every lesson makes the learning noisy. The habits are the same; the commands and permission model differ.
+Use one tool for the course if you can. Switching tools every lesson adds noise. The habits are the same; commands and permission models differ.
 
 ## Pick a track
 
@@ -45,7 +45,7 @@ Coco learners should open the approved workspace for the repo, Snowflake object,
 
 ## One rule across every tool
 
-Do not accept output because it sounds confident. Accept it because you can point to proof: a diff you read, a test you ran, a page you opened, a command output you understand, or a reviewer note you wrote yourself.
+Accept output only when you can point to proof: a diff you read, a test you ran, a page you opened, command output you understand, or a reviewer note you wrote.
 
 ```bash
 # proof commands you will use constantly

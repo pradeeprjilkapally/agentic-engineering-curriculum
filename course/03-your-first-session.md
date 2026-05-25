@@ -4,15 +4,15 @@
 
 ## The idea
 
-An agent session isn't one prompt and one answer. It's a loop, and once you've seen it run a few times you'll spot it every time.
+An agent session is a loop, not one prompt and one answer.
 
 You give it a goal. Then it goes around: **gather context** — read the files it needs to understand the task. **Act** — make an edit, run a command. **Check** — look at what happened, run the test, read the error. Then it loops: gather, act, check, gather, act, check — until the goal is met or it gets stuck and asks you.
 
-You watch this happen in your terminal. It tells you what it's reading, what it's about to change, what the command printed. Read that as it goes. It's not noise — it's the agent thinking out loud, and it's where you catch a wrong turn early.
+You watch this in your terminal. It says what it read, what it will change, and what commands printed. Read that stream; it is where you catch wrong turns early.
 
-When it does turn wrong, you don't restart. Hit **Esc** to interrupt — it stops where it is. Then just type the correction in plain words: "no, the config lives in `settings/`, not the root" or "skip the tests for now, just make the change." It picks up from there with the new information. You're steering mid-drive, not crashing and re-parking.
+When it turns wrong, hit **Esc** and correct it in plain words: "the config lives in `settings/`, not the root" or "skip tests for now, just make the change." It picks up with the new information.
 
-One more thing that matters more than it sounds: **small asks beat one giant prompt.** A tight task — "rename this function and update its callers" — gives the agent a clear target and gives you a result you can actually check. A huge one — "refactor the whole module" — gives it room to wander and gives you a pile of changes you can't reason about. Scope down. You can always ask for the next piece.
+**Small asks beat one giant prompt.** "Rename this function and update its callers" gives the agent a clear target. "Refactor the whole module" gives it room to wander. Scope down; ask for the next piece after review.
 
 ## Do it
 

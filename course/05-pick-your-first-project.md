@@ -4,7 +4,7 @@
 
 ## The idea
 
-Back in Lesson 1 you wrote down three things you could build or fix. Now you pick one. Just one. It becomes the thread that runs through the rest of the course — every new skill from here on, you'll practice on this project.
+Back in Lesson 1 you wrote three candidates. Pick one. It becomes the thread for the rest of the course.
 
 A good first build has three traits.
 
@@ -14,7 +14,7 @@ A good first build has three traits.
 
 **Checkable.** There's a plain, obvious answer to "does it work?" A command that runs. A page that loads. A bug that's fixed or isn't. If you can't say what "working" looks like in one breath, the project is too vague — tighten it or pick another.
 
-The bug you've been avoiding is a great pick. So is the small CLI, or the one-page tool. The sprawling idea is not — save it for after the course.
+The bug you've been avoiding is a good pick. So is a small CLI or one-page tool. Save the sprawling idea for later.
 
 Here is the sizing rule by learner:
 

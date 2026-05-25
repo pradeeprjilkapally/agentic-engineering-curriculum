@@ -4,7 +4,7 @@
 
 ## The idea
 
-The fastest way to waste an hour with an agent is to let it start building before you've seen its plan. It picks an approach, commits to it, writes the code — and only then do you notice it went the wrong direction. Now you're untangling instead of reviewing.
+The fastest way to waste an hour with an agent is to let it build before you have seen the plan. If the approach is wrong, you are untangling instead of reviewing.
 
 Plan Mode fixes that. It's a mode where the agent reads your files and runs read-only commands, then hands you a written plan — and changes nothing until you approve it. No edits, no surprises. You get to argue with the approach while it's still just words.
 
@@ -27,7 +27,7 @@ The workflow is short:
 4. **Approve** only when you actually believe the plan.
 5. It builds.
 
-The point isn't speed. It's catching a bad approach before it costs you. A wrong plan is ten seconds to fix. Wrong code is an hour.
+Catch a bad approach while it is still words. A wrong plan is cheap; wrong code is not.
 
 ## Do it
 

@@ -4,13 +4,13 @@
 
 ## The idea
 
-Once your briefs are tight, your evals catch regressions, and your second brain feeds the agent good context, something interesting happens. The thing slowing you down stops being how fast the agent writes code. One agent is already faster than you. The bottleneck becomes orchestration — how many separate streams of work you can keep coherent at the same time.
+Once briefs, evals, and context are solid, the bottleneck moves. It is no longer how fast one agent writes code; it is how many streams you can keep coherent.
 
-Here's the move. When a task splits into N pieces that don't depend on each other, you don't do them one after another. You spawn N agents, one per piece, and let them run side by side. Three independent things take as long as the slowest one, not the sum of all three.
+When a task splits into independent pieces, run them side by side. Three independent things take as long as the slowest one, not the sum of all three.
 
 Subagents do something similar for the messy side work. You send a subagent off to "find every place we call the old API" or "summarize what these twelve files do." It burns through a pile of reading, comes back with a short answer, and your main session never gets clogged with the noise.
 
-A two-person team running parallel agents on three streams will out-ship a five-person team running serial on one. That's not a clever trick. It's just arithmetic once each individual stream is reliable.
+Parallelism only works once each stream is reliable.
 
 ## Do it
 

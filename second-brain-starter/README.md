@@ -1,8 +1,6 @@
 # Second-Brain Starter
 
-An agent is only as good as the context you can hand it. Every time you re-explain your architecture, your conventions, your past decisions — that's leverage leaking.
-
-The fix: write it down once, in a form the agent picks up **automatically**. That's a second brain. This folder is a starting skeleton.
+Every repeated explanation is leverage leaking. Write stable context once, in a form the agent picks up **automatically**.
 
 ## What's in here
 
@@ -20,13 +18,11 @@ There are three tiers of context, by how often it changes:
 2. **`playbooks/`** — procedures. Pulled in when the task matches.
 3. **`memory/`** — facts that accrue. One file per fact; an index so the agent can find them.
 
-Don't put fast-changing task detail in any of these — that's what the brief is for. The second brain is the *stable* layer underneath the briefs.
+Do not put fast-changing task detail here; that belongs in the brief.
 
 ## How to build yours
 
-Don't try to write it all at once — you'll write fiction. Build it by **subtraction from repetition**: for one week, every time you explain something to an agent that you've explained before, stop and write it into the right tier instead of explaining it again.
-
-Month one, you're documenting. Month three, every task starts with the agent already knowing your stack, your standards, and your scars. That compounding is the real 10x — and it's the part you own. The model is the same for everyone; the second brain is not.
+Build it by **subtraction from repetition**: when you explain something for the second time, write it into the right tier instead of explaining it again.
 
 ## Adapt for your tools
 

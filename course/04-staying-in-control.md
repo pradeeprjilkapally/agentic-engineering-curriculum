@@ -4,7 +4,7 @@
 
 ## The idea
 
-By default, the agent asks before it touches anything. Before it edits a file or runs a command, it stops and shows you what it's about to do. You approve, or you don't. That pause is the whole point — it's where you stay the reviewer.
+By default, the agent asks before it edits a file or runs a command. That pause is where you stay the reviewer.
 
 There are four modes, and you cycle through them with **Shift+Tab**:
 
@@ -13,7 +13,7 @@ There are four modes, and you cycle through them with **Shift+Tab**:
 - **Plan mode** — read-only. The agent looks but changes nothing; it proposes a plan and waits for your go-ahead. We cover this properly in Lesson 6 — for now just know the name and that it exists.
 - **Bypass** — skips every prompt. The agent edits and runs whatever it wants, no pause. Only use this in a throwaway or isolated environment — a scratch container, a repo you'd be fine deleting. In anything real, bypass means a command you'd never have approved runs before you see it. Don't.
 
-No mode removes your job. In Default you review before; in Accept-edits you review after; in bypass there's no built-in pause at all, so you'd better have your own. You stay the reviewer regardless.
+No mode removes your job. In Default you review before. In Accept-edits you review after. In bypass, bring your own guardrails.
 
 **Reading a diff** is the skill underneath all of this. When the agent shows a change, don't skim the green. Read the removed lines and the added lines together — what's actually different? Does it touch only what you asked? Any file you didn't expect? If a line looks wrong, **reject it** and say why: "that breaks the null case — handle empty input too." The agent takes the correction and tries again. Rejecting isn't failure; it's the loop working.
 

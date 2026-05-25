@@ -4,9 +4,9 @@
 
 ## The idea
 
-By now you've noticed it. Every session, you re-explain the same things: this is a Next.js app, we never push to main, tests live here, don't reinvent the date helper. The agent doesn't remember between sessions. So you type it again. That's leverage leaking — work you redo because the context didn't persist.
+Every session, you re-explain the same things: stack, commands, repo rules, helpers, deploy path. That is leverage leaking.
 
-An agent is only as good as the context you can hand it. The fix isn't a longer prompt. It's writing the stable stuff down once, in a file the agent picks up on its own. That file is `CLAUDE.md`, and it lives at the root of your project. Claude Code loads it at the start of every session — no prompt needed. (Codex and Gemini have their own conventions; the idea is identical, only the filename changes.)
+The fix is stable context in a file the agent loads on its own. In Claude Code, that file is `CLAUDE.md` at the project root. Codex and Gemini have their own conventions; the habit is the same.
 
 Three commands matter:
 
@@ -14,7 +14,7 @@ Three commands matter:
 - **`/memory`** — view and edit your `CLAUDE.md` from inside a session, the moment you spot something missing.
 - **Auto-memory** — durable facts the agent records as you work, so a decision made today is still known next week.
 
-This is your second brain: the stable layer of context underneath every brief. The brief is fast-changing, per-task. The second brain is slow-changing truth about the project and how you work.
+This is your second brain: slow-changing truth underneath fast-changing briefs.
 
 ## Do it
 
@@ -35,7 +35,7 @@ This repo ships a starter — [`second-brain-starter/`](../second-brain-starter/
 - **`playbooks/`** — step-by-step procedures for repeated work (deploys, releases), pulled in when a task matches.
 - **`memory/`** — durable facts, one per file: decisions, and *scars* — the expensive things that broke and the lesson.
 
-Either run `/init` to generate a first draft, or fork `second-brain-starter/` and fill in the bracketed prompts. Don't write fiction — only put down what's actually true.
+Run `/init` or fork `second-brain-starter/`. Fill in real facts. Delete every bracket.
 
 ## Your exercise
 

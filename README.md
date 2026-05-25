@@ -1,8 +1,8 @@
 # Agentic Engineering — the course
 
-A hands-on course for engineers who can already write code and want coding agents to become **how they work** — not a tool they reach for now and then.
+A hands-on course for engineers who can write code and want coding agents to become **how they work**.
 
-You don't learn this by reading. You pick one small, real project early on and build it all the way to shipped, installing one new skill each lesson. Finish the course and you've got a real project — and the working habits of an agentic engineer.
+Pick one small, real project and build it to shipped, adding one new skill each lesson. Finish with a real project and the habits of an agentic engineer.
 
 **Read it as a site:** [aisoftllc.github.io/agentic-engineering-curriculum](https://aisoftllc.github.io/agentic-engineering-curriculum/)
 
@@ -42,10 +42,6 @@ Engineers who can already build, and have used AI in the editor once or twice. F
 - [`course/DATA_AI_LABS.md`](course/DATA_AI_LABS.html) — 30 pathway-based labs across SDLC, data engineering, big data, analytics, governance, data science, ML/MLOps, AI apps, backend, fresh-grad portfolio work, team leads, and agentic workflows.
 - [`course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.md`](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html) — how every lab maps to job targets, portfolio proof, interview stories, and AISOFT offerings.
 - [`course/BRAND_SYSTEM.md`](course/BRAND_SYSTEM.html) — the Stitch-style brand system for the curriculum and workshop.
-
-## Status
-
-Rebuilt as a beginner-first, hands-on course — 16 lessons that start from install and end at a shipped project. Corrections and PRs welcome.
 
 ---
 

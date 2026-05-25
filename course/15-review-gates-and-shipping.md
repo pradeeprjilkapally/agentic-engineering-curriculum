@@ -4,15 +4,15 @@
 
 ## The idea
 
-When agents run in parallel, more work arrives faster. That's good. It also means more mediocre work arrives faster. So you need a place where mediocre gets caught before it reaches anyone. That place is the gate.
+When agents run in parallel, more work arrives faster. So does mediocre work. The gate catches it before it reaches users.
 
 A gate isn't one check, it's a few, in order. Tests green — the eval suite from Lesson 10. A design check — the no-slop pass and the DESIGN.md from Lessons 12 and 13. And then a human taste call: you look at the result, or at two versions of it, and decide which one is good enough to keep. The agent can run the first two. Only you can make the third.
 
-Then there's shipping, which has its own discipline, and it's a short one. Never claim done without proof.
+Shipping has one rule: never claim done without proof.
 
-"Deployed" is not a feeling you get when the command finishes without an error. It's a verification you ran in the same breath — a `curl` against the live URL showing the new content, a screenshot of the change in production, a fresh line in the log. If you can't point at one of those, you didn't ship. You ran a command and hoped.
+"Deployed" means verification in the same breath: a `curl` against the live URL, a production screenshot, or a fresh log line. If you cannot point to proof, you ran a command and hoped.
 
-This sounds strict. It's the single habit that stops you from telling someone "it's live" when it quietly isn't.
+This prevents "it's live" when it quietly is not.
 
 ## Do it
 
@@ -26,7 +26,7 @@ Before your next change to your project goes out, write the gate down. A practic
 
 Run them in that order. Nothing ships that skips a line.
 
-Then, for the deploy itself, decide your proof *before* you run anything. Not after.
+Decide deploy proof *before* you run anything.
 
 Use this gate as a command block and replace the test/deploy lines for your stack:
 

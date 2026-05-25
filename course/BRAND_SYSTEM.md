@@ -1,14 +1,12 @@
 # AISOFT Agentic Engineering brand system
 
-This is the working brand system for the curriculum, workshop, and job-pathways material.
+Working brand system for the curriculum, workshop, and job-pathways material.
 
-The direction is **Stitch-style documentation**: calm, precise, useful, and built around people doing real work. It should feel like a senior mentor is in the room with the learner, not like a product launch page.
+Direction: **Stitch-style documentation**. Calm, precise, useful, built around people doing real work.
 
 ## Positioning
 
 **AISOFT helps small teams ship serious AI work with agentic engineering.**
-
-That means the brand should make three things obvious:
 
 | Signal | What it should communicate |
 |---|---|
@@ -20,7 +18,7 @@ That means the brand should make three things obvious:
 
 **Calm delivery under pressure.**
 
-The work can be advanced: agents, data, SDLC, MLOps, AI apps, workflows, leadership adoption. The brand should not act amazed by that. It should make the work feel clear, teachable, and executable.
+The work can be advanced: agents, data, SDLC, MLOps, AI apps, workflows, leadership adoption. The brand should make it feel clear, teachable, and executable.
 
 Use language that sounds like:
 
@@ -40,7 +38,7 @@ Avoid language that sounds like:
 
 ### Palette
 
-Use the Stitch-style blue/slate system for the curriculum.
+Use the blue/slate system for the curriculum.
 
 | Token | Value | Use |
 |---|---:|---|
@@ -53,7 +51,7 @@ Use the Stitch-style blue/slate system for the curriculum.
 | Text | `#0f172a` | Primary text |
 | Muted text | `#565e74` | Supporting copy |
 
-Do not bring back the old brown/orange AISOFT curriculum palette. The AISOFT LLC logo can remain; the curriculum visual language is blue/slate.
+Do not bring back the old warm curriculum palette. The logo can remain; the curriculum visual language is blue/slate.
 
 ### Typography
 
@@ -63,7 +61,7 @@ Do not bring back the old brown/orange AISOFT curriculum palette. The AISOFT LLC
 | Body | Inter | 16px baseline, generous line height |
 | Code | JetBrains Mono / ui-monospace | Small, readable, copyable |
 
-Headings should be plain and literal. A learner should know exactly what page they are on.
+Headings should be plain and literal.
 
 Good:
 
@@ -91,7 +89,7 @@ Use a documentation layout by default:
 - minimal top navigation,
 - no decorative hero section on lesson pages.
 
-The page should open on the material, not on branding. Brand shows through restraint, consistency, and useful structure.
+The page should open on the material. Brand shows through restraint, consistency, and useful structure.
 
 ### Components
 
@@ -107,7 +105,7 @@ The page should open on the material, not on branding. Brand shows through restr
 
 ### Senior Engineering Tip
 
-Use this when the learner needs judgment, not more explanation.
+Use this when the learner needs judgment.
 
 > **Senior Engineering Tip**
 >
@@ -134,7 +132,7 @@ npm test
 
 ## Voice
 
-The voice is a senior guide working beside the learner.
+Voice: a senior guide working beside the learner.
 
 Write like this:
 
@@ -178,7 +176,7 @@ The in-person version should feel like a working room:
 5. proof command,
 6. next instruction.
 
-The brand should support that cadence. Use signs, slides, handouts, and pages that make it easy to ask:
+Support that cadence. Make it easy to ask:
 
 - What changed?
 - How did you verify it?

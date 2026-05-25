@@ -4,9 +4,9 @@
 
 ## The idea
 
-A project that only runs on your machine, in your terminal, while you watch it, isn't shipped. It's a draft. Shipping means it crosses the line into something real — a URL someone can open, a command someone can install, a thing a friend can actually try.
+A project that only runs on your machine is a draft. Shipping means a URL someone can open, a command someone can install, or a thing someone else can try.
 
-This first version is allowed to be rough. Shipping early isn't about polish. It's about contact with reality, because reality finds the things you missed. The deployed version behaves differently from the local one. The friend uses it in an order you never tested. That feedback is worth more than another hour of solo tweaking.
+The first version can be rough. Shipping early is about contact with reality: deployed behavior, real usage order, and feedback you cannot get alone.
 
 What "shipped" can look like, depending on your project:
 
@@ -16,7 +16,7 @@ What "shipped" can look like, depending on your project:
 
 Pick whichever fits. The bar is the same: it left your machine, or someone else can run it.
 
-One thing to be honest about: "shipped" means you verified it works. Not "the deploy command finished" — you actually opened the URL, ran the installed command, watched it do the thing. A deploy that didn't really land is worse than no deploy, because now you think it's done. We'll go deep on this discipline in Lesson 15. For now, just hold the line: don't say shipped until you've seen it work where it shipped to.
+"Shipped" means verified. Open the URL, run the installed command, or watch someone use it. Do not say shipped until you have seen it work where it lives.
 
 ## Do it
 

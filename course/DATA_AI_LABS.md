@@ -1,18 +1,18 @@
 # Data + AI practice labs
 
-These labs use small portfolio exercises as a guide for size and shape:
+These labs follow the size and shape of small portfolio projects:
 
 - `llm-data-profiling-tool`
 - `snowflake-ai-integration`
 - `ai-data-quality-agent`
 
-Those examples are starting points, not boundaries. They show the level: small enough to finish, concrete enough to explain, and real enough to become portfolio proof. The training library expands across roles, domains, and AISOFT offerings.
+Those examples set the level: small enough to finish, concrete enough to explain, and real enough for portfolio proof.
 
-Each lab is intentionally small. A fresh graduate should be able to build the small version with patience, and an experienced engineer should still find enough realism to practice agentic habits.
+Each lab has a small version that avoids paid services and credentials. Do that first.
 
 Use one lab as your course project, or run several after Lesson 8 as extra practice.
 
-For career positioning, pair this page with [Job pathways + AISOFT offerings](JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html). That guide maps the labs to job targets, interview stories, portfolio proof, and AISOFT's service lines.
+For career positioning, pair this page with [Job pathways + AISOFT offerings](JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html).
 
 ## Coverage by work area
 
@@ -47,7 +47,7 @@ For career positioning, pair this page with [Job pathways + AISOFT offerings](JO
 | Fresh-grad portfolio | New engineers who need concrete GitHub projects | Lab 12 · CSV cleaning assistant | Lab 13 · Resume/project README improver |
 | Team lead / manager | Standards, review gates, team adoption | Lab 14 · Agentic PR reviewer | Lab 15 · Team runbook generator |
 
-Each lab has a **small version** that avoids paid services and credentials. Do that first. The full version can add Snowflake, LLM APIs, deployment, or alerts after the core behavior works locally.
+Full versions can add Snowflake, LLM APIs, deployment, or alerts after the local behavior works.
 
 ## Standard lab command block
 

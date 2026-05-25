@@ -1,6 +1,6 @@
 # Practice run
 
-This course is meant to be run, not skimmed. Each lesson creates one artifact or one proof point. If a learner finishes a lesson without something concrete in a repo, they did not finish the lesson.
+Run the course through artifacts. Each lesson should leave something concrete in a repo: a file, command, diff, test, proof note, or shipped slice.
 
 ## Learner tracks
 
@@ -54,11 +54,11 @@ For live cohorts, run every exercise with the same loop:
 5. Ask what proof exists.
 6. Have them write the next instruction.
 
-The teaching moment is usually not the first prompt. It is the review after the agent does something plausible but incomplete.
+The teaching moment is usually the review after the agent does something plausible but incomplete.
 
 ## Shared workshop command block
 
-Use this block when the room needs one common rhythm:
+Use this block when the room needs one rhythm:
 
 ```bash
 # start in the learner's repo

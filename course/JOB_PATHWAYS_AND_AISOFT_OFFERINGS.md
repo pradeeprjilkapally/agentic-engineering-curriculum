@@ -1,10 +1,8 @@
 # Job pathways + AISOFT offerings
 
-This guide connects the training to job outcomes and to the actual work AISOFT sells.
+Use this page to connect training work to job outcomes and AISOFT delivery.
 
-The promise is not "finish a bootcamp, get a job." The promise is better and more honest: build proof that looks like real work. Every learner should leave with GitHub repos, READMEs, proof commands, review notes, and interview stories that map to the kind of work companies now need.
-
-AISOFT's own positioning is the model: small teams can ship serious AI products when they use agents well. The skill is not just prompting. It is briefing, building, reviewing, evaluating, shipping, and explaining the result.
+The goal is proof that looks like real work: repos, READMEs, proof commands, review notes, and interview stories. The core skill is briefing, building, reviewing, evaluating, shipping, and explaining the result.
 
 ## The training ladder
 
@@ -19,7 +17,7 @@ AISOFT's own positioning is the model: small teams can ship serious AI products 
 
 ## How to use this in training
 
-Use this sequence for every learner or event:
+Use this sequence:
 
 1. Pick the closest background path, not the fanciest project.
 2. Pick one job target and one AISOFT offering match.
@@ -31,7 +29,7 @@ Use this sequence for every learner or event:
 8. Write the interview story: what was the user problem, where did the agent help, what did the human review, and how was "done" proven?
 9. Only then add the full version: Snowflake, API, dashboard, local model, deployment, or team workflow.
 
-For in-person events, keep the first lab shared. The room should see one complete pass: brief, plan, build, review, test, ship proof. After that, split by pathway.
+For in-person events, keep the first lab shared: brief, plan, build, review, test, proof. Then split by pathway.
 
 ## Pathways
 
@@ -399,4 +397,4 @@ Every path should produce the same base evidence:
 6. A short note on where an agent helped and where the human reviewed.
 7. A short interview story that connects the project to a real job or AISOFT-style delivery.
 
-That is the standard. Not "I used AI." Proof.
+That is the standard: proof, not "I used AI."

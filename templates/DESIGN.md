@@ -1,8 +1,6 @@
 # DESIGN.md — [Project Name]
 
-> Fork this. Fill every section. Reference it from your `CLAUDE.md` so the agent reads it on every task with a surface.
->
-> Design quality cannot live in your head. If it isn't written here, the agent is guessing — and every screen becomes a fresh roll of the dice. This file is the difference between "looks generated" and "looks intentional."
+> Fork this. Fill every section. Reference it from `CLAUDE.md` so the agent reads it before any surface work.
 >
 > Delete this blockquote when you fork.
 
@@ -34,7 +32,7 @@ Define tokens, not one-off hex values. The agent should never invent a color.
 | `--outline` | `#______` | `#______` | Borders, dividers |
 | ... | | | |
 
-Rule: if a color is needed and no token fits, that's a flag to discuss — not a license to invent.
+Rule: no token, no new color without discussion.
 
 ## Type
 
@@ -89,4 +87,4 @@ The slop list, design edition. The agent checks output against this.
 
 ---
 
-**How to use:** the agent reads this before any task touching a surface. Output gets checked against the token table, the layout scale, and the anti-pattern list as part of the review gate. If something isn't covered here, that's a gap to fill — not a decision to delegate.
+**How to use:** check generated output against the token table, layout scale, and anti-pattern list. If something is not covered, fill the spec before delegating.

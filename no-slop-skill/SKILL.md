@@ -5,9 +5,9 @@ description: Review pass that catches slop before it ships — dead code, unhand
 
 # No-Slop Review
 
-Slop is not a feeling. It's a list. This skill is that list, as a review pass.
+Slop is a list. This skill runs that list as a review pass.
 
-Run it against code you just wrote or edited — **before** you call the work done. It is the artifact version of "pay attention": attention you can't skip because it's encoded.
+Run it against code you just wrote or edited **before** you call the work done.
 
 ## How to run it
 
@@ -35,8 +35,8 @@ Full version with examples: [`no-slop-checklist.md`](no-slop-checklist.html).
 
 ## Why this exists
 
-Agentic engineering is a multiplier. Without a no-slop pass, it multiplies inattention — you get mediocre code, fast, that runs and passes the wrong tests. The checklist is cheap. Skipping it is expensive. Run it every time.
+Agentic engineering is a multiplier. Without a no-slop pass, it multiplies inattention. Run it every time.
 
 ## Customizing
 
-The checklist in this folder is a baseline. Fork it. Add the slop patterns specific to your stack and the ones you personally keep shipping. A no-slop standard you didn't tune is one you won't run.
+The checklist is a baseline. Add the slop patterns specific to your stack and the ones you personally keep shipping.
