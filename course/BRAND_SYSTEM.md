@@ -44,14 +44,14 @@ Use the Stitch-style blue/slate system for the curriculum.
 
 | Token | Value | Use |
 |---|---:|---|
-| Primary | `#2563eb` | Links, active states, small emphasis |
-| Primary strong | `#1d4ed8` | Hover and primary action states |
-| Primary soft | `#dbeafe` | Very light emphasis backgrounds |
-| Surface | `#f8fafc` | Page background outside docs surfaces |
+| Primary | `#004ac6` | Links, active states, small emphasis |
+| Primary strong | `#003996` | Hover and primary action states |
+| Primary soft | `#dbe8ff` | Very light emphasis backgrounds |
+| Surface | `#f7f9fb` | Page background outside docs surfaces |
 | Surface low | `#f1f5f9` | Subtle panels and code backgrounds |
-| Border | `#d8e0ea` | Dividers, tables, inputs, nav boundaries |
+| Border | `#d9e2ef` | Dividers, tables, inputs, nav boundaries |
 | Text | `#0f172a` | Primary text |
-| Muted text | `#475569` | Supporting copy |
+| Muted text | `#565e74` | Supporting copy |
 
 Do not bring back the old brown/orange AISOFT curriculum palette. The AISOFT LLC logo can remain; the curriculum visual language is blue/slate.
 
@@ -59,9 +59,9 @@ Do not bring back the old brown/orange AISOFT curriculum palette. The AISOFT LLC
 
 | Use | Font | Treatment |
 |---|---|---|
-| Headings | Manrope | Strong, direct, no decorative tracking except small labels |
+| Headings | Geist | Strong, direct, no decorative tracking except small labels |
 | Body | Inter | 16px baseline, generous line height |
-| Code | SF Mono / ui-monospace | Small, readable, copyable |
+| Code | JetBrains Mono / ui-monospace | Small, readable, copyable |
 
 Headings should be plain and literal. A learner should know exactly what page they are on.
 
@@ -100,8 +100,37 @@ The page should open on the material, not on branding. Brand shows through restr
 | Sidebar links | Flat text links with a blue left active border. No pill cards. |
 | Code blocks | Border-led, light background, copy button, no heavy shadow. |
 | Tables | Simple borders, compact rows, no marketing-card treatment. |
-| Callouts | Use only when the learner needs a warning, decision, or proof rule. |
+| Callouts | Use only when the learner needs a warning, decision, proof rule, or senior engineering tip. |
 | Buttons | Use sparingly. Prefer links in docs; reserve buttons for actual actions. |
+
+## Documentation Patterns
+
+### Senior Engineering Tip
+
+Use this when the learner needs judgment, not more explanation.
+
+> **Senior Engineering Tip**
+>
+> Optimize for readability over brevity. In agentic systems, the bottleneck is usually the human's ability to review, debug, and recover from the agent's choices.
+
+### Stitched Progress
+
+Use a thin blue left rule to show the active concept, lesson, or step. Keep inactive steps plain.
+
+| State | Treatment |
+|---|---|
+| Active | Blue left rule, blue label, normal white background |
+| Complete | Muted text with proof attached |
+| Later | Muted text only; no decorative badge needed |
+
+### Code Blocks
+
+Every command should be copyable and readable without horizontal guessing.
+
+```bash
+git status --short
+npm test
+```
 
 ## Voice
 
