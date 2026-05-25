@@ -30,6 +30,8 @@ If the learner wants a concrete project, use the [Data + AI practice labs](cours
 
 If the learner is job-focused, use [Job pathways + AISOFT offerings](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html). It maps each pathway to likely roles, portfolio proof, interview stories, and the AISOFT service line the work resembles.
 
+For page, slide, handout, or workshop copy, use the [AISOFT Agentic Engineering brand system](course/BRAND_SYSTEM.html).
+
 ## The path
 
 ### Part 1 · Get set up
