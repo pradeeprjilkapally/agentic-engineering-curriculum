@@ -40,22 +40,34 @@
     </div>
     <div class="docs-sidebar-section">
       <h2>Lessons</h2>
-      <a href="{{ '/course/01-what-is-agentic-engineering.html' | relative_url }}">1 · What is agentic engineering?</a>
-      <a href="{{ '/course/02-install-your-tool.html' | relative_url }}">2 · Install your tool</a>
-      <a href="{{ '/course/03-your-first-session.html' | relative_url }}">3 · Your first session</a>
-      <a href="{{ '/course/04-staying-in-control.html' | relative_url }}">4 · Staying in control</a>
-      <a href="{{ '/course/05-pick-your-first-project.html' | relative_url }}">5 · Pick your project</a>
-      <a href="{{ '/course/06-plan-before-you-build.html' | relative_url }}">6 · Plan before build</a>
-      <a href="{{ '/course/07-build-it-step-by-step.html' | relative_url }}">7 · Build step by step</a>
-      <a href="{{ '/course/08-ship-it.html' | relative_url }}">8 · Ship it</a>
-      <a href="{{ '/course/09-the-brief.html' | relative_url }}">9 · The brief</a>
-      <a href="{{ '/course/10-evals-defining-done.html' | relative_url }}">10 · Evals</a>
-      <a href="{{ '/course/11-context-and-the-second-brain.html' | relative_url }}">11 · Context</a>
-      <a href="{{ '/course/12-the-no-slop-standard.html' | relative_url }}">12 · No-slop</a>
-      <a href="{{ '/course/13-design-discipline.html' | relative_url }}">13 · Design</a>
-      <a href="{{ '/course/14-orchestration-parallel-agents.html' | relative_url }}">14 · Orchestration</a>
-      <a href="{{ '/course/15-review-gates-and-shipping.html' | relative_url }}">15 · Review gates</a>
-      <a href="{{ '/course/16-where-to-go-next.html' | relative_url }}">16 · Next</a>
+      <details class="docs-sidebar-group">
+        <summary>Part 1 · Setup</summary>
+        <a href="{{ '/course/01-what-is-agentic-engineering.html' | relative_url }}">1 · What is agentic engineering?</a>
+        <a href="{{ '/course/02-install-your-tool.html' | relative_url }}">2 · Install your tool</a>
+        <a href="{{ '/course/03-your-first-session.html' | relative_url }}">3 · Your first session</a>
+        <a href="{{ '/course/04-staying-in-control.html' | relative_url }}">4 · Staying in control</a>
+      </details>
+      <details class="docs-sidebar-group">
+        <summary>Part 2 · Build</summary>
+        <a href="{{ '/course/05-pick-your-first-project.html' | relative_url }}">5 · Pick your project</a>
+        <a href="{{ '/course/06-plan-before-you-build.html' | relative_url }}">6 · Plan before build</a>
+        <a href="{{ '/course/07-build-it-step-by-step.html' | relative_url }}">7 · Build step by step</a>
+        <a href="{{ '/course/08-ship-it.html' | relative_url }}">8 · Ship it</a>
+      </details>
+      <details class="docs-sidebar-group">
+        <summary>Part 3 · Standards</summary>
+        <a href="{{ '/course/09-the-brief.html' | relative_url }}">9 · The brief</a>
+        <a href="{{ '/course/10-evals-defining-done.html' | relative_url }}">10 · Evals</a>
+        <a href="{{ '/course/11-context-and-the-second-brain.html' | relative_url }}">11 · Context</a>
+        <a href="{{ '/course/12-the-no-slop-standard.html' | relative_url }}">12 · No-slop</a>
+        <a href="{{ '/course/13-design-discipline.html' | relative_url }}">13 · Design</a>
+      </details>
+      <details class="docs-sidebar-group">
+        <summary>Part 4 · Scale</summary>
+        <a href="{{ '/course/14-orchestration-parallel-agents.html' | relative_url }}">14 · Orchestration</a>
+        <a href="{{ '/course/15-review-gates-and-shipping.html' | relative_url }}">15 · Review gates</a>
+        <a href="{{ '/course/16-where-to-go-next.html' | relative_url }}">16 · Next</a>
+      </details>
     </div>
     <div class="docs-sidebar-section">
       <h2>Artifacts</h2>
@@ -83,7 +95,10 @@
   const current = new URL(location.href);
   document.querySelectorAll('.docs-sidebar a, .docs-topbar a').forEach((link) => {
     const href = new URL(link.href, location.href);
-    if (href.pathname === current.pathname) link.classList.add('active');
+    if (href.pathname === current.pathname) {
+      link.classList.add('active');
+      link.closest('details')?.setAttribute('open', '');
+    }
   });
 
   document.querySelectorAll('.docs-article a[href]').forEach((link) => {
