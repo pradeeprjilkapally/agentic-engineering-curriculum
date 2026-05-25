@@ -6,19 +6,19 @@ Direction: **Stitch-style documentation**. Calm, precise, useful, built around p
 
 ## Positioning
 
-**AISOFT helps small teams ship serious AI work with agentic engineering.**
+**AISOFT helps teams ship useful AI work with agentic engineering.**
 
 | Signal | What it should communicate |
 |---|---|
 | Practical | Learners leave with repos, commands, diffs, checks, and proof. |
-| Senior | The material teaches judgment, review, gates, and delivery discipline. |
+| Practical judgment | The material teaches review, gates, and delivery discipline. |
 | In-person ready | The workshop should feel like a room where people build, review, and improve together. |
 
 ## Brand idea
 
-**Calm delivery under pressure.**
+**Clear work, visible proof.**
 
-The work can be advanced: agents, data, SDLC, MLOps, AI apps, workflows, leadership adoption. The brand should make it feel clear, teachable, and executable.
+The work spans agents, data, SDLC, MLOps, AI apps, workflows, and leadership adoption. The brand should make it feel clear, teachable, and executable.
 
 Use language that sounds like:
 
@@ -32,7 +32,7 @@ Avoid language that sounds like:
 - "Unlock the future."
 - "Revolutionize your workflow."
 - "Magic AI productivity."
-- "The ultimate guide to everything."
+- "One guide to master everything."
 
 ## Visual System
 
@@ -76,7 +76,7 @@ Avoid:
 ```text
 Unlocking the Agentic Future
 Your AI Transformation Starts Here
-The Complete Masterclass
+The Complete AI Playbook
 ```
 
 ### Layout
@@ -98,16 +98,16 @@ The page should open on the material. Brand shows through restraint, consistency
 | Sidebar links | Flat text links with a blue left active border. No pill cards. |
 | Code blocks | Border-led, light background, copy button, no heavy shadow. |
 | Tables | Simple borders, compact rows, no marketing-card treatment. |
-| Callouts | Use only when the learner needs a warning, decision, proof rule, or senior engineering tip. |
+| Callouts | Use only when the learner needs a warning, decision, proof rule, or engineering judgment tip. |
 | Buttons | Use sparingly. Prefer links in docs; reserve buttons for actual actions. |
 
 ## Documentation Patterns
 
-### Senior Engineering Tip
+### Engineering Judgment Tip
 
 Use this when the learner needs judgment.
 
-> **Senior Engineering Tip**
+> **Engineering Judgment Tip**
 >
 > Optimize for readability over brevity. In agentic systems, the bottleneck is usually the human's ability to review, debug, and recover from the agent's choices.
 
@@ -132,7 +132,7 @@ npm test
 
 ## Voice
 
-Voice: a senior guide working beside the learner.
+Voice: a capable guide working beside the learner.
 
 Write like this:
 

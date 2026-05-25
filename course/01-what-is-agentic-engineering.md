@@ -16,7 +16,7 @@ The other is agentic engineering. You write the agent a real brief. You decide u
 
 This course teaches the second way: not prompt tricks, habits.
 
-You do not need to be senior to learn this. Fresh graduates can follow the course by keeping the project small and reading every diff carefully. Experienced engineers can move faster, but the standard is the same: you are responsible for the brief, the review, and the proof.
+You do not need years of experience to learn this. Fresh graduates can follow the course by keeping the project small and reading every diff carefully. Experienced engineers can move faster, but the standard is the same: you are responsible for the brief, the review, and the proof.
 
 ## Your first exercise
 
