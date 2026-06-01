@@ -2,14 +2,20 @@
 
 Run the course through artifacts. Each lesson should leave something concrete in a repo: a file, command, diff, test, proof note, or shipped slice.
 
+## The bar
+
+The bar is **FDE** — Forward Deployed Engineer. A learner finishes the course when they can be embedded with a customer team on Monday and run a real engagement without embarrassing themselves or the team. For the compressed version, see the [Two-week FDE ramp](TWO_WEEK_FDE_RAMP.html) — a 5-day plan with a Friday acceptance test.
+
 ## Learner tracks
 
 | Learner | Start here | Project size | Support needed |
 |---|---|---|---|
-| Fresh graduate | Lessons 1-4 slowly, with a tiny app or CLI | 1 page, 1 command, or 1 bug fix | More review, smaller slices, more explanation of diffs |
-| Experienced engineer new to agents | Lessons 1-4 quickly, then focus on planning and gates | A real backlog item or small internal tool | Pushback on scope and proof |
-| Team lead | Do the whole path on one team repo | One team-owned improvement | Standards, review gates, rollout plan |
+| Fresh graduate | Part 0 thoroughly, then Lessons 1-4 slowly, with a tiny app or CLI | 1 page, 1 command, or 1 bug fix | More review, smaller slices, more explanation of diffs |
+| Experienced engineer new to agents | Skim Part 0, do Lessons 1-4 quickly, then focus on planning, gates, and all of Part 5 | A real backlog item or small internal tool | Pushback on scope and proof |
+| Senior engineer aiming for FDE | The [Two-week FDE ramp](TWO_WEEK_FDE_RAMP.html). One real project, all 32 lessons, the Day-10 acceptance test | A real customer-style project | Daily check-in, Day-10 peer review |
+| Team lead | Do the whole path on one team repo. Adopt Part 5 conventions for the team | One team-owned improvement | Standards, review gates, rollout plan, AGENTS.md/HANDOFF.md/decisions/ adopted across team repos |
 | Workshop cohort | Shared lab first, personal project second | Shared lab during the day | Live correction and peer review |
+| Hiring filter (candidate cohort) | The 1-week intensive variant of the [Two-week FDE ramp](TWO_WEEK_FDE_RAMP.html), as a second-round filter | A project the candidate picks Monday | Daily check-in. Friday review is the hiring decision. Treat as second-round, not first. |
 
 ## The project rule
 

@@ -8,10 +8,11 @@ For teams, AISOFT runs **Agentic Engineering Day** as the in-person version: sha
 
 ## How the course works
 
-- **16 lessons, 4 parts.** Short to read, longer to do. Take them in order — each one stands on the last.
-- **One project, the whole way through.** You pick it in Lesson 5. Every lesson after that puts the new skill to work on *your* project.
-- **Every lesson ends with an exercise** and a plain "you're done when." The exercise is the actual lesson — reading without doing won't move you.
+- **32 lessons, 6 parts.** Short to read, longer to do. Take them in order if you're new to agents; jump around if you already are.
+- **One project, the whole way through.** You pick it in Lesson 5. Every lesson after that puts the new skill to work on *your* project. The project compounds; the lessons make sense because they land on it.
+- **Every lesson ends with an exercise** and a plain "you're done when." Reading without doing won't move you, but the doing is the satisfying part — that's where the skill actually appears.
 - **We teach Claude Code first, then translate.** Codex CLI, Gemini CLI, and Snowflake Coco get variant notes where the workflow changes. See [CLI variants](course/CLI_VARIANTS.html).
+- **Where this leads.** If you want to take this all the way to Forward Deployed Engineer work — embedded with a customer, shipping agentic systems into their stack, handing them off cleanly — the [Two-week FDE ramp](course/TWO_WEEK_FDE_RAMP.html) is a structured day-by-day plan. The 1-week intensive variant inside is there for hiring-filter use. FDE is a destination, not a prerequisite for starting.
 
 ## Who can follow it
 
@@ -33,6 +34,15 @@ For job-focused learners, use [Job pathways + AISOFT offerings](course/JOB_PATHW
 For page, slide, handout, or workshop copy, use the [AISOFT Agentic Engineering brand system](course/BRAND_SYSTEM.html).
 
 ## The path
+
+### Part 0 · Foundations
+*The conceptual stack you walk in with, so the workflow lessons land cleanly. Senior full-stack engineers from any background can skim quickly; nothing here assumes prior AI work.*
+
+- 0.1 [The AI map — four layers on one page](course/00a-the-ai-map.html)
+- 0.2 [LLMs — just enough to be dangerous](course/00b-llms-just-enough.html)
+- 0.3 [What makes an agent](course/00c-what-makes-an-agent.html)
+- 0.4 [Multimodality](course/00d-multimodality.html)
+- 0.5 [The model zoo](course/00e-the-model-zoo.html)
 
 ### Part 1 · Get set up
 *From nothing installed to your first agent session.*
@@ -66,12 +76,29 @@ For page, slide, handout, or workshop copy, use the [AISOFT Agentic Engineering 
 15. Review gates and shipping
 16. Where to go next
 
+### Part 5 · Operating in the real world
+*The envelope you walk out with. The six lessons that turn a working agent engineer into a Forward Deployed Engineer.*
+
+- 17. [The harness wars](course/17-the-harness-wars.html)
+- 18. [The application taxonomy](course/18-application-taxonomy.html)
+- 19. [Coordinating with agents and humans](course/19-coordinating-team.html)
+- 20. [Staying current — the intel-watch pattern](course/20-staying-current-intel-watch.html)
+- 21. [The team shape](course/21-team-shape.html)
+- 22. [The problems in every layer](course/22-problems-in-every-layer.html)
+- 23. [Discovery and scoping the engagement](course/23-discovery-and-scoping.html)
+- 24. [Communicating to non-engineers](course/24-communicating-to-non-engineers.html)
+- 25. [Observability and cost discipline](course/25-observability-and-cost.html)
+- 26. [Security and compliance for AI products](course/26-security-and-compliance.html)
+- 27. [The handoff playbook](course/27-the-handoff-playbook.html)
+
 ## What you'll walk away with
 
 - A real project — built, shipped, and yours. Not a tutorial toy.
-- The scaffolding installed on it and actually used: a `CLAUDE.md`, a `DESIGN.md`, an eval suite, a no-slop review pass.
+- The scaffolding installed on it and actually used: a `CLAUDE.md` (or `AGENTS.md`), a `DESIGN.md`, an eval suite, a no-slop review pass, a `HANDOFF.md`, and a `decisions/` log.
 - The habits: a brief before code, evals before you call it done, parallel work when the pieces are independent, and proof before you say "shipped."
 - A tool-agnostic workflow you can run in Claude Code, Codex CLI, Gemini CLI, or Snowflake Coco.
+- A working personal intel-watch so you stay current on the people whose signal matters, without doom-scrolling.
+- The operating mode of a Forward Deployed Engineer — able to walk into a customer's stack, scope, build, ship with proof, and hand off cleanly.
 
 ## The artifacts
 
