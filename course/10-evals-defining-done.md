@@ -1,10 +1,10 @@
-# Lesson 10 · Evals: defining done
+# Lesson 4.2 · Evals: defining done
 
 **Where this gets you:** you'll write the test before the code. So "done" is something the agent can check itself, not something you eyeball after the fact.
 
 ## The idea
 
-In Lesson 9 the brief had a done-check line. An eval is that line, made executable. It's the test, automated where possible, that goes green or red and tells you, without your judgment in the loop, whether the work is finished.
+In Lesson 4.1 the brief had a done-check line. An eval is that line, made executable. It's the test, automated where possible, that goes green or red and tells you, without your judgment in the loop, whether the work is finished.
 
 If you cannot describe "working" precisely enough to test it, you are not ready to hand off. A fuzzy goal leaves you no firm ground to reject bad output.
 
@@ -16,7 +16,7 @@ And use real test data. An eval that runs against fixtures you hand-picked to pa
 
 ## Do it
 
-Take the brief you wrote in Lesson 9. Before writing a line of implementation:
+Take the brief you wrote in Lesson 4.1. Before writing a line of implementation:
 
 1. Turn the done-check into a real test. A unit test, an integration test, a script that exits non-zero on failure. Whatever your project can run.
 2. Use real-shaped data. Include at least one unhappy case: empty, null, malformed, or the dependency being down.
@@ -69,4 +69,4 @@ From here on you'll hand work to agents you're not watching. Sometimes several a
 
 ---
 
-Previous: [Lesson 9 · The brief](09-the-brief.html) · Next: [Lesson 11 · Context and the second brain](11-context-and-the-second-brain.html)
+Previous: [Lesson 4.1 · The brief](09-the-brief.html) · Next: [Lesson 4.3 · Context and the second brain](11-context-and-the-second-brain.html)

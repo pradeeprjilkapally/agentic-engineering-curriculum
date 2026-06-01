@@ -1,4 +1,4 @@
-# Lesson 3 · Your first session
+# Lesson 2.3 · Your first session
 
 **Where this gets you:** you'll take one small task end-to-end with an agent and understand the loop it runs (the thing every later lesson builds on).
 
@@ -71,4 +71,4 @@ Everything later in this course is this loop, scaled up. Bigger tasks, more of t
 
 ---
 
-Previous: [Lesson 2 · Install your tool](02-install-your-tool.html) · Next: [Lesson 4 · Staying in control](04-staying-in-control.html)
+Previous: [Lesson 2.2 · Install your tool](02-install-your-tool.html) · Next: [Lesson 2.4 · Staying in control](04-staying-in-control.html)

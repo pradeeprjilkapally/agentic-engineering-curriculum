@@ -1,10 +1,10 @@
-# Lesson 5 · Pick your first project
+# Lesson 3.1 · Pick your first project
 
 **Where this gets you:** one real project chosen (the thing you'll carry through every remaining lesson), and a clear, written definition of done for it.
 
 ## The idea
 
-Back in Lesson 1 you wrote three candidates. Pick one. It becomes the thread for the rest of the course.
+Back in Lesson 2.1 you wrote three candidates. Pick one. It becomes the thread for the rest of the course.
 
 A good first build has three traits.
 
@@ -47,4 +47,4 @@ Every lesson left in this course ends with "do it on your project." If the proje
 
 ---
 
-Previous: [Lesson 4 · Staying in control](04-staying-in-control.html) · Next: [Lesson 6 · Plan before you build](06-plan-before-you-build.html)
+Previous: [Lesson 2.4 · Staying in control](04-staying-in-control.html) · Next: [Lesson 3.2 · Plan before you build](06-plan-before-you-build.html)

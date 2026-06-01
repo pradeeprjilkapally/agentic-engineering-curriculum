@@ -1,4 +1,4 @@
-# Lesson 17 · The harness wars
+# Lesson 6.1 · The harness wars
 
 **Where this gets you:** you'll be able to walk into a customer engagement and immediately see where their harness is owned vs rented, and you'll know which moves protect them from lock-in.
 
@@ -10,7 +10,7 @@ A harness is the layer that wraps memory, skills, tools, and an agent runtime ar
 
 But each harness also wants your context inside it. That's where the lock-in lives. If your team's memory, conventions, and accumulated work live inside one vendor's harness, switching vendors costs you all of that. Not just the API spend.
 
-There's a real argument being made in public this year, by a few of the people you should be following (more on that in Lesson 20), that the durable position for any AI product is an owned, exportable harness. Memory in markdown files you control. Skills as files in a repo you own. The model rented from whoever has the best price-performance this quarter.
+There's a real argument being made in public this year, by a few of the people you should be following (more on that in Lesson 6.4), that the durable position for any AI product is an owned, exportable harness. Memory in markdown files you control. Skills as files in a repo you own. The model rented from whoever has the best price-performance this quarter.
 
 The implication for FDE work is direct. When you go into a customer's stack, you do not build them deeper into your favorite vendor's harness. You build them an owned, exportable harness. The vendor wins or loses on the model layer. Your customer wins by owning the layer above it.
 
@@ -37,4 +37,4 @@ Customer projects almost always start with someone saying "let's just use [vendo
 
 ---
 
-Next: [Lesson 18 · The application taxonomy](18-application-taxonomy.html)
+Next: [Lesson 6.2 · The application taxonomy](18-application-taxonomy.html)

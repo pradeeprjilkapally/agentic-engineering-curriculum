@@ -1,4 +1,4 @@
-# Lesson 0.4 · Multimodality
+# Lesson 1.4 · Multimodality
 
 **Where this gets you:** you'll know when reaching for vision, voice, or video is the right move on a customer project and when text is still the better answer.
 
@@ -36,4 +36,4 @@ Every product has a modality choice. Most engineers default to text without thin
 
 ---
 
-Next: [Lesson 0.5 · The model zoo](00e-the-model-zoo.html)
+Next: [Lesson 1.5 · The model zoo](00e-the-model-zoo.html)

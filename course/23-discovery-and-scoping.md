@@ -1,4 +1,4 @@
-# Lesson 23 · Discovery and scoping the engagement
+# Lesson 6.7 · Discovery and scoping the engagement
 
 **Where this gets you:** you'll be able to run a 3-7 day discovery sprint and produce a 1-page document that names the wedge, the constraints, and what done looks like. Before you write any code.
 
@@ -28,7 +28,7 @@ The four failure modes you're insuring against:
 - **Scoped the project but not the customer.** Their priorities will shift. Budget time for it.
 - **Scoped the engineering but not the politics.** Find the executive sponsor on day 1. If you can't name them by Friday, the engagement is at risk.
 - **Scoped the timeline but not the data access.** Security review can eat four weeks. Start the conversation in week 1.
-- **Scoped the outcome but not "done."** Write the eval before kickoff (Lesson 10 already taught you this; in discovery you do it before there's any code at all).
+- **Scoped the outcome but not "done."** Write the eval before kickoff (Lesson 4.2 already taught you this; in discovery you do it before there's any code at all).
 
 The one-page format keeps you honest. If the wedge takes a page to describe, it's not a wedge. If the success criteria are vague, you didn't finish discovery.
 
@@ -46,4 +46,4 @@ You will be paid to know what is possible in four weeks vs four months on day on
 
 ---
 
-Next: [Lesson 24 · Communicating to non-engineers](24-communicating-to-non-engineers.html)
+Next: [Lesson 6.8 · Communicating to non-engineers](24-communicating-to-non-engineers.html)

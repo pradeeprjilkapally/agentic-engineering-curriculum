@@ -1,4 +1,4 @@
-# Lesson 22 · The problems in every layer
+# Lesson 6.6 · The problems in every layer
 
 **Where this gets you:** you'll have a one-page failure-mode inventory for any agentic system, which is the single best document to put in the first PR of any new engagement.
 
@@ -41,4 +41,4 @@ You finished the course. You walked in as a senior full-stack engineer. You're w
 
 ---
 
-Next: [Lesson 16 · Where to go next](16-where-to-go-next.html). Though if you're here, you've already arrived. The course gave you the operating system. Now go run it on something real, with someone real, and ship.
+Next: [Lesson 5.3 · Where to go next](16-where-to-go-next.html). Though if you're here, you've already arrived. The course gave you the operating system. Now go run it on something real, with someone real, and ship.

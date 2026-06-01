@@ -1,4 +1,4 @@
-# Lesson 16 · Where to go next
+# Lesson 5.3 · Where to go next
 
 **Where this gets you:** you'll pick your next project, one step harder than the one you just finished, and know which skill it'll push on.
 
@@ -38,4 +38,4 @@ This is a transition, not a tool install. The first weeks can feel slower becaus
 
 ---
 
-Previous: [Lesson 15 · Review gates and shipping](15-review-gates-and-shipping.html) · Next: you've finished the course. Go build.
+Previous: [Lesson 5.2 · Review gates and shipping](15-review-gates-and-shipping.html) · Next: you've finished the course. Go build.

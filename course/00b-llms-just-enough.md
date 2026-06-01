@@ -1,4 +1,4 @@
-# Lesson 0.2 · LLMs: just enough to be dangerous
+# Lesson 1.2 · LLMs: just enough to be dangerous
 
 **Where this gets you:** you'll be able to make routing decisions about models. When to use a frontier API, when to run something locally, when to crank temperature, when to keep it at zero, without needing to read another transformer paper.
 
@@ -19,7 +19,7 @@ Temperature 0 means the model picks the highest-probability next token almost ev
 Closed (Claude, GPT, Gemini) gives you the frontier capability with the least engineering effort, at the cost of API spend, vendor lock, and a privacy boundary at every API call. Open (Llama, Qwen, Gemma, DeepSeek, Nemotron) means you host it; you trade dollars for engineering work, but the privacy stays on your machine and the model never changes underneath you. Most production systems will run a mix.
 
 **5. Small local models on real hardware are quietly winning for boring work.**
-A 4B to 9B model on a recent GPU runs at sub-second per query. For predictable workloads (classification, routing, extraction, "is this signal or noise"), small local models are often the right answer. Lesson 0.5 goes deeper.
+A 4B to 9B model on a recent GPU runs at sub-second per query. For predictable workloads (classification, routing, extraction, "is this signal or noise"), small local models are often the right answer. Lesson 1.5 goes deeper.
 
 ## Your first exercise
 
@@ -35,4 +35,4 @@ Half of agentic engineering is just picking the right model and the right settin
 
 ---
 
-Next: [Lesson 0.3 · What makes an agent](00c-what-makes-an-agent.html)
+Next: [Lesson 1.3 · What makes an agent](00c-what-makes-an-agent.html)

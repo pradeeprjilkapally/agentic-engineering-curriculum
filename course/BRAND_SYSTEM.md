@@ -66,7 +66,7 @@ Headings should be plain and literal.
 Good:
 
 ```text
-Lesson 7 · Build it, step by step
+Lesson 3.3 · Build it, step by step
 Data + AI practice labs
 Job pathways + AISOFT offerings
 ```

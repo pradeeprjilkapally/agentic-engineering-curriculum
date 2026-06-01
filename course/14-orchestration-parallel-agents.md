@@ -1,4 +1,4 @@
-# Lesson 14 · Orchestration: parallel agents
+# Lesson 5.1 · Orchestration: parallel agents
 
 **Where this gets you:** you'll take a multi-part task and run its independent pieces as parallel agents instead of one serial chain, and see where the real difficulty moves.
 
@@ -43,4 +43,4 @@ Speed was never the real skill. Any agent is fast. The skill is being the person
 
 ---
 
-Previous: [Lesson 13 · Design discipline](13-design-discipline.html) · Next: [Lesson 15 · Review gates and shipping](15-review-gates-and-shipping.html)
+Previous: [Lesson 4.5 · Design discipline](13-design-discipline.html) · Next: [Lesson 5.2 · Review gates and shipping](15-review-gates-and-shipping.html)

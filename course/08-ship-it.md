@@ -1,4 +1,4 @@
-# Lesson 8 · Ship it
+# Lesson 3.4 · Ship it
 
 **Where this gets you:** the first version of your project out of your editor and in front of reality. Running, deployed, or usable by someone who isn't you.
 
@@ -44,8 +44,8 @@ Ship the first version of your project.
 
 ## Why this matters
 
-Shipping is the moment a project stops being yours alone and starts being real. Everything in Part 3 (briefs, evals, the no-slop standard) exists to make what you ship hold up under actual users. You can't practice that on something that never shipped. Get this first version out, rough as it is, and the rest of the course has something true to sharpen.
+Shipping is the moment a project stops being yours alone and starts being real. Everything in Part 4 (briefs, evals, the no-slop standard) exists to make what you ship hold up under actual users. You can't practice that on something that never shipped. Get this first version out, rough as it is, and the rest of the course has something true to sharpen.
 
 ---
 
-Previous: [Lesson 7 · Build it, step by step](07-build-it-step-by-step.html) · Next: [Lesson 9 · The brief](09-the-brief.html)
+Previous: [Lesson 3.3 · Build it, step by step](07-build-it-step-by-step.html) · Next: [Lesson 4.1 · The brief](09-the-brief.html)

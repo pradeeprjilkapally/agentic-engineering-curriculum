@@ -10,10 +10,10 @@ The bar is **FDE**. Forward Deployed Engineer. A learner finishes the course whe
 
 | Learner | Start here | Project size | Support needed |
 |---|---|---|---|
-| Fresh graduate | Part 0 thoroughly, then Lessons 1-4 slowly, with a tiny app or CLI | 1 page, 1 command, or 1 bug fix | More review, smaller slices, more explanation of diffs |
-| Experienced engineer new to agents | Skim Part 0, do Lessons 1-4 quickly, then focus on planning, gates, and all of Part 5 | A real backlog item or small internal tool | Pushback on scope and proof |
+| Fresh graduate | Part 1 thoroughly, then Lessons 2.1 to 2.4 slowly, with a tiny app or CLI | 1 page, 1 command, or 1 bug fix | More review, smaller slices, more explanation of diffs |
+| Experienced engineer new to agents | Skim Part 1, do Lessons 2.1 to 2.4 quickly, then focus on planning, gates, and all of Part 6 | A real backlog item or small internal tool | Pushback on scope and proof |
 | Senior engineer aiming for FDE | The [Two-week FDE ramp](TWO_WEEK_FDE_RAMP.html). One real project, all 32 lessons, the Day-10 acceptance test | A real customer-style project | Daily check-in, Day-10 peer review |
-| Team lead | Do the whole path on one team repo. Adopt Part 5 conventions for the team | One team-owned improvement | Standards, review gates, rollout plan, AGENTS.md/HANDOFF.md/decisions/ adopted across team repos |
+| Team lead | Do the whole path on one team repo. Adopt Part 6 conventions for the team | One team-owned improvement | Standards, review gates, rollout plan, AGENTS.md/HANDOFF.md/decisions/ adopted across team repos |
 | Workshop cohort | Shared lab first, personal project second | Shared lab during the day | Live correction and peer review |
 | Hiring filter (candidate cohort) | The 1-week intensive variant of the [Two-week FDE ramp](TWO_WEEK_FDE_RAMP.html), as a second-round filter | A project the candidate picks Monday | Daily check-in. Friday review is the hiring decision. Treat as second-round, not first. |
 
@@ -44,10 +44,10 @@ Bad first projects:
 
 | Part | Proof |
 |---|---|
-| Part 1 | Tool installed, first session run, permissions understood |
-| Part 2 | Project chosen, plan approved, first slice built, first version shipped |
-| Part 3 | Brief, eval, context, review pass, and design standard installed |
-| Part 4 | Parallel-agent plan, review gate, proof checklist, next roadmap |
+| Part 2 | Tool installed, first session run, permissions understood |
+| Part 3 | Project chosen, plan approved, first slice built, first version shipped |
+| Part 4 | Brief, eval, context, review pass, and design standard installed |
+| Part 5 | Parallel-agent plan, review gate, proof checklist, next roadmap |
 
 ## Instructor loop
 

@@ -1,10 +1,10 @@
-# Lesson 19 · Coordinating with agents and humans
+# Lesson 6.3 · Coordinating with agents and humans
 
 **Where this gets you:** you'll have a small set of file conventions that let multiple agents and multiple humans work on the same project without collisions, and you'll be able to set them up on a new repo in 20 minutes.
 
 ## The idea
 
-Solo parallel orchestration was Lesson 14. This is the team version. When more than one agent or more than one human work on the same project, coordination becomes a tax. The job is to reduce the tax with conventions that survive a session ending.
+Solo parallel orchestration was Lesson 5.1. This is the team version. When more than one agent or more than one human work on the same project, coordination becomes a tax. The job is to reduce the tax with conventions that survive a session ending.
 
 The files you want in every agentic project:
 
@@ -44,4 +44,4 @@ Once you can hand off your project to a future version of yourself (or a custome
 
 ---
 
-Next: [Lesson 20 · Staying current: the intel-watch pattern](20-staying-current-intel-watch.html)
+Next: [Lesson 6.4 · Staying current: the intel-watch pattern](20-staying-current-intel-watch.html)

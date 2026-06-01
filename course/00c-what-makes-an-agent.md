@@ -1,4 +1,4 @@
-# Lesson 0.3 · What makes an agent
+# Lesson 1.3 · What makes an agent
 
 **Where this gets you:** you'll be able to draw the agent loop on a whiteboard and use it to debug any agentic system you'll work on later, including your own.
 
@@ -31,7 +31,7 @@ The point of seeing the loop clearly is that you can now debug it. Most agent bu
 
 ## Your first exercise
 
-Pick your project candidate from Lesson 1 (if you don't have one yet, pick a small task you'd give an agent: "fix the failing test," "draft the README," "summarize this directory"). Write the agent loop for it in 5 lines of pseudocode, one line per step.
+Pick your project candidate from Lesson 2.1 (if you don't have one yet, pick a small task you'd give an agent: "fix the failing test," "draft the README," "summarize this directory"). Write the agent loop for it in 5 lines of pseudocode, one line per step.
 
 Then for each step, write down what could go wrong.
 
@@ -45,4 +45,4 @@ When you debug an agent in a customer engagement, you almost never debug the mod
 
 ---
 
-Next: [Lesson 0.4 · Multimodality](00d-multimodality.html)
+Next: [Lesson 1.4 · Multimodality](00d-multimodality.html)

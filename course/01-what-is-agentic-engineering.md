@@ -1,4 +1,4 @@
-# Lesson 1 · What is agentic engineering?
+# Lesson 2.1 · What is agentic engineering?
 
 **Where this gets you:** you'll be able to say plainly what a coding agent is, how it's different from the AI you've already used, and why "agentic engineering" is a real skill and not a buzzword.
 
@@ -26,7 +26,7 @@ Write down three small things you could build or fix. Next to each, add one line
 
 Good candidates: a one-command CLI, a small page, an internal tool, a bug fix, or the script you keep meaning to write.
 
-**You're done when** you have three candidates written down. You'll pick one in Lesson 5.
+**You're done when** you have three candidates written down. You'll pick one in Lesson 3.1.
 
 **Practice proof:** save the three candidates somewhere durable, like `NOTES.md`. For each one, include the check that would prove it works.
 
@@ -36,4 +36,4 @@ Every lesson after this hands you a new skill and asks you to use it on a real p
 
 ---
 
-Next: [Lesson 2 · Install your tool](02-install-your-tool.html)
+Next: [Lesson 2.2 · Install your tool](02-install-your-tool.html)

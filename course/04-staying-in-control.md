@@ -1,4 +1,4 @@
-# Lesson 4 · Staying in control
+# Lesson 2.4 · Staying in control
 
 **Where this gets you:** you'll know the permission modes, how to read a diff before you accept it, and how to redirect the agent when it's wrong.
 
@@ -10,7 +10,7 @@ There are four modes, and you cycle through them with **Shift+Tab**:
 
 - **Default**. Asks every time, before every edit and every command. Slower, and exactly right while you're learning. Start here.
 - **Accept-edits**. Auto-accepts file edits, so the agent keeps moving without stopping at each one. Faster, but you're now reviewing after the fact instead of before.
-- **Plan mode**. Read-only. The agent looks but changes nothing; it proposes a plan and waits for your go-ahead. We cover this properly in Lesson 6. For now just know the name and that it exists.
+- **Plan mode**. Read-only. The agent looks but changes nothing; it proposes a plan and waits for your go-ahead. We cover this properly in Lesson 3.2. For now just know the name and that it exists.
 - **Bypass**. Skips every prompt. The agent edits and runs whatever it wants, no pause. Only use this in a throwaway or isolated environment. A scratch container, a repo you'd be fine deleting. In anything real, bypass means a command you'd never have approved runs before you see it. Don't.
 
 No mode removes your job. In Default you review before. In Accept-edits you review after. In bypass, bring your own guardrails.
@@ -35,4 +35,4 @@ As the tasks get bigger, the temptation is to stop reading and just accept. The 
 
 ---
 
-Previous: [Lesson 3 · Your first session](03-your-first-session.html) · Next: [Lesson 5 · Pick your first project](05-pick-your-first-project.html)
+Previous: [Lesson 2.3 · Your first session](03-your-first-session.html) · Next: [Lesson 3.1 · Pick your first project](05-pick-your-first-project.html)

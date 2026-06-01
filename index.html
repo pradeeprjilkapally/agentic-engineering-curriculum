@@ -10,7 +10,7 @@
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link href="assets/style.css" rel="stylesheet">
 </head>
 <body>
@@ -23,14 +23,9 @@
     </a>
     <div class="nav-links">
       <a href="#course">Course</a>
-      <a href="#artifacts">Artifacts</a>
-      <a href="#live">Live workshop</a>
-      <a href="#tracks">Tracks</a>
       <a href="#labs">Labs</a>
-      <a href="#jobs">Jobs</a>
       <a href="https://github.com/aisoftllc/agentic-engineering-curriculum" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://aisoft.us" target="_blank" rel="noopener">aisoft.us</a>
-      <a class="nav-cta" href="https://aisoft.us/contact" target="_blank" rel="noopener">Free mentoring</a>
+      <a class="nav-cta" href="curriculum.html">Start the course</a>
     </div>
   </div>
 </nav>
@@ -41,7 +36,7 @@
     <div class="eyebrow">Course + in-person training</div>
     <h1>Learn agentic engineering by building.</h1>
     <p class="thesis">
-      Pick one small, real project. Carry it through 32 short lessons. By the end you've shipped it with agentic discipline and you've installed habits that work across SDLC, data engineering, analytics, ML, AI apps, and customer-facing agentic delivery. Take it at your own pace, or follow the structured ramp.
+      Agentic engineering is directing AI coding agents to do the work, instead of typing every line yourself. This is a hands-on introduction. You pick one small, real project and carry it through 32 short lessons, ending with something shipped and the habits that make agent work hold up under real users. Go at your own pace, or follow the two-week ramp.
     </p>
     <div class="hero-actions">
       <a class="btn" href="curriculum.html">Start the course &rarr;</a>
@@ -52,148 +47,166 @@
       <a href="#course"><b>32 lessons</b><span>Foundations, ship, scale, operate.</span></a>
       <a href="course/TWO_WEEK_FDE_RAMP.html"><b>2-week ramp</b><span>Optional structured path toward FDE-grade work.</span></a>
       <a href="course/DATA_AI_LABS.html"><b>30 labs</b><span>SDLC, data, ML, AI apps, agentic workflows.</span></a>
-      <a href="https://aisoft.us/workshop" target="_blank" rel="noopener"><b>Live room</b><span>Guided practice with AISOFT.</span></a>
+      <a href="#live"><b>Live room</b><span>In-person workshop, coming soon.</span></a>
     </div>
   </div>
 
   <section id="course">
     <h2 class="sec">Course</h2>
+    <p class="course-intro">32 lessons in 6 parts. Start with the foundations, or expand any part to see its lessons.</p>
 
-    <div class="part">
-      <div class="part-head">
-        <h3>Part 0 · Foundations</h3>
-        <p>The conceptual stack you walk in with. Skim if you're AI-fluent; do every exercise if not.</p>
-      </div>
+    <details class="part" open>
+      <summary class="part-head">
+        <div>
+          <h3>Part 1 · Foundations</h3>
+          <p>The conceptual stack you walk in with. Skim if you're AI-fluent; do every exercise if not.</p>
+        </div>
+        <span class="part-count">5 lessons</span>
+      </summary>
       <div class="modules modules-compact">
         <a class="module" href="course/00a-the-ai-map.html">
-          <div class="num">0.1</div>
+          <div class="num">1.1</div>
           <div><h3>The AI map</h3><p>Four layers on one page. Stop arguing about the wrong thing.</p></div>
         </a>
         <a class="module" href="course/00b-llms-just-enough.html">
-          <div class="num">0.2</div>
+          <div class="num">1.2</div>
           <div><h3>LLMs: just enough</h3><p>Context window, temperature, open vs closed, small local wins.</p></div>
         </a>
         <a class="module" href="course/00c-what-makes-an-agent.html">
-          <div class="num">0.3</div>
+          <div class="num">1.3</div>
           <div><h3>What makes an agent</h3><p>The loop. If you can't draw it, you don't have one yet.</p></div>
         </a>
         <a class="module" href="course/00d-multimodality.html">
-          <div class="num">0.4</div>
+          <div class="num">1.4</div>
           <div><h3>Multimodality</h3><p>When to reach for vision, voice, or video.</p></div>
         </a>
         <a class="module" href="course/00e-the-model-zoo.html">
-          <div class="num">0.5</div>
+          <div class="num">1.5</div>
           <div><h3>The model zoo</h3><p>Frontier, open weights, specialty, and the routing decision.</p></div>
         </a>
       </div>
-    </div>
+    </details>
 
-    <div class="part">
-      <div class="part-head">
-        <h3>Part 1 · Get set up</h3>
-        <p>From nothing installed to your first agent session.</p>
-      </div>
+    <details class="part">
+      <summary class="part-head">
+        <div>
+          <h3>Part 2 · Get set up</h3>
+          <p>From nothing installed to your first agent session.</p>
+        </div>
+        <span class="part-count">4 lessons</span>
+      </summary>
       <div class="modules modules-compact">
         <a class="module" href="course/01-what-is-agentic-engineering.html">
-          <div class="num">1</div>
+          <div class="num">2.1</div>
           <div><h3>What is agentic engineering?</h3><p>Agents versus autocomplete, and why discipline changes the output.</p></div>
         </a>
         <a class="module" href="course/02-install-your-tool.html">
-          <div class="num">2</div>
+          <div class="num">2.2</div>
           <div><h3>Install your tool</h3><p>Get Claude Code running and take the first turn.</p></div>
         </a>
         <a class="module" href="course/03-your-first-session.html">
-          <div class="num">3</div>
+          <div class="num">2.3</div>
           <div><h3>Your first session</h3><p>Give a goal, watch the agent work, review the result.</p></div>
         </a>
         <a class="module" href="course/04-staying-in-control.html">
-          <div class="num">4</div>
+          <div class="num">2.4</div>
           <div><h3>Staying in control</h3><p>Permissions, review, and safe operating habits.</p></div>
         </a>
       </div>
-    </div>
+    </details>
 
-    <div class="part">
-      <div class="part-head">
-        <h3>Part 2 · Build something real</h3>
-        <p>Pick one small project and take it to proof.</p>
-      </div>
+    <details class="part">
+      <summary class="part-head">
+        <div>
+          <h3>Part 3 · Build something real</h3>
+          <p>Pick one small project and take it to proof.</p>
+        </div>
+        <span class="part-count">4 lessons</span>
+      </summary>
       <div class="modules modules-compact">
         <a class="module" href="course/05-pick-your-first-project.html">
-          <div class="num">5</div>
+          <div class="num">3.1</div>
           <div><h3>Pick your first project</h3><p>Choose the one real thing you will carry through the course.</p></div>
         </a>
         <a class="module" href="course/06-plan-before-you-build.html">
-          <div class="num">6</div>
+          <div class="num">3.2</div>
           <div><h3>Plan before you build</h3><p>Use plan mode before code starts.</p></div>
         </a>
         <a class="module" href="course/07-build-it-step-by-step.html">
-          <div class="num">7</div>
+          <div class="num">3.3</div>
           <div><h3>Build it, step by step</h3><p>Work in slices you can review.</p></div>
         </a>
         <a class="module" href="course/08-ship-it.html">
-          <div class="num">8</div>
+          <div class="num">3.4</div>
           <div><h3>Ship it</h3><p>Verify proof before calling it done.</p></div>
         </a>
       </div>
-    </div>
+    </details>
 
-    <div class="part-grid">
-      <div class="part">
-        <div class="part-head">
-          <h3>Part 3 · Core concepts</h3>
+    <details class="part">
+      <summary class="part-head">
+        <div>
+          <h3>Part 4 · Core concepts</h3>
           <p>The standards that make agent work hold up.</p>
         </div>
-        <div class="modules">
-          <a class="module" href="course/09-the-brief.html"><div class="num">9</div><div><h3>The brief</h3><p>A task contract, not a vague request.</p></div></a>
-          <a class="module" href="course/10-evals-defining-done.html"><div class="num">10</div><div><h3>Evals</h3><p>Define done before build.</p></div></a>
-          <a class="module" href="course/11-context-and-the-second-brain.html"><div class="num">11</div><div><h3>Context</h3><p>Write durable project memory.</p></div></a>
-          <a class="module" href="course/12-the-no-slop-standard.html"><div class="num">12</div><div><h3>No-slop standard</h3><p>Make the agent check its work.</p></div></a>
-          <a class="module" href="course/13-design-discipline.html"><div class="num">13</div><div><h3>Design discipline</h3><p>Make UI output intentional.</p></div></a>
-        </div>
+        <span class="part-count">5 lessons</span>
+      </summary>
+      <div class="modules modules-compact">
+        <a class="module" href="course/09-the-brief.html"><div class="num">4.1</div><div><h3>The brief</h3><p>A task contract, not a vague request.</p></div></a>
+        <a class="module" href="course/10-evals-defining-done.html"><div class="num">4.2</div><div><h3>Evals</h3><p>Define done before build.</p></div></a>
+        <a class="module" href="course/11-context-and-the-second-brain.html"><div class="num">4.3</div><div><h3>Context</h3><p>Write durable project memory.</p></div></a>
+        <a class="module" href="course/12-the-no-slop-standard.html"><div class="num">4.4</div><div><h3>No-slop standard</h3><p>Make the agent check its work.</p></div></a>
+        <a class="module" href="course/13-design-discipline.html"><div class="num">4.5</div><div><h3>Design discipline</h3><p>Make UI output intentional.</p></div></a>
       </div>
-      <div class="part">
-        <div class="part-head">
-          <h3>Part 4 · Scale up</h3>
+    </details>
+
+    <details class="part">
+      <summary class="part-head">
+        <div>
+          <h3>Part 5 · Scale up</h3>
           <p>From one agent to a team workflow.</p>
         </div>
-        <div class="modules">
-          <a class="module" href="course/14-orchestration-parallel-agents.html"><div class="num">14</div><div><h3>Orchestration</h3><p>Parallel work with coherent review.</p></div></a>
-          <a class="module" href="course/15-review-gates-and-shipping.html"><div class="num">15</div><div><h3>Review gates</h3><p>Quality gates and shipping proof.</p></div></a>
-          <a class="module" href="course/16-where-to-go-next.html"><div class="num">16</div><div><h3>Where to go next</h3><p>Skills, hooks, MCP, harder projects.</p></div></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="part">
-      <div class="part-head">
-        <h3>Part 5 · Operating in the real world</h3>
-        <p>The envelope you walk out with. Eleven lessons that turn a working agent engineer into a Forward Deployed Engineer.</p>
-      </div>
+        <span class="part-count">3 lessons</span>
+      </summary>
       <div class="modules modules-compact">
-        <a class="module" href="course/17-the-harness-wars.html"><div class="num">17</div><div><h3>The harness wars</h3><p>Model is commodity. Harness is lock-in. Build the customer's, not the vendor's.</p></div></a>
-        <a class="module" href="course/18-application-taxonomy.html"><div class="num">18</div><div><h3>Application taxonomy</h3><p>RAG to chatbot to agentic. Know where the customer sits.</p></div></a>
-        <a class="module" href="course/19-coordinating-team.html"><div class="num">19</div><div><h3>Coordinating teams</h3><p>AGENTS.md, HANDOFF.md, decisions/. Multi-agent + multi-human.</p></div></a>
-        <a class="module" href="course/20-staying-current-intel-watch.html"><div class="num">20</div><div><h3>Intel-watch</h3><p>Trusted voices + local judge + alerting. Stop doom-scrolling.</p></div></a>
-        <a class="module" href="course/21-team-shape.html"><div class="num">21</div><div><h3>The team shape</h3><p>Solo, small, big. Each is a different engagement.</p></div></a>
-        <a class="module" href="course/22-problems-in-every-layer.html"><div class="num">22</div><div><h3>Problems in every layer</h3><p>The bug is never in the layer you're looking at.</p></div></a>
-        <a class="module" href="course/23-discovery-and-scoping.html"><div class="num">23</div><div><h3>Discovery and scoping</h3><p>One-page scope. Cheapest insurance you'll buy.</p></div></a>
-        <a class="module" href="course/24-communicating-to-non-engineers.html"><div class="num">24</div><div><h3>Communicating to non-engineers</h3><p>Weekly updates. Monthly exec demos. Lead with the metric.</p></div></a>
-        <a class="module" href="course/25-observability-and-cost.html"><div class="num">25</div><div><h3>Observability and cost</h3><p>Four-axis observability. Defensible cost budget.</p></div></a>
-        <a class="module" href="course/26-security-and-compliance.html"><div class="num">26</div><div><h3>Security and compliance</h3><p>Prompt injection, PII, residency, audit, access, vendor risk.</p></div></a>
-        <a class="module" href="course/27-the-handoff-playbook.html"><div class="num">27</div><div><h3>The handoff playbook</h3><p>The test of whether you did the rest right.</p></div></a>
+        <a class="module" href="course/14-orchestration-parallel-agents.html"><div class="num">5.1</div><div><h3>Orchestration</h3><p>Parallel work with coherent review.</p></div></a>
+        <a class="module" href="course/15-review-gates-and-shipping.html"><div class="num">5.2</div><div><h3>Review gates</h3><p>Quality gates and shipping proof.</p></div></a>
+        <a class="module" href="course/16-where-to-go-next.html"><div class="num">5.3</div><div><h3>Where to go next</h3><p>Skills, hooks, MCP, harder projects.</p></div></a>
       </div>
-    </div>
+    </details>
+
+    <details class="part">
+      <summary class="part-head">
+        <div>
+          <h3>Part 6 · Operating in the real world</h3>
+          <p>The envelope you walk out with. The lessons that turn a working agent engineer into a Forward Deployed Engineer.</p>
+        </div>
+        <span class="part-count">11 lessons</span>
+      </summary>
+      <div class="modules modules-compact">
+        <a class="module" href="course/17-the-harness-wars.html"><div class="num">6.1</div><div><h3>The harness wars</h3><p>Model is commodity. Harness is lock-in. Build the customer's, not the vendor's.</p></div></a>
+        <a class="module" href="course/18-application-taxonomy.html"><div class="num">6.2</div><div><h3>Application taxonomy</h3><p>RAG to chatbot to agentic. Know where the customer sits.</p></div></a>
+        <a class="module" href="course/19-coordinating-team.html"><div class="num">6.3</div><div><h3>Coordinating teams</h3><p>AGENTS.md, HANDOFF.md, decisions/. Multi-agent + multi-human.</p></div></a>
+        <a class="module" href="course/20-staying-current-intel-watch.html"><div class="num">6.4</div><div><h3>Intel-watch</h3><p>Trusted voices + local judge + alerting. Stop doom-scrolling.</p></div></a>
+        <a class="module" href="course/21-team-shape.html"><div class="num">6.5</div><div><h3>The team shape</h3><p>Solo, small, big. Each is a different engagement.</p></div></a>
+        <a class="module" href="course/22-problems-in-every-layer.html"><div class="num">6.6</div><div><h3>Problems in every layer</h3><p>The bug is never in the layer you're looking at.</p></div></a>
+        <a class="module" href="course/23-discovery-and-scoping.html"><div class="num">6.7</div><div><h3>Discovery and scoping</h3><p>One-page scope. Cheapest insurance you'll buy.</p></div></a>
+        <a class="module" href="course/24-communicating-to-non-engineers.html"><div class="num">6.8</div><div><h3>Communicating to non-engineers</h3><p>Weekly updates. Monthly exec demos. Lead with the metric.</p></div></a>
+        <a class="module" href="course/25-observability-and-cost.html"><div class="num">6.9</div><div><h3>Observability and cost</h3><p>Four-axis observability. Defensible cost budget.</p></div></a>
+        <a class="module" href="course/26-security-and-compliance.html"><div class="num">6.10</div><div><h3>Security and compliance</h3><p>Prompt injection, PII, residency, audit, access, vendor risk.</p></div></a>
+        <a class="module" href="course/27-the-handoff-playbook.html"><div class="num">6.11</div><div><h3>The handoff playbook</h3><p>The test of whether you did the rest right.</p></div></a>
+      </div>
+    </details>
   </section>
 
   <section id="live">
     <h2 class="sec">Live workshop &mdash; Agentic Engineering Day</h2>
     <div class="live-panel">
       <div>
-        <span class="tag">Austin first · 8-12 seats</span>
+        <span class="tag">Coming soon · Austin first · 8-12 seats</span>
         <h3>One day in the editor, with a guide in the room.</h3>
         <p>Claude Code, Codex, Gemini CLI, Snowflake Coco. One shared lab. Real diffs. Live review. You leave with the brief, eval, review-pass, design, and context artifacts installed as a workflow you can repeat.</p>
-        <a class="btn" href="https://aisoft.us/workshop" target="_blank" rel="noopener">See the in-person workshop &rarr;</a>
+        <p class="muted">In-person cohorts are forming now. Want a seat in the first one? Email <a href="mailto:hello@aisoft.us">hello@aisoft.us</a> and we'll hold you a spot.</p>
       </div>
       <div class="live-list">
         <div><b>Morning</b><span>Briefing agents and keeping control</span></div>

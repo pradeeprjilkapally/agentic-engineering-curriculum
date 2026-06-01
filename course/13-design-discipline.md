@@ -1,4 +1,4 @@
-# Lesson 13 · Design discipline
+# Lesson 4.5 · Design discipline
 
 **Where this gets you:** your project will have a `DESIGN.md` the agent reads on every task with a surface. So screens, APIs, and docs come out consistent instead of being a fresh roll of the dice each time.
 
@@ -34,4 +34,4 @@ The difference between "looks generated" and "looks intentional" is almost never
 
 ---
 
-Previous: [Lesson 12 · The no-slop standard](12-the-no-slop-standard.html) · Next: [Lesson 14 · Orchestration. Parallel agents](14-orchestration-parallel-agents.html)
+Previous: [Lesson 4.4 · The no-slop standard](12-the-no-slop-standard.html) · Next: [Lesson 5.1 · Orchestration. Parallel agents](14-orchestration-parallel-agents.html)

@@ -25,7 +25,7 @@ body {
   background: var(--surface); color: var(--on-surface);
   line-height: 1.7; -webkit-font-smoothing: antialiased;
 }
-h1, h2, h3, h4 { font-family: 'Geist', 'Inter', sans-serif; line-height: 1.2; }
+h1, h2, h3, h4 { font-family: 'Manrope', 'Inter', sans-serif; line-height: 1.2; }
 a { color: var(--primary); }
 
 /* nav */
@@ -41,7 +41,7 @@ a { color: var(--primary); }
 }
 .nav-logo {
   display: inline-flex; align-items: center; gap: 9px;
-  font-family: 'Geist', sans-serif; font-weight: 800; font-size: 17px;
+  font-family: 'Manrope', sans-serif; font-weight: 800; font-size: 17px;
   letter-spacing: -0.02em; color: var(--on-surface); text-decoration: none;
   white-space: nowrap;
 }
@@ -70,7 +70,7 @@ a { color: var(--primary); }
 /* hero */
 .hero { text-align: left; margin-bottom: 48px; }
 .eyebrow {
-  font-family: 'Geist', sans-serif; font-size: 11px; font-weight: 700;
+  font-family: 'Manrope', sans-serif; font-size: 11px; font-weight: 700;
   letter-spacing: 0.18em; text-transform: uppercase; color: var(--primary);
   margin-bottom: 18px;
 }
@@ -107,7 +107,7 @@ a { color: var(--primary); }
   color:inherit; text-decoration:none;
 }
 .hero-grid a:hover b { color:var(--primary); }
-.hero-grid b { display:block; font-family:'Geist', sans-serif; font-size:23px; margin-bottom:8px; }
+.hero-grid b { display:block; font-family:'Manrope', sans-serif; font-size:23px; margin-bottom:8px; }
 .hero-grid span { display:block; font-size:14px; line-height:1.45; color:var(--on-surface-variant); }
 @media (max-width: 900px) { .hero-grid { grid-template-columns:repeat(2, 1fr); } }
 @media (max-width: 560px) { .hero-grid { grid-template-columns:1fr; } }
@@ -136,7 +136,7 @@ h2.sec {
 }
 .live-panel .tag {
   display: inline-block; margin-bottom: 12px;
-  font-family: 'Geist', sans-serif; font-size: 10.5px; font-weight: 800;
+  font-family: 'Manrope', sans-serif; font-size: 10.5px; font-weight: 800;
   letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary);
 }
 .live-panel h3 {
@@ -154,7 +154,7 @@ h2.sec {
 }
 .live-list div { background: var(--surface-low); padding: 18px; }
 .live-list b {
-  display: block; font-family: 'Geist', sans-serif;
+  display: block; font-family: 'Manrope', sans-serif;
   font-size: 14px; color: var(--on-surface); margin-bottom: 3px;
 }
 .live-list span { display: block; font-size: 13.5px; color: var(--on-surface-variant); line-height: 1.45; }
@@ -170,7 +170,7 @@ h2.sec {
 }
 .track-card .tag {
   display: inline-block; margin-bottom: 10px;
-  font-family: 'Geist', sans-serif; font-size: 10.5px; font-weight: 800;
+  font-family: 'Manrope', sans-serif; font-size: 10.5px; font-weight: 800;
   letter-spacing: 0.14em; text-transform: uppercase; color: var(--primary);
 }
 .track-card h3 { font-size: 21px; font-weight: 800; margin-bottom: 8px; }
@@ -182,7 +182,7 @@ h2.sec {
   border-radius: 14px; overflow: hidden;
 }
 .track-table div { background: var(--surface-low); padding: 18px; }
-.track-table b { display: block; font-family: 'Geist', sans-serif; margin-bottom: 4px; }
+.track-table b { display: block; font-family: 'Manrope', sans-serif; margin-bottom: 4px; }
 .track-table span { display: block; font-size: 13.5px; color: var(--on-surface-variant); line-height: 1.45; }
 @media (max-width: 760px) {
   .track-grid, .track-table { grid-template-columns: 1fr; }
@@ -198,7 +198,7 @@ h2.sec {
 .fork-col.lesser { background: var(--surface-low); }
 .fork-col.path { border-color: var(--primary); box-shadow: 0 1px 0 var(--primary), 0 12px 32px rgba(0, 74, 198, .08); }
 .fork-label {
-  font-family: 'Geist', sans-serif; font-size: 10.5px; font-weight: 700;
+  font-family: 'Manrope', sans-serif; font-size: 10.5px; font-weight: 700;
   letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 4px;
 }
 .fork-col.lesser .fork-label { color: var(--on-secondary-container); }
@@ -219,14 +219,56 @@ h2.sec {
 .fork-col.path .fork-foot { color: var(--primary); }
 
 /* course parts */
-.part { margin-bottom: 44px; }
+.part { margin-bottom: 16px; }
 .part:last-child { margin-bottom: 0; }
-.part-head { margin-bottom: 16px; }
+
+/* collapsible part (details/summary) */
+.course-intro { font-size: 14.5px; color: var(--on-surface-variant); margin: -8px 0 24px; }
+.muted { font-size: 14px; color: var(--on-surface-variant); margin-top: 12px; }
+details.part {
+  border: 1px solid var(--outline-variant, #e0ddd4);
+  border-radius: 14px;
+  padding: 0;
+  background: var(--surface, #fff);
+  overflow: hidden;
+}
+details.part > summary.part-head {
+  display: flex; align-items: center; gap: 18px;
+  margin-bottom: 0; padding: 18px 22px; cursor: pointer; list-style: none;
+  transition: background 0.12s ease;
+}
+details.part > summary.part-head > div:first-child { flex: 1 1 auto; min-width: 0; }
+details.part > summary.part-head:hover { background: var(--surface-variant, #f6f4ee); }
+details.part > summary.part-head::-webkit-details-marker { display: none; }
+details.part > summary.part-head::after {
+  content: "+"; font-size: 22px; font-weight: 400; line-height: 1;
+  color: var(--on-surface-variant); flex: 0 0 auto;
+}
+details.part[open] > summary.part-head::after { content: "\2212"; }
+details.part[open] {
+  border-color: var(--primary);
+  box-shadow: var(--shadow-sm);
+}
+details.part[open] > summary.part-head {
+  border-bottom: 1px solid var(--outline-variant, #e0ddd4);
+  background: var(--primary-fixed);
+}
+details.part[open] > summary.part-head::after { color: var(--primary); }
+details.part:not([open]) > .modules { display: none; }
+details.part .modules { padding: 18px 22px; }
 .part-head h3 {
   font-size: 20px; font-weight: 800; letter-spacing: -0.01em;
   color: var(--on-surface);
 }
 .part-head p { font-size: 14.5px; color: var(--on-surface-variant); margin-top: 3px; }
+.part-count {
+  flex: 0 0 auto; align-self: center;
+  font-size: 12.5px; font-weight: 700; white-space: nowrap; text-align: center;
+  min-width: 88px;
+  color: var(--primary);
+  background: var(--primary-fixed);
+  border-radius: 999px; padding: 5px 12px;
+}
 
 /* module list */
 .modules { display: grid; gap: 12px; }
@@ -242,9 +284,13 @@ h2.sec {
 .module:hover { border-color: var(--primary); transform: translateY(-1px); }
 .module:hover h3 { color: var(--primary); }
 .module .num {
-  font-family: 'Geist', sans-serif; font-weight: 800; font-size: 22px;
+  font-family: 'Manrope', sans-serif; font-weight: 800; font-size: 17px;
   color: var(--primary);
+  display: flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; border-radius: 11px;
+  background: var(--primary-fixed);
 }
+.module:hover .num { background: var(--primary); color: #fff; }
 .module h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; color: var(--on-surface); transition: color .15s; }
 .module p { font-size: 14.5px; color: var(--on-surface-variant); margin: 0; }
 @media (max-width: 1100px) {
@@ -267,7 +313,7 @@ h2.sec {
 }
 .card:hover { border-color: var(--primary); transform: translateY(-2px); }
 .card .tag {
-  font-family: 'Geist', sans-serif; font-size: 10.5px; font-weight: 700;
+  font-family: 'Manrope', sans-serif; font-size: 10.5px; font-weight: 700;
   letter-spacing: 0.12em; text-transform: uppercase; color: var(--primary);
 }
 .card h3 { font-size: 17px; font-weight: 700; margin: 10px 0 8px; }
@@ -302,7 +348,7 @@ h2.sec {
 }
 .callout p { margin: 0; font-size: 15px; }
 .callout .label {
-  font-family: 'Geist', sans-serif; font-size: 11px; font-weight: 700;
+  font-family: 'Manrope', sans-serif; font-size: 11px; font-weight: 700;
   letter-spacing: 0.1em; text-transform: uppercase; color: var(--primary);
   display: block; margin-bottom: 6px;
 }
@@ -368,7 +414,7 @@ footer a { color: var(--on-surface-variant); }
 .docs-brand {
   display: inline-flex; align-items: center;
   color: var(--on-surface); text-decoration: none;
-  font-family: 'Geist', sans-serif; font-weight: 800; letter-spacing: -0.01em;
+  font-family: 'Manrope', sans-serif; font-weight: 800; letter-spacing: -0.01em;
   min-width: 0;
 }
 .docs-brand img {
@@ -421,7 +467,7 @@ footer a { color: var(--on-surface-variant); }
 }
 .docs-sidebar h2,
 .docs-toc h2 {
-  font-family: 'Geist', sans-serif; font-size: 11px; line-height: 1.2;
+  font-family: 'Manrope', sans-serif; font-size: 11px; line-height: 1.2;
   letter-spacing: 0.08em; text-transform: uppercase;
   color: var(--on-secondary-container); margin: 0 0 10px;
 }
@@ -500,7 +546,7 @@ footer a { color: var(--on-surface-variant); }
 .docs-article blockquote strong:first-child {
   display: block;
   color: var(--primary);
-  font-family: 'Geist', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 12px;
   letter-spacing: .08em;
   text-transform: uppercase;
@@ -520,7 +566,7 @@ footer a { color: var(--on-surface-variant); }
 }
 .docs-article th {
   background: var(--surface-low); color: var(--on-surface);
-  font-family: 'Geist', sans-serif; font-size: 12px; letter-spacing: 0.04em;
+  font-family: 'Manrope', sans-serif; font-size: 12px; letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 .docs-article tr:last-child td { border-bottom: 0; }
@@ -539,7 +585,7 @@ footer a { color: var(--on-surface-variant); }
   content: "Copy/paste";
   position: absolute; top: 12px; left: 18px;
   color: var(--on-secondary-container);
-  font-family: 'Geist', sans-serif; font-size: 11px; font-weight: 800;
+  font-family: 'Manrope', sans-serif; font-size: 11px; font-weight: 800;
   letter-spacing: .1em; text-transform: uppercase;
 }
 .docs-article pre code {

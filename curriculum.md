@@ -9,7 +9,7 @@ For teams, AISOFT runs **Agentic Engineering Day** as the in-person version: sha
 ## How the course works
 
 - **32 lessons, 6 parts.** Short to read, longer to do. Take them in order if you're new to agents; jump around if you already are.
-- **One project, the whole way through.** You pick it in Lesson 5. Every lesson after that puts the new skill to work on *your* project. The project compounds; the lessons make sense because they land on it.
+- **One project, the whole way through.** You pick it in Lesson 3.1. Every lesson after that puts the new skill to work on *your* project. The project compounds; the lessons make sense because they land on it.
 - **Every lesson ends with an exercise** and a plain "you're done when." Reading without doing won't move you, but the doing is the satisfying part. That's where the skill actually appears.
 - **We teach Claude Code first, then translate.** Codex CLI, Gemini CLI, and Snowflake Coco get variant notes where the workflow changes. See [CLI variants](course/CLI_VARIANTS.html).
 - **Where this leads.** If you want to take this all the way to Forward Deployed Engineer work (embedded with a customer, shipping agentic systems into their stack, handing them off cleanly), the [Two-week FDE ramp](course/TWO_WEEK_FDE_RAMP.html) is a structured day-by-day plan. FDE is a destination, not a prerequisite for starting.
@@ -35,16 +35,16 @@ For page, slide, handout, or workshop copy, use the [AISOFT Agentic Engineering 
 
 ## The path
 
-### Part 0 · Foundations
+### Part 1 · Foundations
 *The conceptual stack you walk in with, so the workflow lessons land cleanly. Senior full-stack engineers from any background can skim quickly; nothing here assumes prior AI work.*
 
-- 0.1 [The AI map](course/00a-the-ai-map.html)
-- 0.2 [LLMs: just enough to be dangerous](course/00b-llms-just-enough.html)
-- 0.3 [What makes an agent](course/00c-what-makes-an-agent.html)
-- 0.4 [Multimodality](course/00d-multimodality.html)
-- 0.5 [The model zoo](course/00e-the-model-zoo.html)
+- A. [The AI map](course/00a-the-ai-map.html)
+- B. [LLMs: just enough to be dangerous](course/00b-llms-just-enough.html)
+- C. [What makes an agent](course/00c-what-makes-an-agent.html)
+- D. [Multimodality](course/00d-multimodality.html)
+- E. [The model zoo](course/00e-the-model-zoo.html)
 
-### Part 1 · Get set up
+### Part 2 · Get set up
 *From nothing installed to your first agent session.*
 
 1. [What is agentic engineering?](course/01-what-is-agentic-engineering.html)
@@ -52,7 +52,7 @@ For page, slide, handout, or workshop copy, use the [AISOFT Agentic Engineering 
 3. Your first session
 4. Staying in control
 
-### Part 2 · Build something real
+### Part 3 · Build something real
 *Pick a project and take it all the way to shipped.*
 
 5. Pick your first project
@@ -60,7 +60,7 @@ For page, slide, handout, or workshop copy, use the [AISOFT Agentic Engineering 
 7. Build it, step by step
 8. Ship it
 
-### Part 3 · The core concepts
+### Part 4 · The core concepts
 *The discipline that makes agent work hold up under real users.*
 
 9. The brief
@@ -69,14 +69,14 @@ For page, slide, handout, or workshop copy, use the [AISOFT Agentic Engineering 
 12. The no-slop standard
 13. Design discipline
 
-### Part 4 · Scale up
+### Part 5 · Scale up
 *From one agent to a way of working.*
 
 14. Orchestration
 15. Review gates and shipping
 16. Where to go next
 
-### Part 5 · Operating in the real world
+### Part 6 · Operating in the real world
 *The envelope you walk out with. The six lessons that turn a working agent engineer into a Forward Deployed Engineer.*
 
 - 17. [The harness wars](course/17-the-harness-wars.html)
@@ -104,9 +104,9 @@ For page, slide, handout, or workshop copy, use the [AISOFT Agentic Engineering 
 
 Three forkable starters back the course. You install each one during its lesson:
 
-- [`no-slop-skill/`](no-slop-skill/): a review pass the agent runs against its own output (Lesson 12).
-- [`templates/DESIGN.md`](templates/DESIGN.html): a design-quality spec for anything with a surface (Lesson 13).
-- [`second-brain-starter/`](second-brain-starter/): a `CLAUDE.md` skeleton and memory structure (Lesson 11).
+- [`no-slop-skill/`](no-slop-skill/): a review pass the agent runs against its own output (Lesson 4.4).
+- [`templates/DESIGN.md`](templates/DESIGN.html): a design-quality spec for anything with a surface (Lesson 4.5).
+- [`second-brain-starter/`](second-brain-starter/): a `CLAUDE.md` skeleton and memory structure (Lesson 4.3).
 
 ---
 

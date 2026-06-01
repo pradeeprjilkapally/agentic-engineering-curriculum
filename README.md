@@ -12,8 +12,8 @@ Pick one small, real project. Carry it through the lessons. Finish with a shippe
 
 Pick the entry point that fits you.
 
-- New to AI? → **[Lesson 0.1: the AI map](course/00a-the-ai-map.html)**. 30 minutes to a clean mental model.
-- Comfortable with the AI stack? → **[Lesson 1: what is agentic engineering](course/01-what-is-agentic-engineering.html)**. Start building.
+- New to AI? → **[Lesson 1.1: the AI map](course/00a-the-ai-map.html)**. 30 minutes to a clean mental model.
+- Comfortable with the AI stack? → **[Lesson 2.1: what is agentic engineering](course/01-what-is-agentic-engineering.html)**. Start building.
 - Want the full path? → **[The course index](curriculum.html)**.
 - Have two focused weeks? → **[Two-week FDE ramp](course/TWO_WEEK_FDE_RAMP.html)**. A day-by-day structured plan toward Forward Deployed Engineer work.
 

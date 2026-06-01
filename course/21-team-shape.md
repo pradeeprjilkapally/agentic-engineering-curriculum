@@ -1,4 +1,4 @@
-# Lesson 21 · The team shape
+# Lesson 6.5 · The team shape
 
 **Where this gets you:** you'll be able to walk into any FDE engagement and immediately recognize the company shape you're working with, then adjust your cadence, conventions, and politics to fit.
 
@@ -17,7 +17,7 @@ Lots of process. Security review, procurement, legal review, change management. 
 
 How to adjust your approach:
 
-- **In a solo shop:** ship every day, retro every Friday, write everything down because nobody else will. Build the conventions in Lesson 19 from day one even though it feels like overkill. It's not, you're the redundancy.
+- **In a solo shop:** ship every day, retro every Friday, write everything down because nobody else will. Build the conventions in Lesson 6.3 from day one even though it feels like overkill. It's not, you're the redundancy.
 - **In a small company:** the engineering leader is your champion; make them look good. Document decisions obsessively because priorities will shift and you'll need to defend choices three months later. Use evals as your political shield: when a debate happens, point at the eval suite.
 - **In a big company:** find the executive sponsor on week one. Spend more time than feels natural on documentation, security review, and procurement. Use the agentic discipline to deliver inside the process, not around it, or you will get bounced.
 
@@ -35,4 +35,4 @@ Most engineers walk into every customer engagement the same way. The ones who wi
 
 ---
 
-Next: [Lesson 22 · The problems in every layer](22-problems-in-every-layer.html)
+Next: [Lesson 6.6 · The problems in every layer](22-problems-in-every-layer.html)

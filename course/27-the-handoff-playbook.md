@@ -1,4 +1,4 @@
-# Lesson 27 · The handoff playbook
+# Lesson 6.11 · The handoff playbook
 
 **Where this gets you:** you'll be able to deliver a handoff package that lets the customer team run the system without you within one sprint of you leaving, which is what separates an FDE from a contractor.
 
@@ -18,7 +18,7 @@ The handoff package has six parts.
 
 **4. Eval suite.** Runnable by the customer's CI. With a clear pass/fail threshold and the trend visible in their observability stack.
 
-**5. Observability dashboard.** Lesson 25's four-axis plan, wired and live in their environment, not yours.
+**5. Observability dashboard.** Lesson 6.9's four-axis plan, wired and live in their environment, not yours.
 
 **6. Training sessions.** Two or three sessions, recorded, with the customer engineers who will own the system after you leave. The sessions are structured: a walkthrough, a hands-on exercise, a Q&A. Don't skip the recordings; the team that operates the system in six months is not necessarily the team you trained.
 

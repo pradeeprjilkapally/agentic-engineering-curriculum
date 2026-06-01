@@ -1,4 +1,4 @@
-# Lesson 6 · Plan before you build
+# Lesson 3.2 · Plan before you build
 
 **Where this gets you:** a written, approved plan for the first slice of your project. One you've read hard and pushed back on, before a single file gets edited.
 
@@ -49,4 +49,4 @@ Planning first is the single habit that separates directing an agent from gambli
 
 ---
 
-Previous: [Lesson 5 · Pick your first project](05-pick-your-first-project.html) · Next: [Lesson 7 · Build it, step by step](07-build-it-step-by-step.html)
+Previous: [Lesson 3.1 · Pick your first project](05-pick-your-first-project.html) · Next: [Lesson 3.3 · Build it, step by step](07-build-it-step-by-step.html)

@@ -10,7 +10,7 @@ Those examples set the level: small enough to finish, concrete enough to explain
 
 Each lab has a small version that avoids paid services and credentials. Do that first.
 
-Use one lab as your course project, or run several after Lesson 8 as extra practice.
+Use one lab as your course project, or run several after Lesson 3.4 as extra practice.
 
 For career positioning, pair this page with [Job pathways + AISOFT offerings](JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html).
 
@@ -1022,15 +1022,15 @@ Done means another person or agent can continue without guessing the state.
 
 | Course point | What to do with a lab |
 |---|---|
-| Lesson 1 | Pick two lab candidates and write done checks. |
-| Lesson 5 | Choose one lab and cut scope to the small version. |
-| Lesson 6 | Ask for a plan for the first slice only. |
-| Lesson 7 | Build one module at a time. |
-| Lesson 8 | Ship local proof: command output, sample files, README. |
-| Lesson 10 | Add tests/checks for the critical behavior. |
-| Lesson 11 | Add project instructions and safe credential rules. |
-| Lesson 12 | Run no-slop against generated code. |
-| Lesson 15 | Attach proof before saying shipped. |
+| Lesson 2.1 | Pick two lab candidates and write done checks. |
+| Lesson 3.1 | Choose one lab and cut scope to the small version. |
+| Lesson 3.2 | Ask for a plan for the first slice only. |
+| Lesson 3.3 | Build one module at a time. |
+| Lesson 3.4 | Ship local proof: command output, sample files, README. |
+| Lesson 4.2 | Add tests/checks for the critical behavior. |
+| Lesson 4.3 | Add project instructions and safe credential rules. |
+| Lesson 4.4 | Run no-slop against generated code. |
+| Lesson 5.2 | Attach proof before saying shipped. |
 
 ## Instructor notes
 

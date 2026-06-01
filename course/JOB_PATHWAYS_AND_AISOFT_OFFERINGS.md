@@ -126,7 +126,7 @@ For in-person events, keep the first lab shared: brief, plan, build, review, tes
 - [Lab 3 · AI data quality agent](DATA_AI_LABS.html#lab-3-ai-data-quality-agent)
 - [Lab 8 · PII policy scanner](DATA_AI_LABS.html#lab-8-pii-policy-scanner)
 - [Lab 9 · Data contract checker](DATA_AI_LABS.html#lab-9-data-contract-checker)
-- [Lesson 10 · Evals](10-evals-defining-done.html)
+- [Lesson 4.2 · Evals](10-evals-defining-done.html)
 
 **Portfolio proof:**
 
@@ -253,7 +253,7 @@ For in-person events, keep the first lab shared: brief, plan, build, review, tes
 - [Lab 10 · API log triage agent](DATA_AI_LABS.html#lab-10-api-log-triage-agent)
 - [Lab 11 · Support ticket routing service](DATA_AI_LABS.html#lab-11-support-ticket-routing-service)
 - [Lab 14 · Agentic PR reviewer](DATA_AI_LABS.html#lab-14-agentic-pr-reviewer)
-- [Lesson 15 · Review gates and shipping](15-review-gates-and-shipping.html)
+- [Lesson 5.2 · Review gates and shipping](15-review-gates-and-shipping.html)
 
 **Portfolio proof:**
 
@@ -279,7 +279,7 @@ For in-person events, keep the first lab shared: brief, plan, build, review, tes
 - [Lab 28 · Multi-agent task board](DATA_AI_LABS.html#lab-28-multi-agent-task-board)
 - [Lab 29 · Agent memory curator](DATA_AI_LABS.html#lab-29-agent-memory-curator)
 - [Lab 30 · Handoff packet generator](DATA_AI_LABS.html#lab-30-handoff-packet-generator)
-- [Lesson 14 · Orchestration](14-orchestration-parallel-agents.html)
+- [Lesson 5.1 · Orchestration](14-orchestration-parallel-agents.html)
 
 **Portfolio proof:**
 
@@ -332,8 +332,8 @@ For in-person events, keep the first lab shared: brief, plan, build, review, tes
 - [Lab 15 · Team runbook generator](DATA_AI_LABS.html#lab-15-team-runbook-generator)
 - [Lab 28 · Multi-agent task board](DATA_AI_LABS.html#lab-28-multi-agent-task-board)
 - [Lab 30 · Handoff packet generator](DATA_AI_LABS.html#lab-30-handoff-packet-generator)
-- [Lesson 14 · Orchestration](14-orchestration-parallel-agents.html)
-- [Lesson 16 · Where to go next](16-where-to-go-next.html)
+- [Lesson 5.1 · Orchestration](14-orchestration-parallel-agents.html)
+- [Lesson 5.3 · Where to go next](16-where-to-go-next.html)
 
 **Portfolio proof:**
 

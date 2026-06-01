@@ -1,4 +1,4 @@
-# Lesson 11 · Context and the second brain
+# Lesson 4.3 · Context and the second brain
 
 **Where this gets you:** your project will have a `CLAUDE.md` the agent reads automatically every session. So you stop re-explaining the same things and the agent starts each task already knowing your stack.
 
@@ -53,4 +53,4 @@ The model is the same for everyone. Your second brain is not. Month one you're d
 
 ---
 
-Previous: [Lesson 10 · Evals. Defining done](10-evals-defining-done.html) · Next: [Lesson 12 · The no-slop standard](12-the-no-slop-standard.html)
+Previous: [Lesson 4.2 · Evals. Defining done](10-evals-defining-done.html) · Next: [Lesson 4.4 · The no-slop standard](12-the-no-slop-standard.html)

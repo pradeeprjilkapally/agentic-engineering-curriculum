@@ -1,4 +1,4 @@
-# Lesson 12 · The no-slop standard
+# Lesson 4.4 · The no-slop standard
 
 **Where this gets you:** you'll install a review pass the agent runs against its own output. So quality is enforced by an artifact, not by you remembering to look hard.
 
@@ -38,4 +38,4 @@ Agentic engineering is a multiplier. Without a no-slop pass it multiplies inatte
 
 ---
 
-Previous: [Lesson 11 · Context and the second brain](11-context-and-the-second-brain.html) · Next: [Lesson 13 · Design discipline](13-design-discipline.html)
+Previous: [Lesson 4.3 · Context and the second brain](11-context-and-the-second-brain.html) · Next: [Lesson 4.5 · Design discipline](13-design-discipline.html)

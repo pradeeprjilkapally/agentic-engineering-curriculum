@@ -1,4 +1,4 @@
-# Lesson 2 · Install your tool
+# Lesson 2.2 · Install your tool
 
 **Where this gets you:** the tool installed, you logged in, and a first real exchange with it. About ten minutes of work.
 
@@ -100,4 +100,4 @@ You're going to live in this tool for the rest of the course. Getting it working
 
 ---
 
-Previous: [Lesson 1 · What is agentic engineering?](01-what-is-agentic-engineering.html) · Next: [Lesson 3 · Your first session](03-your-first-session.html)
+Previous: [Lesson 2.1 · What is agentic engineering?](01-what-is-agentic-engineering.html) · Next: [Lesson 2.3 · Your first session](03-your-first-session.html)

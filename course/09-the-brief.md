@@ -1,10 +1,10 @@
-# Lesson 9 · The brief
+# Lesson 4.1 · The brief
 
 **Where this gets you:** you'll write a brief instead of a vague ask, and start reviewing whether the brief was right instead of babysitting every choice the agent makes.
 
 ## The idea
 
-In Part 2 you built and shipped something. Along the way you probably noticed a pattern: the prompts that went badly weren't badly worded, they were under-specified. You said "add search" and the agent guessed at ten things you never said. Some guesses were fine. Some weren't. You found out by reviewing the diff.
+In Part 3 you built and shipped something. Along the way you probably noticed a pattern: the prompts that went badly weren't badly worded, they were under-specified. You said "add search" and the agent guessed at ten things you never said. Some guesses were fine. Some weren't. You found out by reviewing the diff.
 
 A brief fixes that. A brief is a contract, not a description. A description says what you want in a sentence. A contract states the goal, the constraints, the inputs, the outputs, and the check that defines "done" (this is the part people skip). When all five are written down, there's nothing left to guess.
 
@@ -41,4 +41,4 @@ Every lesson left in this course assumes you can hand an agent a clean spec. The
 
 ---
 
-Previous: [Lesson 8 · Ship it](08-ship-it.html) · Next: [Lesson 10 · Evals. Defining done](10-evals-defining-done.html)
+Previous: [Lesson 3.4 · Ship it](08-ship-it.html) · Next: [Lesson 4.2 · Evals. Defining done](10-evals-defining-done.html)

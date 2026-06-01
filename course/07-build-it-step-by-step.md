@@ -1,4 +1,4 @@
-# Lesson 7 · Build it, step by step
+# Lesson 3.3 · Build it, step by step
 
 **Where this gets you:** the first real slice of your project actually built and running. One meaningful piece, done and working.
 
@@ -68,4 +68,4 @@ Small slices are how you stay the engineer instead of the spectator. You review 
 
 ---
 
-Previous: [Lesson 6 · Plan before you build](06-plan-before-you-build.html) · Next: [Lesson 8 · Ship it](08-ship-it.html)
+Previous: [Lesson 3.2 · Plan before you build](06-plan-before-you-build.html) · Next: [Lesson 3.4 · Ship it](08-ship-it.html)

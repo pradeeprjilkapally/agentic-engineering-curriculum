@@ -1,4 +1,4 @@
-# Lesson 24 · Communicating to non-engineers
+# Lesson 6.8 · Communicating to non-engineers
 
 **Where this gets you:** you'll have a weekly written update template and a monthly executive demo template. So the engagement stays sponsored, funded, and trusted while you ship.
 
@@ -56,4 +56,4 @@ The technical work is half the job. The other half is keeping the engagement spo
 
 ---
 
-Next: [Lesson 25 · Observability and cost discipline](25-observability-and-cost.html)
+Next: [Lesson 6.9 · Observability and cost discipline](25-observability-and-cost.html)
