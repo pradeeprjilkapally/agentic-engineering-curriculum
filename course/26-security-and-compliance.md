@@ -34,7 +34,7 @@ Write the one-page security model for your project. Cover all six axes. Be hones
 
 ## Why this matters
 
-Security is the foundation that decides whether you can ship at all. Not a hat you put on at the end. FDEs who think about it from day one are scarce, valued, and re-engaged. And since most interesting AI customers are in regulated industries (mortgage, healthcare, fintech), this habit unlocks a much bigger pool of work.
+Security is the foundation that decides whether you can ship at all. Not a hat you put on at the end. FDEs who think about it from day one are scarce, valued, and re-engaged, and since most interesting AI customers are in regulated industries (mortgage, healthcare, fintech), this habit unlocks a much bigger pool of work.
 
 ---
 

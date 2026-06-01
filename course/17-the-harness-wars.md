@@ -33,7 +33,7 @@ Pick one AI product you've shipped or used heavily. List every place context or 
 
 ## Why this matters
 
-Customer projects almost always start with someone saying "let's just use [vendor's harness] to move fast." Right call for a prototype. Make the "this is prototype, this is production" distinction explicit at kickoff, and the handoff happens cleanly later. Skip that conversation and you end up building work the customer can't take with them. Which is a worse outcome for everyone, including you.
+Customer projects almost always start with someone saying "let's just use [vendor's harness] to move fast." Right call for a prototype. Make the "this is prototype, this is production" distinction explicit at kickoff, and the handoff happens cleanly later. Skip that conversation and you end up building work the customer can't take with them, which is a worse outcome for everyone, including you.
 
 ---
 

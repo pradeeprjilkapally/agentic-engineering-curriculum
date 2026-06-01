@@ -58,13 +58,13 @@ If it's right, commit it with a short message. If it's wrong, correct the agent 
 
 Build the first real slice of your project. Get one meaningful piece working. Reviewed, run, and committed.
 
-**You're done when** one real piece of your project runs. And you've seen it run, not just been told it does.
+**You're done when** one real piece of your project runs, and you've seen it run, not just been told it does.
 
 **Practice proof:** write down the slice name, files changed, verification command, and what you will ask for next.
 
 ## Why this matters
 
-Small slices are how you stay the engineer instead of the spectator. You review what you can actually review, you catch drift early, and every commit is a safe point to return to. This is the rhythm. Slice, review, run, commit. That the rest of your project gets built on. Get comfortable with it now.
+Small slices are how you stay the engineer instead of the spectator. You review what you can actually review, you catch drift early, and every commit is a safe point to return to. This is the rhythm (slice, review, run, commit) that the rest of your project gets built on. Get comfortable with it now.
 
 ---
 

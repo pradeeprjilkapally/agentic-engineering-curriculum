@@ -35,7 +35,7 @@ Classify your project candidate onto the three layers. Then write two short para
 
 ## Why this matters
 
-Customers don't usually know what layer they're on. The scoping conversation is hard because they're describing what they want using the words of a layer they're not yet at. Your value as an FDE starts with naming the layers cleanly, then drawing the bridge from where they are to where they want to be. With realistic costs and timelines for each segment of the bridge.
+Customers don't usually know what layer they're on. The scoping conversation is hard because they're describing what they want using the words of a layer they're not yet at. Your value as an FDE starts with naming the layers cleanly, then drawing the bridge from where they are to where they want to be, with realistic costs and timelines for each segment of the bridge.
 
 ---
 

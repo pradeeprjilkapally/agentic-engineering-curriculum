@@ -40,8 +40,8 @@ Then start a fresh Claude Code session and ask the agent to read those files and
 
 ## Why this matters
 
-Once you can hand off your project to a future version of yourself. Or a customer engineer next quarter. Every Friday becomes a clean stopping point instead of a held breath. As an FDE you'll be handing projects off constantly: at the end of every engagement, every sprint, every Friday afternoon. The conventions in this lesson are what make those handoffs cheap and quietly satisfying instead of stressful.
+Once you can hand off your project to a future version of yourself (or a customer engineer next quarter), every Friday becomes a clean stopping point instead of a held breath. As an FDE you'll be handing projects off constantly: at the end of every engagement, every sprint, every Friday afternoon. The conventions in this lesson are what make those handoffs cheap and quietly satisfying instead of stressful.
 
 ---
 
-Next: [Lesson 20 · Staying current. The intel-watch pattern](20-staying-current-intel-watch.html)
+Next: [Lesson 20 · Staying current: the intel-watch pattern](20-staying-current-intel-watch.html)

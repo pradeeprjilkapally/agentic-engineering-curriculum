@@ -96,7 +96,7 @@ Read the answers like a reviewer. You know this code. Did it get it right?
 
 ## Why this matters
 
-You're going to live in this tool for the rest of the course. Getting it working today. And watching it actually understand code you know. Means every lesson after this starts from "this works" instead of "wait, is it broken?"
+You're going to live in this tool for the rest of the course. Getting it working today, and watching it actually understand code you know, means every lesson after this starts from "this works" instead of "wait, is it broken?"
 
 ---
 

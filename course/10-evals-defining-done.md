@@ -4,7 +4,7 @@
 
 ## The idea
 
-In Lesson 9 the brief had a done-check line. An eval is that line, made executable. It's the test. Automated where possible. That goes green or red and tells you, without your judgment in the loop, whether the work is finished.
+In Lesson 9 the brief had a done-check line. An eval is that line, made executable. It's the test, automated where possible, that goes green or red and tells you, without your judgment in the loop, whether the work is finished.
 
 If you cannot describe "working" precisely enough to test it, you are not ready to hand off. A fuzzy goal leaves you no firm ground to reject bad output.
 

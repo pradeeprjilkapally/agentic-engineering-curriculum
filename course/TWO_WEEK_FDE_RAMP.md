@@ -80,7 +80,7 @@ Lessons 23 → 25 (discovery + scoping, communicating to non-engineers, observab
 
 **End-of-day artifact:** security model, runbook, `future-you.md`, peer review notes.
 
-## End of Week 2. What you'll have built
+## End of Week 2: what you'll have built
 
 By Friday at 5pm of week two, here's the artifact inventory you'll have on disk, ready to walk through with a peer or mentor in a relaxed 30-minute review:
 
@@ -104,7 +104,7 @@ If you're using this as a hiring or onboarding milestone, a second-pass review o
 
 Two weeks gives you a real, working operating system with depth. You'll be able to walk into your first FDE engagement with the habits, the templates, and the conventions already installed.
 
-What two weeks doesn't give you. And nothing short of doing the work will. Is the lived experience of a real customer team, the judgment that comes from shipping two or three engagements, and a network of trusted vendors and tools you've battle-tested in production. That's the next chapter, and it builds naturally on this one.
+What two weeks doesn't give you (and nothing short of doing the work will) is the lived experience of a real customer team, the judgment that comes from shipping two or three engagements, and a network of trusted vendors and tools you've battle-tested in production. That's the next chapter, and it builds naturally on this one.
 
 ## Intensive 1-week variant (for hiring filters)
 

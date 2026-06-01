@@ -1,6 +1,6 @@
 # Lesson 16 · Where to go next
 
-**Where this gets you:** you'll pick your next project. One step harder than the one you just finished. And know which skill it'll push on.
+**Where this gets you:** you'll pick your next project, one step harder than the one you just finished, and know which skill it'll push on.
 
 ## The idea
 
@@ -26,7 +26,7 @@ Each rung stresses one course skill harder than the rest. Use that to find the w
 
 ## Your exercise
 
-Pick your next project. One step harder than the one you just finished. If you built an internal tool, do the greenfield product; if you did greenfield, go into an existing codebase.
+Pick your next project, one step harder than the one you just finished. If you built an internal tool, do the greenfield product; if you did greenfield, go into an existing codebase.
 
 Then name, in one sentence, which skill from this course it'll stress most.
 

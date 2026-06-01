@@ -18,7 +18,7 @@ The loop has five parts.
 
 **5. Decide whether to continue.** Loop again with new state, or stop with a final answer, or escalate to a human.
 
-That's the whole thing. Everything you'll read about agents. ReAct, function calling, MCP, multi-agent orchestration. Is a variation on those five steps with better tools at each step.
+That's the whole thing. Everything you'll read about agents (ReAct, function calling, MCP, multi-agent orchestration) is a variation on those five steps with better tools at each step.
 
 A short history, so the words don't intimidate you: ReAct (2022) was the simple "reason then act" form of the loop, expressed in plain prompts. Function calling (2023) formalized the "act" step with structured tool definitions. MCP (Model Context Protocol, 2024) standardized how external tools plug into agents. By 2026, most production agentic systems use this loop with tool calling and MCP. The names will keep changing. The loop won't.
 
@@ -41,7 +41,7 @@ Then for each step, write down what could go wrong.
 
 ## Why this matters
 
-When you debug an agent in a customer engagement, you almost never debug the model. You debug the loop. Once you can see the loop, you can find the bug fast. Without it in your head, you're guessing. And guessing is expensive in front of a customer.
+When you debug an agent in a customer engagement, you almost never debug the model. You debug the loop. Once you can see the loop, you can find the bug fast. Without it in your head, you're guessing, and guessing is expensive in front of a customer.
 
 ---
 

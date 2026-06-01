@@ -6,7 +6,7 @@
 
 The fastest way to waste an hour with an agent is to let it build before you have seen the plan. If the approach is wrong, you are untangling instead of reviewing.
 
-Plan Mode fixes that. It's a mode where the agent reads your files and runs read-only commands, then hands you a written plan. And changes nothing until you approve it. No edits, no surprises. You get to argue with the approach while it's still just words.
+Plan Mode fixes that. It's a mode where the agent reads your files and runs read-only commands, then hands you a written plan and changes nothing until you approve it. No edits, no surprises. You get to argue with the approach while it's still just words.
 
 In Claude Code, cycle to it with **Shift+Tab**. Tap it until the prompt shows you're in plan mode.
 
@@ -45,7 +45,7 @@ Get a plan, in plan mode, for the first slice of your project. Read it hard. Sen
 
 ## Why this matters
 
-Planning first is the single habit that separates directing an agent from gambling with one. It moves your judgment to the front, where corrections are cheap. Every later lesson. Building, evals, shipping. Gets easier when the work started from a plan you understood. Skip it and you'll spend the course cleaning up after confident wrong turns.
+Planning first is the single habit that separates directing an agent from gambling with one. It moves your judgment to the front, where corrections are cheap. Every later lesson (building, evals, shipping) gets easier when the work started from a plan you understood. Skip it and you'll spend the course cleaning up after confident wrong turns.
 
 ---
 

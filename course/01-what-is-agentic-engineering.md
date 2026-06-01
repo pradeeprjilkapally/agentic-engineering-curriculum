@@ -4,13 +4,13 @@
 
 ## The idea
 
-If you've used AI to write code, it was probably autocomplete. It finishes your line, you keep typing. Or a chat window you paste errors into. Useful, but you're still doing the work, keystroke by keystroke.
+If you've used AI to write code, it was probably autocomplete. It finishes your line, you keep typing, or a chat window you paste errors into. Useful, but you're still doing the work, keystroke by keystroke.
 
-An agent is a different thing. You hand it a goal. "add a logout button," "figure out why this test keeps failing". And it goes and works. It reads your files, makes a plan, edits code, runs it, sees what broke, tries again. One sentence from you can turn into fifteen minutes of finished work. Your job moves: you're judging the result now, not watching every line.
+An agent is a different thing. You hand it a goal. "add a logout button," "figure out why this test keeps failing", and it goes and works. It reads your files, makes a plan, edits code, runs it, sees what broke, tries again. One sentence from you can turn into fifteen minutes of finished work. Your job moves: you're judging the result now, not watching every line.
 
 That's the shift: stop operating a tool; start directing one. There are two ways people do that.
 
-One is the way most people drift into. Type a prompt, glance at what comes back, looks fine, move on. No plan, nothing that says what "done" means except that it ran once. Call it vibe coding. It's quick, it's genuinely fine for experiments and learning. And it falls apart the moment real users touch the thing.
+One is the way most people drift into. Type a prompt, glance at what comes back, looks fine, move on. No plan, nothing that says what "done" means except that it ran once. Call it vibe coding. It's quick, it's genuinely fine for experiments and learning, and it falls apart the moment real users touch the thing.
 
 The other is agentic engineering. You write the agent a real brief. You decide up front how you'll know it worked. You hold the output to a standard, and you ship it with proof. Same agent, same model as the person vibe coding next to you. The work that comes out is not close.
 

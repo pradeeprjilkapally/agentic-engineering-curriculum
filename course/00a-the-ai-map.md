@@ -10,7 +10,7 @@ Top down:
 
 1. **Application.** What the user sees. A chatbot. A search box that uses RAG. An agentic app that goes off and does things on the user's behalf. This is where most product talk lives.
 2. **Harness.** The layer that wraps memory, skills, tools, and an agent runtime around the model. Examples: Claude Code, ChatGPT, Cursor, Codex CLI. The harness is where switching cost lives. Lesson 17 goes deep here.
-3. **Agent.** The loop. Perceive, plan, act, observe, decide whether to continue. With memory across iterations and a stop condition. Lesson 0.3 goes deep.
+3. **Agent.** The loop. Perceive, plan, act, observe, decide whether to continue, with memory across iterations and a stop condition. Lesson 0.3 goes deep.
 4. **Model.** The LLM or multimodal model. Claude, GPT, Gemini, Gemma, Qwen, DeepSeek. Lesson 0.2 and Lesson 0.5 go here.
 
 Now, why does it matter to keep them separate? Here's where the real value shows up. When someone says "Claude is better than GPT," they mean the model layer. When they say "Cursor is better than Claude Code," they mean the harness. When they say "your agent needs better memory," they mean the agent and harness together. The conversation goes nowhere if everyone's pointing at different layers and using the same words.
@@ -31,4 +31,4 @@ Every confusing conversation you'll have for the next year as an FDE will dissol
 
 ---
 
-Next: [Lesson 0.2 · LLMs. Just enough to be dangerous](00b-llms-just-enough.html)
+Next: [Lesson 0.2 · LLMs: just enough to be dangerous](00b-llms-just-enough.html)

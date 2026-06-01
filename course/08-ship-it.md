@@ -38,13 +38,13 @@ Pick the proof that fits:
 
 Ship the first version of your project.
 
-**You're done when** someone other than you could use it, or you have a link or command. Verified working. That proves it runs.
+**You're done when** someone other than you could use it, or you have a link or command, verified working, that proves it runs.
 
 **Practice proof:** paste the URL, command output, screenshot note, or PR link into `NOTES.md`. Do not write "shipped" without proof beside it.
 
 ## Why this matters
 
-Shipping is the moment a project stops being yours alone and starts being real. Everything in Part 3. Briefs, evals, the no-slop standard. Exists to make what you ship hold up under actual users. You can't practice that on something that never shipped. Get this first version out, rough as it is, and the rest of the course has something true to sharpen.
+Shipping is the moment a project stops being yours alone and starts being real. Everything in Part 3 (briefs, evals, the no-slop standard) exists to make what you ship hold up under actual users. You can't practice that on something that never shipped. Get this first version out, rough as it is, and the rest of the course has something true to sharpen.
 
 ---
 
