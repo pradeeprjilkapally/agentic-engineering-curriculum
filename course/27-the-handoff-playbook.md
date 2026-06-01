@@ -1,6 +1,6 @@
 # Lesson 27 · The handoff playbook
 
-**Where this gets you:** you'll be able to deliver a handoff package that lets the customer team run the system without you within one sprint of you leaving — which is what separates an FDE from a contractor.
+**Where this gets you:** you'll be able to deliver a handoff package that lets the customer team run the system without you within one sprint of you leaving. Which is what separates an FDE from a contractor.
 
 ## The idea
 
@@ -41,7 +41,7 @@ For your project, draft two artifacts:
 
 Handoff is what makes Forward Deployed engagements feel great on both sides. The customer team is capable of running the system without you. You get re-engaged, referred, and remembered. Everyone wins.
 
-You finished the course. You walked in as a senior full-stack engineer. You're walking out with the operating system for Forward Deployed work — ready to apply it on something real.
+You finished the course. You walked in as a senior full-stack engineer. You're walking out with the operating system for Forward Deployed work. Ready to apply it on something real.
 
 ---
 

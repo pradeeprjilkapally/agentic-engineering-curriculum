@@ -2,19 +2,19 @@
 
 > A 10-day, ~80-hour structured path through all 32 lessons, designed for the case where you've blocked off real time and want to come out the other end ready to do Forward Deployed work. Use it for new-hire onboarding, your own focused ramp, or a candidate sprint. A compressed 5-day intensive variant for hiring-filter use is described at the end.
 
-> The ramp is one way to use the curriculum. The other ways — a few evenings a week, a weekend project arc, the in-person workshop — work too. Pick what fits.
+> The ramp is one way to use the curriculum. The other ways work too: a few evenings a week, a weekend project arc, the in-person workshop. Pick what fits.
 
 ## The premise
 
-You ship code for a living. You may not have built with agents at depth, and that's fine — the foundations (Part 0) take less than a day and the workflow lessons land cleanly on top of any senior engineering background.
+You ship code for a living. You may not have built with agents at depth, and that's fine. The foundations (Part 0) take less than a day and the workflow lessons land cleanly on top of any senior engineering background.
 
 By end of day Friday in week two, you'll have shipped one real project end-to-end with agentic discipline AND installed the FDE-specific habits at real depth, not as sketches.
 
 Two weeks instead of one because the Part 5 artifacts (security model, runbook, observability wiring, intel-watch live) get more honest when they have time to breathe.
 
-## Week 1 — Foundations, build, discipline (~40 hrs)
+## Week 1: Foundations, build, discipline (~40 hrs)
 
-### Day 1 — Foundations + setup (~8 hrs)
+### Day 1: Foundations + setup (~8 hrs)
 
 **Morning, ~4 hrs.** Lessons 0.1 → 0.5 (the AI map, LLMs just enough, what makes an agent, multimodality, the model zoo). Skim if you're AI-fluent; do every exercise if not.
 
@@ -22,57 +22,57 @@ Two weeks instead of one because the Part 5 artifacts (security model, runbook, 
 
 **End-of-day artifact:** `NOTES.md` with the Part 0 exercises completed and your first agent session log.
 
-### Day 2 — Take control + pick the project (~8 hrs)
+### Day 2: Take control + pick the project (~8 hrs)
 
 Lessons 3 → 5 (your first session, staying in control, pick your first project). The project must be small enough to ship a slice this week and big enough to harden next week.
 
 **End-of-day artifact:** project chosen, agent-loop sketch applied, project candidate file in `NOTES.md`.
 
-### Day 3 — Build something real (~8 hrs)
+### Day 3: Build something real (~8 hrs)
 
 Lessons 6 → 8 (plan before build, build step by step, ship). Take the project to a shipped slice with a passing test by end of day.
 
 **End-of-day artifact:** a shipped slice of the real project in git, with at least one passing test.
 
-### Day 4 — Brief and evals (~8 hrs)
+### Day 4: Brief and evals (~8 hrs)
 
 Lessons 9 → 11 (the brief, evals defining done, context and the second brain). Apply each to the project.
 
 **End-of-day artifact:** `CLAUDE.md`, an `evals/` directory with at least 5 evals, the brief document for the project.
 
-### Day 5 — Standards + week 1 retro (~8 hrs)
+### Day 5: Standards + week 1 retro (~8 hrs)
 
 Lessons 12 → 13 (the no-slop standard, design discipline). Install both. End the week with a self-retro: what worked, what didn't, what to fix Monday.
 
 **End-of-day artifact:** no-slop review pass wired, `DESIGN.md`, week-1 retro notes.
 
-## Week 2 — Scale, operate, hand off (~40 hrs)
+## Week 2: Scale, operate, hand off (~40 hrs)
 
-### Day 6 — Scale up (~8 hrs)
+### Day 6: Scale up (~8 hrs)
 
 Lessons 14 → 16 (orchestration, review gates, where to go next). Run a piece of the project as parallel agents. Wire a real review gate.
 
 **End-of-day artifact:** parallel orchestration applied to one part of the project, review gate live in CI or local pre-commit.
 
-### Day 7 — Harness fundamentals (~8 hrs)
+### Day 7: Harness fundamentals (~8 hrs)
 
-Lessons 17 → 19 (harness wars, application taxonomy, coordinating with agents and humans). Audit the project's harness ownership. Add `AGENTS.md`, `HANDOFF.md`, `decisions/` — populate with real content from your project, not placeholders.
+Lessons 17 → 19 (harness wars, application taxonomy, coordinating with agents and humans). Audit the project's harness ownership. Add `AGENTS.md`, `HANDOFF.md`, `decisions/`. Populate with real content from your project, not placeholders.
 
 **End-of-day artifact:** harness audit, `AGENTS.md`, `HANDOFF.md`, `decisions/0001-stack-choice.md`, `decisions/0002-model-routing.md`.
 
-### Day 8 — Staying current and reading the room (~8 hrs)
+### Day 8: Staying current and reading the room (~8 hrs)
 
-Lessons 20 → 22 (intel-watch, team shape, problems in every layer). Actually wire the intel-watch — not a sketch. Get one alert firing on a real signal by end of day.
+Lessons 20 → 22 (intel-watch, team shape, problems in every layer). Actually wire the intel-watch. Not a sketch. Get one alert firing on a real signal by end of day.
 
 **End-of-day artifact:** working intel-watch with 5 voices + 3 projects, one real alert received and triaged, failure-mode-and-mitigation doc for the project.
 
-### Day 9 — The customer side (~8 hrs)
+### Day 9: The customer side (~8 hrs)
 
-Lessons 23 → 25 (discovery + scoping, communicating to non-engineers, observability + cost). Write a realistic discovery doc for the project as if it were a customer engagement. Wire actual observability — at least one of the four axes live. Set a cost budget with an alert.
+Lessons 23 → 25 (discovery + scoping, communicating to non-engineers, observability + cost). Write a realistic discovery doc for the project as if it were a customer engagement. Wire actual observability. At least one of the four axes live. Set a cost budget with an alert.
 
 **End-of-day artifact:** `discovery.md`, weekly update template + one written example, one observability axis live, cost budget + alert.
 
-### Day 10 — Security, handoff, acceptance review (~8 hrs)
+### Day 10: Security, handoff, acceptance review (~8 hrs)
 
 **Morning, ~4 hrs.** Lessons 26 → 27 (security and compliance, the handoff playbook). Write the security model. Draft the runbook and `future-you.md`.
 
@@ -80,7 +80,7 @@ Lessons 23 → 25 (discovery + scoping, communicating to non-engineers, observab
 
 **End-of-day artifact:** security model, runbook, `future-you.md`, peer review notes.
 
-## End of Week 2 — what you'll have built
+## End of Week 2. What you'll have built
 
 By Friday at 5pm of week two, here's the artifact inventory you'll have on disk, ready to walk through with a peer or mentor in a relaxed 30-minute review:
 
@@ -91,20 +91,20 @@ By Friday at 5pm of week two, here's the artifact inventory you'll have on disk,
 - [ ] Application classification (`application-taxonomy.md`).
 - [ ] Personal intel-watch wired and live, at least one real alert received.
 - [ ] Failure-mode-and-mitigation doc (`failures.md`).
-- [ ] Discovery doc (`discovery.md`) — one-page scope for a hypothetical or real engagement.
+- [ ] Discovery doc (`discovery.md`). One-page scope for a hypothetical or real engagement.
 - [ ] Weekly update template (`weekly-template.md`) + one written example.
 - [ ] Observability with at least one axis live + cost budget with alert.
 - [ ] Security model (`security-model.md`).
 - [ ] Runbook (`runbook.md`) and `future-you.md`.
 - [ ] Peer review notes from the Day 10 walkthrough.
 
-If you're using this as a hiring or onboarding milestone, a second-pass review of this list with a senior FDE is the natural conversation. If you're using it for your own growth, the list is your checkpoint — what you can point to, defend, and reuse on the next project.
+If you're using this as a hiring or onboarding milestone, a second-pass review of this list with a senior FDE is the natural conversation. If you're using it for your own growth, the list is your checkpoint. What you can point to, defend, and reuse on the next project.
 
 ## What two weeks gives you, and what it doesn't
 
 Two weeks gives you a real, working operating system with depth. You'll be able to walk into your first FDE engagement with the habits, the templates, and the conventions already installed.
 
-What two weeks doesn't give you — and nothing short of doing the work will — is the lived experience of a real customer team, the judgment that comes from shipping two or three engagements, and a network of trusted vendors and tools you've battle-tested in production. That's the next chapter, and it builds naturally on this one.
+What two weeks doesn't give you. And nothing short of doing the work will. Is the lived experience of a real customer team, the judgment that comes from shipping two or three engagements, and a network of trusted vendors and tools you've battle-tested in production. That's the next chapter, and it builds naturally on this one.
 
 ## Intensive 1-week variant (for hiring filters)
 
@@ -120,7 +120,7 @@ If you're running this as a hiring filter:
 
 - Daily 30-minute check-ins land better over 2 weeks than 1.
 - The Day-10 acceptance test is the actual hiring decision. Block 90 minutes for the review.
-- A candidate who finishes nine of the thirteen checklist items at depth is in the hireable range with a normal post-hire ramp. Below nine usually means longer onboarding or a slightly different role fit — not a failure.
+- A candidate who finishes nine of the thirteen checklist items at depth is in the hireable range with a normal post-hire ramp. Below nine usually means longer onboarding or a slightly different role fit. Not a failure.
 
 If you're running this as your own onboarding:
 
@@ -132,4 +132,4 @@ If you're running this as your own onboarding:
 
 The course is the operating system. This is the proper install procedure.
 
-Back to [the course index](../curriculum.html).
+Back to [the course index](./curriculum.html).

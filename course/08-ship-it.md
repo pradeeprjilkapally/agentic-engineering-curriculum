@@ -1,6 +1,6 @@
 # Lesson 8 · Ship it
 
-**Where this gets you:** the first version of your project out of your editor and in front of reality — running, deployed, or usable by someone who isn't you.
+**Where this gets you:** the first version of your project out of your editor and in front of reality. Running, deployed, or usable by someone who isn't you.
 
 ## The idea
 
@@ -10,9 +10,9 @@ The first version can be rough. Shipping early is about contact with reality: de
 
 What "shipped" can look like, depending on your project:
 
-- **A deployed URL** — the page or tool live somewhere, on a free host if that's all it needs.
-- **An installable command** — packaged so someone can run it without your dev setup.
-- **Something a friend can try** — handed to one other person who can use it start to finish.
+- **A deployed URL**. The page or tool live somewhere, on a free host if that's all it needs.
+- **An installable command**. Packaged so someone can run it without your dev setup.
+- **Something a friend can try**. Handed to one other person who can use it start to finish.
 
 Pick whichever fits. The bar is the same: it left your machine, or someone else can run it.
 
@@ -20,9 +20,9 @@ Pick whichever fits. The bar is the same: it left your machine, or someone else 
 
 ## Do it
 
-Decide your shipping form — deployed, installable, or handed to a friend. Ask the agent to help: it can set up a deploy to a free host, package the command, or write the short instructions another person would follow.
+Decide your shipping form. Deployed, installable, or handed to a friend. Ask the agent to help: it can set up a deploy to a free host, package the command, or write the short instructions another person would follow.
 
-Then ship it. And then verify it — open the live URL, run the installed command fresh, or watch your friend use it. Confirm with your own eyes that the thing works where it now lives.
+Then ship it. And then verify it. Open the live URL, run the installed command fresh, or watch your friend use it. Confirm with your own eyes that the thing works where it now lives.
 
 Pick the proof that fits:
 
@@ -38,13 +38,13 @@ Pick the proof that fits:
 
 Ship the first version of your project.
 
-**You're done when** someone other than you could use it, or you have a link or command — verified working — that proves it runs.
+**You're done when** someone other than you could use it, or you have a link or command. Verified working. That proves it runs.
 
 **Practice proof:** paste the URL, command output, screenshot note, or PR link into `NOTES.md`. Do not write "shipped" without proof beside it.
 
 ## Why this matters
 
-Shipping is the moment a project stops being yours alone and starts being real. Everything in Part 3 — briefs, evals, the no-slop standard — exists to make what you ship hold up under actual users. You can't practice that on something that never shipped. Get this first version out, rough as it is, and the rest of the course has something true to sharpen.
+Shipping is the moment a project stops being yours alone and starts being real. Everything in Part 3. Briefs, evals, the no-slop standard. Exists to make what you ship hold up under actual users. You can't practice that on something that never shipped. Get this first version out, rough as it is, and the rest of the course has something true to sharpen.
 
 ---
 

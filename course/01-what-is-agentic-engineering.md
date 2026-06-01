@@ -4,15 +4,15 @@
 
 ## The idea
 
-If you've used AI to write code, it was probably autocomplete — it finishes your line, you keep typing. Or a chat window you paste errors into. Useful, but you're still doing the work, keystroke by keystroke.
+If you've used AI to write code, it was probably autocomplete. It finishes your line, you keep typing. Or a chat window you paste errors into. Useful, but you're still doing the work, keystroke by keystroke.
 
-An agent is a different thing. You hand it a goal — "add a logout button," "figure out why this test keeps failing" — and it goes and works. It reads your files, makes a plan, edits code, runs it, sees what broke, tries again. One sentence from you can turn into fifteen minutes of finished work. Your job moves: you're judging the result now, not watching every line.
+An agent is a different thing. You hand it a goal. "add a logout button," "figure out why this test keeps failing". And it goes and works. It reads your files, makes a plan, edits code, runs it, sees what broke, tries again. One sentence from you can turn into fifteen minutes of finished work. Your job moves: you're judging the result now, not watching every line.
 
 That's the shift: stop operating a tool; start directing one. There are two ways people do that.
 
-One is the way most people drift into. Type a prompt, glance at what comes back, looks fine, move on. No plan, nothing that says what "done" means except that it ran once. Call it vibe coding. It's quick, it's genuinely fine for experiments and learning — and it falls apart the moment real users touch the thing.
+One is the way most people drift into. Type a prompt, glance at what comes back, looks fine, move on. No plan, nothing that says what "done" means except that it ran once. Call it vibe coding. It's quick, it's genuinely fine for experiments and learning. And it falls apart the moment real users touch the thing.
 
-The other is agentic engineering. You write the agent a real brief. You decide up front how you'll know it worked. You hold the output to a standard, and you ship it with proof. Same agent, same model as the person vibe coding next to you — the work that comes out is not close.
+The other is agentic engineering. You write the agent a real brief. You decide up front how you'll know it worked. You hold the output to a standard, and you ship it with proof. Same agent, same model as the person vibe coding next to you. The work that comes out is not close.
 
 This course teaches the second way: not prompt tricks, habits.
 
@@ -32,7 +32,7 @@ Good candidates: a one-command CLI, a small page, an internal tool, a bug fix, o
 
 ## Why this matters
 
-Every lesson after this hands you a new skill and asks you to use it on a real project. Do that on a throwaway toy and it stays trivia you'll forget by Friday. Do it on something you actually care about and it turns into how you work. So pick real candidates — the whole course compounds on that one choice.
+Every lesson after this hands you a new skill and asks you to use it on a real project. Do that on a throwaway toy and it stays trivia you'll forget by Friday. Do it on something you actually care about and it turns into how you work. So pick real candidates. The whole course compounds on that one choice.
 
 ---
 

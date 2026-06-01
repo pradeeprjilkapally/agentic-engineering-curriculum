@@ -88,18 +88,18 @@ cat outputs/result.md
 
 If someone says:
 
-- "I know SQL but not much Python" — start with Lab 6.
-- "I work in Snowflake" — start with Lab 2.
-- "I do data quality or governance" — start with Lab 3 or Lab 8.
-- "I work with Spark, Kafka, or lakehouse jobs" — start with Lab 16 or Lab 17.
-- "I do data science or notebooks" — start with Lab 18.
-- "I train or deploy models" — start with Lab 20 or Lab 22.
-- "I am building RAG or AI apps" — start with Lab 23 or Lab 24.
-- "I work across SDLC, CI, releases, or incidents" — start with Lab 25, Lab 26, or Lab 27.
-- "I want agentic workflow practice" — start with Lab 28 or Lab 30.
-- "I am a fresh graduate" — start with Lab 12.
-- "I build APIs" — start with Lab 10.
-- "I manage a team adopting AI" — start with Lab 14 or Lab 15.
+- "I know SQL but not much Python". Start with Lab 6.
+- "I work in Snowflake". Start with Lab 2.
+- "I do data quality or governance". Start with Lab 3 or Lab 8.
+- "I work with Spark, Kafka, or lakehouse jobs". Start with Lab 16 or Lab 17.
+- "I do data science or notebooks". Start with Lab 18.
+- "I train or deploy models". Start with Lab 20 or Lab 22.
+- "I am building RAG or AI apps". Start with Lab 23 or Lab 24.
+- "I work across SDLC, CI, releases, or incidents". Start with Lab 25, Lab 26, or Lab 27.
+- "I want agentic workflow practice". Start with Lab 28 or Lab 30.
+- "I am a fresh graduate". Start with Lab 12.
+- "I build APIs". Start with Lab 10.
+- "I manage a team adopting AI". Start with Lab 14 or Lab 15.
 
 ## Lab 1 · LLM data profiling tool
 

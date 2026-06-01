@@ -1,6 +1,6 @@
-# Lesson 14 · Orchestration — parallel agents
+# Lesson 14 · Orchestration: parallel agents
 
-**Where this gets you:** you'll take a multi-part task and run its independent pieces as parallel agents instead of one serial chain — and see where the real difficulty moves.
+**Where this gets you:** you'll take a multi-part task and run its independent pieces as parallel agents instead of one serial chain. And see where the real difficulty moves.
 
 ## The idea
 
@@ -14,7 +14,7 @@ Parallelism only works once each stream is reliable.
 
 ## Do it
 
-Take a task on your project with several parts. Ask first: which pieces are *genuinely* independent? Two streams are independent only if neither needs the other's output. If piece B reads a file piece A creates, they're not parallel — they're a chain.
+Take a task on your project with several parts. Ask first: which pieces are *genuinely* independent? Two streams are independent only if neither needs the other's output. If piece B reads a file piece A creates, they're not parallel. They're a chain.
 
 Parallel does not have to mean two different products. It can be:
 
@@ -31,7 +31,7 @@ Then launch them together. In Claude Code, describe the parts and ask it to run 
 
 Find a multi-part task on your project. A few unrelated bug fixes. Three small features. A refactor plus its tests plus its docs.
 
-Split it honestly into independent pieces. Run those as parallel agents or subagents. Then watch what's actually hard — it won't be the speed. It'll be keeping the streams coherent: making sure two agents don't edit the same file, that their briefs don't contradict, that the merged result still hangs together.
+Split it honestly into independent pieces. Run those as parallel agents or subagents. Then watch what's actually hard. It won't be the speed. It'll be keeping the streams coherent: making sure two agents don't edit the same file, that their briefs don't contradict, that the merged result still hangs together.
 
 **You're done when** you've run at least two genuinely independent pieces of one task in parallel, and can name the part that was hard to keep coherent.
 
@@ -39,7 +39,7 @@ Split it honestly into independent pieces. Run those as parallel agents or subag
 
 ## Why this matters
 
-Speed was never the real skill. Any agent is fast. The skill is being the person who can hold three streams in their head, give each a clean brief, and stitch the results back into one thing that works. That's what scales — and it's the difference between using an agent and running a small fleet of them.
+Speed was never the real skill. Any agent is fast. The skill is being the person who can hold three streams in their head, give each a clean brief, and stitch the results back into one thing that works. That's what scales. And it's the difference between using an agent and running a small fleet of them.
 
 ---
 

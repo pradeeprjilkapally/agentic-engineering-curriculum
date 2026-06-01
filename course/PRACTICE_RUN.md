@@ -4,7 +4,7 @@ Run the course through artifacts. Each lesson should leave something concrete in
 
 ## The bar
 
-The bar is **FDE** — Forward Deployed Engineer. A learner finishes the course when they can be embedded with a customer team on Monday and run a real engagement without embarrassing themselves or the team. For the compressed version, see the [Two-week FDE ramp](TWO_WEEK_FDE_RAMP.html) — a 5-day plan with a Friday acceptance test.
+The bar is **FDE**. Forward Deployed Engineer. A learner finishes the course when they can be embedded with a customer team on Monday and run a real engagement without embarrassing themselves or the team. For the compressed version, see the [Two-week FDE ramp](TWO_WEEK_FDE_RAMP.html). A 5-day plan with a Friday acceptance test.
 
 ## Learner tracks
 

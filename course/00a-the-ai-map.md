@@ -1,4 +1,4 @@
-# Lesson 0.1 · The AI map — four layers on one page
+# Lesson 0.1 · The AI map: four layers on one page
 
 **Where this gets you:** you'll be able to put the right layer name on any AI conversation you walk into, so you stop arguing about the wrong thing.
 
@@ -15,11 +15,11 @@ Top down:
 
 Now, why does it matter to keep them separate? Here's where the real value shows up. When someone says "Claude is better than GPT," they mean the model layer. When they say "Cursor is better than Claude Code," they mean the harness. When they say "your agent needs better memory," they mean the agent and harness together. The conversation goes nowhere if everyone's pointing at different layers and using the same words.
 
-A common one you'll hear from customers: "we need a better LLM." Nine times out of ten the LLM is fine. What they need is a better harness — better memory, better tools, better evals. Naming the layer saves a quarter of arguing.
+A common one you'll hear from customers: "we need a better LLM." Nine times out of ten the LLM is fine. What they need is a better harness. Better memory, better tools, better evals. Naming the layer saves a quarter of arguing.
 
 ## Your first exercise
 
-Pick a product you use every day — ChatGPT, Cursor, Notion AI, GitHub Copilot, something you built. Write one sentence at each of the four layers, naming the choice that product made at that layer.
+Pick a product you use every day. ChatGPT, Cursor, Notion AI, GitHub Copilot, something you built. Write one sentence at each of the four layers, naming the choice that product made at that layer.
 
 **You're done when** you have four sentences and they don't blur into each other. Each one is about a different thing.
 
@@ -31,4 +31,4 @@ Every confusing conversation you'll have for the next year as an FDE will dissol
 
 ---
 
-Next: [Lesson 0.2 · LLMs — just enough to be dangerous](00b-llms-just-enough.html)
+Next: [Lesson 0.2 · LLMs. Just enough to be dangerous](00b-llms-just-enough.html)

@@ -1,12 +1,12 @@
 # Lesson 3 · Your first session
 
-**Where this gets you:** you'll take one small task end-to-end with an agent and understand the loop it runs — the thing every later lesson builds on.
+**Where this gets you:** you'll take one small task end-to-end with an agent and understand the loop it runs. The thing every later lesson builds on.
 
 ## The idea
 
 An agent session is a loop, not one prompt and one answer.
 
-You give it a goal. Then it goes around: **gather context** — read the files it needs to understand the task. **Act** — make an edit, run a command. **Check** — look at what happened, run the test, read the error. Then it loops: gather, act, check, gather, act, check — until the goal is met or it gets stuck and asks you.
+You give it a goal. Then it goes around: **gather context**. Read the files it needs to understand the task. **Act**. Make an edit, run a command. **Check**. Look at what happened, run the test, read the error. Then it loops: gather, act, check, gather, act, check. Until the goal is met or it gets stuck and asks you.
 
 You watch this in your terminal. It says what it read, what it will change, and what commands printed. Read that stream; it is where you catch wrong turns early.
 
@@ -24,9 +24,9 @@ claude
 
 Codex CLI users run `codex`. Gemini CLI users run `gemini`. Coco users open the approved workspace for the repo or data product.
 
-Pick something genuinely small — a typo in a string, a renamed variable, one new log line.
+Pick something genuinely small. A typo in a string, a renamed variable, one new log line.
 
-Give it the goal in one sentence. Then watch. Don't touch anything. Read each step as it scrolls by — what file it opened, what it changed, what it ran.
+Give it the goal in one sentence. Then watch. Don't touch anything. Read each step as it scrolls by. What file it opened, what it changed, what it ran.
 
 Here is a safe first-session prompt:
 
@@ -40,9 +40,9 @@ If it heads somewhere wrong, hit **Esc** and type what you meant. Let it finish.
 
 ## Your exercise
 
-In a repo you know well, give the agent one small, real task — something you could have done yourself in a few minutes.
+In a repo you know well, give the agent one small, real task. Something you could have done yourself in a few minutes.
 
-Watch the whole loop run without jumping in unless it goes wrong. When it's done, read **every change it made** — open the diff, read each line, make sure you'd have signed off on it yourself.
+Watch the whole loop run without jumping in unless it goes wrong. When it's done, read **every change it made**. Open the diff, read each line, make sure you'd have signed off on it yourself.
 
 Use these commands after the agent finishes:
 
@@ -67,7 +67,7 @@ make test
 
 ## Why this matters
 
-Everything later in this course is this loop, scaled up — bigger tasks, more of them, several at once. If the loop is clear to you on something small, the hard stuff later is just more of a thing you already understand. If it's a blur now, it stays a blur.
+Everything later in this course is this loop, scaled up. Bigger tasks, more of them, several at once. If the loop is clear to you on something small, the hard stuff later is just more of a thing you already understand. If it's a blur now, it stays a blur.
 
 ---
 

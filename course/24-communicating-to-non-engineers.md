@@ -1,6 +1,6 @@
 # Lesson 24 · Communicating to non-engineers
 
-**Where this gets you:** you'll have a weekly written update template and a monthly executive demo template — so the engagement stays sponsored, funded, and trusted while you ship.
+**Where this gets you:** you'll have a weekly written update template and a monthly executive demo template. So the engagement stays sponsored, funded, and trusted while you ship.
 
 ## The idea
 

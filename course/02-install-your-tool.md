@@ -1,6 +1,6 @@
 # Lesson 2 · Install your tool
 
-**Where this gets you:** the tool installed, you logged in, and a first real exchange with it — about ten minutes of work.
+**Where this gets you:** the tool installed, you logged in, and a first real exchange with it. About ten minutes of work.
 
 ## The idea
 
@@ -77,7 +77,7 @@ Point the tool at a repo you know, not an empty folder. If you are a fresh gradu
 Ask it two things:
 
 1. What does this project do?
-2. Where would I add a new [something small — a route, a command, a config option]?
+2. Where would I add a new [something small. A route, a command, a config option]?
 
 Use this exact starter if you want the low-friction path:
 
@@ -96,7 +96,7 @@ Read the answers like a reviewer. You know this code. Did it get it right?
 
 ## Why this matters
 
-You're going to live in this tool for the rest of the course. Getting it working today — and watching it actually understand code you know — means every lesson after this starts from "this works" instead of "wait, is it broken?"
+You're going to live in this tool for the rest of the course. Getting it working today. And watching it actually understand code you know. Means every lesson after this starts from "this works" instead of "wait, is it broken?"
 
 ---
 

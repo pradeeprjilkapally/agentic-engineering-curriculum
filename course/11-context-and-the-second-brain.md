@@ -1,6 +1,6 @@
 # Lesson 11 · Context and the second brain
 
-**Where this gets you:** your project will have a `CLAUDE.md` the agent reads automatically every session — so you stop re-explaining the same things and the agent starts each task already knowing your stack.
+**Where this gets you:** your project will have a `CLAUDE.md` the agent reads automatically every session. So you stop re-explaining the same things and the agent starts each task already knowing your stack.
 
 ## The idea
 
@@ -10,9 +10,9 @@ The fix is stable context in a file the agent loads on its own. In Claude Code, 
 
 Three commands matter:
 
-- **`/init`** — point it at your project and it reads the code and generates a starting `CLAUDE.md`. A solid first draft, not a finished one.
-- **`/memory`** — view and edit your `CLAUDE.md` from inside a session, the moment you spot something missing.
-- **Auto-memory** — durable facts the agent records as you work, so a decision made today is still known next week.
+- **`/init`**. Point it at your project and it reads the code and generates a starting `CLAUDE.md`. A solid first draft, not a finished one.
+- **`/memory`**. View and edit your `CLAUDE.md` from inside a session, the moment you spot something missing.
+- **Auto-memory**. Durable facts the agent records as you work, so a decision made today is still known next week.
 
 This is your second brain: slow-changing truth underneath fast-changing briefs.
 
@@ -29,19 +29,19 @@ Start with the instruction file for your tool:
 
 If your team uses several tools, keep `AGENTS.md` as the tool-neutral source and symlink or copy from it when needed.
 
-This repo ships a starter — [`second-brain-starter/`](../second-brain-starter/). It has three tiers:
+This repo ships a starter. [`second-brain-starter/`](./second-brain-starter/). It has three tiers:
 
-- **`CLAUDE.md`** — the always-loaded skeleton: what the project is, stack, code layout, conventions, non-negotiable standards, how to work with you.
-- **`playbooks/`** — step-by-step procedures for repeated work (deploys, releases), pulled in when a task matches.
-- **`memory/`** — durable facts, one per file: decisions, and *scars* — the expensive things that broke and the lesson.
+- **`CLAUDE.md`**. The always-loaded skeleton: what the project is, stack, code layout, conventions, non-negotiable standards, how to work with you.
+- **`playbooks/`**. Step-by-step procedures for repeated work (deploys, releases), pulled in when a task matches.
+- **`memory/`**. Durable facts, one per file: decisions, and *scars*. The expensive things that broke and the lesson.
 
 Run `/init` or fork `second-brain-starter/`. Fill in real facts. Delete every bracket.
 
 ## Your exercise
 
-Get a real `CLAUDE.md` onto your project. Run `/init` or fork the starter, then fill it in with real specifics about your project — delete every bracket.
+Get a real `CLAUDE.md` onto your project. Run `/init` or fork the starter, then fill it in with real specifics about your project. Delete every bracket.
 
-Then, for one full work session, run this rule: every time you explain something to the agent that you've explained before, stop. Don't explain it. Put it in the second brain instead — `CLAUDE.md`, a playbook, or a memory file — and move on.
+Then, for one full work session, run this rule: every time you explain something to the agent that you've explained before, stop. Don't explain it. Put it in the second brain instead. `CLAUDE.md`, a playbook, or a memory file. And move on.
 
 **You're done when** your project has a filled-in instruction file with no brackets left, and your one session produced at least three things written into the second brain instead of re-explained.
 
@@ -49,8 +49,8 @@ Then, for one full work session, run this rule: every time you explain something
 
 ## Why this matters
 
-The model is the same for everyone. Your second brain is not. Month one you're documenting; month three every task starts with the agent already knowing your stack, your standards, and your scars. That compounding is the real 10x — and it's the part you own.
+The model is the same for everyone. Your second brain is not. Month one you're documenting; month three every task starts with the agent already knowing your stack, your standards, and your scars. That compounding is the real 10x. And it's the part you own.
 
 ---
 
-Previous: [Lesson 10 · Evals — defining done](10-evals-defining-done.html) · Next: [Lesson 12 · The no-slop standard](12-the-no-slop-standard.html)
+Previous: [Lesson 10 · Evals. Defining done](10-evals-defining-done.html) · Next: [Lesson 12 · The no-slop standard](12-the-no-slop-standard.html)

@@ -1,6 +1,6 @@
 # Lesson 23 · Discovery and scoping the engagement
 
-**Where this gets you:** you'll be able to run a 3-7 day discovery sprint and produce a 1-page document that names the wedge, the constraints, and what done looks like — before you write any code.
+**Where this gets you:** you'll be able to run a 3-7 day discovery sprint and produce a 1-page document that names the wedge, the constraints, and what done looks like. Before you write any code.
 
 ## The idea
 

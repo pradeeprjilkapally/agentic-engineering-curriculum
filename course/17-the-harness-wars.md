@@ -4,11 +4,11 @@
 
 ## The idea
 
-The model is a commodity. The harness around it is where lock-in happens. As a Forward Deployed Engineer, you build the customer's harness — not the vendor's.
+The model is a commodity. The harness around it is where lock-in happens. As a Forward Deployed Engineer, you build the customer's harness. Not the vendor's.
 
 A harness is the layer that wraps memory, skills, tools, and an agent runtime around a raw model. Today's well-known harnesses include Claude Code, ChatGPT, Cursor, OpenClaw, and several emerging open-source projects. Each one is a credible answer to the question "how do I make this model actually useful for daily work."
 
-But each harness also wants your context inside it. That's where the lock-in lives. If your team's memory, conventions, and accumulated work live inside one vendor's harness, switching vendors costs you all of that — not just the API spend.
+But each harness also wants your context inside it. That's where the lock-in lives. If your team's memory, conventions, and accumulated work live inside one vendor's harness, switching vendors costs you all of that. Not just the API spend.
 
 There's a real argument being made in public this year, by a few of the people you should be following (more on that in Lesson 20), that the durable position for any AI product is an owned, exportable harness. Memory in markdown files you control. Skills as files in a repo you own. The model rented from whoever has the best price-performance this quarter.
 
@@ -21,7 +21,7 @@ What this looks like in practice:
 - Their tools are MCP servers or local scripts they own and run.
 - The model is a config line you can change next quarter without rewriting the system.
 
-The temptation will always be to build directly into a vendor's harness because it's fast. That's the right call for a prototype. The week you hand the system off, the harness becomes the customer's — owned, exportable, swappable at the model layer. That's the move that makes the work durable.
+The temptation will always be to build directly into a vendor's harness because it's fast. That's the right call for a prototype. The week you hand the system off, the harness becomes the customer's. Owned, exportable, swappable at the model layer. That's the move that makes the work durable.
 
 ## Your first exercise
 
@@ -33,7 +33,7 @@ Pick one AI product you've shipped or used heavily. List every place context or 
 
 ## Why this matters
 
-Customer projects almost always start with someone saying "let's just use [vendor's harness] to move fast." Right call for a prototype. Make the "this is prototype, this is production" distinction explicit at kickoff, and the handoff happens cleanly later. Skip that conversation and you end up building work the customer can't take with them — which is a worse outcome for everyone, including you.
+Customer projects almost always start with someone saying "let's just use [vendor's harness] to move fast." Right call for a prototype. Make the "this is prototype, this is production" distinction explicit at kickoff, and the handoff happens cleanly later. Skip that conversation and you end up building work the customer can't take with them. Which is a worse outcome for everyone, including you.
 
 ---
 

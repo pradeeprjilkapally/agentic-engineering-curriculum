@@ -17,7 +17,7 @@ Lots of process. Security review, procurement, legal review, change management. 
 
 How to adjust your approach:
 
-- **In a solo shop:** ship every day, retro every Friday, write everything down because nobody else will. Build the conventions in Lesson 19 from day one even though it feels like overkill — it's not, you're the redundancy.
+- **In a solo shop:** ship every day, retro every Friday, write everything down because nobody else will. Build the conventions in Lesson 19 from day one even though it feels like overkill. It's not, you're the redundancy.
 - **In a small company:** the engineering leader is your champion; make them look good. Document decisions obsessively because priorities will shift and you'll need to defend choices three months later. Use evals as your political shield: when a debate happens, point at the eval suite.
 - **In a big company:** find the executive sponsor on week one. Spend more time than feels natural on documentation, security review, and procurement. Use the agentic discipline to deliver inside the process, not around it, or you will get bounced.
 

@@ -1,12 +1,12 @@
 # Lesson 15 · Review gates and shipping
 
-**Where this gets you:** you'll put a real gate in front of your work — and ship the next change with proof, not a feeling.
+**Where this gets you:** you'll put a real gate in front of your work. And ship the next change with proof, not a feeling.
 
 ## The idea
 
 When agents run in parallel, more work arrives faster. So does mediocre work. The gate catches it before it reaches users.
 
-A gate isn't one check, it's a few, in order. Tests green — the eval suite from Lesson 10. A design check — the no-slop pass and the DESIGN.md from Lessons 12 and 13. And then a human taste call: you look at the result, or at two versions of it, and decide which one is good enough to keep. The agent can run the first two. Only you can make the third.
+A gate isn't one check, it's a few, in order. Tests green. The eval suite from Lesson 10. A design check. The no-slop pass and the DESIGN.md from Lessons 12 and 13. And then a human taste call: you look at the result, or at two versions of it, and decide which one is good enough to keep. The agent can run the first two. Only you can make the third.
 
 Shipping has one rule: never claim done without proof.
 
@@ -53,18 +53,18 @@ curl -sL https://your-live-url.example | grep "text you expect to be live"
 
 ## Your exercise
 
-Pick the next change you'll ship to your project. Before you touch the deploy command, write down — actually write it — the exact proof you'll use to confirm it landed. Name the specific `curl` you'll run, or the screenshot you'll take, or the log line you'll grep for.
+Pick the next change you'll ship to your project. Before you touch the deploy command, write down. Actually write it. The exact proof you'll use to confirm it landed. Name the specific `curl` you'll run, or the screenshot you'll take, or the log line you'll grep for.
 
 Then ship it. Run that exact check. Only after the check passes do you get to say the word "done."
 
-**You're done when** you've shipped one change and pointed at concrete proof — a curl, a screenshot, a log line — that it's actually live.
+**You're done when** you've shipped one change and pointed at concrete proof. A curl, a screenshot, a log line. That it's actually live.
 
 **Practice proof:** run the gate on your project and write the result as `pass`, `fix needed`, or `blocked`, with the evidence.
 
 ## Why this matters
 
-The gate is what keeps quality from sliding as your throughput climbs. And "proof before done" is what keeps you honest. The first time you write the proof down and then watch a deploy silently fail, you'll understand why this rule exists — and you won't ever go back to guessing.
+The gate is what keeps quality from sliding as your throughput climbs. And "proof before done" is what keeps you honest. The first time you write the proof down and then watch a deploy silently fail, you'll understand why this rule exists. And you won't ever go back to guessing.
 
 ---
 
-Previous: [Lesson 14 · Orchestration — parallel agents](14-orchestration-parallel-agents.html) · Next: [Lesson 16 · Where to go next](16-where-to-go-next.html)
+Previous: [Lesson 14 · Orchestration. Parallel agents](14-orchestration-parallel-agents.html) · Next: [Lesson 16 · Where to go next](16-where-to-go-next.html)

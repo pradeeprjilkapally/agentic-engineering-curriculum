@@ -23,7 +23,7 @@ Here's the inventory you'll carry into every engagement.
 
 A concrete pattern to internalize: when a customer-visible problem appears, the symptom is almost always at a different layer from the cause. A hallucinated answer might trace back to a retrieval miss (application layer), which traces to a misconfigured harness, which traces to a wrong model choice for that retrieval step. You cannot fix one of these without naming the others. The team that names all three first wins the debug.
 
-A second concrete pattern: every layer's mitigation is itself a small project. Evals are a project. The no-slop review pass is a project. The intel-watch is a project. You can spend a whole engagement just hardening one layer — and sometimes that's exactly the right move.
+A second concrete pattern: every layer's mitigation is itself a small project. Evals are a project. The no-slop review pass is a project. The intel-watch is a project. You can spend a whole engagement just hardening one layer. And sometimes that's exactly the right move.
 
 ## Your first exercise
 
@@ -41,4 +41,4 @@ You finished the course. You walked in as a senior full-stack engineer. You're w
 
 ---
 
-Next: [Lesson 16 · Where to go next](16-where-to-go-next.html) — though if you're here, you've already arrived. The course gave you the operating system. Now go run it on something real, with someone real, and ship.
+Next: [Lesson 16 · Where to go next](16-where-to-go-next.html). Though if you're here, you've already arrived. The course gave you the operating system. Now go run it on something real, with someone real, and ship.

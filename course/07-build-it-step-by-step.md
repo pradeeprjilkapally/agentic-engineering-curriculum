@@ -1,6 +1,6 @@
 # Lesson 7 · Build it, step by step
 
-**Where this gets you:** the first real slice of your project actually built and running — one meaningful piece, done and working.
+**Where this gets you:** the first real slice of your project actually built and running. One meaningful piece, done and working.
 
 ## The idea
 
@@ -13,7 +13,7 @@ Build one piece small enough to review in a few minutes. Then:
 - **Review it.** Read the diff. Does it do what you asked, and only that?
 - **Run it.** Don't take "it works" on faith. Run the code, see the output.
 - **Course-correct.** If it's off, say so now, before the next slice stacks on top.
-- **Commit.** When a slice is good, commit it. Small commits are your undo button — when something later goes sideways, you have a clean point to fall back to.
+- **Commit.** When a slice is good, commit it. Small commits are your undo button. When something later goes sideways, you have a clean point to fall back to.
 
 Keep asks scoped. "Add the parser" is reviewable. "Add the parser, validation, error handling, and tests" is four slices pretending to be one.
 
@@ -52,19 +52,19 @@ git add .
 git commit -m "feat: complete first project slice"
 ```
 
-If it's right, commit it with a short message. If it's wrong, correct the agent and let it revise — or, if it's badly off, reset to your last commit and re-plan the slice. Either way, end with one piece that genuinely works.
+If it's right, commit it with a short message. If it's wrong, correct the agent and let it revise. Or, if it's badly off, reset to your last commit and re-plan the slice. Either way, end with one piece that genuinely works.
 
 ## Your exercise
 
-Build the first real slice of your project. Get one meaningful piece working — reviewed, run, and committed.
+Build the first real slice of your project. Get one meaningful piece working. Reviewed, run, and committed.
 
-**You're done when** one real piece of your project runs — and you've seen it run, not just been told it does.
+**You're done when** one real piece of your project runs. And you've seen it run, not just been told it does.
 
 **Practice proof:** write down the slice name, files changed, verification command, and what you will ask for next.
 
 ## Why this matters
 
-Small slices are how you stay the engineer instead of the spectator. You review what you can actually review, you catch drift early, and every commit is a safe point to return to. This is the rhythm — slice, review, run, commit — that the rest of your project gets built on. Get comfortable with it now.
+Small slices are how you stay the engineer instead of the spectator. You review what you can actually review, you catch drift early, and every commit is a safe point to return to. This is the rhythm. Slice, review, run, commit. That the rest of your project gets built on. Get comfortable with it now.
 
 ---
 
