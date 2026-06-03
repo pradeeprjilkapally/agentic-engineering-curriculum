@@ -84,7 +84,7 @@ Use [Data + AI practice labs](DATA_AI_LABS.html) when the learner does not bring
 | ML or MLOps | Lab 20: feature drift monitor |
 | AI product | Lab 23: RAG evaluator |
 | Software engineering | Lab 14: PR reviewer |
-| Leaders or CTAs | Lab 30: agentic operating model |
+| Leaders or CTOs | Lab 30: agentic operating model |
 
 Start every workshop with the same local shape:
 

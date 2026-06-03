@@ -1,6 +1,6 @@
 # Agentic Engineering
 
-A hands-on course for engineers who can write code and want coding agents to become how they work.
+A hands-on course for engineers who want to move from first agent session to shipped work they can review, prove, and hand off.
 
 Pick one small, real project. Carry it through the lessons. Finish with a shipped slice, proof commands, and the habits behind the work.
 
@@ -9,6 +9,7 @@ For teams, AISOFT runs **Agentic Engineering Day** as the in-person version: sha
 ## How the course works
 
 - **32 lessons, 6 parts.** Short to read, longer to do. Take them in order if you're new to agents; jump around if you already are.
+- **7 milestones.** If you want the guided route, start with the [Milestone path](course/MILESTONE_PATH.html). It tells you what to read, what to do, and what proof you need before moving on.
 - **One project, the whole way through.** You pick it in Lesson 3.1. Every lesson after that puts the new skill to work on *your* project. The project compounds; the lessons make sense because they land on it.
 - **Every lesson ends with an exercise** and a plain "you're done when." Reading without doing won't move you, but the doing is the satisfying part. That's where the skill actually appears.
 - **We teach Claude Code first, then translate.** Codex CLI, Gemini CLI, and Snowflake Coco get variant notes where the workflow changes. See [CLI variants](course/CLI_VARIANTS.html).
@@ -34,6 +35,22 @@ For concrete projects, use the [Data + AI practice labs](course/DATA_AI_LABS.htm
 For job-focused learners, use [Job pathways + AISOFT offerings](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html). It maps pathways to roles, portfolio proof, interview stories, and AISOFT service lines.
 
 For page, slide, handout, or workshop copy, use the [AISOFT Agentic Engineering brand system](course/BRAND_SYSTEM.html).
+
+## Milestone route
+
+Use this route if you want someone to go from zero to useful, with visible proof at every step.
+
+| Milestone | Outcome | Proof |
+|---|---|---|
+| 0. Get oriented | Understand the AI stack enough to make sane choices | Orientation note in your own words |
+| 1. Take the first turn | Install a coding agent and run a controlled session | First session log and permissions note |
+| 2. Pick a real slice | Choose one project small enough to finish | One-page brief with done check |
+| 3. Build with control | Plan, build, review, and ship one slice | Diff, test or check output, shipped or runnable result |
+| 4. Make quality repeatable | Add briefs, evals, context, review, and design standards | Project artifacts the agent can reuse |
+| 5. Scale the workflow | Coordinate parallel work and review gates | Parallel plan and merge proof |
+| 6. Operate in the real world | Handle discovery, teams, cost, security, and handoff | Handoff package another engineer can run |
+
+Open the full [Milestone path](course/MILESTONE_PATH.html) for the step-by-step version with commands.
 
 ## The path
 

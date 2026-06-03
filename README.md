@@ -1,6 +1,6 @@
 # Agentic Engineering
 
-A hands-on course for engineers who can write code and want coding agents to become how they work.
+A hands-on course for engineers who want to move from first agent session to shipped work they can review, prove, and hand off.
 
 Pick one small, real project. Carry it through the lessons. Finish with a shipped slice and the habits that go with it.
 
@@ -13,6 +13,7 @@ Pick one small, real project. Carry it through the lessons. Finish with a shippe
 Pick the entry point that fits you.
 
 - New to AI? → **[Lesson 1.1: the AI map](course/00a-the-ai-map.html)**. 30 minutes to a clean mental model.
+- Want the guided route? → **[Milestone path](course/MILESTONE_PATH.html)**. Step by step from orientation to handoff.
 - Comfortable with the AI stack? → **[Lesson 2.1: what is agentic engineering](course/01-what-is-agentic-engineering.html)**. Start building.
 - Want the full path? → **[The course index](curriculum.html)**.
 - Have two focused weeks? → **[Two-week FDE ramp](course/TWO_WEEK_FDE_RAMP.html)**. A day-by-day structured plan toward Forward Deployed Engineer work.
@@ -30,6 +31,7 @@ Claude Code is the main path. Codex CLI, Gemini CLI, and Snowflake Coco are cove
 ## More
 
 - **[Course index](curriculum.html)** : the full lesson list.
+- **[Milestone path](course/MILESTONE_PATH.html)** : the learner route with proof checkpoints.
 - **[Practice run guide](course/PRACTICE_RUN.html)** : how to run it for different audiences.
 - **[Teaching guide](course/TEACHING_AGENTIC_ENGINEERING.html)** : instructor notes, external references, and room formats.
 - **[CLI variants](course/CLI_VARIANTS.html)** : Claude Code, Codex, Gemini, Coco.
