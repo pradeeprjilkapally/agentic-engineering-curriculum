@@ -55,3 +55,22 @@ npm test
 pytest
 curl -sI https://your-live-url.example
 ```
+
+## Teaching notes by tool
+
+| Tool | What to emphasize | Failure to watch |
+|---|---|---|
+| Claude Code | Explore, plan, implement, verify. Keep `CLAUDE.md` short and useful. | Letting context fill up, or treating plan mode as ceremony instead of judgment. |
+| Codex CLI | Local terminal work, approvals, sandboxing, command output, and review before accepting diffs. | Approving commands without reading what they can touch. |
+| Gemini CLI | Large-context exploration, file tools, shell tools, web fetch, memory, and trusted folders. | Letting exploration replace a narrow done check. |
+| Coco | Governed data work, approved objects, auditability, warehouse-local proof. | Treating enterprise data access as if it were a local toy repo. |
+
+The instructor move is the same in every track: ask for the plan, stop at the diff, run proof, write the handoff.
+
+## External references for instructors
+
+- [Claude Code best practices](https://code.claude.com/docs/en/best-practices): verification, planning, context, permissions, subagents, and review patterns.
+- [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents): when to use simple LLM calls, workflows, and agents.
+- [Anthropic: Writing effective tools for agents](https://www.anthropic.com/engineering/writing-tools-for-agents): tool definitions, context, and evaluation-driven tool design.
+- [OpenAI Codex CLI docs](https://developers.openai.com/codex/cli): Codex CLI setup, local repo work, approvals, code review, subagents, web search, and MCP.
+- [Gemini CLI docs](https://google-gemini.github.io/gemini-cli/docs/): Gemini CLI architecture, file tools, shell tools, web fetch, memory, MCP servers, and trusted folders.

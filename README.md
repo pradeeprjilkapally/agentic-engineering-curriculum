@@ -31,6 +31,7 @@ Claude Code is the main path. Codex CLI, Gemini CLI, and Snowflake Coco are cove
 
 - **[Course index](curriculum.html)** : the full lesson list.
 - **[Practice run guide](course/PRACTICE_RUN.html)** : how to run it for different audiences.
+- **[Teaching guide](course/TEACHING_AGENTIC_ENGINEERING.html)** : instructor notes, external references, and room formats.
 - **[CLI variants](course/CLI_VARIANTS.html)** : Claude Code, Codex, Gemini, Coco.
 - **[30 practice labs](course/DATA_AI_LABS.html)** : SDLC, data, ML, AI apps, agentic workflows.
 - **[Job pathways](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html)** : how labs map to roles and AISOFT offerings.

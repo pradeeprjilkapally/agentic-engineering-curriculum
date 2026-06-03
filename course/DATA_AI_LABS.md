@@ -14,6 +14,8 @@ Use one lab as your course project, or run several after Lesson 3.4 as extra pra
 
 For career positioning, pair this page with [Job pathways + AISOFT offerings](JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html).
 
+For instructors, pair this page with [Teaching agentic engineering](TEACHING_AGENTIC_ENGINEERING.html). The labs are not prompt challenges. They are practice in briefing, planning, reviewing, proving, and handing off agentic work.
+
 ## Coverage by work area
 
 | Work area | Labs |
@@ -83,6 +85,27 @@ python main.py --input data/sample.csv --out outputs/result.md
 ls -lh outputs/
 cat outputs/result.md
 ```
+
+## Standard lab artifact package
+
+Every lab should leave a small package in the repo:
+
+```text
+lab-artifacts/
+├── brief.md
+├── plan.md
+├── proof.md
+├── decisions.md
+└── next-slice.md
+```
+
+The learner writes these in plain English:
+
+- `brief.md`: goal, constraints, inputs, outputs, done check.
+- `plan.md`: first slice only, with files and checks.
+- `proof.md`: command output, screenshot notes, test results, or generated files.
+- `decisions.md`: what changed and why.
+- `next-slice.md`: the next instruction a future agent should receive.
 
 ## Quick chooser
 
@@ -1018,7 +1041,7 @@ python main.py --repo-fixture data/repo_state/ --out output/handoff.md
 
 Done means another person or agent can continue without guessing the state.
 
-## How to use these with the 16 lessons
+## How to use these with the 32 lessons
 
 | Course point | What to do with a lab |
 |---|---|
@@ -1031,6 +1054,10 @@ Done means another person or agent can continue without guessing the state.
 | Lesson 4.3 | Add project instructions and safe credential rules. |
 | Lesson 4.4 | Run no-slop against generated code. |
 | Lesson 5.2 | Attach proof before saying shipped. |
+| Lesson 6.3 | Add handoff notes and team conventions. |
+| Lesson 6.9 | Add cost and observability notes where the lab has API, model, or data runs. |
+| Lesson 6.10 | Add data boundary and credential safety notes. |
+| Lesson 6.11 | Package the lab so another learner can run it. |
 
 ## Instructor notes
 

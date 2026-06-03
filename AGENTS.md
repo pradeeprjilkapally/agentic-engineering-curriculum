@@ -11,11 +11,11 @@ aisoftllc.github.io/agentic-engineering-curriculum.
 
 ## Layout
 
-- `course/`. The 16 lessons, `NN-slug.md`, in order, across 4 parts.
+- `course/`. The 32 lessons, `NN-slug.md`, across 6 parts, plus guides for labs, CLI variants, teaching, pathways, and the two-week ramp.
 - `curriculum.md`. The course index / table of contents.
 - `index.html` + `assets/style.css`. The landing site (GitHub Pages serves this).
 - `no-slop-skill/`, `templates/DESIGN.md`, `second-brain-starter/`. The forkable
-  artifacts the course installs. Lessons 11–13 depend on them; don't break them.
+  artifacts the course installs. Lessons 4.3, 4.4, and 4.5 depend on them; don't break them.
 - `README.md`. Repo overview.
 
 ## Lesson format
@@ -23,7 +23,7 @@ aisoftllc.github.io/agentic-engineering-curriculum.
 Every lesson follows the same shape. Match it exactly when editing or adding one:
 
 1. `# Lesson N · Title`
-2. `> **Part X · Part name**. Lesson N of 16`
+2. `> **Part X · Part name**. Lesson N of 32`
 3. `**Where this gets you:** <one sentence>`
 4. `## The idea`. Plain explanation
 5. `## Do it`. Concrete steps (only when there are real commands)

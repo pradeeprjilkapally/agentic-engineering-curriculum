@@ -27,6 +27,8 @@ This is beginner-first, not beginner-only.
 
 For facilitation, use the [practice run guide](course/PRACTICE_RUN.html).
 
+For instructors and mentors, use [Teaching agentic engineering](course/TEACHING_AGENTIC_ENGINEERING.html). It captures the teaching loop, external references, workshop formats, and the common failure modes to watch for.
+
 For concrete projects, use the [Data + AI practice labs](course/DATA_AI_LABS.html): 30 exercises across SDLC, data engineering, big data, analytics, governance, data science, ML/MLOps, AI apps, backend, fresh-grad portfolio, team lead adoption, and agentic workflows.
 
 For job-focused learners, use [Job pathways + AISOFT offerings](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html). It maps pathways to roles, portfolio proof, interview stories, and AISOFT service lines.
@@ -99,6 +101,7 @@ For page, slide, handout, or workshop copy, use the [AISOFT Agentic Engineering 
 - A tool-agnostic workflow you can run in Claude Code, Codex CLI, Gemini CLI, or Snowflake Coco.
 - A working personal intel-watch so you stay current on the people whose signal matters, without doom-scrolling.
 - The operating mode of a Forward Deployed Engineer: walking into a customer's stack, scoping, building, shipping with proof, and handing off cleanly.
+- A teaching model you can reuse for mentoring, workshops, team enablement, or hiring filters.
 
 ## The artifacts
 

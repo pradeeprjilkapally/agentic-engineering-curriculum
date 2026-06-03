@@ -6,6 +6,8 @@ Run the course through artifacts. Each lesson should leave something concrete in
 
 The bar is **FDE**. Forward Deployed Engineer. A learner finishes the course when they can be embedded with a customer team on Monday and run a real engagement without embarrassing themselves or the team. For the compressed version, see the [Two-week FDE ramp](TWO_WEEK_FDE_RAMP.html). A 5-day plan with a Friday acceptance test.
 
+Teach toward visible behavior, not tool fluency. The learner should be able to explain the brief, plan, diff, proof, risk, decision, and next slice.
+
 ## Learner tracks
 
 | Learner | Start here | Project size | Support needed |
@@ -48,6 +50,21 @@ Bad first projects:
 | Part 3 | Project chosen, plan approved, first slice built, first version shipped |
 | Part 4 | Brief, eval, context, review pass, and design standard installed |
 | Part 5 | Parallel-agent plan, review gate, proof checklist, next roadmap |
+| Part 6 | Discovery note, team conventions, security model, cost/observability note, handoff package |
+
+## Artifact rubric
+
+Use this when reviewing a learner, candidate, or cohort artifact.
+
+| Area | Pass | Not yet |
+|---|---|---|
+| Brief | Goal, constraints, inputs, outputs, and done check are written before build | Prompt is vague or only describes intent |
+| Plan | Plan is scoped to one slice and names files, tests, and risks | Plan tries to solve the whole product |
+| Agent use | Learner redirects the agent and can explain why | Learner accepts whatever the agent returns |
+| Review | Diff is read and explained in plain English | Diff is merged because tests happened to pass |
+| Proof | Command output, screenshot, test, fixture, log, or deployed URL is captured | "It works on my machine" with no evidence |
+| Context | `AGENTS.md`, `CLAUDE.md`, `HANDOFF.md`, or decision note exists | Context lives only in chat history |
+| Handoff | Another engineer can run the next step | The learner must be in the room for progress |
 
 ## Instructor loop
 
@@ -61,6 +78,8 @@ For live cohorts, run every exercise with the same loop:
 6. Have them write the next instruction.
 
 The teaching moment is usually the review after the agent does something plausible but incomplete.
+
+For a deeper instructor reference, use [Teaching agentic engineering](TEACHING_AGENTIC_ENGINEERING.html).
 
 ## Shared workshop command block
 
@@ -88,3 +107,14 @@ npm test
 git add .
 git commit -m "feat: complete workshop slice"
 ```
+
+## Review questions
+
+Ask these after every exercise:
+
+- What problem did you ask the agent to solve?
+- What did you constrain?
+- What did the agent change?
+- What proof did you run?
+- What is still risky?
+- What will future-you need to know?

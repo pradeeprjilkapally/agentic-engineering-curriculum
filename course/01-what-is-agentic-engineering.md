@@ -20,7 +20,7 @@ You do not need years of experience to learn this. Fresh graduates can follow th
 
 ## Your first exercise
 
-You will build something real over these 16 lessons, so start looking now.
+You will build something real through this course, so start looking now.
 
 Write down three small things you could build or fix. Next to each, add one line for what it does and one line for how you'd know it works.
 
