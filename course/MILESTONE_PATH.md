@@ -8,7 +8,7 @@ You do not need to feel ready before you start. Keep the first project small, wo
 
 | Milestone | You are learning to | Lessons | Proof before moving on |
 |---|---|---|---|
-| 0. Get oriented | Understand the AI stack enough to make sane choices | 1.1 to 1.5 | A short note explaining LLMs, agents, tools, context, and model choice in your own words |
+| 0. Get oriented | Learn the few AI concepts you need before touching the CLI | 1.1 to 1.5 | A one-page orientation note you can use while choosing tools and models |
 | 1. Take the first turn | Install a coding agent and run a controlled first session | 2.1 to 2.4 | Tool installed, first session log captured, permissions understood |
 | 2. Pick a real slice | Choose a project small enough to finish and real enough to matter | 3.1 | One-page project brief with a done check |
 | 3. Build with control | Plan, build, review, and ship one slice | 3.2 to 3.4 | A shipped or runnable slice with proof |
@@ -18,7 +18,11 @@ You do not need to feel ready before you start. Keep the first project small, wo
 
 ## Milestone 0: Get oriented
 
-Start here if words like agent, RAG, frontier model, open weights, context window, or multimodal are still fuzzy.
+Purpose: remove the fog before the hands-on work starts.
+
+You are not trying to become an AI researcher here. You are learning enough to understand what the agent is doing, what kind of model or tool fits the job, and what risks to watch before you let it edit a repo.
+
+If you already know LLMs, agents, RAG, context windows, open weights, and multimodal models, skim this milestone and move to [Milestone 1](#milestone-1-take-the-first-turn). If those terms are fuzzy, spend 30 to 60 minutes here. It will make the rest of the course much easier.
 
 Read:
 
