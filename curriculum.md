@@ -43,7 +43,7 @@ Use this route if you want someone to go from zero to useful, with visible proof
 | Milestone | Outcome | Proof |
 |---|---|---|
 | 0. Get oriented | Understand the AI stack enough to make sane choices | Orientation note in your own words |
-| 1. Take the first turn | Install a coding agent and run a controlled session | First session log and permissions note |
+| 1. Get comfortable in the CLI | Install the agent, build one tiny change, and centralize what you learn | First session log, tiny diff, instruction file, first skill/checklist |
 | 2. Pick a real slice | Choose one project small enough to finish | One-page brief with done check |
 | 3. Build with control | Plan, build, review, and ship one slice | Diff, test or check output, shipped or runnable result |
 | 4. Make quality repeatable | Add briefs, evals, context, review, and design standards | Project artifacts the agent can reuse |

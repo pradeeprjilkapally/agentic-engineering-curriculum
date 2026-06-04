@@ -9,7 +9,7 @@ You do not need to feel ready before you start. Keep the first project small, wo
 | Milestone | You are learning to | Lessons | Proof before moving on |
 |---|---|---|---|
 | 0. Get oriented | Learn the few AI concepts you need before touching the CLI | 1.1 to 1.5 | A one-page orientation note you can use while choosing tools and models |
-| 1. Take the first turn | Install a coding agent and run a controlled first session | 2.1 to 2.4 | Tool installed, first session log captured, permissions understood |
+| 1. Get comfortable in the CLI | Install the agent, learn the command loop, build one tiny change, and centralize what you learn | 2.1 to 2.4, 4.3, 4.4 | CLI started, tiny change built, `CLAUDE.md` or `AGENTS.md` created, first skill/checklist installed, one lesson fed back into shared instructions |
 | 2. Pick a real slice | Choose a project small enough to finish and real enough to matter | 3.1 | One-page project brief with a done check |
 | 3. Build with control | Plan, build, review, and ship one slice | 3.2 to 3.4 | A shipped or runnable slice with proof |
 | 4. Make quality repeatable | Add briefs, evals, context, review, and design standards | 4.1 to 4.5 | `brief.md`, eval, context file, review pass, and design note |
@@ -57,9 +57,11 @@ EOF
 
 You are ready to move on when you can explain the answers without copying the lesson text.
 
-## Milestone 1: Take the first turn
+## Milestone 1: Get comfortable in the CLI
 
-Now put your hands on the tool. Claude Code is the main path in the course. Use [CLI variants](CLI_VARIANTS.html) if your room is using Codex CLI, Gemini CLI, or Coco.
+Usefulness: this milestone makes the terminal agent feel like a normal workbench instead of a strange chat box.
+
+By the end, you should know how to start the tool, stop it, approve or reject work, give it repo instructions, add one small reusable procedure, and use that setup to build one tiny thing. Claude Code is the main path in the course. Use [CLI variants](CLI_VARIANTS.html) if your room is using Codex CLI, Gemini CLI, or Coco.
 
 Read:
 
@@ -67,8 +69,12 @@ Read:
 - [Install your tool](02-install-your-tool.html)
 - [Your first session](03-your-first-session.html)
 - [Staying in control](04-staying-in-control.html)
+- [Context and the second brain](11-context-and-the-second-brain.html), just the `CLAUDE.md` / `AGENTS.md` setup
+- [The no-slop standard](12-the-no-slop-standard.html), just the skill/checklist idea
 
-Do this in a repo you can safely change:
+### 1. Start the CLI in a real repo
+
+Do this in a repo you can safely inspect:
 
 ```bash
 git status --short
@@ -81,6 +87,166 @@ claude
 
 Ask the agent to inspect the project and summarize how to run it. Do not ask it to make a large change yet.
 
+Use this prompt:
+
+```text
+Read this repo and orient me.
+
+Tell me:
+1. what the project does,
+2. how to run it,
+3. how to test it,
+4. the files I should understand first,
+5. what you would avoid changing without permission.
+Do not edit files yet.
+```
+
+### 2. Learn the CLI controls
+
+Before you let the agent edit anything, make sure you can answer this:
+
+| Thing to learn | Claude Code | Codex CLI | Gemini CLI |
+|---|---|---|---|
+| Start a session | `claude` | `codex` | `gemini` |
+| Ask for help | `/help` | help command or docs | help command or docs |
+| Stop or interrupt | `Esc` | interrupt or stop | interrupt or stop |
+| Review changes | `git diff` | `git diff` | `git diff` |
+| Keep repo memory | `CLAUDE.md` | `AGENTS.md` | repo instructions or team convention |
+
+The exact command surface changes. The habit does not: start in the repo, ask for orientation, approve carefully, read the diff, run proof.
+
+### 3. Add project instructions
+
+The agent should not have to rediscover your repo rules every session. Add the first instruction file now.
+
+For Claude Code:
+
+```bash
+cat > CLAUDE.md <<'EOF'
+# Project instructions
+
+What this project does:
+Main commands:
+- run:
+- test:
+- lint:
+
+Repo rules:
+- Ask before changing dependencies.
+- Keep changes small and reviewable.
+- Show `git diff` before calling work done.
+- Include the proof command or manual check used.
+
+Do not touch:
+- secrets
+- production data
+- generated files
+EOF
+```
+
+For Codex or mixed-tool teams:
+
+```bash
+cat > AGENTS.md <<'EOF'
+# Project instructions for agents
+
+What this project does:
+Main commands:
+- run:
+- test:
+- lint:
+
+Repo rules:
+- Ask before changing dependencies.
+- Keep changes small and reviewable.
+- Show `git diff` before calling work done.
+- Include the proof command or manual check used.
+
+Do not touch:
+- secrets
+- production data
+- generated files
+EOF
+```
+
+If your team uses both, keep `AGENTS.md` as the tool-neutral source and copy or symlink the relevant parts into `CLAUDE.md`.
+
+### 4. Add one tiny skill or checklist
+
+A skill is a reusable procedure. Use one when you have a repeated habit you want the agent to follow the same way every time.
+
+For Claude Code, project skills can live under `.claude/skills/<skill-name>/SKILL.md`. Start with a tiny review skill:
+
+```bash
+mkdir -p .claude/skills/review-diff
+cat > .claude/skills/review-diff/SKILL.md <<'EOF'
+---
+name: review-diff
+description: Use when reviewing agent-created code changes before the user accepts them.
+---
+
+# Review diff
+
+When this skill is used:
+
+1. Run `git status --short`.
+2. Run `git diff`.
+3. Summarize changed files in plain English.
+4. Flag risky changes, unrelated edits, missing tests, and unclear behavior.
+5. Name the proof command that should run next.
+6. Do not say the work is done unless proof exists.
+EOF
+```
+
+If your CLI does not support skills, make the same content a checklist:
+
+```bash
+mkdir -p agent-checklists
+cp .claude/skills/review-diff/SKILL.md agent-checklists/review-diff.md
+```
+
+Then tell the agent:
+
+```text
+Use the review-diff skill or checklist before I accept this change.
+```
+
+### 5. Build one tiny thing with the setup
+
+Now use the CLI, instruction file, and review skill together. Pick a change small enough to finish in one sitting:
+
+- fix one typo in UI copy,
+- add one log line,
+- add one README example,
+- add one CLI flag,
+- add one validation check,
+- add one tiny test.
+
+Use this prompt:
+
+```text
+Using the project instructions, make one tiny improvement that can be reviewed in under ten minutes.
+
+Before editing:
+1. tell me the file you plan to touch,
+2. tell me the proof command or manual check,
+3. wait for my approval.
+
+After editing:
+1. show the diff summary,
+2. run or name the proof,
+3. use the review-diff skill or checklist before saying it is ready.
+```
+
+After the change, read the diff yourself:
+
+```bash
+git status --short
+git diff
+```
+
+### 6. Centralize the lesson
+
 Capture:
 
 - What command starts the project.
@@ -88,8 +254,15 @@ Capture:
 - What files look important.
 - What permission mode you used.
 - What you would not let the agent change without review.
+- Whether you used `CLAUDE.md`, `AGENTS.md`, or both.
+- The first skill or checklist you added.
+- What tiny thing you built with it.
+- What the agent got wrong or needed to be told.
+- Where you centralized that lesson for the next run.
 
-You are ready to move on when you can stop the agent, inspect the diff, and decide whether to keep or reject the work.
+This centralization step is the feedback mechanism. If the agent missed the test command, add it to `CLAUDE.md` or `AGENTS.md`. If the review checklist caught something useful, improve the skill. If the project has a repeated workflow, turn it into a playbook. The point is that every learner makes the shared instructions better, so the next person starts ahead instead of repeating the same correction.
+
+You are ready to move on when you can start the CLI, orient it on a repo, build one tiny change, inspect the diff, and point to the shared instruction or skill update that will help future sessions.
 
 ## Milestone 2: Pick a real slice
 
