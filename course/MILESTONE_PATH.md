@@ -18,9 +18,15 @@ You do not need to feel ready before you start. Keep the first project small, wo
 
 ## Milestone 0: Get oriented
 
-Purpose: remove the fog before the hands-on work starts.
+Usefulness: this milestone keeps beginners from treating the agent like magic.
 
-You are not trying to become an AI researcher here. You are learning enough to understand what the agent is doing, what kind of model or tool fits the job, and what risks to watch before you let it edit a repo.
+You are not trying to become an AI researcher here. You are learning just enough to make better choices in the next milestone:
+
+- what to ask the agent to do,
+- what context to give it,
+- when a task needs retrieval, tools, vision, or a normal coding pass,
+- when a local or open-weight model might matter,
+- what risks to check before you let the tool edit a repo.
 
 If you already know LLMs, agents, RAG, context windows, open weights, and multimodal models, skim this milestone and move to [Milestone 1](#milestone-1-take-the-first-turn). If those terms are fuzzy, spend 30 to 60 minutes here. It will make the rest of the course much easier.
 
