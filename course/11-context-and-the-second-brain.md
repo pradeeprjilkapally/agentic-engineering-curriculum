@@ -29,7 +29,7 @@ Start with the instruction file for your tool:
 
 If your team uses several tools, keep `AGENTS.md` as the tool-neutral source and symlink or copy from it when needed.
 
-This repo ships a starter. [`second-brain-starter/`](./second-brain-starter/). It has three tiers:
+This repo ships a starter. [`second-brain-starter/`](../second-brain-starter/). It has three tiers:
 
 - **`CLAUDE.md`**. The always-loaded skeleton: what the project is, stack, code layout, conventions, non-negotiable standards, how to work with you.
 - **`playbooks/`**. Step-by-step procedures for repeated work (deploys, releases), pulled in when a task matches.

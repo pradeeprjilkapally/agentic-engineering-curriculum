@@ -36,12 +36,15 @@ For job-focused learners, use [Job pathways + AISOFT offerings](course/JOB_PATHW
 
 For page, slide, handout, or workshop copy, use the [AISOFT Agentic Engineering brand system](course/BRAND_SYSTEM.html).
 
+Fresh graduates and career switchers should keep [Beginner prep: Git, terminal, and language basics](course/BEGINNER_PREP.html) open while starting the milestone path.
+
 ## Milestone route
 
 Use this route if you want someone to go from zero to useful, with visible proof at every step.
 
 | Milestone | Outcome | Proof |
 |---|---|---|
+| Prep | Get comfortable with Git, terminal, and one language lane | `git status`, `git diff`, and one tiny runnable project |
 | 0. Get oriented | Understand the AI stack enough to make sane choices | Orientation note in your own words |
 | 1. Get comfortable in the CLI | Install the agent, build one tiny change, and centralize what you learn | First session log, tiny diff, instruction file, first skill/checklist |
 | 2. Pick a real slice | Choose one project small enough to finish | One-page brief with done check |
@@ -68,32 +71,32 @@ Open the full [Milestone path](course/MILESTONE_PATH.html) for the step-by-step 
 
 1. [What is agentic engineering?](course/01-what-is-agentic-engineering.html)
 2. [Install your tool](course/02-install-your-tool.html)
-3. Your first session
-4. Staying in control
+3. [Your first session](course/03-your-first-session.html)
+4. [Staying in control](course/04-staying-in-control.html)
 
 ### Part 3 · Build something real
 *Pick a project and take it all the way to shipped.*
 
-5. Pick your first project
-6. Plan before you build
-7. Build it, step by step
-8. Ship it
+5. [Pick your first project](course/05-pick-your-first-project.html)
+6. [Plan before you build](course/06-plan-before-you-build.html)
+7. [Build it, step by step](course/07-build-it-step-by-step.html)
+8. [Ship it](course/08-ship-it.html)
 
 ### Part 4 · The core concepts
 *The discipline that makes agent work hold up under real users.*
 
-9. The brief
-10. Evals
-11. Context and the second brain
-12. The no-slop standard
-13. Design discipline
+9. [The brief](course/09-the-brief.html)
+10. [Evals](course/10-evals-defining-done.html)
+11. [Context and the second brain](course/11-context-and-the-second-brain.html)
+12. [The no-slop standard](course/12-the-no-slop-standard.html)
+13. [Design discipline](course/13-design-discipline.html)
 
 ### Part 5 · Scale up
 *From one agent to a way of working.*
 
-14. Orchestration
-15. Review gates and shipping
-16. Where to go next
+14. [Orchestration](course/14-orchestration-parallel-agents.html)
+15. [Review gates and shipping](course/15-review-gates-and-shipping.html)
+16. [Where to go next](course/16-where-to-go-next.html)
 
 ### Part 6 · Operating in the real world
 *The envelope you walk out with. The six lessons that turn a working agent engineer into a Forward Deployed Engineer.*

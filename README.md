@@ -12,6 +12,7 @@ Pick one small, real project. Carry it through the lessons. Finish with a shippe
 
 Pick the entry point that fits you.
 
+- Fresh graduate or new to Git? → **[Beginner prep](course/BEGINNER_PREP.html)**. Git, terminal, and language basics before the CLI.
 - New to AI? → **[Lesson 1.1: the AI map](course/00a-the-ai-map.html)**. 30 minutes to a clean mental model.
 - Want the guided route? → **[Milestone path](course/MILESTONE_PATH.html)**. Step by step from orientation to handoff.
 - Comfortable with the AI stack? → **[Lesson 2.1: what is agentic engineering](course/01-what-is-agentic-engineering.html)**. Start building.
@@ -32,6 +33,7 @@ Claude Code is the main path. Codex CLI, Gemini CLI, and Snowflake Coco are cove
 
 - **[Course index](curriculum.html)** : the full lesson list.
 - **[Milestone path](course/MILESTONE_PATH.html)** : the learner route with proof checkpoints.
+- **[Beginner prep](course/BEGINNER_PREP.html)** : Git, terminal, and language basics for fresh graduates.
 - **[Practice run guide](course/PRACTICE_RUN.html)** : how to run it for different audiences.
 - **[Teaching guide](course/TEACHING_AGENTIC_ENGINEERING.html)** : instructor notes, external references, and room formats.
 - **[CLI variants](course/CLI_VARIANTS.html)** : Claude Code, Codex, Gemini, Coco.

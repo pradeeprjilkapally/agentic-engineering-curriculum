@@ -46,14 +46,83 @@ For instructors, pair this page with [Teaching agentic engineering](TEACHING_AGE
 | SDLC + DevOps | requirements, tickets, CI, tests, releases, incidents | Lab 25 · Story-to-test planner | Lab 26 · CI failure explainer, Lab 27 · Release note generator |
 | Agentic workflows | multi-agent work, memory, orchestration, handoff | Lab 28 · Multi-agent task board | Lab 29 · Agent memory curator, Lab 30 · Handoff packet generator |
 | Backend/app engineering | APIs, CLIs, internal tools, services | Lab 10 · API log triage agent | Lab 11 · Support ticket routing service |
-| Fresh-grad portfolio | New engineers who need concrete GitHub projects | Lab 12 · CSV cleaning assistant | Lab 13 · Resume/project README improver |
+| Fresh-grad portfolio | New engineers who need concrete GitHub projects | Lab 12 · CSV cleaning assistant | Lab 13 · Resume project README improver |
 | Team lead / manager | Standards, review gates, team adoption | Lab 14 · Agentic PR reviewer | Lab 15 · Team runbook generator |
 
 Full versions can add Snowflake, LLM APIs, deployment, or alerts after the local behavior works.
 
+## Fresh graduate setup
+
+Use this setup before Lab 12 or Lab 13 if you do not already have a repo.
+
+```bash
+mkdir fresh-grad-agentic-lab
+cd fresh-grad-agentic-lab
+git init
+mkdir -p data output tests artifacts
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip pytest
+cat > main.py <<'EOF'
+import argparse
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Fresh graduate agentic lab")
+    parser.add_argument("--name", default="learner")
+    args = parser.parse_args()
+    print(f"hello, {args.name}")
+
+
+if __name__ == "__main__":
+    main()
+EOF
+cat > tests/test_main.py <<'EOF'
+import subprocess
+import sys
+
+
+def test_help_runs():
+    result = subprocess.run(
+        [sys.executable, "main.py", "--help"],
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+    assert result.returncode == 0
+    assert "Fresh graduate agentic lab" in result.stdout
+EOF
+touch README.md
+git status --short
+```
+
+If you are on Windows PowerShell, activate the environment with:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Your first proof command can be simple:
+
+```bash
+python main.py --help
+python -m pytest
+```
+
+After the first agent-assisted change, always run:
+
+```bash
+git status --short
+git diff
+```
+
+Then centralize the lesson in `AGENTS.md` or `CLAUDE.md` so the next session starts with the command, folder layout, and rule the agent just learned.
+
 ## Standard lab command block
 
 Use this rhythm for every lab, regardless of pathway:
+
+If `git status`, `git diff`, or `python -m pytest` is new to you, do [Beginner prep](BEGINNER_PREP.html) first. The labs assume you can open a terminal, work in a repo, and run one Python or Node command.
 
 ```bash
 # create or open the lab repo
@@ -554,7 +623,7 @@ python main.py --csv data/messy_customers.csv --out output/clean_customers.csv -
 
 Done means the cleaned file and report are both created.
 
-## Lab 13 · Resume/project README improver
+## Lab 13 · Resume project README improver
 
 **Pathway:** Fresh-grad portfolio
 

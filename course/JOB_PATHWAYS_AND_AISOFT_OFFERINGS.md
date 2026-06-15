@@ -303,7 +303,7 @@ For in-person events, keep the first lab shared: brief, plan, build, review, tes
 **Start here:**
 
 - [Lab 12 · CSV cleaning assistant](DATA_AI_LABS.html#lab-12-csv-cleaning-assistant)
-- [Lab 13 · Resume/project README improver](DATA_AI_LABS.html#lab-13-resumeproject-readme-improver)
+- [Lab 13 · Resume project README improver](DATA_AI_LABS.html#lab-13-resume-project-readme-improver)
 - [Lab 1 · LLM data profiling tool](DATA_AI_LABS.html#lab-1-llm-data-profiling-tool)
 - [Practice run guide](PRACTICE_RUN.html)
 

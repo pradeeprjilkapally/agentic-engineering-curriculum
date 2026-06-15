@@ -10,7 +10,7 @@ Fix it the same way you fixed slop: move the standard into an artifact the agent
 
 `DESIGN.md` is the design source of truth. It pins down the things the agent would otherwise invent. Color tokens (named, not loose hex), the type scale, the spacing scale, layout rules, component rules, and **voice**: how the product talks in copy, errors, and empty states. The rule it enforces: if a color or a size is needed and no token fits, that's a flag to discuss. Not a license to invent.
 
-This repo ships a template. [`templates/DESIGN.md`](./templates/DESIGN.html). It has sections for what the product is and the one feeling it should produce, voice, color tokens, type, layout and spacing, components, motion, an accessibility floor, and an anti-patterns list. The slop list, design edition: generic AI gradients, off-scale spacing, invented colors, emoji standing in for real copy.
+This repo ships a template. [`templates/DESIGN.md`](../templates/DESIGN.html). It has sections for what the product is and the one feeling it should produce, voice, color tokens, type, layout and spacing, components, motion, an accessibility floor, and an anti-patterns list. The slop list, design edition: generic AI gradients, off-scale spacing, invented colors, emoji standing in for real copy.
 
 ## Do it
 

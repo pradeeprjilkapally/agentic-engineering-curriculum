@@ -14,7 +14,7 @@ Teach toward visible behavior, not tool fluency. The learner should be able to e
 
 | Learner | Start here | Project size | Support needed |
 |---|---|---|---|
-| Fresh graduate | Part 1 thoroughly, then Lessons 2.1 to 2.4 slowly, with a tiny app or CLI | 1 page, 1 command, or 1 bug fix | More review, smaller slices, more explanation of diffs |
+| Fresh graduate | [Beginner prep](BEGINNER_PREP.html), Part 1 thoroughly, then Lessons 2.1 to 2.4 slowly, with a tiny app or CLI | 1 page, 1 command, or 1 bug fix | More review, smaller slices, more explanation of diffs |
 | Experienced engineer new to agents | Skim Part 1, do Lessons 2.1 to 2.4 quickly, then focus on planning, gates, and all of Part 6 | A real backlog item or small internal tool | Pushback on scope and proof |
 | Senior engineer aiming for FDE | The [Two-week FDE ramp](TWO_WEEK_FDE_RAMP.html). One real project, all 32 lessons, the Day-10 acceptance test | A real customer-style project | Daily check-in, Day-10 peer review |
 | Team lead | Do the whole path on one team repo. Adopt Part 6 conventions for the team | One team-owned improvement | Standards, review gates, rollout plan, AGENTS.md/HANDOFF.md/decisions/ adopted across team repos |

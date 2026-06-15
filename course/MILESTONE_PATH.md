@@ -18,7 +18,7 @@ You do not need to feel ready before you start. Keep the first project small, wo
 
 ## Milestone 0: Get oriented
 
-Usefulness: this milestone keeps beginners from treating the agent like magic.
+Usefulness: this milestone keeps beginners from treating the agent like a black box.
 
 You are not trying to become an AI researcher here. You are learning just enough to make better choices in the next milestone:
 
@@ -28,7 +28,9 @@ You are not trying to become an AI researcher here. You are learning just enough
 - when a local or open-weight model might matter,
 - what risks to check before you let the tool edit a repo.
 
-If you already know LLMs, agents, RAG, context windows, open weights, and multimodal models, skim this milestone and move to [Milestone 1](#milestone-1-take-the-first-turn). If those terms are fuzzy, spend 30 to 60 minutes here. It will make the rest of the course much easier.
+If you already know LLMs, agents, RAG, context windows, open weights, and multimodal models, skim this milestone and move to [Milestone 1](#milestone-1-get-comfortable-in-the-cli). If those terms are fuzzy, spend 30 to 60 minutes here. It will make the rest of the course much easier.
+
+If Git, terminal commands, or programming language basics are the harder part, start with [Beginner prep: Git, terminal, and language basics](BEGINNER_PREP.html) first.
 
 Read:
 

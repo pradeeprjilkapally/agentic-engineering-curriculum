@@ -132,4 +132,4 @@ If you're running this as your own onboarding:
 
 The course is the operating system. This is the proper install procedure.
 
-Back to [the course index](./curriculum.html).
+Back to [the course index](../curriculum.html).

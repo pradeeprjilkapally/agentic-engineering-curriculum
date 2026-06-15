@@ -8,9 +8,9 @@
 
 Slop is a list: dead code, swallowed errors, copy-paste, vague names, untested edges, comments that restate the line above. If you can check it, the agent can check it.
 
-That's what the no-slop skill is. This repo ships it. [`no-slop-skill/`](./no-slop-skill/). It's a review pass: after the agent generates or edits non-trivial code, it walks a checklist against its own output **before** handing the work back to you. Every hit gets fixed, or gets one line explaining why it's a deliberate exception. The work isn't eligible for your review gate until the checklist is clean.
+That's what the no-slop skill is. This repo ships it. [`no-slop-skill/`](../no-slop-skill/). It's a review pass: after the agent generates or edits non-trivial code, it walks a checklist against its own output **before** handing the work back to you. Every hit gets fixed, or gets one line explaining why it's a deliberate exception. The work isn't eligible for your review gate until the checklist is clean.
 
-The checklist itself ([`no-slop-checklist.md`](./no-slop-skill/no-slop-checklist.html)) has ten sections: dead code, unhandled errors, duplication, naming, untested edges, comments, consistency with the codebase, scope, fake done (TODOs and stubbed returns), and verified-not-claimed. Each item is concrete enough to be unarguable.
+The checklist itself ([`no-slop-checklist.md`](../no-slop-skill/no-slop-checklist.html)) has ten sections: dead code, unhandled errors, duplication, naming, untested edges, comments, consistency with the codebase, scope, fake done (TODOs and stubbed returns), and verified-not-claimed. Each item is concrete enough to be unarguable.
 
 This is attention as an artifact.
 
