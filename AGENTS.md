@@ -44,3 +44,14 @@ not API documentation.
 
 Feature branch + PR. Don't push to `main` directly. Merging to `main` republishes
 the GitHub Pages site.
+
+## Verification
+
+Before opening a PR for curriculum or navigation changes, run:
+
+```bash
+python3 scripts/check_links.py
+```
+
+The checker validates local Markdown and HTML links, including GitHub Pages `.html`
+targets and heading anchors.

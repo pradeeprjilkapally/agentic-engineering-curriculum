@@ -40,6 +40,16 @@ Claude Code is the main path. Codex CLI, Gemini CLI, and Snowflake Coco are cove
 - **[30 practice labs](course/DATA_AI_LABS.html)** : SDLC, data, ML, AI apps, agentic workflows.
 - **[Job pathways](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html)** : how labs map to roles and AISOFT offerings.
 
+## Checks
+
+Before pushing curriculum edits, run:
+
+```bash
+python3 scripts/check_links.py
+```
+
+It checks local Markdown and HTML links, including generated `.html` pages and heading anchors.
+
 ---
 
 Maintained by [Ravinder Jilkapally](https://www.linkedin.com/in/jravinder/) · [AISOFT](https://aisoft.us) · [Free 30-min mentoring](https://aisoft.us/contact)
