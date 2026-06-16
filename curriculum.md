@@ -127,7 +127,7 @@ Open the full [Milestone path](course/MILESTONE_PATH.html) for the step-by-step 
 
 Three forkable starters back the course. You install each one during its lesson:
 
-- [`no-slop-skill/`](no-slop-skill/): a review pass the agent runs against its own output (Lesson 4.4).
+- [`no-slop-skill/`](no-slop-skill/SKILL.html): a review pass the agent runs against its own output (Lesson 4.4).
 - [`templates/DESIGN.md`](templates/DESIGN.html): a design-quality spec for anything with a surface (Lesson 4.5).
 - [`second-brain-starter/`](second-brain-starter/): a `CLAUDE.md` skeleton and memory structure (Lesson 4.3).
 
