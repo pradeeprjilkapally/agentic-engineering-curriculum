@@ -31,7 +31,7 @@ The point of seeing the loop clearly is that you can now debug it. Most agent bu
 
 ## Your first exercise
 
-Pick your project candidate from Lesson 2.1 (if you don't have one yet, pick a small task you'd give an agent: "fix the failing test," "draft the README," "summarize this directory"). Write the agent loop for it in 5 lines of pseudocode, one line per step.
+Pick your project candidate from Lesson 3.1 (if you don't have one yet, pick a small task you'd give an agent: "fix the failing test," "draft the README," "summarize this directory"). Write the agent loop for it in 5 lines of pseudocode, one line per step.
 
 Then for each step, write down what could go wrong.
 

@@ -37,8 +37,8 @@ For your project candidate, write down the most likely failure mode at each appl
 
 The discipline of looking across layers is what makes you valuable. Most engineers ship to a customer and the system works for the first week, then a strange behavior appears, and they spend three days debugging at the wrong layer. The FDEs the customers ask for again are the ones who name the failure modes up front and ship mitigations before anyone has to ask for them.
 
-You finished the course. You walked in as a senior full-stack engineer. You're walking out as a Forward Deployed Engineer. The next step is your first real engagement.
+The inventory is the deliverable. Carry it into the next lessons, where you'll learn how to scope the engagement, talk to non-engineers, watch cost and behavior in production, and hand the system off cleanly.
 
 ---
 
-Next: [Lesson 5.3 · Where to go next](16-where-to-go-next.html). Though if you're here, you've already arrived. The course gave you the operating system. Now go run it on something real, with someone real, and ship.
+Previous: [Lesson 6.5 · The team shape](21-team-shape.html) · Next: [Lesson 6.7 · Discovery and scoping the engagement](23-discovery-and-scoping.html)

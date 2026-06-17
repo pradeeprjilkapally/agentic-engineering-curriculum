@@ -10,7 +10,7 @@ You don't need to train a model to be a great Forward Deployed Engineer. You nee
 The model has read a lot of text. Given the tokens so far, it predicts the next one. Repeat. Everything else (chat, agents, tool calling) is engineering around this single loop. That's it. Don't let anyone tell you it's more mysterious than that.
 
 **2. The context window is your real budget.**
-Every token you put in costs money and latency. The model can attend to all of it, but recency wins; tokens at the end of the prompt usually carry more weight than tokens at the start. The art is putting the right context in and leaving the wrong context out. Most "AI doesn't work" problems are actually "wrong stuff in context" problems.
+Every token you put in costs money and latency. The model can attend to all of it, but position matters; tokens at the start and end of the prompt usually carry more weight than tokens buried in the middle. The art is putting the right context in and leaving the wrong context out. Most "AI doesn't work" problems are actually "wrong stuff in context" problems.
 
 **3. Temperature and top-p control creativity.**
 Temperature 0 means the model picks the highest-probability next token almost every time. Outputs are deterministic and tight. Temperature 0.7 means some variety. Temperature 1.0 and above means creative, and sometimes wrong. Use 0 for code generation, fact extraction, structured output, anything where you want the same answer twice. Use 0.5 to 0.8 for writing, brainstorming, conversation.

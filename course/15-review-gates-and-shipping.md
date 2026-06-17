@@ -6,7 +6,7 @@
 
 When agents run in parallel, more work arrives faster. So does mediocre work. The gate catches it before it reaches users.
 
-A gate isn't one check, it's a few, in order: tests green, the eval suite from Lesson 4.2, a design check, the no-slop pass and the DESIGN.md from Lessons 4.4 and 13, and then a human taste call where you look at the result, or at two versions of it, and decide which one is good enough to keep. The agent can run the first two. Only you can make the third.
+A gate isn't one check, it's a few, in order: tests green, the eval suite from Lesson 4.2, a design check, the no-slop pass and the DESIGN.md from Lessons 4.4 and 4.5, and then a human taste call where you look at the result, or at two versions of it, and decide which one is good enough to keep. The agent can run the first two. Only you can make the third.
 
 Shipping has one rule: never claim done without proof.
 
@@ -67,4 +67,4 @@ The gate is what keeps quality from sliding as your throughput climbs, and "proo
 
 ---
 
-Previous: [Lesson 5.1 · Orchestration. Parallel agents](14-orchestration-parallel-agents.html) · Next: [Lesson 5.3 · Where to go next](16-where-to-go-next.html)
+Previous: [Lesson 5.1 · Orchestration: parallel agents](14-orchestration-parallel-agents.html) · Next: [Lesson 5.3 · Where to go next](16-where-to-go-next.html)

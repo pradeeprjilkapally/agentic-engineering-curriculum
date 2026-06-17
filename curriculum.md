@@ -99,7 +99,7 @@ Open the full [Milestone path](course/MILESTONE_PATH.html) for the step-by-step 
 16. [Where to go next](course/16-where-to-go-next.html)
 
 ### Part 6 · Operating in the real world
-*The envelope you walk out with. The six lessons that turn a working agent engineer into a Forward Deployed Engineer.*
+*The envelope you walk out with. The eleven lessons that turn a working agent engineer into a Forward Deployed Engineer.*
 
 - 17. [The harness wars](course/17-the-harness-wars.html)
 - 18. [The application taxonomy](course/18-application-taxonomy.html)
