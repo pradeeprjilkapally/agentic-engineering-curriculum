@@ -25,7 +25,7 @@ A concrete pattern to internalize: when a customer-visible problem appears, the 
 
 A second concrete pattern: every layer's mitigation is itself a small project. Evals are a project. The no-slop review pass is a project. The intel-watch is a project. You can spend a whole engagement just hardening one layer, and sometimes that's exactly the right move.
 
-## Your first exercise
+## Your exercise
 
 For your project candidate, write down the most likely failure mode at each applicable layer. For each, write the one-line mitigation you would ship before launch.
 

@@ -26,7 +26,7 @@ Tools that work today: Langfuse, OpenLLMetry, Arize, or your own table in Postgr
 
 The pattern: in your discovery doc (Lesson 6.7), commit to a target cost-per-active-user. In your weekly update (Lesson 6.8), report against it. Every customer conversation about cost is easier when you brought the number first.
 
-## Your first exercise
+## Your exercise
 
 For your project, sketch the four-axis observability plan and the cost budget. Include the alert threshold and what triggers a model-routing change.
 

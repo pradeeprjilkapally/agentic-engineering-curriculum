@@ -23,7 +23,7 @@ What this looks like in practice:
 
 The temptation will always be to build directly into a vendor's harness because it's fast. That's the right call for a prototype. The week you hand the system off, the harness becomes the customer's. Owned, exportable, swappable at the model layer. That's the move that makes the work durable.
 
-## Your first exercise
+## Your exercise
 
 Pick one AI product you've shipped or used heavily. List every place context or memory is rented vs owned. For each rented place, write one line on what would break if that vendor went away tomorrow.
 

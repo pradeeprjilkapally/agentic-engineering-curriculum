@@ -26,7 +26,7 @@ The discipline that makes this cheap: you start writing the handoff doc on day o
 
 A second pattern that takes the handoff from "good" to "memorable": leave behind a `future-you.md` file. The five things you wish you had known on day one that the customer team is about to need. Honest, candid, what you'd tell your replacement. Customers value this more than the architecture diagram.
 
-## Your first exercise
+## Your exercise
 
 For your project, draft two artifacts:
 

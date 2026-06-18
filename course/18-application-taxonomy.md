@@ -25,7 +25,7 @@ The work at each transition:
 
 When a customer asks "can we do agents," they almost always have a RAG. Knowing the gap between where they are and where they want to be is your scoping move.
 
-## Your first exercise
+## Your exercise
 
 Classify your project candidate onto the three layers. Then write two short paragraphs: what the next-layer version of it looks like, and what the work to get there would actually be.
 

@@ -26,7 +26,7 @@ Why this works:
 
 The pipeline doesn't have to be sophisticated. The first version is one config file, one script, one launchd entry. You can ship it in an afternoon.
 
-## Your first exercise
+## Your exercise
 
 Pick 10 people on X whose signal matters for the projects you care about. Pick 3 projects you're tracking. Write the judge prompt in plain language (you'll wire it to a model later). Sketch the four-part pipeline in your notes. Even before you write any code.
 

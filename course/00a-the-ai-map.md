@@ -17,7 +17,7 @@ Now, why does it matter to keep them separate? Here's where the real value shows
 
 A common one you'll hear from customers: "we need a better LLM." Nine times out of ten the LLM is fine. What they need is a better harness. Better memory, better tools, better evals. Naming the layer saves a quarter of arguing.
 
-## Your first exercise
+## Your exercise
 
 Pick a product you use every day. ChatGPT, Cursor, Notion AI, GitHub Copilot, something you built. Write one sentence at each of the four layers, naming the choice that product made at that layer.
 

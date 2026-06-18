@@ -36,7 +36,7 @@ You will not pretrain a model from scratch. Nobody on a customer engagement does
 
 The FDE judgment call: training is a commitment. A fine-tuned model is a model you now own, host, version, and re-train when the data drifts. That's real ongoing work. Reach for it when the task is high-volume, stable, and privacy-sensitive enough that a frontier API doesn't fit (Lesson 6.10). For everything else, prompt and route. When you do train, the cheapest path is almost always a LoRA adapter on a small open model, evaluated against the same eval suite you'd use for any other approach (Lesson 4.2).
 
-## Your first exercise
+## Your exercise
 
 For your project candidate, list every place you call (or will call) a model. For each one, assign it to a tier (frontier / open-weights / specialty) and write one line on why.
 

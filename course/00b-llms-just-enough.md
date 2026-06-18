@@ -21,7 +21,7 @@ Closed (Claude, GPT, Gemini) gives you the frontier capability with the least en
 **5. Small local models on real hardware are quietly winning for boring work.**
 A 4B to 9B model on a recent GPU runs at sub-second per query. For predictable workloads (classification, routing, extraction, "is this signal or noise"), small local models are often the right answer. Lesson 1.5 goes deeper.
 
-## Your first exercise
+## Your exercise
 
 Pick any prompt. Summarize an article, write a function, draft an email. Run it through the same model at temperature 0 and then at temperature 0.8. Read both outputs side by side.
 

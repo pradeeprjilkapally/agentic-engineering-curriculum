@@ -21,7 +21,7 @@ How to adjust your approach:
 - **In a small company:** the engineering leader is your champion; make them look good. Document decisions obsessively because priorities will shift and you'll need to defend choices three months later. Use evals as your political shield: when a debate happens, point at the eval suite.
 - **In a big company:** find the executive sponsor on week one. Spend more time than feels natural on documentation, security review, and procurement. Use the agentic discipline to deliver inside the process, not around it, or you will get bounced.
 
-## Your first exercise
+## Your exercise
 
 Pick a real FDE engagement you've seen or want to do. Identify which shape it is. Write down three things you would do differently from the other two shapes.
 

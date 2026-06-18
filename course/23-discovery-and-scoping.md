@@ -32,7 +32,7 @@ The four failure modes you're insuring against:
 
 The one-page format keeps you honest. If the wedge takes a page to describe, it's not a wedge. If the success criteria are vague, you didn't finish discovery.
 
-## Your first exercise
+## Your exercise
 
 Pick a real customer engagement, real or imagined. Write the one-page discovery doc. Cover all six sections. Keep it to one page.
 

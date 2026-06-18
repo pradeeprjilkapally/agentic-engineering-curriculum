@@ -42,7 +42,7 @@ The monthly demo agenda:
 4. Risks and asks (3 minutes).
 5. What's next month (2 minutes).
 
-## Your first exercise
+## Your exercise
 
 Write your weekly update template and your monthly demo agenda. Apply both to a real or hypothetical engagement and produce one weekly update.
 

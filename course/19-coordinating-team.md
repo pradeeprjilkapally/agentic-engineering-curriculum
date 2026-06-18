@@ -28,7 +28,7 @@ The discipline that makes all of this work: every session, agent or human, reads
 
 Why this matters for FDE work specifically: you'll often work with a customer team that has multiple humans, plus your agents, plus their agents. Without these conventions, the work collapses into chaos in the first month. With them, four people and six agents can ship more than ten people on a traditional team would.
 
-## Your first exercise
+## Your exercise
 
 Take your project candidate. Add AGENTS.md, HANDOFF.md, and decisions/0001-stack-choice.md. Make AGENTS.md actually useful. Stack, conventions, where secrets live, what not to touch.
 

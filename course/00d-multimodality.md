@@ -20,7 +20,7 @@ A useful mental model for cost: text is the cheapest. Vision is roughly 2-5x tex
 
 The rule that keeps you out of trouble: don't reach for a modality because it's new. Reach for it because the task has a property that text doesn't capture. A meeting summary doesn't need voice in; the transcript is text. A UI bug report does need vision in; the screenshot is the bug. A live coaching loop does need voice out; the user can't read while doing the thing.
 
-## Your first exercise
+## Your exercise
 
 Take your project candidate. Identify one place where text is the wrong modality and another modality would unlock something the project can't currently do.
 

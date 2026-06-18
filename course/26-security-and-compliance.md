@@ -24,7 +24,7 @@ The six things you need to know well enough to defend.
 
 The pattern: write a one-page security model on day one of any engagement. Get it signed off by the customer's security team before you ship anything that touches their data. Doing this in week one is cheap. Doing it after a leak is career-ending.
 
-## Your first exercise
+## Your exercise
 
 Write the one-page security model for your project. Cover all six axes. Be honest about what's not yet mitigated.
 

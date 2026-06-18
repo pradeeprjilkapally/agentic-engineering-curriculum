@@ -29,7 +29,7 @@ Two failure modes you'll see all the time, both at the "decide whether to contin
 
 The point of seeing the loop clearly is that you can now debug it. Most agent bugs are loop bugs. If your agent isn't doing what you want, ask: which step of the loop is wrong? Almost always one of the five answers it cleanly.
 
-## Your first exercise
+## Your exercise
 
 Pick your project candidate from Lesson 3.1 (if you don't have one yet, pick a small task you'd give an agent: "fix the failing test," "draft the README," "summarize this directory"). Write the agent loop for it in 5 lines of pseudocode, one line per step.
 
