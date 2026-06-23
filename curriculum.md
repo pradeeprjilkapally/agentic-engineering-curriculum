@@ -123,6 +123,12 @@ Open the full [Milestone path](course/MILESTONE_PATH.html) for the step-by-step 
 - The operating mode of a Forward Deployed Engineer: walking into a customer's stack, scoping, building, shipping with proof, and handing off cleanly.
 - A teaching model you can reuse for mentoring, workshops, team enablement, or hiring filters.
 
+## Certifications and frontier partnerships
+
+How to prove what you know, and how to get closer to the models you're building on.
+
+- [Certifications and frontier AI partnerships](course/CERTIFICATIONS_AND_PARTNERSHIPS.html) — cloud provider certs (Google, Azure, AWS), DeepLearning.AI, the portfolio-first approach, and partner programs with Anthropic, OpenAI, Google, Microsoft, and AWS.
+
 ## The artifacts
 
 Three forkable starters back the course. You install each one during its lesson:

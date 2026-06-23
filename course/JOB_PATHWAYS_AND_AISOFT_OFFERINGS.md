@@ -14,6 +14,7 @@ The goal is proof that looks like real work: repos, READMEs, proof commands, rev
 | Team rollout | Turn briefs, evals, review gates, and context files into team standards | AI setup + enablement, platform design |
 | Build sprint | Apply agents to a real backlog, workflow, data product, or internal tool | AI product development, full-stack engineering |
 | Architecture/advisory | Decide what should run in cloud, warehouse, edge, or local model form | AI platform design, local LLMs, edge AI, startup advisory |
+| Certification + partnerships | Add cloud certs (Google ML Engineer, AI-102, AWS AIF-C01) and pursue frontier lab partnerships to unlock credits, co-marketing, and enterprise introductions | See [Certifications and frontier AI partnerships](CERTIFICATIONS_AND_PARTNERSHIPS.html) |
 
 ## How to use this in training
 

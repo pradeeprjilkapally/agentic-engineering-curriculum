@@ -39,3 +39,7 @@ This is a transition, not a tool install. The first weeks can feel slower becaus
 ---
 
 Previous: [Lesson 5.2 · Review gates and shipping](15-review-gates-and-shipping.html) · Next: you've finished the course. Go build.
+
+---
+
+**Proving your skills and working closer to the models:** see [Certifications and frontier AI partnerships](CERTIFICATIONS_AND_PARTNERSHIPS.html) — cloud certs, portfolio-first credentialing, and partner programs with Anthropic, OpenAI, Google, Microsoft, and AWS.
