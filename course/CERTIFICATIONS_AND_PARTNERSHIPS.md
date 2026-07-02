@@ -41,6 +41,19 @@ If you want a credential tied to the exact tools this curriculum uses, **Anthrop
 
 Start with **Claude Code 101 → Claude Code in Action**, then **Introduction to agent skills → Introduction to subagents**, then **Introduction to MCP → MCP: Advanced Topics**. Add **Claude Platform 101 → Building with the Claude API** if you're doing backend/API work. That sequence maps almost one-to-one onto the milestones in this course.
 
+**This curriculum → the Foundations exam (crosswalk)**
+
+The **Claude Certified Architect – Foundations** exam covers four domains. This curriculum now maps to all four, so you can use it as free exam prep:
+
+| Exam domain | Where this curriculum covers it |
+|---|---|
+| **Claude Code** | Parts 1–6 — the spine of the course (install, sessions, control, orchestration, review gates, real-world operating) |
+| **Claude API** | Lesson 7.1 · [Building on the API](28-building-on-the-api.html) |
+| **Claude Agent SDK** | Lesson 7.2 · [Programmatic agents (the SDKs)](29-programmatic-agents-sdks.html) |
+| **MCP** | Lesson 7.3 · [Tool protocols: MCP and connectors](30-tool-protocols-mcp.html) |
+
+Every Part 7 lesson teaches the concept across Claude, OpenAI, Gemini, and Snowflake Cortex, so the same work also prepares you to build on any of those platforms — not just Claude.
+
 **AISOFT's stance:** we're a **free, open training provider** — this curriculum stays free and open, and we point you to the official Academy certs rather than selling our own badge. Portfolio first, Academy certs as the credential, shipped work as the proof.
 
 ### Cloud provider certifications
