@@ -8,7 +8,7 @@ For teams, AISOFT runs **Agentic Engineering Day** as the in-person version: sha
 
 ## How the course works
 
-- **32 lessons, 6 parts.** Short to read, longer to do. Take them in order if you're new to agents; jump around if you already are.
+- **35 lessons, 7 parts.** Short to read, longer to do. Take them in order if you're new to agents; jump around if you already are.
 - **7 milestones.** If you want the guided route, start with the [Milestone path](course/MILESTONE_PATH.html). It tells you what to read, what to do, and what proof you need before moving on.
 - **One project, the whole way through.** You pick it in Lesson 3.1. Every lesson after that puts the new skill to work on *your* project. The project compounds; the lessons make sense because they land on it.
 - **Every lesson ends with an exercise** and a plain "you're done when." Reading without doing won't move you, but the doing is the satisfying part. That's where the skill actually appears.
@@ -112,6 +112,13 @@ Open the full [Milestone path](course/MILESTONE_PATH.html) for the step-by-step 
 - 25. [Observability and cost discipline](course/25-observability-and-cost.html)
 - 26. [Security and compliance for AI products](course/26-security-and-compliance.html)
 - 27. [The handoff playbook](course/27-the-handoff-playbook.html)
+
+### Part 7 · Building on the platforms
+*From driving an agent to building on the raw platform. These three lessons take you under the CLI to the API, the agent SDKs, and the tool protocols that connect agents to the world. Tool-agnostic by design, and they map one-to-one onto the four domains of the Claude Certified Architect - Foundations exam (Claude Code, Claude API, Agent SDK, MCP).*
+
+- 28. [Building on the API](course/28-building-on-the-api.html)
+- 29. [Programmatic agents (the SDKs)](course/29-programmatic-agents-sdks.html)
+- 30. [Tool protocols: MCP and connectors](course/30-tool-protocols-mcp.html)
 
 ## What you'll walk away with
 
