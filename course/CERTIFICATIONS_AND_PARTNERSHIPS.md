@@ -102,9 +102,13 @@ Working with frontier model labs isn't just calling an API. Formal partner relat
 
 **Anthropic for Work** — enterprise agreements for larger companies. Custom rate limits, dedicated support, data privacy terms. Handled through direct enterprise sales rather than a tiered partner program. Contact through [anthropic.com/contact](https://www.anthropic.com/contact).
 
-**Education partnerships** — Anthropic works directly with universities and training programs. If you're running a bootcamp or curriculum program, direct outreach to their education team is the path. There is no self-serve partner portal as of 2026.
+**Claude Partner Network (CPN)** — Anthropic's formal partner program, live at [claude.com/partners](https://claude.com/partners). Three categories: **Cloud Partners** (Claude via AWS/GCP/Azure), **Services Partners** (consulting & implementation firms — listed in the Services Partner Directory), and **Powered by Claude** (product builders). Services Partners get the Partner Portal ([partnerhub.anthropic.com](https://partnerhub.anthropic.com)) with playbooks and templates, technical support, and co-investment. Apply at [claude.com/form/cpn-partner-application](https://claude.com/form/cpn-partner-application). Eligibility: registered business, 10+ employees, supported region, offering consulting/implementation/managed services.
 
-What partnership with Anthropic unlocks for a training provider: API credits for learner sandboxes, ability to co-brand course materials as "powered by Claude," and introductions to their enterprise customer network for pilots.
+**Claude Certification (Anthropic Academy)** — individual certifications via [anthropic.skilljar.com](https://anthropic.skilljar.com/): Claude Code, Cowork, MCP, API development, and AI Fluency, each with a completion certificate. This is the fastest, no-gatekeeping credential — start here before or alongside a company partner application.
+
+**Claude for Work / Education** — enterprise agreements and university/training-program partnerships still run through direct sales/education outreach at [anthropic.com/contact](https://www.anthropic.com/contact).
+
+What CPN partnership unlocks for a services/training provider: Services Partner Directory listing (enterprise customer flow), ability to co-brand as "powered by Claude," Partner Portal resources, technical support, and co-investment for building an enterprise Claude practice.
 
 ### OpenAI
 
