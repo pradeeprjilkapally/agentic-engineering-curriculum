@@ -55,6 +55,18 @@ Use this route if you want someone to go from zero to useful, with visible proof
 
 Open the full [Milestone path](course/MILESTONE_PATH.html) for the step-by-step version with commands.
 
+## Before you start
+
+You need three things, nothing more:
+
+1. **A computer with a terminal** — Mac, Linux, or Windows with WSL.
+2. **One AI coding tool with a paid plan** — Claude Code is the default; Codex CLI or Gemini CLI work too. You install it in Lesson 2, so don't set it up yet.
+3. **Enough coding comfort to read a diff** — you don't need to be an expert. You need to look at a change and judge whether it's right.
+
+New to Git, the terminal, or a programming language? Spend an hour with [Beginner prep](course/BEGINNER_PREP.html) first, then come back. That is the only prerequisite reading. Everything else is taught inside the lessons.
+
+**Ignore certifications and the FDE track for now.** They are not prerequisites for anything. Start the lessons, ship something, then see the *After you finish* section for credentials and next steps. Keeping them out of the way is the point.
+
 ## The path
 
 ### Part 1 · Foundations
@@ -130,11 +142,15 @@ Open the full [Milestone path](course/MILESTONE_PATH.html) for the step-by-step 
 - The operating mode of a Forward Deployed Engineer: walking into a customer's stack, scoping, building, shipping with proof, and handing off cleanly.
 - A teaching model you can reuse for mentoring, workshops, team enablement, or hiring filters.
 
-## Certifications and frontier partnerships
+## After you finish
 
-How to prove what you know, and how to get closer to the models you're building on.
+You've shipped a real slice with the habits behind it. Everything below is optional and off the critical path. Do the ones that serve you, in whatever order:
 
-- [Certifications and frontier AI partnerships](course/CERTIFICATIONS_AND_PARTNERSHIPS.html) — cloud provider certs (Google, Azure, AWS), DeepLearning.AI, the portfolio-first approach, and partner programs with Anthropic, OpenAI, Google, Microsoft, and AWS.
+1. **Go deeper on the craft** — Lesson 16 [Where to go next](course/16-where-to-go-next.html), and if you want customer-facing work, the [Two-week FDE ramp](course/TWO_WEEK_FDE_RAMP.html).
+2. **Get a credential** — this curriculum maps to the **Claude Certified Architect – Foundations** exam. The [Certifications and frontier partnerships](course/CERTIFICATIONS_AND_PARTNERSHIPS.html) page has how to enroll and the lesson→exam crosswalk (plus cloud-provider certs and partner programs). Portfolio first, cert second.
+3. **Turn it into a job** — [Job pathways + AISOFT offerings](course/JOB_PATHWAYS_AND_AISOFT_OFFERINGS.html).
+
+None of these are prerequisites for anything. This is where credentials and partnerships live, so the lessons themselves stay focused on shipping.
 
 ## The artifacts
 
