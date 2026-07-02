@@ -17,6 +17,32 @@ No single "agentic engineering" certification dominates the market yet. Hiring m
 
 Use certifications as the skeleton. Use your portfolio as the proof. A cert without shipped work is thin. Shipped work without the cloud fundamentals costs you in production conversations.
 
+### How to get Claude-certified (Anthropic Academy)
+
+If you want a credential tied to the exact tools this curriculum uses, **Anthropic Academy** is the place. It's the fastest, lowest-friction path — no gatekeeping, no employer sponsorship, and each course issues a **completion certificate** you can add to LinkedIn or a portfolio.
+
+**How to enroll**
+1. Go to **[anthropic.skilljar.com](https://anthropic.skilljar.com/)** (the main hub is [anthropic.com/learn](https://www.anthropic.com/learn)).
+2. Sign in with any email — no separate Anthropic account needed.
+3. Pick a course, complete it, download the certificate. Courses are self-paced.
+
+**The catalog, grouped by track**
+
+| Track | Courses (take in order) |
+|---|---|
+| **Foundations** | Claude 101 · AI Fluency: Framework & Foundations · AI Capabilities and Limitations |
+| **Claude Code** | Claude Code 101 · Claude Code in Action |
+| **Agents** | Introduction to agent skills · Introduction to subagents |
+| **MCP (tools + data)** | Introduction to Model Context Protocol · Model Context Protocol: Advanced Topics |
+| **API / platform** | Claude Platform 101 · Building with the Claude API · Claude with Amazon Bedrock · Claude with Google Cloud's Vertex AI |
+| **AI Fluency (role-specific)** | for Builders · for Small Businesses · for Students · for Educators · for Nonprofits |
+
+**Recommended path for this curriculum's learners**
+
+Start with **Claude Code 101 → Claude Code in Action**, then **Introduction to agent skills → Introduction to subagents**, then **Introduction to MCP → MCP: Advanced Topics**. Add **Claude Platform 101 → Building with the Claude API** if you're doing backend/API work. That sequence maps almost one-to-one onto the milestones in this course.
+
+**AISOFT's stance:** we're a **free, open training provider** — this curriculum stays free and open, and we point you to the official Academy certs rather than selling our own badge. Portfolio first, Academy certs as the credential, shipped work as the proof.
+
 ### Cloud provider certifications
 
 These are the ones that actually show up in job postings and enterprise procurement conversations.
