@@ -13,7 +13,7 @@ For teams, AISOFT runs **Agentic Engineering Day** as the in-person version: sha
 - **One project, the whole way through.** You pick it in Lesson 3.1. Every lesson after that puts the new skill to work on *your* project. The project compounds; the lessons make sense because they land on it.
 - **Every lesson ends with an exercise** and a plain "you're done when." Reading without doing won't move you, but the doing is the satisfying part. That's where the skill actually appears.
 - **We teach Claude Code first, then translate.** Codex CLI, Gemini CLI, and Snowflake Coco get variant notes where the workflow changes. See [CLI variants](course/CLI_VARIANTS.html).
-- **Where this leads.** If you want to take this all the way to Forward Deployed Engineer work (embedded with a customer, shipping agentic systems into their stack, handing them off cleanly), the [Two-week FDE ramp](course/TWO_WEEK_FDE_RAMP.html) is a structured day-by-day plan. FDE is a destination, not a prerequisite for starting.
+- **Where this leads.** The role this course builds toward — sit inside a customer's team, ship agentic systems into their stack, train their people, hand off clean — is where the industry is now placing its biggest bets. Microsoft's $2.5B Frontier unit (6,000 embedded engineers), and parallel direct-delivery pushes from Anthropic, Google, and Amazon, are all deploying people into customer teams because the model, not the demo, is where AI actually lands. That embedded role is the Forward Deployed Engineer. If you want to take it that far, the [Two-week FDE ramp](course/TWO_WEEK_FDE_RAMP.html) is a structured day-by-day plan. FDE is a destination, not a prerequisite for starting.
 
 ## Who can follow it
 
