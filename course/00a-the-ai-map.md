@@ -4,18 +4,20 @@
 
 ## The idea
 
-Almost every confusing conversation in AI right now is one layer mistaken for another. Pin down the four layers and most of the noise drops away.
+Most confusing AI conversations are just one layer being mistaken for another. There are four. Name the right one and most of the noise drops away.
 
-Top down:
+![The four layers of AI — Application, Harness, Agent, and Model — stacked from what the user sees down to the raw model.](../assets/diagrams/ai-map-layers.svg)
 
-1. **Application.** What the user sees. A chatbot. A search box that uses RAG. An agentic app that goes off and does things on the user's behalf. This is where most product talk lives.
-2. **Harness.** The layer that wraps memory, skills, tools, and an agent runtime around the model. Examples: Claude Code, ChatGPT, Cursor, Codex CLI. The harness is where switching cost lives. Lesson 6.1 goes deep here.
-3. **Agent.** The loop. Perceive, plan, act, observe, decide whether to continue, with memory across iterations and a stop condition. Lesson 1.3 goes deep.
-4. **Model.** The LLM or multimodal model. Claude, GPT, Gemini, Gemma, Qwen, DeepSeek. Lesson 1.2 and Lesson 1.5 go here.
+From the top down:
 
-Now, why does it matter to keep them separate? Here's where the real value shows up. When someone says "Claude is better than GPT," they mean the model layer. When they say "Cursor is better than Claude Code," they mean the harness. When they say "your agent needs better memory," they mean the agent and harness together. The conversation goes nowhere if everyone's pointing at different layers and using the same words.
+1. **Application.** What the user sees. A chatbot. A search box that uses RAG. An app that goes off and does things for the user. Most product talk lives here.
+2. **Harness.** Memory, skills, and tools wrapped around a model. Claude Code, ChatGPT, Cursor, Codex CLI. This is where switching cost lives. Lesson 6.1 goes deep.
+3. **Agent.** The loop: gather, act, check, decide whether to keep going — with memory across steps and a stop condition. Lesson 1.3 goes deep.
+4. **Model.** The LLM itself. Claude, GPT, Gemini, Gemma, Qwen, DeepSeek. Lesson 1.2 and Lesson 1.5 go here.
 
-A common one you'll hear from customers: "we need a better LLM." Nine times out of ten the LLM is fine. What they need is a better harness. Better memory, better tools, better evals. Naming the layer saves a quarter of arguing.
+Why keep them separate? Because the same word points at different layers. "Claude is better than GPT" is about the **model**. "Cursor is better than Claude Code" is about the **harness**. "Your agent needs better memory" is the **agent and harness** together. If everyone's pointing at a different layer, the argument goes nowhere.
+
+**A real one you'll hear:** a customer says *"we need a better LLM."* Nine times out of ten the LLM is fine — what they actually need is a better harness: better memory, better tools, better evals. Swapping the model costs them a migration and fixes nothing; adding a retrieval step fixes it in an afternoon. Naming the layer is what tells you which. That one distinction saves a quarter of every meeting.
 
 ## Your exercise
 

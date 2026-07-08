@@ -6,13 +6,21 @@
 
 An agent session is a loop, not one prompt and one answer.
 
-You give it a goal. Then it goes around: **gather context**. Read the files it needs to understand the task. **Act**. Make an edit, run a command. **Check**. Look at what happened, run the test, read the error. Then it loops: gather, act, check, gather, act, check. Until the goal is met or it gets stuck and asks you.
+You give it a goal. Then it circles: **gather** the files it needs, **act** by making an edit or running a command, **check** what happened by running the test or reading the error. Then it loops — gather, act, check — until the goal is met or it gets stuck and asks you.
 
-You watch this in your terminal. It says what it read, what it will change, and what commands printed. Read that stream; it is where you catch wrong turns early.
+![The agent loop: one goal in, then gather, act, and check repeating until the work is done.](../assets/diagrams/agent-loop.svg)
 
-When it turns wrong, hit **Esc** and correct it in plain words: "the config lives in `settings/`, not the root" or "skip tests for now, just make the change." It picks up with the new information.
+You watch this happen in your terminal. It tells you what it read, what it will change, and what each command printed. Read that stream — it's where you catch wrong turns early.
 
-**Small asks beat one giant prompt.** "Rename this function and update its callers" gives the agent a clear target. "Refactor the whole module" gives it room to wander. Scope down; ask for the next piece after review.
+Here's a real one. You ask an agent to "add an INFO log line to `greet()` so calls are traceable." It reads the file (gather), adds the import and the log line (act), then runs the file and shows you the diff (check). You read the diff and sign off. That whole session looks like this:
+
+![A real first agent session in the terminal — the agent gathers, acts, and checks, then shows the git diff and the program output so you can sign off.](../assets/screenshots/first-session-terminal.svg)
+
+*The last three commands are yours: `git status --short`, `git diff`, then run it. That's you doing the "check" by hand, on top of the agent's.*
+
+When it heads the wrong way, hit **Esc** and correct it in plain words: "the config lives in `settings/`, not the root" or "skip tests for now, just make the change." It picks up from there with the new information.
+
+**Small asks beat one giant prompt.** "Rename this function and update its callers" gives the agent a clear target. "Refactor the whole module" gives it room to wander. Scope down; ask for the next piece after you've reviewed the last one.
 
 ## Do it
 
