@@ -23,7 +23,9 @@ The shift is smaller than it sounds. An agent is a loop: call the model, check i
 
 That is the whole loop. Every agent SDK is opinionated scaffolding around this pattern. They add: tool registration, streaming, error handling, tracing, memory hooks, and guardrails. You could write the loop yourself against the raw API (Lesson 7.1); the SDK saves you from rewriting the same 80 lines across every project.
 
-**The Claude Agent SDK.** Anthropic's SDK (`anthropic` Python package) gives you the raw API primitives. For the higher-level agent loop, the relevant class is `client.beta.messages.stream` combined with tool-use handling. As of 2025-2026, Anthropic's recommended pattern is to manage the loop explicitly (it's a few dozen lines), or use the Model Context Protocol (MCP) to wire tools as external servers rather than inline functions (see Lesson 7.3). Check the current Anthropic docs for `tool_use` and streaming -- the specifics evolve quickly.
+**Anthropic's two surfaces.** These are easy to confuse. The `anthropic` Python package is the API SDK; inside it, `client.beta.messages.tool_runner` drives the tool-call loop for you and is the recommended default. The **Claude Agent SDK** (`claude-agent-sdk`) is a *different* package — Claude Code as a library, with built-in file, bash, and search tools. Both leave hosting to you. You can also wire tools as external servers over the Model Context Protocol instead of registering them inline (see Lesson 7.3).
+
+Write the loop by hand once anyway, as below. Not because you'll ship it — you'll usually reach for the tool runner — but because owning the loop once is what makes the abstraction legible when it misbehaves.
 
 ```python
 import anthropic
@@ -34,7 +36,7 @@ def run_agent(task: str, tools: list, tool_runner: callable) -> str:
     messages = [{"role": "user", "content": task}]
     while True:
         response = client.messages.create(
-            model="claude-opus-4-5",
+            model="claude-opus-4-8",
             max_tokens=4096,
             tools=tools,
             messages=messages,
@@ -77,7 +79,7 @@ print(result.final_output)
 
 The SDK handles retries, tracing (to the OpenAI dashboard if you opt in), and multi-agent handoffs. It is more opinionated than the Anthropic approach -- which makes it faster to get started, and less flexible when you need to control the loop.
 
-**Gemini's approach.** Google's `google-adk` (Agent Development Kit) follows a similar pattern: you define tools as Python functions with docstrings, register them with an `Agent`, and call `agent.run(query)`. As of mid-2025 the ADK is in active development; check the current `google-adk` docs before wiring production code. The conceptual loop is identical to the above.
+**Gemini's approach.** Google's `google-adk` (Agent Development Kit) follows a similar pattern: you define tools as Python functions with docstrings, register them with an `Agent`, and call `agent.run(query)`. The ADK moves fast; check the current `google-adk` docs before wiring production code. The conceptual loop is identical to the above.
 
 **Snowflake Cortex.** For teams already inside Snowflake, Cortex Analyst and Cortex Search let you build agents as stored procedures or external functions that call `SNOWFLAKE.CORTEX.COMPLETE` in a loop. The agent loop is SQL + Python glue rather than a dedicated SDK. For anything beyond simple multi-turn SQL agents, most teams reach for a Python SDK and call Cortex from there.
 

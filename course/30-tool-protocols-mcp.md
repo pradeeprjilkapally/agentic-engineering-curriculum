@@ -81,7 +81,7 @@ The pattern is the same: declare the server, and the SDK handles discovery and r
 | Claude Code / Anthropic SDK | Native, first-class | Originated the spec; `mcp` SDK is the reference implementation |
 | OpenAI Agents SDK | Adopted MCP in 2025 | `MCPServer` class, works with any MCP-compliant server |
 | Gemini / Google ADK | MCP-compatible tooling via Extensions | Check current ADK docs; the ecosystem is moving fast |
-| Snowflake Cortex | External functions + partner connectors | No native MCP client yet as of mid-2025; tools are wired as SQL external functions or Python UDFs |
+| Snowflake Cortex | External functions + partner connectors | No native MCP client at the time of writing; tools are wired as SQL external functions or Python UDFs |
 
 For Snowflake, the practical approach is: build an MCP server that wraps your tools, then call it from a Python layer that also calls Cortex. The Cortex SQL layer stays clean; the MCP server handles the integrations.
 

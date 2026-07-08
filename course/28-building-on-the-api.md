@@ -8,14 +8,14 @@ The CLI tools (Claude Code, Codex CLI, Gemini CLI) are great for development. At
 
 Every major provider wraps the same conceptual shape: you send a list of messages, the model responds. The differences are in naming, auth headers, and a few structural details. Once you know one, the others take an afternoon.
 
-**The message array.** Every API call is a list of turns. Each turn has a role (`user`, `assistant`, and often `system`) and content. Anthropic calls this endpoint `POST /v1/messages`. OpenAI calls it `POST /v1/chat/completions` (older) or the newer `POST /v1/responses`. Gemini calls it `generateContent`. Snowflake Cortex exposes it as the SQL function `SNOWFLAKE.CORTEX.COMPLETE`. Same idea everywhere.
+**The message array.** Every API call is a list of turns. Each turn has a role (`user`, `assistant`, and often `system`) and content. Anthropic calls this endpoint `POST /v1/messages`. OpenAI calls it `POST /v1/chat/completions` (older) or the newer `POST /v1/responses`. Gemini calls it `generateContent` (older) or the newer Interactions API. Snowflake Cortex exposes it as the SQL function `SNOWFLAKE.CORTEX.COMPLETE`. Same idea everywhere.
 
 ```python
 # Anthropic
 import anthropic
 client = anthropic.Anthropic()
 response = client.messages.create(
-    model="claude-opus-4-5",
+    model="claude-opus-4-8",
     max_tokens=1024,
     messages=[{"role": "user", "content": "Summarize this contract: ..."}]
 )
@@ -25,29 +25,32 @@ print(response.content[0].text)
 from openai import OpenAI
 client = OpenAI()
 response = client.chat.completions.create(
-    model="gpt-4o",
+    model="gpt-5.5",
     messages=[{"role": "user", "content": "Summarize this contract: ..."}]
 )
 print(response.choices[0].message.content)
 
 # Gemini
-import google.generativeai as genai
-model = genai.GenerativeModel("gemini-2.0-flash")
-response = model.generate_content("Summarize this contract: ...")
-print(response.text)
+from google import genai
+client = genai.Client()
+interaction = client.interactions.create(
+    model="gemini-3.5-flash",
+    input="Summarize this contract: ..."
+)
+print(interaction.output_text)
 
 # Snowflake Cortex (SQL, inside a Snowflake session)
 -- SELECT SNOWFLAKE.CORTEX.COMPLETE('mistral-large', 'Summarize this contract: ...')
 ```
 
-**Streaming.** For anything the user watches in real time, request a stream. Without streaming, the whole response buffers server-side and arrives at once -- which feels slow for long outputs. Streaming is one parameter change on every platform (`stream=True` for OpenAI, `stream=True` for Anthropic; Gemini uses `generate_content_async` with `stream=True`). The trade-off: you lose easy access to total token counts until the stream closes, so log the final usage chunk.
+**Streaming.** For anything the user watches in real time, request a stream. Without streaming, the whole response buffers server-side and arrives at once -- which feels slow for long outputs. Streaming is one parameter change on every platform (`stream=True` for OpenAI, for Anthropic, and for Gemini's `interactions.create`). The trade-off: you lose easy access to total token counts until the stream closes, so log the final usage chunk.
 
 **Structured output and JSON mode.** If you're extracting data (entities, classification labels, structured reports), asking the model to "respond in JSON" in the prompt is not enough. Use the platform's structured-output guarantee instead.
 
 - Anthropic: pass a `tool` definition with a JSON schema and tell the model to call it. The response will be a tool-use block with the parsed object.
 - OpenAI: `response_format={"type": "json_schema", "json_schema": {...}}` on the Chat Completions API, or use the Structured Outputs feature on the Responses API.
 - Gemini: `response_mime_type="application/json"` plus a `response_schema`.
-- Snowflake Cortex: extract with `TRY_PARSE_JSON()` on the response string; no native schema enforcement as of mid-2025, so you validate downstream.
+- Snowflake Cortex: extract with `TRY_PARSE_JSON()` on the response string; no native schema enforcement at the time of writing, so you validate downstream.
 
 Structured output matters because JSON-mode-without-a-schema still lets the model hallucinate field names. A schema catches that at the protocol level.
 
@@ -65,14 +68,14 @@ tools = [{
     }
 }]
 response = client.messages.create(
-    model="claude-opus-4-5", max_tokens=1024,
+    model="claude-opus-4-8", max_tokens=1024,
     tools=tools,
     messages=[{"role": "user", "content": "What's the status of invoice INV-9912?"}]
 )
 # If response.stop_reason == "tool_use", pull the tool_use block, run your function, loop.
 ```
 
-OpenAI's shape is nearly identical: `tools=[{"type": "function", "function": {...}}]` and `finish_reason == "tool_calls"`. Gemini uses `tools=[genai.protos.Tool(...)]` and checks `response.candidates[0].finish_reason`.
+OpenAI's shape is nearly identical: `tools=[{"type": "function", "function": {...}}]` and `finish_reason == "tool_calls"`. Gemini passes `tools=[...]` to `interactions.create` and returns a `function_call` block in `interaction.outputs` with `interaction.status == "requires_action"`.
 
 **Tokens and cost.** Token counts drive your costs. The API returns input and output token counts in every response; log them. A few rules that hold across platforms:
 
@@ -80,7 +83,7 @@ OpenAI's shape is nearly identical: `tools=[{"type": "function", "function": {..
 - Output tokens are usually 3-5x the cost of input tokens. If you're summarizing a long doc, compress the input rather than letting the model output a long summary.
 - Set `max_tokens` explicitly. An uncapped call can return a very long response, very expensively.
 
-**Error handling and retries.** APIs rate-limit, go over capacity, and time out. Every production caller needs at minimum: exponential backoff on `429` (rate limit) and `529`/`503` (overloaded), a circuit breaker if you're hitting the API in a tight loop, and a timeout. Anthropic returns `anthropic.RateLimitError`; OpenAI returns `openai.RateLimitError`; Gemini throws `google.api_core.exceptions.ResourceExhausted`. Use `tenacity` or a similar retry library so you don't reinvent this.
+**Error handling and retries.** APIs rate-limit, go over capacity, and time out. Every production caller needs at minimum: exponential backoff on `429` (rate limit) and `529`/`503` (overloaded), a circuit breaker if you're hitting the API in a tight loop, and a timeout. Anthropic returns `anthropic.RateLimitError`; OpenAI returns `openai.RateLimitError`; Gemini raises `google.genai.errors.APIError` (inspect the status code to spot a 429). Use `tenacity` or a similar retry library so you don't reinvent this.
 
 The mistake most teams make is shipping API calls without retries in the first version, because "it works in testing." It will fail in production under real load.
 
