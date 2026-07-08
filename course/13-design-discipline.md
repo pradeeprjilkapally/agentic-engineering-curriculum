@@ -4,13 +4,15 @@
 
 ## The idea
 
-If your project has a surface. UI, API, CLI, docs. It has a design. If the standard lives only in your head, the agent guesses. Ten guesses later, you have ten dialects of the same product.
+If your project has a surface — UI, API, CLI, docs — it has a design. If the standard lives only in your head, the agent guesses. Ten guesses later you have ten dialects of the same product.
 
-Fix it the same way you fixed slop: move the standard into an artifact the agent reads. For design, that artifact is `DESIGN.md`.
+Here's what that looks like. You ask for a settings page on Monday and get `#3b82f6` buttons with 18px padding. On Thursday you ask for a billing page in a fresh session and get `#2563eb` buttons with 20px padding. Both are fine alone. Side by side they're two products. Every future screen then inherits whichever the agent read first, and the cleanup is a week of find-and-replace across files nobody wrote by hand.
 
-`DESIGN.md` is the design source of truth. It pins down the things the agent would otherwise invent. Color tokens (named, not loose hex), the type scale, the spacing scale, layout rules, component rules, and **voice**: how the product talks in copy, errors, and empty states. The rule it enforces: if a color or a size is needed and no token fits, that's a flag to discuss. Not a license to invent.
+Fix it the way you fixed slop: move the standard into an artifact the agent reads. For design, that artifact is **`DESIGN.md`**.
 
-This repo ships a template. [`templates/DESIGN.md`](../templates/DESIGN.html). It has sections for what the product is and the one feeling it should produce, voice, color tokens, type, layout and spacing, components, motion, an accessibility floor, and an anti-patterns list. The slop list, design edition: generic AI gradients, off-scale spacing, invented colors, emoji standing in for real copy.
+`DESIGN.md` pins down what the agent would otherwise invent. Color tokens (named, not loose hex), the type scale, the spacing scale, layout rules, component rules, and **voice** — how the product talks in copy, errors, and empty states. The rule it enforces: if a color or size is needed and no token fits, that's a flag to discuss. Not a license to invent.
+
+This repo ships a template, [`templates/DESIGN.md`](../templates/DESIGN.html). It covers what the product is and the one feeling it should produce, voice, color tokens, type, layout and spacing, components, motion, an accessibility floor, and an anti-patterns list. The slop list, design edition: generic AI gradients, off-scale spacing, invented colors, emoji standing in for real copy.
 
 ## Do it
 
@@ -24,9 +26,11 @@ Be concrete. "Calm, fast, trustworthy" beats "modern and clean."
 
 Fill in `DESIGN.md` for your project and wire it into `CLAUDE.md`.
 
-Then run the comparison. Pick one component. A card, a form, an error state. Generate it once with `DESIGN.md` in context. Generate it again in a session where the agent can't see it. Put them side by side.
+Then run the comparison. Pick one component — a card, a form, an error state. Generate it once with `DESIGN.md` in context. Generate it again in a session where the agent can't see it. Put them side by side.
 
 **You're done when** your project has a filled-in `DESIGN.md` referenced from `CLAUDE.md`, and you've generated the same component with and without it and can name what the spec changed.
+
+**Build on it:** Build a small CLI that reads your `DESIGN.md` token table and flags any hex value in your codebase that isn't a named token.
 
 ## Why this matters
 

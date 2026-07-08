@@ -5,6 +5,29 @@ and diffable), but every line of text in them is transcribed verbatim from a rea
 session. Nothing here is invented. If you change one, re-run the session and
 re-transcribe it — don't hand-edit the output text.
 
+## `verify-install-terminal.svg`
+
+Captured 2026-07-08. Used in Lesson 2.2.
+
+Every line is the real output of these three commands, run on a machine with Claude
+Code already installed:
+
+```bash
+claude --version   # → 2.1.204 (Claude Code)
+which claude       # → <install dir>/claude
+claude --help      # → the first four lines of the usage text
+```
+
+Two honest notes. The home directory in `which claude` is rewritten to
+`/Users/agentics/` so the capture doesn't leak a real username — the path shape is
+unchanged. And the `install.sh` line is deliberately **not** shown: running it again
+on an already-installed machine would not have produced a truthful first-install
+transcript, and inventing one is exactly what this file exists to prevent. The
+capture starts where honest capture was possible.
+
+Re-running `claude --version` on a newer release will print a different version. That
+is fine — re-transcribe rather than editing the digits.
+
 ## `first-session-terminal.svg`
 
 Captured 2026-07-08. Used in Lesson 2.3.

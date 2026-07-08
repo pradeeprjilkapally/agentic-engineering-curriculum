@@ -4,13 +4,15 @@
 
 ## The idea
 
-In Part 3 you built and shipped something. Along the way you probably noticed a pattern: the prompts that went badly weren't badly worded, they were under-specified. You said "add search" and the agent guessed at ten things you never said. Some guesses were fine. Some weren't. You found out by reviewing the diff.
+In Part 3 you built and shipped something. The prompts that went badly weren't badly worded. They were under-specified. You said "add search" and the agent guessed at ten things you never said. Some guesses were fine. You found out which by reading the diff.
 
-A brief fixes that. A brief is a contract, not a description. A description says what you want in a sentence. A contract states the goal, the constraints, the inputs, the outputs, and the check that defines "done" (this is the part people skip). When all five are written down, there's nothing left to guess.
+A **brief** fixes that. A brief is a contract, not a description. A description says what you want in a sentence. A contract states the goal, the constraints, the inputs, the outputs, and the check that defines "done." That last one is the part people skip. Write all five and there's nothing left to guess.
 
-A brief costs about thirty seconds. In exchange, the agent gets the context it needs and you get something concrete to review against.
+**Here's the gap.** You ask for search on your orders page. The agent matches on order ID, case-sensitively, with no limit. Typing `hoff` finds nothing; an empty box returns every row you have. The diff looks reasonable, because nothing in it contradicts anything you said. You said nothing. Now write one line first — *searching `hoff` finds `Hoffman`, an empty query returns no rows* — and the same agent, on the same afternoon, builds the thing you meant.
 
-It also moves your job. Without a brief, you review implementation choices ("should it be a dropdown or a list?"), decisions you never made and now have to second-guess. With a brief, you review one thing: was the brief right? That's a better question, and it's the only one worth your attention.
+A brief costs thirty seconds. In exchange the agent gets its context and you get something concrete to review against.
+
+It also moves your job. Without a brief you review implementation choices — should it be a dropdown or a list? — decisions you never made and now have to second-guess. With a brief you review one thing: was the brief right? That's the only question worth your attention.
 
 ## Do it
 
@@ -29,15 +31,17 @@ The done-check is the load-bearing line. "It works" is not a done-check. "Runnin
 
 ## Your exercise
 
-Pick the next real change to your project. The next feature or fix you'd make anyway. Write a brief for it using the six lines above. Then hand it off and let the agent run.
+Pick the next real change to your project — the feature or fix you'd make anyway. Write a brief for it using the six lines above. Then hand it off and let the agent run.
 
-When it comes back wrong (and the first one usually does), don't fix the code yet. Find the bug in the **brief**. Which line was vague, missing, or wrong? Fix that line, hand it off again.
+When it comes back wrong, and the first one usually does, don't fix the code. Find the bug in the brief. Which line was vague, missing, or wrong? Fix that line and hand it off again.
 
 **You're done when** you've shipped one change driven entirely by a written brief, and you can name the line of the brief that caused the first wrong attempt.
 
+**Build on it:** a `brief` CLI that scaffolds the six-line template into `briefs/NNN-slug.md`, prefilled with your repo's test command as the done-check.
+
 ## Why this matters
 
-Every lesson left in this course assumes you can hand an agent a clean spec. The brief is that skill. Get it solid now and the rest (evals, parallel agents, review gates) all bolt onto it. Skip it, and you're back to guessing prompts and hoping.
+Every lesson left in this course assumes you can hand an agent a clean spec. The brief is that skill. Get it solid now and the rest — evals, parallel agents, review gates — bolt onto it. Skip it and you're back to guessing prompts and hoping.
 
 ---
 

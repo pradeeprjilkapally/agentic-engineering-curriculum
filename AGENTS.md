@@ -27,9 +27,29 @@ Every lesson follows the same shape. Match it exactly when editing or adding one
 3. `**Where this gets you:** <one sentence>`
 4. `## The idea`. Plain explanation
 5. `## Do it`. Concrete steps (only when there are real commands)
-6. `## Your exercise`. Ends with a bold `**You're done when** …` line
+6. `## Your exercise`. Closes with these lines, in this order:
+   - `**You're done when** …` (bold, required)
+   - `**Practice proof:** …` (what to record in `NOTES.md`, where the lesson has one)
+   - `**Build on it:** …` (one sentence, under ~30 words: a concrete thing the learner
+     could build that exercises this lesson. Required — see issue #43.)
 7. `## Why this matters`. One short paragraph
 8. footer: `Previous: [link] · Next: [link]`
+
+Item 2 is aspirational: most lessons don't currently carry the `> **Part X**` line. Don't
+add it to one lesson in isolation — it's a repo-wide fix or nothing.
+
+## Imagery
+
+Diagrams are hand-authored SVGs in `assets/diagrams/`, matching the palette and type of
+`agent-loop.svg` and `ai-map-layers.svg`. Keep all text inside the `viewBox` (rotated
+labels running off-canvas has been a bug twice) and put arrowheads on arrows. Photos go in
+`assets/photos/` with an entry in `CREDITS.md` naming the license.
+
+**Never fabricate a terminal screenshot.** Anything depicting a real session must be a
+verbatim transcription of a real run, recorded in `assets/screenshots/PROVENANCE.md` with
+the commands needed to reproduce it. Typesetting real output as SVG is fine; inventing the
+output is not. A course that teaches "ship it with proof" cannot illustrate itself with
+fake proof.
 
 The course threads ONE learner project (picked in Lesson 5) through every later
 exercise. Keep that thread intact.

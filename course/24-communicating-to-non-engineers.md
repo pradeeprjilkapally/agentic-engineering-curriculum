@@ -4,23 +4,25 @@
 
 ## The idea
 
-When your weekly demo can be understood by the customer's CEO, the engagement stays sponsored, funded, and trusted. Technical work that's well communicated travels much further than technical work that's just shipped. The FDEs who get re-engaged are the ones who built this habit early.
+Technical work that's well communicated travels much further than technical work that's just shipped. The FDEs who get re-engaged built this habit early.
 
-FDE work has at least three audiences, each with a different need.
+FDE work has three audiences, each with a different need.
 
-**Engineers you're embedded with.** They live in the repo. They want PR comments, technical writeups, demos with running code. They will see your work daily.
+**Engineers you're embedded with.** They live in the repo. They want PR comments, technical writeups, demos with running code. They see your work daily.
 
-**The engineering manager / VP.** They want a weekly written update, ~5 minutes to read. Three short paragraphs: what shipped, what's next, what's blocked. They will defend your engagement to their leadership using the words you wrote.
+**The engineering manager or VP.** They want a weekly written update, five minutes to read. Three short paragraphs: what shipped, what's next, what's blocked. They'll defend your engagement to their leadership using the words you wrote.
 
-**The executive sponsor who pays the bill.** They want a monthly demo, ~15 minutes, no code on screen. Charts, numbers, screenshots, business outcomes. They will decide whether to renew based on this.
+**The executive sponsor who pays the bill.** They want a monthly demo, fifteen minutes, no code on screen. Charts, numbers, screenshots, outcomes. They decide whether to renew based on this.
 
-The discipline that makes this cheap: write the weekly update Friday afternoon, ship it Friday evening. Same template every week. The monthly exec demo is a polished version of four weeklies stitched together with charts.
+The discipline that makes it cheap: write the weekly Friday afternoon, ship it Friday evening. Same template every week. The monthly demo is four weeklies stitched together with charts.
 
-Two patterns that win every time:
+Two patterns win every time.
 
-**Lead with the metric.** Not "Last week we worked on the retrieval layer." Instead: "Last week the eval pass rate moved from 71 percent to 83 percent. Here is what changed and what it cost." Numbers anchor the conversation. Words drift.
+**Lead with the metric.** Not "last week we worked on the retrieval layer." Instead: "last week the eval pass rate moved from 71 percent to 83 percent. Here's what changed and what it cost." Numbers anchor the conversation. Words drift.
 
-**Close with the ask.** Not "let me know if you have questions." Instead: "To hit our June target, I need access to the prod read replica by Wednesday. Can you confirm by Monday?" Every update creates one specific request. That is how the engagement keeps moving.
+**Close with the ask.** Not "let me know if you have questions." Instead: "to hit our June target, I need access to the prod read replica by Wednesday. Can you confirm by Monday?" Every update creates one specific request. That's how the engagement keeps moving.
+
+Here's what the gap costs. Two FDEs, same six-month engagement, same quality of code. One sends the Friday note; when the sponsor's budget review lands in month four, the VP already has four months of "pass rate 71 → 83, latency halved" in her inbox and forwards it. The other has a beautiful repo nobody outside the team has ever seen. Her sponsor asks, honestly, what the contractor has been doing. She has to answer that question in a meeting she didn't schedule, with slides she built overnight. Only one of these engagements gets renewed, and it isn't the better code.
 
 The weekly update template:
 
@@ -49,6 +51,8 @@ Write your weekly update template and your monthly demo agenda. Apply both to a 
 **You're done when** you have the template, the agenda, and one example update written.
 
 **Practice proof:** save them in NOTES as `weekly-template.md`, `monthly-demo-agenda.md`, and `weekly-example.md`.
+
+**Build on it:** write a script that reads your week's merged PRs from the GitHub API and drafts the "what shipped" paragraph, metric first.
 
 ## Why this matters
 
