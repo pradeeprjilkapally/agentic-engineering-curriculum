@@ -48,3 +48,7 @@ You finished the course. You walked in as a senior full-stack engineer. You're w
 The next step is your first real engagement. The course gave you the operating system. Now go run it on something real, with someone real, and ship.
 
 If you want a day-by-day plan to take this from theory to ready, see **[Two-week FDE ramp](TWO_WEEK_FDE_RAMP.html)** (with a compressed 1-week intensive variant inside for hiring-filter use).
+
+---
+
+Previous: [Lesson 6.10 · Security and compliance](26-security-and-compliance.html) · Next: [Lesson 7.1 · Building on the API](28-building-on-the-api.html)

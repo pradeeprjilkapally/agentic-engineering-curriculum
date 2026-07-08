@@ -104,4 +104,4 @@ And pricing fluency matters in customer conversations. When a customer asks "how
 
 ---
 
-Next: [Lesson 7.2 · Programmatic agents (the SDKs)](29-programmatic-agents-sdks.html)
+Previous: [Lesson 6.11 · The handoff playbook](27-the-handoff-playbook.html) · Next: [Lesson 7.2 · Programmatic agents (the SDKs)](29-programmatic-agents-sdks.html)
