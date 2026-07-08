@@ -7,3 +7,5 @@ __pycache__/
 
 # Local PersonalOS / agent coordination scaffold (machine-specific, not shared)
 AGENT_STATUS.md
+action_items.md
+task.md
