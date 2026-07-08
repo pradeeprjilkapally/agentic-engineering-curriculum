@@ -12,11 +12,11 @@ You give it a goal. Then it circles: **gather** the files it needs, **act** by m
 
 You watch this happen in your terminal. It tells you what it read, what it will change, and what each command printed. Read that stream — it's where you catch wrong turns early.
 
-Here's a real one. You ask an agent to "add an INFO log line to `greet()` so calls are traceable." It reads the file (gather), adds the import and the log line (act), then runs the file and shows you the diff (check). You read the diff and sign off. That whole session looks like this:
+Here's a real one, captured from an actual session. A four-line `app.py` ends with a bare `greet("world")`, so the greeting fires on *import*, not just when you run the file. Nobody asked for that bug to be found — the prompt was only "find one tiny improvement." The agent read the file (gather), ran it to see the current behaviour (check), guarded the call behind `__main__` (act), then ran it again both ways to prove nothing broke (check):
 
-![A real first agent session in the terminal — the agent gathers, acts, and checks, then shows the git diff and the program output so you can sign off.](../assets/screenshots/first-session-terminal.svg)
+![A real first agent session in the terminal — the agent gathers context, runs the program, edits app.py, and re-checks; then git status, the git diff, and the program output confirm the change.](../assets/screenshots/first-session-terminal.svg)
 
-*The last three commands are yours: `git status --short`, `git diff`, then run it. That's you doing the "check" by hand, on top of the agent's.*
+*Two things worth noticing. The agent ran the program **before** editing it — that's how it knew what "unchanged behaviour" meant. And the last three commands are yours: `git status --short`, `git diff`, then run it. That's you doing the check by hand, on top of the agent's.*
 
 When it heads the wrong way, hit **Esc** and correct it in plain words: "the config lives in `settings/`, not the root" or "skip tests for now, just make the change." It picks up from there with the new information.
 

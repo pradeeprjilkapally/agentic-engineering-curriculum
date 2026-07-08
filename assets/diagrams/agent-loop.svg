@@ -38,7 +38,8 @@
   <polygon points="299,236 305,224 311,236" fill="#94a3b8"/>
   <text x="475" y="300" font-size="12" fill="#565e74" text-anchor="middle">not done yet → loop again</text>
 
-  <!-- done arrow -->
-  <line x1="710" y1="186" x2="742" y2="186" stroke="#0f7a45" stroke-width="2"/>
-  <text x="726" y="140" font-size="12" font-weight="700" fill="#0f7a45" text-anchor="middle">done ✓</text>
+  <!-- done arrow (headed, like the others, and kept clear of the canvas edge) -->
+  <line x1="710" y1="186" x2="726" y2="186" stroke="#0f7a45" stroke-width="2"/>
+  <polygon points="726,180 738,186 726,192" fill="#0f7a45"/>
+  <text x="722" y="140" font-size="12" font-weight="700" fill="#0f7a45" text-anchor="middle">done ✓</text>
 </svg>
