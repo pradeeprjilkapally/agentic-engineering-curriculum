@@ -27,6 +27,8 @@ Pick a product you use every day. ChatGPT, Cursor, Notion AI, GitHub Copilot, so
 
 **Practice proof:** save it in `NOTES.md` under "AI map." You'll reuse this exact frame in Lesson 6.1.
 
+**Build on it:** build a one-page "layer triage" web form where you paste an AI complaint and it asks three questions, then names the layer to fix.
+
 ## Why this matters
 
 Every confusing conversation you'll have for the next year as an FDE will dissolve the moment you put the right layer on it. This is the first tool you'll reach for in customer meetings, on Twitter, in your own debugging. Get the layer right and the rest of the conversation becomes easy.

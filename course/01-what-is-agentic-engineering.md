@@ -38,6 +38,8 @@ Good candidates: a one-command CLI, a small page, an internal tool, a bug fix, o
 
 **Practice proof:** save the three candidates somewhere durable, like `NOTES.md`. For each one, include the check that would prove it works.
 
+**Build on it:** build a `donecheck` script that reads three acceptance criteria from a file and makes you tick each one before it will let you `git commit`.
+
 ## Why this matters
 
 Every lesson after this hands you a new skill and asks you to use it on a real project. Do that on a throwaway toy and it stays trivia you'll forget by Friday. Do it on something you actually care about and it turns into how you work. So pick real candidates. The whole course compounds on that one choice.

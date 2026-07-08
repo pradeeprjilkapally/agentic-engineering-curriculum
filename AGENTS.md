@@ -67,11 +67,21 @@ the GitHub Pages site.
 
 ## Verification
 
-Before opening a PR for curriculum or navigation changes, run:
+Before opening a PR for curriculum or navigation changes, run both:
 
 ```bash
-python3 scripts/check_links.py
+python3 scripts/check_links.py         # links that exist resolve
+python3 scripts/check_lesson_shape.py  # required sections aren't missing
 ```
 
-The checker validates local Markdown and HTML links, including GitHub Pages `.html`
-targets and heading anchors.
+`check_links.py` validates local Markdown and HTML links, including GitHub Pages
+`.html` targets and heading anchors. It can only see links that are *there*.
+
+`check_lesson_shape.py` checks for **absence** — the blind spot that let Part 7 ship
+live but unreachable from the sidebar, and let six lessons ship without the
+`**Build on it:**` line. It asserts every numbered lesson has each required section,
+that `Build on it` closes the exercise (after `Practice proof`, before
+`## Why this matters`), and that every lesson on disk is linked from the sidebar in
+`_layouts/docs.html`.
+
+A green `check_links.py` does not mean the lesson is well-formed. Run both.

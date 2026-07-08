@@ -73,6 +73,8 @@ make test
 
 **Practice proof:** save the prompt you gave, the diff it produced, and the command or manual check you used to verify it. Fresh graduates should ask a human or teammate to review this first diff if possible.
 
+**Build on it:** build a small script that reads a saved session transcript and prints each step tagged gather, act, or check, so wrong turns stand out.
+
 ## Why this matters
 
 Everything later in this course is this loop, scaled up. Bigger tasks, more of them, several at once. If the loop is clear to you on something small, the hard stuff later is just more of a thing you already understand. If it's a blur now, it stays a blur.
