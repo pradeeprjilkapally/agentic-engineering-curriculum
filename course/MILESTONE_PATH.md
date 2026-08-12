@@ -1,3 +1,7 @@
+---
+title: "Milestone path"
+---
+
 # Milestone path
 
 Use this page as the learner route through the curriculum. The lessons are the source material. The milestones tell you what you should be able to do before moving on.

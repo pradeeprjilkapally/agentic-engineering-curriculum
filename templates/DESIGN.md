@@ -1,3 +1,7 @@
+---
+title: "DESIGN.md — [Project Name]"
+---
+
 # DESIGN.md — [Project Name]
 
 > Fork this. Fill every section. Reference it from `CLAUDE.md` so the agent reads it before any surface work.

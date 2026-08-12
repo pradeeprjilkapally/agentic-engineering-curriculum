@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="Inter, system-ui, sans-serif" role="img" aria-label="The application taxonomy: RAG, then chatbot, then agentic app. Each layer contains the one before it. Going from RAG to chatbot means adding session memory, a four to eight week engagement. Going from chatbot to agentic means adding tools, a persistent brain, and guardrails, a three to six month engagement.">
+  <defs>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#004ac6"/>
+    </marker>
+  </defs>
+  <rect width="760" height="460" fill="#f7f9fb"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="#0f172a">The application taxonomy</text>
+  <text x="40" y="72" font-size="14" fill="#565e74">Not three styles of building. One progression — each layer contains the last.</text>
+
+  <!-- Layer 3 outer: agentic -->
+  <rect x="40" y="100" width="420" height="316" rx="14" fill="#dbe8ff" stroke="#004ac6" stroke-width="1.5"/>
+  <text x="64" y="130" font-size="17" font-weight="700" fill="#003996">3 · Agentic app</text>
+  <text x="64" y="152" font-size="13" fill="#334155">+ tools, agent loop, brain across sessions</text>
+
+  <!-- Layer 2: chatbot -->
+  <rect x="64" y="172" width="372" height="222" rx="12" fill="#e8f0ff" stroke="#004ac6" stroke-width="1.5"/>
+  <text x="88" y="202" font-size="17" font-weight="700" fill="#003996">2 · Chatbot</text>
+  <text x="88" y="224" font-size="13" fill="#334155">+ memory within a session</text>
+
+  <!-- Layer 1: RAG -->
+  <rect x="88" y="244" width="324" height="126" rx="10" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="112" y="274" font-size="17" font-weight="700" fill="#0f172a">1 · RAG</text>
+  <text x="112" y="296" font-size="13" fill="#334155">Retrieve, augment, generate.</text>
+  <text x="112" y="316" font-size="13" fill="#334155">Single shot. No memory.</text>
+  <text x="112" y="344" font-size="12" fill="#565e74">Most enterprise customers are here.</text>
+
+  <!-- transitions -->
+  <text x="500" y="130" font-size="13" font-weight="700" fill="#0f172a">The work at each transition</text>
+
+  <line x1="500" y1="176" x2="500" y2="238" stroke="#004ac6" stroke-width="1.5" marker-end="url(#head)"/>
+  <text x="518" y="176" font-size="13" font-weight="700" fill="#003996">RAG → chatbot</text>
+  <text x="518" y="198" font-size="12" fill="#334155">Session memory. Multi-turn evals.</text>
+  <text x="518" y="218" font-size="12" fill="#565e74">4–8 weeks</text>
+
+  <line x1="500" y1="278" x2="500" y2="360" stroke="#004ac6" stroke-width="1.5" marker-end="url(#head)"/>
+  <text x="518" y="278" font-size="13" font-weight="700" fill="#003996">Chatbot → agentic</text>
+  <text x="518" y="300" font-size="12" fill="#334155">Tools. A persistent brain.</text>
+  <text x="518" y="320" font-size="12" fill="#334155">Tool-use evals. Cost and</text>
+  <text x="518" y="340" font-size="12" fill="#334155">safety guardrails.</text>
+  <text x="518" y="362" font-size="12" fill="#565e74">3–6 months</text>
+
+  <text x="40" y="440" font-size="12" fill="#565e74">You can't skip a layer. Weak retrieval breaks the agent above it.</text>
+</svg>

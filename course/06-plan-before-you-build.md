@@ -1,12 +1,18 @@
+---
+title: "Lesson 3.2 · Plan before you build"
+---
+
 # Lesson 3.2 · Plan before you build
 
 **Where this gets you:** a written, approved plan for the first slice of your project. One you've read hard and pushed back on, before a single file gets edited.
 
 ## The idea
 
-The fastest way to waste an hour with an agent is to let it build before you have seen the plan. If the approach is wrong, you are untangling instead of reviewing.
+The fastest way to waste an hour with an agent is to let it build before you've seen the plan. When the approach is wrong, you're untangling instead of reviewing.
 
-Plan Mode fixes that. It's a mode where the agent reads your files and runs read-only commands, then hands you a written plan and changes nothing until you approve it. No edits, no surprises. You get to argue with the approach while it's still just words.
+**Plan Mode** fixes that. The agent reads your files and runs read-only commands, then hands you a written plan. It changes nothing until you approve. No edits, no surprises. You get to argue with the approach while it's still just words.
+
+**What that looks like.** You ask for CSV import. The plan comes back: add `pandas`, write a new `importers/` package, refactor the existing file reader to use it. All reasonable-sounding. But you know the app already parses CSVs in `io/reader.py` with the standard library, and you know `pandas` is 60MB you don't want in the container. Two sentences of pushback — *no new dependency, extend `io/reader.py`* — and the plan comes back correct. Approve the first version instead, and you're reverting a refactor and a dependency two days later, after they've grown callers.
 
 In Claude Code, cycle to it with **Shift+Tab**. Tap it until the prompt shows you're in plan mode.
 
@@ -22,18 +28,18 @@ For other tools:
 The workflow is short:
 
 1. **Enter plan mode** and describe the goal. The first slice of your project, not the whole thing.
-2. **Read the plan critically.** Does it touch the right files? Is the approach the one you'd choose? Did it miss something, or invent a step you don't need?
-3. **Push back.** Tell it what's wrong. "Don't add a new dependency for this." "Wrong file. That logic lives in X." It revises.
+2. **Read the plan critically.** Right files? Right approach? Did it miss a step, or invent one you don't need?
+3. **Push back.** Tell it what's wrong. It revises.
 4. **Approve** only when you actually believe the plan.
 5. It builds.
 
-Catch a bad approach while it is still words. A wrong plan is cheap; wrong code is not.
+A wrong plan is cheap. Wrong code is not.
 
 ## Do it
 
-Open your project and enter plan mode (Shift+Tab). Describe the first slice. The smallest meaningful piece of your definition of done. Not "build the whole app." Something like "add the command that parses the input file."
+Open your project and enter plan mode (Shift+Tab). Describe the first slice — the smallest meaningful piece of your definition of done. Not "build the whole app." Something like "add the command that parses the input file."
 
-Read the plan it gives back the way you'd read a coworker's design doc. Look for the wrong file, the missing step, the heavier-than-needed approach. Find at least one thing and send a correction. Let it revise. Repeat until the plan is one you'd defend.
+Read what comes back the way you'd read a coworker's design doc. Look for the wrong file, the missing step, the heavier-than-needed approach. Find at least one thing and send a correction. Let it revise. Repeat until the plan is one you'd defend.
 
 ## Your exercise
 
@@ -43,9 +49,11 @@ Get a plan, in plan mode, for the first slice of your project. Read it hard. Sen
 
 **Practice proof:** commit or save the approved plan in `NOTES.md`. Include the correction you made to the agent's first plan.
 
+**Build on it:** build a `plan-diff` CLI that saves each plan mode plan to a timestamped file in `plans/` and prints a diff against the previous one, so you can see exactly what your pushback changed.
+
 ## Why this matters
 
-Planning first is the single habit that separates directing an agent from gambling with one. It moves your judgment to the front, where corrections are cheap. Every later lesson (building, evals, shipping) gets easier when the work started from a plan you understood. Skip it and you'll spend the course cleaning up after confident wrong turns.
+Planning first is the habit that separates directing an agent from gambling with one. It moves your judgment to the front, where corrections are cheap. Every later lesson — building, evals, shipping — gets easier when the work started from a plan you understood. Skip it and you'll spend the course cleaning up after confident wrong turns.
 
 ---
 

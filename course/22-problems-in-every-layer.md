@@ -1,12 +1,20 @@
+---
+title: "Lesson 6.6 · The problems in every layer"
+---
+
 # Lesson 6.6 · The problems in every layer
 
-**Where this gets you:** you'll have a one-page failure-mode inventory for any agentic system, which is the single best document to put in the first PR of any new engagement.
+**Where this gets you:** you'll have a one-page failure-mode inventory for any agentic system — the single best document to put in the first PR of a new engagement.
 
 ## The idea
 
-LLMs hallucinate. Agents cascade-fail. Harnesses lock you in. Second brains rot. Teams coordination-tax. Solo founders burn out. The bug is never in the layer you're looking at.
+LLMs hallucinate. Agents cascade-fail. Harnesses lock you in. Second brains rot. Teams pay a coordination tax. Solo founders burn out.
 
-The discipline that separates a senior engineer from a senior Forward Deployed Engineer is looking across layers when something breaks. Most engineers debug at the layer where the symptom shows. FDEs debug at the layer where the cause lives. They're almost never the same layer.
+The bug is almost never in the layer you're looking at.
+
+Most engineers debug where the symptom shows. Forward Deployed Engineers debug where the cause lives. Those are rarely the same layer, and knowing that is most of the job.
+
+**A real one.** A support bot starts citing a refund policy the company doesn't have. Everyone blames the model — it's making things up. It isn't. Retrieval returned nothing for that question (application layer), because the harness silently truncated the policy doc to fit the context window (harness layer), because someone swapped in a cheaper small-context model last sprint to cut the bill (model layer). Three layers, one symptom. Tighten the prompt and you'll spend a week watching it come back. Name all three and you fix it in a morning.
 
 Here's the inventory you'll carry into every engagement.
 
@@ -21,23 +29,25 @@ Here's the inventory you'll carry into every engagement.
 | Solo workflow | Burnout, no review, hidden mistakes | Telegram heartbeats, weekly retro, a mentor outside the engagement |
 | Staying current | Doom-scroll, miss the wave | Intel-watch, trusted voices, scheduled review |
 
-A concrete pattern to internalize: when a customer-visible problem appears, the symptom is almost always at a different layer from the cause. A hallucinated answer might trace back to a retrieval miss (application layer), which traces to a misconfigured harness, which traces to a wrong model choice for that retrieval step. You cannot fix one of these without naming the others. The team that names all three first wins the debug.
-
-A second concrete pattern: every layer's mitigation is itself a small project. Evals are a project. The no-slop review pass is a project. The intel-watch is a project. You can spend a whole engagement just hardening one layer, and sometimes that's exactly the right move.
+Read the table twice and one thing should bother you: every mitigation in that third column is its own small project. Evals are a project. The no-slop review pass is a project. The intel-watch is a project. You can spend an entire engagement hardening one layer — and sometimes that's exactly the right call, as long as you said so out loud on day one.
 
 ## Your exercise
 
-For your project candidate, write down the most likely failure mode at each applicable layer. For each, write the one-line mitigation you would ship before launch.
+For your project, write down the most likely failure mode at each layer that applies. Next to each, write the one-line mitigation you'd ship before launch.
 
-**You're done when** you have a one-page failure-mode-and-mitigation doc for your project. It is the document you would want to see in the first PR of any FDE engagement, including your own.
+Skip the layers that don't apply. A CLI with no retrieval has no application-layer retrieval miss. Don't pad it.
+
+**You're done when** you have a one-page failure-mode-and-mitigation doc for your project — the document you'd want to see in the first PR of any FDE engagement, including your own.
 
 **Practice proof:** save it in `NOTES.md` as `failures.md`.
 
+**Build on it:** write a CLI that reads `failures.md` and fails the build if any layer you marked "applies" has no mitigation line — a lint pass for your own inventory.
+
 ## Why this matters
 
-The discipline of looking across layers is what makes you valuable. Most engineers ship to a customer and the system works for the first week, then a strange behavior appears, and they spend three days debugging at the wrong layer. The FDEs the customers ask for again are the ones who name the failure modes up front and ship mitigations before anyone has to ask for them.
+Looking across layers is what makes you valuable. The common story: you ship, it works for a week, something strange appears, and three days go into debugging the wrong layer. The FDEs customers ask for by name are the ones who wrote the failure modes down before launch and shipped the mitigations before anyone had to ask.
 
-The inventory is the deliverable. Carry it into the next lessons, where you'll learn how to scope the engagement, talk to non-engineers, watch cost and behavior in production, and hand the system off cleanly.
+The inventory is the deliverable. Carry it into the next lessons, where you'll scope the engagement, talk to non-engineers, watch cost and behavior in production, and hand the system off cleanly.
 
 ---
 

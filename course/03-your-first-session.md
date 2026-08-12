@@ -1,3 +1,7 @@
+---
+title: "Lesson 2.3 · Your first session"
+---
+
 # Lesson 2.3 · Your first session
 
 **Where this gets you:** you'll take one small task end-to-end with an agent and understand the loop it runs (the thing every later lesson builds on).
@@ -6,13 +10,21 @@
 
 An agent session is a loop, not one prompt and one answer.
 
-You give it a goal. Then it goes around: **gather context**. Read the files it needs to understand the task. **Act**. Make an edit, run a command. **Check**. Look at what happened, run the test, read the error. Then it loops: gather, act, check, gather, act, check. Until the goal is met or it gets stuck and asks you.
+You give it a goal. Then it circles: **gather** the files it needs, **act** by making an edit or running a command, **check** what happened by running the test or reading the error. Then it loops — gather, act, check — until the goal is met or it gets stuck and asks you.
 
-You watch this in your terminal. It says what it read, what it will change, and what commands printed. Read that stream; it is where you catch wrong turns early.
+![The agent loop: one goal in, then gather, act, and check repeating until the work is done.](../assets/diagrams/agent-loop.svg)
 
-When it turns wrong, hit **Esc** and correct it in plain words: "the config lives in `settings/`, not the root" or "skip tests for now, just make the change." It picks up with the new information.
+You watch this happen in your terminal. It tells you what it read, what it will change, and what each command printed. Read that stream — it's where you catch wrong turns early.
 
-**Small asks beat one giant prompt.** "Rename this function and update its callers" gives the agent a clear target. "Refactor the whole module" gives it room to wander. Scope down; ask for the next piece after review.
+Here's a real one, captured from an actual session. A four-line `app.py` ends with a bare `greet("world")`, so the greeting fires on *import*, not just when you run the file. Nobody asked for that bug to be found — the prompt was only "find one tiny improvement." The agent read the file (gather), ran it to see the current behaviour (check), guarded the call behind `__main__` (act), then ran it again both ways to prove nothing broke (check):
+
+![A real first agent session in the terminal — the agent gathers context, runs the program, edits app.py, and re-checks; then git status, the git diff, and the program output confirm the change.](../assets/screenshots/first-session-terminal.svg)
+
+*Two things worth noticing. The agent ran the program **before** editing it — that's how it knew what "unchanged behaviour" meant. And the last three commands are yours: `git status --short`, `git diff`, then run it. That's you doing the check by hand, on top of the agent's.*
+
+When it heads the wrong way, hit **Esc** and correct it in plain words: "the config lives in `settings/`, not the root" or "skip tests for now, just make the change." It picks up from there with the new information.
+
+**Small asks beat one giant prompt.** "Rename this function and update its callers" gives the agent a clear target. "Refactor the whole module" gives it room to wander. Scope down; ask for the next piece after you've reviewed the last one.
 
 ## Do it
 
@@ -64,6 +76,8 @@ make test
 **You're done when** you've taken one small task end-to-end and can describe the gather → act → check loop in your own words.
 
 **Practice proof:** save the prompt you gave, the diff it produced, and the command or manual check you used to verify it. Fresh graduates should ask a human or teammate to review this first diff if possible.
+
+**Build on it:** build a small script that reads a saved session transcript and prints each step tagged gather, act, or check, so wrong turns stand out.
 
 ## Why this matters
 

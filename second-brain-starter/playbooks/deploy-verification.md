@@ -1,3 +1,7 @@
+---
+title: "Playbook: Deploy Verification"
+---
+
 # Playbook: Deploy Verification
 
 > Example playbook. The shape — trigger, steps, definition of done — is what to copy. The specifics are illustrative; replace with yours.

@@ -1,16 +1,22 @@
+---
+title: "Lesson 4.2 · Evals: defining done"
+---
+
 # Lesson 4.2 · Evals: defining done
 
 **Where this gets you:** you'll write the test before the code. So "done" is something the agent can check itself, not something you eyeball after the fact.
 
 ## The idea
 
-In Lesson 4.1 the brief had a done-check line. An eval is that line, made executable. It's the test, automated where possible, that goes green or red and tells you, without your judgment in the loop, whether the work is finished.
+In Lesson 4.1 the brief had a done-check line. An **eval** is that line, made executable. It's the test that goes green or red and tells you the work is finished, without your judgment in the loop.
 
-If you cannot describe "working" precisely enough to test it, you are not ready to hand off. A fuzzy goal leaves you no firm ground to reject bad output.
+If you can't describe "working" precisely enough to test it, you're not ready to hand off. A fuzzy goal leaves you no firm ground to reject bad output.
 
-So write the eval first. Before any code. This isn't bureaucracy. It's the same discipline as test-driven development, and it works for the same reason: writing the test forces you to decide what "correct" actually means while you still have the freedom to think clearly about it. Do it after, and the code quietly defines "done" for you.
+So write the eval first. Before any code. It's the same discipline as test-driven development, and it works for the same reason: writing the test forces you to decide what "correct" means while you still have room to think. Write it after, and the code quietly defines "done" for you.
 
-One catch. The agent is done when the eval is green **and** it passes a taste check. The eval catches what you specified. It can't catch what you forgot to specify. Clumsy UX, a confusing name, a slow path. Green eval, then your eyes. Both, every time.
+**What skipping it looks like.** Someone hands an agent "dedupe the customer export." Code comes back, they run it on the sample file — 500 rows in, 480 out, looks right — and ship. The real export has emails that differ only by capitalization and a trailing space. The dedupe misses every one of them, and marketing mails the same people twice for a month. Write the eval first and you have to answer *what counts as a duplicate?* before there's code to hide the question. `Ann@x.com ` and `ann@x.com` collapse to one, or the test is red.
+
+One catch. The agent is done when the eval is green **and** it passes a taste check. The eval catches what you specified. It can't catch what you forgot: clumsy UX, a confusing name, a slow path. Green eval, then your eyes. Both, every time.
 
 And use real test data. An eval that runs against fixtures you hand-picked to pass is an eval that lies. Feed it the empty input, the malformed row, the thing that was actually down last Tuesday. A test that can't fail isn't protecting you.
 
@@ -20,7 +26,7 @@ Take the brief you wrote in Lesson 4.1. Before writing a line of implementation:
 
 1. Turn the done-check into a real test. A unit test, an integration test, a script that exits non-zero on failure. Whatever your project can run.
 2. Use real-shaped data. Include at least one unhappy case: empty, null, malformed, or the dependency being down.
-3. Run it. Watch it fail. It should, there's no code yet. A test that passes before the feature exists is testing nothing.
+3. Run it. Watch it fail. It should — there's no code yet. A test that passes before the feature exists is testing nothing.
 4. Hand off the **brief and the eval together.** The eval is now the agent's definition of done.
 
 Use the eval shape that fits your project:
@@ -62,6 +68,8 @@ Compare. How many rounds did each take? Which result did you actually trust?
 **You're done when** you've shipped a change where the eval was written before the code, it failed first and passed last, and you can state the difference the eval made versus the no-eval handoff.
 
 **Practice proof:** save the eval name, command, expected pass/fail behavior, and output.
+
+**Build on it:** Build a CLI that reads a repo's test suite and prints which tests would still pass if you deleted the code they cover.
 
 ## Why this matters
 

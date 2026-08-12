@@ -1,3 +1,7 @@
+---
+title: "Data + AI practice labs"
+---
+
 # Data + AI practice labs
 
 These labs follow the size and shape of small portfolio projects:

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="Inter, system-ui, sans-serif" role="img" aria-label="Fan-out, fan-in: one task splits into three independent agent streams that run side by side, then merge back into one result. The hard part is the merge, not the speed.">
+  <rect width="760" height="380" fill="#f7f9fb"/>
+  <text x="40" y="44" font-size="22" font-weight="700" fill="#0f172a">Fan out, fan in</text>
+  <text x="40" y="70" font-size="14" fill="#565e74">Three independent streams take as long as the slowest one — then you pay at the merge.</text>
+
+  <!-- Task -->
+  <rect x="40" y="160" width="120" height="72" rx="12" fill="#003996"/>
+  <text x="100" y="192" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">One task</text>
+  <text x="100" y="212" font-size="11" fill="#cbd5e1" text-anchor="middle">split honestly</text>
+
+  <!-- fan-out arrows -->
+  <path d="M160 196 L200 196 L200 130 L238 130" fill="none" stroke="#004ac6" stroke-width="2"/>
+  <polygon points="238,124 250,130 238,136" fill="#004ac6"/>
+  <line x1="160" y1="196" x2="238" y2="196" stroke="#004ac6" stroke-width="2"/>
+  <polygon points="238,190 250,196 238,202" fill="#004ac6"/>
+  <path d="M160 196 L200 196 L200 262 L238 262" fill="none" stroke="#004ac6" stroke-width="2"/>
+  <polygon points="238,256 250,262 238,268" fill="#004ac6"/>
+
+  <!-- streams -->
+  <rect x="250" y="102" width="200" height="56" rx="12" fill="#dbe8ff" stroke="#004ac6" stroke-width="1.5"/>
+  <text x="350" y="126" font-size="14" font-weight="700" fill="#003996" text-anchor="middle">Agent A · implementation</text>
+  <text x="350" y="145" font-size="11" fill="#334155" text-anchor="middle">touches src/</text>
+
+  <rect x="250" y="168" width="200" height="56" rx="12" fill="#dbe8ff" stroke="#004ac6" stroke-width="1.5"/>
+  <text x="350" y="192" font-size="14" font-weight="700" fill="#003996" text-anchor="middle">Agent B · tests</text>
+  <text x="350" y="211" font-size="11" fill="#334155" text-anchor="middle">touches tests/</text>
+
+  <rect x="250" y="234" width="200" height="56" rx="12" fill="#dbe8ff" stroke="#004ac6" stroke-width="1.5"/>
+  <text x="350" y="258" font-size="14" font-weight="700" fill="#003996" text-anchor="middle">Agent C · docs</text>
+  <text x="350" y="277" font-size="11" fill="#334155" text-anchor="middle">touches docs/</text>
+
+  <!-- fan-in arrows -->
+  <path d="M450 130 L488 130 L488 196 L528 196" fill="none" stroke="#004ac6" stroke-width="2"/>
+  <line x1="450" y1="196" x2="528" y2="196" stroke="#004ac6" stroke-width="2"/>
+  <path d="M450 262 L488 262 L488 196 L528 196" fill="none" stroke="#004ac6" stroke-width="2"/>
+  <polygon points="528,190 540,196 528,202" fill="#004ac6"/>
+
+  <!-- Merge -->
+  <rect x="540" y="160" width="140" height="72" rx="12" fill="#dbe8ff" stroke="#004ac6" stroke-width="1.5"/>
+  <text x="610" y="192" font-size="15" font-weight="700" fill="#003996" text-anchor="middle">Merge</text>
+  <text x="610" y="212" font-size="11" fill="#334155" text-anchor="middle">you, reading diffs</text>
+
+  <!-- done arrow -->
+  <line x1="680" y1="196" x2="700" y2="196" stroke="#0f7a45" stroke-width="2"/>
+  <polygon points="700,190 712,196 700,202" fill="#0f7a45"/>
+  <text x="696" y="150" font-size="12" font-weight="700" fill="#0f7a45" text-anchor="middle">ship ✓</text>
+
+  <!-- overlap warning -->
+  <path d="M350 290 L350 324" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
+  <polygon points="344,312 350,324 356,312" fill="#94a3b8"/>
+  <text x="350" y="344" font-size="12" fill="#565e74" text-anchor="middle">not independent if two streams write the same file</text>
+</svg>

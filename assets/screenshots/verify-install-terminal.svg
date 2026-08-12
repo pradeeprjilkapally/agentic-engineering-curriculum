@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 402" font-family="'JetBrains Mono', 'SF Mono', Menlo, monospace" font-size="14.5" role="img" aria-label="Verifying a Claude Code install: claude --version prints the version, which claude prints the binary path, and claude --help prints the usage line.">
+  <rect width="900" height="402" rx="14" fill="#0b1020"/>
+  <rect width="900" height="40" rx="14" fill="#161d33"/>
+  <rect y="26" width="900" height="14" fill="#161d33"/>
+  <circle cx="24" cy="20" r="6.5" fill="#ff5f57"/>
+  <circle cx="46" cy="20" r="6.5" fill="#febc2e"/>
+  <circle cx="68" cy="20" r="6.5" fill="#28c840"/>
+  <text x="450.0" y="25" fill="#94a3b8" font-size="13" text-anchor="middle">verify the install — bash — 80×24</text>
+  <text x="20" y="68" xml:space="preserve" fill="#9ae6b4">agentics@mac&#160;~&#160;$&#160;claude&#160;--version</text>
+  <text x="20" y="90" xml:space="preserve" fill="#e2e8f0">&#160;</text>
+  <text x="20" y="112" xml:space="preserve" fill="#94a3b8">2.1.204&#160;(Claude&#160;Code)</text>
+  <text x="20" y="134" xml:space="preserve" fill="#e2e8f0">&#160;</text>
+  <text x="20" y="156" xml:space="preserve" fill="#9ae6b4">agentics@mac&#160;~&#160;$&#160;which&#160;claude</text>
+  <text x="20" y="178" xml:space="preserve" fill="#e2e8f0">&#160;</text>
+  <text x="20" y="200" xml:space="preserve" fill="#94a3b8">/Users/agentics/.local/bin/claude</text>
+  <text x="20" y="222" xml:space="preserve" fill="#e2e8f0">&#160;</text>
+  <text x="20" y="244" xml:space="preserve" fill="#9ae6b4">agentics@mac&#160;~&#160;$&#160;claude&#160;--help</text>
+  <text x="20" y="266" xml:space="preserve" fill="#e2e8f0">&#160;</text>
+  <text x="20" y="288" xml:space="preserve" fill="#94a3b8">Usage:&#160;claude&#160;[options]&#160;[command]&#160;[prompt]</text>
+  <text x="20" y="310" xml:space="preserve" fill="#94a3b8">&#160;</text>
+  <text x="20" y="332" xml:space="preserve" fill="#94a3b8">Claude&#160;Code&#160;-&#160;starts&#160;an&#160;interactive&#160;session&#160;by&#160;default,</text>
+  <text x="20" y="354" xml:space="preserve" fill="#94a3b8">use&#160;-p/--print&#160;for&#160;non-interactive&#160;output</text>
+  <text x="20" y="376" xml:space="preserve" fill="#e2e8f0">&#160;</text>
+</svg>

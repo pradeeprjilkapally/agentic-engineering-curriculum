@@ -1,3 +1,7 @@
+---
+title: "Two-week FDE ramp"
+---
+
 # Two-week FDE ramp
 
 > A 10-day, ~80-hour structured path through all 32 lessons, designed for the case where you've blocked off real time and want to come out the other end ready to do Forward Deployed work. Use it for new-hire onboarding, your own focused ramp, or a candidate sprint. A compressed 5-day intensive variant for hiring-filter use is described at the end.

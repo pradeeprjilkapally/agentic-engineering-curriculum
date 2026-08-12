@@ -1,3 +1,7 @@
+---
+title: "Job pathways + AISOFT offerings"
+---
+
 # Job pathways + AISOFT offerings
 
 Use this page to connect training work to job outcomes and AISOFT delivery.

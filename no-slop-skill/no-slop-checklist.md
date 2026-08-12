@@ -1,3 +1,7 @@
+---
+title: "The No-Slop Checklist"
+---
+
 # The No-Slop Checklist
 
 Walk this top to bottom against every file you created or changed. Each item: **fix it, or write one line on why it's a deliberate exception.**
