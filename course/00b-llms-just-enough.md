@@ -1,3 +1,7 @@
+---
+title: "Lesson 1.2 · LLMs: just enough to be dangerous"
+---
+
 # Lesson 1.2 · LLMs: just enough to be dangerous
 
 **Where this gets you:** you'll be able to route model decisions on instinct. Frontier API or local. Temperature 0 or 0.8. No transformer paper required.

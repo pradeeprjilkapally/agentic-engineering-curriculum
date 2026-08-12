@@ -1,3 +1,7 @@
+---
+title: "Lesson 2.3 · Your first session"
+---
+
 # Lesson 2.3 · Your first session
 
 **Where this gets you:** you'll take one small task end-to-end with an agent and understand the loop it runs (the thing every later lesson builds on).

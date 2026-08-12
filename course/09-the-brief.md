@@ -1,3 +1,7 @@
+---
+title: "Lesson 4.1 · The brief"
+---
+
 # Lesson 4.1 · The brief
 
 **Where this gets you:** you'll write a brief instead of a vague ask, and start reviewing whether the brief was right instead of babysitting every choice the agent makes.

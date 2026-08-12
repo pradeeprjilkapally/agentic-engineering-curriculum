@@ -1,3 +1,7 @@
+---
+title: "Lesson 6.9 · Observability and cost discipline"
+---
+
 # Lesson 6.9 · Observability and cost discipline
 
 **Where this gets you:** you'll have a four-axis observability plan and a defensible cost budget for any agentic system you ship into a customer environment.

@@ -1,3 +1,7 @@
+---
+title: "Lesson 6.1 · The harness wars"
+---
+
 # Lesson 6.1 · The harness wars
 
 **Where this gets you:** you'll walk into a customer engagement and see immediately which parts of their setup they own and which they're renting — and know which moves protect them from lock-in.

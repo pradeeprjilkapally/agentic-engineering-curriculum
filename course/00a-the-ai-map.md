@@ -1,3 +1,7 @@
+---
+title: "Lesson 1.1 · The AI map: four layers on one page"
+---
+
 # Lesson 1.1 · The AI map: four layers on one page
 
 **Where this gets you:** you'll be able to put the right layer name on any AI conversation you walk into, so you stop arguing about the wrong thing.

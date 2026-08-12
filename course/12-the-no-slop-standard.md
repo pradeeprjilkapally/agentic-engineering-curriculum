@@ -1,3 +1,7 @@
+---
+title: "Lesson 4.4 · The no-slop standard"
+---
+
 # Lesson 4.4 · The no-slop standard
 
 **Where this gets you:** you'll install a review pass the agent runs against its own output. So quality is enforced by an artifact, not by you remembering to look hard.

@@ -1,3 +1,7 @@
+---
+title: "Agentic Engineering"
+---
+
 # Agentic Engineering
 
 A hands-on course for engineers who want to move from first agent session to shipped work they can review, prove, and hand off.

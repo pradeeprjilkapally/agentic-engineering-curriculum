@@ -1,3 +1,7 @@
+---
+title: "Lesson 6.3 · Coordinating with agents and humans"
+---
+
 # Lesson 6.3 · Coordinating with agents and humans
 
 **Where this gets you:** you'll have a small set of file conventions that let multiple agents and multiple humans work on the same project without collisions, and you'll be able to set them up on a new repo in 20 minutes.

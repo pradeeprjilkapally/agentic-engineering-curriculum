@@ -1,3 +1,8 @@
+---
+title: "Memory"
+permalink: /second-brain-starter/memory/
+---
+
 # Memory
 
 Durable facts that accumulate over time — decisions, scars, what worked and what didn't. The layer that makes month-three you faster than month-one you.

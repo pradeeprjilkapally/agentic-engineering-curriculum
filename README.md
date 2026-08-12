@@ -45,10 +45,12 @@ Claude Code is the main path. Codex CLI, Gemini CLI, and Snowflake Coco are cove
 Before pushing curriculum edits, run:
 
 ```bash
-python3 scripts/check_links.py
+python3 scripts/check_links.py         # links that exist resolve
+python3 scripts/check_lesson_shape.py  # every lesson has its required sections
+python3 scripts/check_pages_build.py   # links still resolve after Jekyll builds
 ```
 
-It checks local Markdown and HTML links, including generated `.html` pages and heading anchors.
+`check_links.py` checks local Markdown and HTML links, including generated `.html` pages and heading anchors. `check_pages_build.py` catches what it cannot see: a page with no YAML front matter is never rendered to `.html` by Jekyll, so the link resolves in the repo and 404s on the published site.
 
 ---
 

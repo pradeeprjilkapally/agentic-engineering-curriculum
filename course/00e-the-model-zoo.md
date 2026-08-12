@@ -1,3 +1,7 @@
+---
+title: "Lesson 1.5 · The model zoo"
+---
+
 # Lesson 1.5 · The model zoo
 
 **Where this gets you:** you'll be able to look at any task in a customer system and route it to the right model tier with one line of reasoning.

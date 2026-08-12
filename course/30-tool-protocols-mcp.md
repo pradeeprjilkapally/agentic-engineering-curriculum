@@ -1,3 +1,7 @@
+---
+title: "Lesson 7.3 · Tool protocols: MCP and connectors"
+---
+
 # Lesson 7.3 · Tool protocols: MCP and connectors
 
 **Where this gets you:** you'll know what the Model Context Protocol is and why it exists, you'll connect an agent to a real tool through it, and you'll be able to say how each major platform handles tool connectivity.

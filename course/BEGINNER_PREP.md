@@ -1,3 +1,7 @@
+---
+title: "Beginner prep: Git, terminal, and language basics"
+---
+
 # Beginner prep: Git, terminal, and language basics
 
 Use this page if you are a fresh graduate, switching stacks, or new to working in a repo with a coding agent.

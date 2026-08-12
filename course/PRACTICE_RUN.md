@@ -1,3 +1,7 @@
+---
+title: "Practice run"
+---
+
 # Practice run
 
 Run the course through artifacts. Each lesson should leave something concrete in a repo: a file, command, diff, test, proof note, or shipped slice.

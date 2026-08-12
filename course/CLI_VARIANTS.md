@@ -1,3 +1,7 @@
+---
+title: "CLI variants"
+---
+
 # CLI variants
 
 Use one tool for the course if you can. Switching tools every lesson adds noise. The habits are the same; commands and permission models differ.

@@ -1,3 +1,7 @@
+---
+title: "Lesson 3.3 · Build it, step by step"
+---
+
 # Lesson 3.3 · Build it, step by step
 
 **Where this gets you:** the first real slice of your project actually built and running. One meaningful piece, done and working.

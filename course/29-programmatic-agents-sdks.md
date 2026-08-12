@@ -1,3 +1,7 @@
+---
+title: "Lesson 7.2 · Programmatic agents (the SDKs)"
+---
+
 # Lesson 7.2 · Programmatic agents (the SDKs)
 
 **Where this gets you:** you'll know when to stop using a CLI and write an agent in code instead, and you'll be able to sketch the minimal loop using the Claude Agent SDK, OpenAI Agents SDK, or the equivalent pattern on Gemini.

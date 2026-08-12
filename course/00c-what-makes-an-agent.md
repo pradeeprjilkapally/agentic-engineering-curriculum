@@ -1,3 +1,7 @@
+---
+title: "Lesson 1.3 · What makes an agent"
+---
+
 # Lesson 1.3 · What makes an agent
 
 **Where this gets you:** you'll be able to draw the agent loop on a whiteboard and use it to debug any agentic system you'll work on later, including your own.

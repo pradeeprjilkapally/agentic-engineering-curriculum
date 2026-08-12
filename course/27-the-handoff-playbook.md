@@ -1,3 +1,7 @@
+---
+title: "Lesson 6.11 · The handoff playbook"
+---
+
 # Lesson 6.11 · The handoff playbook
 
 **Where this gets you:** you'll deliver a handoff package that lets the customer team run the system without you within one sprint of you leaving. That's what separates an FDE from a contractor.

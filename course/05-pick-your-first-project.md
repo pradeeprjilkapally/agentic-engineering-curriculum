@@ -1,3 +1,7 @@
+---
+title: "Lesson 3.1 · Pick your first project"
+---
+
 # Lesson 3.1 · Pick your first project
 
 **Where this gets you:** one real project chosen (the thing you'll carry through every remaining lesson), and a clear, written definition of done for it.

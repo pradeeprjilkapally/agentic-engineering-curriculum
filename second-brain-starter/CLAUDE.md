@@ -1,3 +1,7 @@
+---
+title: "CLAUDE.md — [Project Name]"
+---
+
 # CLAUDE.md — [Project Name]
 
 > This is the always-loaded context skeleton. Fill every section with real specifics; delete the prompts in brackets. Keep it tight — this is read every session, so every line should earn its place. When something here goes stale, fix it the same day.

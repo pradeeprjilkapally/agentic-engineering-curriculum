@@ -1,3 +1,7 @@
+---
+title: "Lesson 5.3 · Where to go next"
+---
+
 # Lesson 5.3 · Where to go next
 
 **Where this gets you:** you'll pick your next project, one step harder than the one you just finished, and know which skill it'll push on.

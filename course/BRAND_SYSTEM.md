@@ -1,3 +1,7 @@
+---
+title: "AISOFT Agentic Engineering brand system"
+---
+
 # AISOFT Agentic Engineering brand system
 
 Working brand system for the curriculum, workshop, and job-pathways material.

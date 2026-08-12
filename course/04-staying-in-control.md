@@ -1,3 +1,7 @@
+---
+title: "Lesson 2.4 · Staying in control"
+---
+
 # Lesson 2.4 · Staying in control
 
 **Where this gets you:** you'll know the permission modes, how to read a diff before you accept it, and how to redirect the agent when it's wrong.

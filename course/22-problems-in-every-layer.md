@@ -1,3 +1,7 @@
+---
+title: "Lesson 6.6 · The problems in every layer"
+---
+
 # Lesson 6.6 · The problems in every layer
 
 **Where this gets you:** you'll have a one-page failure-mode inventory for any agentic system — the single best document to put in the first PR of a new engagement.

@@ -1,3 +1,7 @@
+---
+title: "Lesson 2.1 · What is agentic engineering?"
+---
+
 # Lesson 2.1 · What is agentic engineering?
 
 **Where this gets you:** you'll be able to say plainly what a coding agent is, how it's different from the AI you've already used, and why "agentic engineering" is a real skill and not a buzzword.

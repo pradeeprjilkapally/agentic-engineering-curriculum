@@ -1,3 +1,7 @@
+---
+title: "Lesson 4.5 · Design discipline"
+---
+
 # Lesson 4.5 · Design discipline
 
 **Where this gets you:** your project will have a `DESIGN.md` the agent reads on every task with a surface. So screens, APIs, and docs come out consistent instead of being a fresh roll of the dice each time.

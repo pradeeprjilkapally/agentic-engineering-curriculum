@@ -1,3 +1,7 @@
+---
+title: "Lesson 3.4 · Ship it"
+---
+
 # Lesson 3.4 · Ship it
 
 **Where this gets you:** the first version of your project out of your editor and in front of reality. Running, deployed, or usable by someone who isn't you.

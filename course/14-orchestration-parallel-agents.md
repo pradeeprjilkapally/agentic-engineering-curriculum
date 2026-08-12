@@ -1,3 +1,7 @@
+---
+title: "Lesson 5.1 · Orchestration: parallel agents"
+---
+
 # Lesson 5.1 · Orchestration: parallel agents
 
 **Where this gets you:** you'll take a multi-part task, run its independent pieces as parallel agents instead of one serial chain, and see where the real difficulty moves.

@@ -1,3 +1,7 @@
+---
+title: "Lesson 6.5 · The team shape"
+---
+
 # Lesson 6.5 · The team shape
 
 **Where this gets you:** you'll be able to walk into any FDE engagement, recognize the company shape you're working with, and adjust your cadence, conventions, and politics to fit.

@@ -1,3 +1,7 @@
+---
+title: "Teaching agentic engineering"
+---
+
 # Teaching agentic engineering
 
 Use this guide when you are mentoring one person, running a workshop, reviewing a candidate, or helping a team adopt agentic engineering.

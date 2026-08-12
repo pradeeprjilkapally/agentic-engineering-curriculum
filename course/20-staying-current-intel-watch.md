@@ -1,3 +1,7 @@
+---
+title: "Lesson 6.4 · Staying current: the intel-watch pattern"
+---
+
 # Lesson 6.4 · Staying current: the intel-watch pattern
 
 **Where this gets you:** you'll have a working personal **intel watch**. A pipeline that scans the people whose signal matters to you, filters for what matters to your projects, and surfaces it while you sleep. No more doom-scrolling.

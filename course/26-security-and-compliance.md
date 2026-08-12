@@ -1,3 +1,7 @@
+---
+title: "Lesson 6.10 · Security and compliance for AI products"
+---
+
 # Lesson 6.10 · Security and compliance for AI products
 
 **Where this gets you:** you'll be able to write a one-page security model for any agentic system on day one of an engagement, and pass a customer security review without needing a second meeting.

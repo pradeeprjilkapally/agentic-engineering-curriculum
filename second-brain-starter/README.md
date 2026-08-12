@@ -1,3 +1,8 @@
+---
+title: "Second-Brain Starter"
+permalink: /second-brain-starter/
+---
+
 # Second-Brain Starter
 
 Every repeated explanation is leverage leaking. Write stable context once, in a form the agent picks up **automatically**.

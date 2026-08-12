@@ -1,3 +1,7 @@
+---
+title: "Lesson 6.2 · The application taxonomy"
+---
+
 # Lesson 6.2 · The application taxonomy
 
 **Where this gets you:** you'll be able to classify any AI product in the wild onto a three-layer progression in 30 seconds, and you'll know what the next layer of work would look like for any customer engagement.

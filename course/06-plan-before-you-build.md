@@ -1,3 +1,7 @@
+---
+title: "Lesson 3.2 · Plan before you build"
+---
+
 # Lesson 3.2 · Plan before you build
 
 **Where this gets you:** a written, approved plan for the first slice of your project. One you've read hard and pushed back on, before a single file gets edited.

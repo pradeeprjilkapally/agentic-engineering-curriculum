@@ -1,3 +1,7 @@
+---
+title: "Lesson 2.2 · Install your tool"
+---
+
 # Lesson 2.2 · Install your tool
 
 **Where this gets you:** the tool installed, you logged in, and a first real exchange with it. About ten minutes of work.

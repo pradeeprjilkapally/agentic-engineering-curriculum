@@ -1,3 +1,7 @@
+---
+title: "Lesson 7.1 · Building on the API"
+---
+
 # Lesson 7.1 · Building on the API
 
 **Where this gets you:** you'll be able to call any major model API directly from code, wire tool use (function calling), handle streaming output, and make sensible decisions about tokens and cost -- all without a CLI in the loop.

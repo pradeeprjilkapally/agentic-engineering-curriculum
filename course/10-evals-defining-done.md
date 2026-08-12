@@ -1,3 +1,7 @@
+---
+title: "Lesson 4.2 · Evals: defining done"
+---
+
 # Lesson 4.2 · Evals: defining done
 
 **Where this gets you:** you'll write the test before the code. So "done" is something the agent can check itself, not something you eyeball after the fact.

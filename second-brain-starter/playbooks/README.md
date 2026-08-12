@@ -1,3 +1,8 @@
+---
+title: "Playbooks"
+permalink: /second-brain-starter/playbooks/
+---
+
 # Playbooks
 
 Step-by-step procedures for things you do repeatedly. The point: derive the procedure **once**, then reuse it — instead of re-explaining it to an agent every time.
